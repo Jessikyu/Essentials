@@ -14,15 +14,15 @@ PrefabInstance:
       objectReference: {fileID: -4039912110816036059, guid: 3c112a44cc7dc7a468f4d132c2e7611c, type: 3}
     - target: {fileID: 8562431324004386214, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
       propertyPath: m_Name
-      value: FireTrap Variant 1
+      value: FireTrapLarge
       objectReference: {fileID: 0}
     - target: {fileID: 8723156853189396271, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -3.68
       objectReference: {fileID: 0}
     - target: {fileID: 8723156853189396271, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 8723156853189396271, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
       propertyPath: m_LocalPosition.z
