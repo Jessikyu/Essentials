@@ -614,8 +614,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 781644537}
-        m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
+      - m_Target: {fileID: 781644539}
+        m_TargetAssemblyTypeName: MySimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
         m_Arguments:
@@ -742,10 +742,14 @@ PrefabInstance:
     - target: {fileID: 8190857871216900074, guid: 586d3904e640c9a48b8b3d9e7097697b, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 781644537}
+      objectReference: {fileID: 781644539}
     - target: {fileID: 8190857871216900074, guid: 586d3904e640c9a48b8b3d9e7097697b, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Emit
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190857871216900074, guid: 586d3904e640c9a48b8b3d9e7097697b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateWithFloatData
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -787,7 +791,7 @@ Transform:
   m_GameObject: {fileID: 521938328}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.6, y: -1.7049589, z: 0}
+  m_LocalPosition: {x: 3.68, y: -1.7049589, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1206,10 +1210,14 @@ PrefabInstance:
     - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 781644537}
+      objectReference: {fileID: 781644539}
     - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Emit
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateWithFloatData
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1535,7 +1543,7 @@ GameObject:
   - component: {fileID: 781644534}
   - component: {fileID: 781644536}
   - component: {fileID: 781644535}
-  - component: {fileID: 781644537}
+  - component: {fileID: 781644539}
   - component: {fileID: 781644538}
   m_Layer: 5
   m_Name: Health_Bar
@@ -1601,19 +1609,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781644533}
   m_CullTransparentMesh: 1
---- !u!114 &781644537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 781644533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddf1b3746124a41cd90cb0e79f73be2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dataObj: {fileID: 11400000, guid: 75c05342ac4810e43a4523b3ccf4daab, type: 2}
 --- !u!114 &781644538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1645,6 +1640,19 @@ MonoBehaviour:
   startEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &781644539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781644533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cd8628166c968d4d9bcc1d6b6a80313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataObj: {fileID: 11400000, guid: 75c05342ac4810e43a4523b3ccf4daab, type: 2}
 --- !u!1 &822649734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1975,10 +1983,18 @@ PrefabInstance:
     - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 781644537}
+      objectReference: {fileID: 781644539}
     - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Emit
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateWithFloatData
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MySimpleImageBehaviour, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2298,7 +2314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1122398861}
   - component: {fileID: 1122398860}
-  - component: {fileID: 1122398859}
+  - component: {fileID: 1122398865}
   - component: {fileID: 1122398858}
   - component: {fileID: 1122398862}
   - component: {fileID: 1122398863}
@@ -2365,21 +2381,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1122398859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1122398857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e8cbbe35153640cea23bf58a428eab0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  jumpForce: 4
-  gravity: -15
 --- !u!143 &1122398860
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2471,6 +2472,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
+--- !u!114 &1122398865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122398857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5635cf2eb6600044c8730610930e456a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  jumpForce: 2.5
+  gravity: -15
 --- !u!1 &1145031175
 GameObject:
   m_ObjectHideFlags: 0
@@ -2762,10 +2778,14 @@ PrefabInstance:
     - target: {fileID: 8190857871216900074, guid: 586d3904e640c9a48b8b3d9e7097697b, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 781644537}
+      objectReference: {fileID: 781644539}
     - target: {fileID: 8190857871216900074, guid: 586d3904e640c9a48b8b3d9e7097697b, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Emit
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190857871216900074, guid: 586d3904e640c9a48b8b3d9e7097697b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateWithFloatData
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2802,10 +2822,18 @@ PrefabInstance:
     - target: {fileID: 671557192701346070, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 781644537}
+      objectReference: {fileID: 781644539}
     - target: {fileID: 671557192701346070, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Emit
+      objectReference: {fileID: 0}
+    - target: {fileID: 671557192701346070, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateWithFloatData
+      objectReference: {fileID: 0}
+    - target: {fileID: 671557192701346070, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MySimpleImageBehaviour, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8562431324004386214, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
       propertyPath: m_Name
@@ -2999,10 +3027,14 @@ PrefabInstance:
     - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 781644537}
+      objectReference: {fileID: 781644539}
     - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Emit
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateWithFloatData
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3380,10 +3412,14 @@ PrefabInstance:
     - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 781644537}
+      objectReference: {fileID: 781644539}
     - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Emit
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateWithFloatData
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3951,15 +3987,7 @@ PrefabInstance:
     - target: {fileID: 671557192701346070, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 781644537}
-    - target: {fileID: 671557192701346070, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Emit
-      objectReference: {fileID: 0}
-    - target: {fileID: 671557192701346070, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
-      value: 0
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 781644539}
     - target: {fileID: 8562431324004386214, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
       propertyPath: m_Name
       value: FireTrapSmall (2)
@@ -4182,10 +4210,14 @@ PrefabInstance:
     - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 781644537}
+      objectReference: {fileID: 781644539}
     - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Emit
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984300800776011201, guid: 70d236a6532fe81408869958ab7a11c6, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateWithFloatData
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9094,7 +9126,15 @@ PrefabInstance:
     - target: {fileID: 671557192701346070, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 781644537}
+      objectReference: {fileID: 781644539}
+    - target: {fileID: 671557192701346070, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateWithFloatData
+      objectReference: {fileID: 0}
+    - target: {fileID: 671557192701346070, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MySimpleImageBehaviour, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8562431324004386214, guid: aedb1cd6b08deda4fabeab6cd7d55bc3, type: 3}
       propertyPath: m_Name
       value: FireTrapSmall
