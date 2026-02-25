@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: Game_Room.ma
-//Last modified: Thu, Feb 12, 2026 02:55:11 PM
+//Last modified: Wed, Feb 25, 2026 11:58:46 AM
 //Codeset: UTF-8
 file -rdi 1 -ns "DM_Screen" -rfn "DM_ScreenRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/DM_Screen.ma";
 file -rdi 1 -ns "Chairs" -rfn "ChairsRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Chairs.ma";
@@ -11,6 +11,8 @@ file -rdi 1 -ns "Potion_Bottle1" -rfn "Potion_BottleRN" -op "v=0;" -typ "mayaAsc
 		 "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Potion_Bottle.ma";
 file -rdi 1 -ns "Mounted_Sword" -rfn "Mounted_SwordRN" -op "v=0;" -typ "mayaAscii"
 		 "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Mounted_Sword.ma";
+file -rdi 1 -ns "Rock_Sculpture" -rfn "Rock_SculptureRN" -op "v=0;" -typ "mayaAscii"
+		 "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Rock_Sculpture.ma";
 file -r -ns "DM_Screen" -dr 1 -rfn "DM_ScreenRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/DM_Screen.ma";
 file -r -ns "Chairs" -dr 1 -rfn "ChairsRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Chairs.ma";
 file -r -ns "Table" -dr 1 -rfn "TableRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Table.ma";
@@ -20,6 +22,8 @@ file -r -ns "Potion_Bottle1" -dr 1 -rfn "Potion_BottleRN" -op "v=0;" -typ "mayaA
 		 "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Potion_Bottle.ma";
 file -r -ns "Mounted_Sword" -dr 1 -rfn "Mounted_SwordRN" -op "v=0;" -typ "mayaAscii"
 		 "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Mounted_Sword.ma";
+file -r -ns "Rock_Sculpture" -dr 1 -rfn "Rock_SculptureRN" -op "v=0;" -typ "mayaAscii"
+		 "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Rock_Sculpture.ma";
 requires maya "2025ff03";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
 		 "mtoa" "5.4.8.2";
@@ -29,17 +33,17 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202512041342-b90de33065";
 fileInfo "osv" "Mac OS X 12.7.6";
-fileInfo "UUID" "98D576CB-D349-2B2F-A24B-B1948D4A5078";
+fileInfo "UUID" "E762029A-BB42-45BC-9EFE-ADB8A9C96C3C";
 createNode transform -s -n "persp";
 	rename -uid "9E8F468F-834E-2F00-40E3-FA8B25017C1A";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 3.7326106372516499 3.5598871425418359 3.7950279169037255 ;
-	setAttr ".r" -type "double3" -24.338352729228799 2569.7999999934495 0 ;
+	setAttr ".t" -type "double3" 2.3123322949917919 1.6525559479844023 4.3756985978012484 ;
+	setAttr ".r" -type "double3" -13.538352729243565 2573.7999999932113 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0D7FC2BD-5C40-87E5-9DD5-91851D8F8F96";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 7.3016832511203837;
+	setAttr ".coi" 4.9931429544802972;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -783,20 +787,20 @@ createNode mesh -n "Wall1Shape" -p "Wall1";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "C3669478-2E48-B63F-CD0C-A4B95AE819DB";
-	setAttr -s 24 ".lnk";
-	setAttr -s 24 ".slnk";
+	rename -uid "BC5787BC-D248-44A1-5DF3-C0A6671581BD";
+	setAttr -s 25 ".lnk";
+	setAttr -s 25 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "1912492F-B641-8BE9-C9FC-0D83BA93BD29";
+	rename -uid "72648640-9244-C646-D184-9C9053ABC72F";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "68645FAD-5B40-458D-9254-19BDF9F652BA";
+	rename -uid "F35A1627-554F-EDCF-A8DB-8C88C24DA6E9";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "47610995-FE45-DC14-0459-8BA6CAE53C07";
+	rename -uid "A64B0334-854D-11D7-29F6-D086A0A8E751";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "5732F82F-C54A-B292-8A81-4BB8BDFB48BD";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "60F0B734-AD49-1C0C-4606-85997857A696";
+	rename -uid "4122519C-FC48-5E6F-0F0A-8B89A30C6E81";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "B3288502-9344-028B-85E8-BEAEFAED93A9";
 	setAttr ".g" yes;
@@ -821,17 +825,17 @@ createNode script -n "uiConfigurationScriptNode";
 		"// Maya Mel UI Configuration File.\n//\n//  This script is machine generated.  Edit at your own risk.\n//\n//\n\nglobal string $gMainPane;\nif (`paneLayout -exists $gMainPane`) {\n\n\tglobal int $gUseScenePanelConfig;\n\tint    $useSceneConfig = $gUseScenePanelConfig;\n\tint    $nodeEditorPanelVisible = stringArrayContains(\"nodeEditorPanel1\", `getPanel -vis`);\n\tint    $nodeEditorWorkspaceControlOpen = (`workspaceControl -exists nodeEditorPanel1Window` && `workspaceControl -q -visible nodeEditorPanel1Window`);\n\tint    $menusOkayInPanels = `optionVar -q allowMenusInPanels`;\n\tint    $nVisPanes = `paneLayout -q -nvp $gMainPane`;\n\tint    $nPanes = 0;\n\tstring $editorName;\n\tstring $panelName;\n\tstring $itemFilterName;\n\tstring $panelConfig;\n\n\t//\n\t//  get current state of the UI\n\t//\n\tsceneUIReplacement -update $gMainPane;\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Top View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Top View\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"|top\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n"
 		+ "            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n"
-		+ "            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1072\n            -height 602\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n"
+		+ "            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n"
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Side View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Side View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"|side\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n"
 		+ "            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n"
 		+ "            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n"
-		+ "            -shadows 0\n            -captureSequenceNumber -1\n            -width 1072\n            -height 600\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Front View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Front View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"|front\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n"
+		+ "            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Front View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Front View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"|front\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n"
 		+ "            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n"
 		+ "            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n"
-		+ "            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1072\n            -height 600\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n"
-		+ "        modelEditor -e \n            -camera \"|persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n"
+		+ "            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n"
+		+ "            -camera \"|persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n"
 		+ "            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n"
-		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 2158\n            -height 1292\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n"
+		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1758\n            -height 1292\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n"
 		+ "\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n"
 		+ "            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -showUfeItems 1\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n"
 		+ "            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n"
@@ -854,8 +858,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"dynRelEdPanel\" (localizedPanelLabel(\"Dynamic Relationships\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Dynamic Relationships\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"relationshipPanel\" (localizedPanelLabel(\"Relationship Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Relationship Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"referenceEditorPanel\" (localizedPanelLabel(\"Reference Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Reference Editor\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"dynPaintScriptedPanelType\" (localizedPanelLabel(\"Paint Effects\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Paint Effects\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"scriptEditorPanel\" (localizedPanelLabel(\"Script Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Script Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"profilerPanel\" (localizedPanelLabel(\"Profiler Tool\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Profiler Tool\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"contentBrowserPanel\" (localizedPanelLabel(\"Content Browser\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Content Browser\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 2158\\n    -height 1292\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 2158\\n    -height 1292\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1758\\n    -height 1292\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1758\\n    -height 1292\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -1398,8 +1402,8 @@ createNode reference -n "Mounted_SwordRN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Mounted_SwordRN"
 		"Mounted_SwordRN" 0
-		"Mounted_SwordRN" 782
-		2 "|Mounted_Sword:Mounted_Sword" "translate" " -type \"double3\" 0 0 -0.42085011269310657"
+		"Mounted_SwordRN" 228
+		2 "|Mounted_Sword:Mounted_Sword" "translate" " -type \"double3\" 0.5885620844360826 -0.63066918266036698 0.039032817890435112"
 		
 		2 "|Mounted_Sword:Mounted_Sword" "rotate" " -type \"double3\" 0 0 0"
 		2 "|Mounted_Sword:Mounted_Sword" "scale" " -type \"double3\" 1 1 1"
@@ -1426,506 +1430,19 @@ createNode reference -n "Mounted_SwordRN";
 		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
 		"pnts" " -s 178"
 		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[0]" " -type \"float3\" -2.78140780000000021 4.797152 2.08784839999999994"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[1]" " -type \"float3\" -2.79118490000000019 4.797152 2.08784839999999994"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[2]" " -type \"float3\" -2.64682359999999983 0.32583701999999998 1.68730219999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[3]" " -type \"float3\" -2.92576910000000012 0.32583701999999998 1.68730219999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[4]" " -type \"float3\" -2.64682359999999983 0.32583701999999998 2.5174932000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[5]" " -type \"float3\" -2.92576910000000012 0.32583701999999998 2.5174932000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[6]" " -type \"float3\" -2.78140780000000021 4.797152 2.11694689999999985"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[7]" " -type \"float3\" -2.79118490000000019 4.797152 2.11694689999999985"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[8]" " -type \"float3\" -2.78483580000000019 4.84160039999999992 2.10674450000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[9]" " -type \"float3\" -2.7877569000000002 4.84160039999999992 2.10674450000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[10]" " -type \"float3\" -2.7877569000000002 4.84160039999999992 2.09805110000000017"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[11]" " -type \"float3\" -2.78483580000000019 4.84160039999999992 2.09805110000000017"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[12]" " -type \"float3\" -2.64682359999999983 0.24987272999999999 1.68730219999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[13]" " -type \"float3\" -2.92576910000000012 0.24987272999999999 1.68730219999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[14]" " -type \"float3\" -2.92576910000000012 0.24987272999999999 2.5174932000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[15]" " -type \"float3\" -2.64682359999999983 0.24987272999999999 2.5174932000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[16]" " -type \"float3\" -2.65260670000000021 0.32583701999999998 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[17]" " -type \"float3\" -2.78161050000000021 4.797152 2.10239770000000004"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[18]" " -type \"float3\" -2.78483580000000019 4.84160039999999992 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[19]" " -type \"float3\" -2.7877569000000002 4.84160039999999992 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[20]" " -type \"float3\" -2.79098220000000019 4.797152 2.10239770000000004"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[21]" " -type \"float3\" -2.919986 0.51507205 2.10239770000000004"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[22]" " -type \"float3\" -2.92576910000000012 0.24987272999999999 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[23]" " -type \"float3\" -2.64682359999999983 0.24987272999999999 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[24]" " -type \"float3\" -2.93386790000000008 0.32583701999999998 1.68730219999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[25]" " -type \"float3\" -2.93386790000000008 0.24987272999999999 1.68730219999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[26]" " -type \"float3\" -2.93209549999999997 0.32583701999999998 2.5174932000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[27]" " -type \"float3\" -2.93209549999999997 0.24987272999999999 2.5174932000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[28]" " -type \"float3\" -3.02612520000000007 0.50042914999999999 2.15076469999999986"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[29]" " -type \"float3\" -3.06194519999999981 0.51203536999999999 2.10239410000000015"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[30]" " -type \"float3\" -3.02612520000000007 0.49992877000000002 2.04881529999999978"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[31]" " -type \"float3\" -3.03854110000000022 0.51507205 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[32]" " -type \"float3\" -3.02612520000000007 0.24093834 2.15076469999999986"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[33]" " -type \"float3\" -3.03854110000000022 0.24987272999999999 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[34]" " -type \"float3\" -3.02612520000000007 0.24044439000000001 2.04881529999999978"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[35]" " -type \"float3\" -3.06202340000000017 0.24987272999999999 2.10239410000000015"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[36]" " -type \"float3\" -2.7862963999999999 4.797152 2.08784839999999994"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[37]" " -type \"float3\" -2.7862963999999999 0.32583701999999998 1.68730219999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[38]" " -type \"float3\" -2.7862963999999999 0.24987272999999999 1.68730219999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[39]" " -type \"float3\" -2.7862963999999999 0.24987272999999999 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[40]" " -type \"float3\" -2.7862963999999999 0.24987272999999999 2.5174932000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[41]" " -type \"float3\" -2.7862963999999999 0.32583701999999998 2.5174932000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[42]" " -type \"float3\" -2.7862963999999999 4.797152 2.11694689999999985"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[43]" " -type \"float3\" -2.7862963999999999 4.84160039999999992 2.10674450000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[44]" " -type \"float3\" -2.7862963999999999 4.84160039999999992 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[45]" " -type \"float3\" -2.7862963999999999 4.84160039999999992 2.09805110000000017"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[46]" " -type \"float3\" -2.64682359999999983 0.28785487999999998 1.68730219999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[47]" " -type \"float3\" -2.64971520000000016 0.28785487999999998 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[48]" " -type \"float3\" -2.64682359999999983 0.28785487999999998 2.5174932000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[49]" " -type \"float3\" -2.92576910000000012 0.28785487999999998 2.5174932000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[50]" " -type \"float3\" -2.93209549999999997 0.28785487999999998 2.5174932000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[51]" " -type \"float3\" -3.02612520000000007 0.3706837 2.15076469999999986"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[52]" " -type \"float3\" -3.06198430000000021 0.38095403 2.10239410000000015"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[53]" " -type \"float3\" -3.02612520000000007 0.37018659999999998 2.04881529999999978"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[54]" " -type \"float3\" -2.93386790000000008 0.28785487999999998 1.68730219999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[55]" " -type \"float3\" -2.92576910000000012 0.28785487999999998 1.68730219999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[56]" " -type \"float3\" -2.64447430000000017 0.30080208000000003 2.70162319999999978"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[57]" " -type \"float3\" -2.64446309999999984 0.32997036000000002 2.8491966999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[58]" " -type \"float3\" -2.64446309999999984 0.38153419 2.940505"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[59]" " -type \"float3\" -2.64446309999999984 0.44592326999999998 3.01410720000000021"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[60]" " -type \"float3\" -2.64446309999999984 0.51063632999999997 3.08201979999999987"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[61]" " -type \"float3\" -2.64446309999999984 0.57158893 3.14114069999999979"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[62]" " -type \"float3\" -2.64446309999999984 0.64410727999999995 3.18345879999999992"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[63]" " -type \"float3\" -2.64446309999999984 0.72902197000000002 3.21263"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[64]" " -type \"float3\" -2.78393580000000007 0.72902197000000002 3.21279380000000003"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[65]" " -type \"float3\" -2.78395269999999995 0.33875325000000001 2.70073840000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[66]" " -type \"float3\" -2.783983 0.36705628000000001 2.84183839999999988"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[67]" " -type \"float3\" -2.783983 0.41445777 2.92191579999999984"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[68]" " -type \"float3\" -2.783983 0.47438079 2.98921370000000008"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[69]" " -type \"float3\" -2.783983 0.53800833000000003 3.05593730000000008"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[70]" " -type \"float3\" -2.783983 0.59791302999999996 3.11400129999999997"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[71]" " -type \"float3\" -2.783983 0.66316551000000001 3.15080450000000001"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[72]" " -type \"float3\" -2.783983 0.72902202999999999 3.17687030000000004"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[73]" " -type \"float3\" -2.644491 0.33869146999999999 2.698972"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[74]" " -type \"float3\" -2.64451029999999987 0.36722609000000001 2.84180469999999996"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[75]" " -type \"float3\" -2.64451029999999987 0.41460838999999999 2.92183089999999979"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[76]" " -type \"float3\" -2.64451029999999987 0.47451103 2.9891"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[77]" " -type \"float3\" -2.64451029999999987 0.53813361999999998 3.0558181000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[78]" " -type \"float3\" -2.64451029999999987 0.59803355000000002 3.11387709999999984"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[79]" " -type \"float3\" -2.64451029999999987 0.66325259000000003 3.150655"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[80]" " -type \"float3\" -2.64451029999999987 0.72902202999999999 3.17670679999999983"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[81]" " -type \"float3\" -2.92341419999999985 0.33881487999999998 2.70250510000000022"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[82]" " -type \"float3\" -2.92345569999999988 0.36688635000000003 2.84187220000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[83]" " -type \"float3\" -2.92345569999999988 0.41430694000000001 2.92200110000000013"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[84]" " -type \"float3\" -2.92345569999999988 0.47425034999999999 2.98932770000000003"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[85]" " -type \"float3\" -2.92345569999999988 0.53788292000000004 3.05605670000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[86]" " -type \"float3\" -2.92345569999999988 0.59779251 3.1141255000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[87]" " -type \"float3\" -2.92345569999999988 0.66307806999999996 3.150954"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[88]" " -type \"float3\" -2.92345569999999988 0.72902215000000004 3.17703410000000019"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[89]" " -type \"float3\" -2.92339750000000009 0.30092549000000002 2.70515630000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[90]" " -type \"float3\" -2.92340849999999985 0.32963060999999999 2.84926410000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[91]" " -type \"float3\" -2.92340849999999985 0.38123253000000001 2.9406753000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[92]" " -type \"float3\" -2.92340849999999985 0.44566246999999998 3.0143352000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[93]" " -type \"float3\" -2.92340849999999985 0.51038545000000002 3.08225870000000013"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[94]" " -type \"float3\" -2.92340849999999985 0.57134764999999998 3.1413894"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[95]" " -type \"float3\" -2.92340849999999985 0.64393275999999999 3.183758"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[96]" " -type \"float3\" -2.92340849999999985 0.72902197000000002 3.21295760000000019"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[97]" " -type \"float3\" -2.78391909999999987 0.26297431999999998 2.7060411000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[98]" " -type \"float3\" -2.78388880000000016 0.29254459999999999 2.85662249999999984"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[99]" " -type \"float3\" -2.78388880000000016 0.34830895000000001 2.95926450000000019"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[100]" " -type \"float3\" -2.78388880000000016 0.41720498 3.0392288999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[101]" " -type \"float3\" -2.78388880000000016 0.48301350999999998 3.10834119999999992"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[102]" " -type \"float3\" -2.78388880000000016 0.54502355999999996 3.168529"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[103]" " -type \"float3\" -2.78388880000000016 0.62487477000000002 3.2164123"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[104]" " -type \"float3\" -2.78388880000000016 0.72902173000000003 3.24871750000000015"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[105]" " -type \"float3\" -2.64445759999999996 0.26291253999999997 2.70427440000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[106]" " -type \"float3\" -2.64441609999999994 0.29271441999999998 2.85658879999999993"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[107]" " -type \"float3\" -2.64441609999999994 0.34845978 2.95917940000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[108]" " -type \"float3\" -2.64441609999999994 0.41733530000000002 3.039115"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[109]" " -type \"float3\" -2.64441609999999994 0.48313892000000003 3.10822179999999992"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[110]" " -type \"float3\" -2.64441609999999994 0.54514419999999997 3.1684047999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[111]" " -type \"float3\" -2.64441609999999994 0.62496202999999995 3.21626279999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[112]" " -type \"float3\" -2.64441609999999994 0.72902173000000003 3.24855379999999982"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[113]" " -type \"float3\" -2.92338060000000022 0.26303595000000002 2.70780749999999992"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[114]" " -type \"float3\" -2.92336149999999995 0.29237467 2.85665630000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[115]" " -type \"float3\" -2.92336149999999995 0.34815812000000002 2.95934959999999991"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[116]" " -type \"float3\" -2.92336149999999995 0.41707462000000001 3.03934289999999985"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[117]" " -type \"float3\" -2.92336149999999995 0.48288813000000003 3.10846070000000019"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[118]" " -type \"float3\" -2.92336149999999995 0.54490291999999996 3.16865320000000006"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[119]" " -type \"float3\" -2.92336149999999995 0.62478727000000001 3.216562"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[120]" " -type \"float3\" -2.92336129999999983 0.72902184999999997 3.24888129999999986"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[121]" " -type \"float3\" -2.64473989999999981 0.34136169999999999 1.49875310000000006"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[122]" " -type \"float3\" -2.64476729999999982 0.37955147 1.352446"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[123]" " -type \"float3\" -2.64476729999999982 0.43936693999999998 1.27128770000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[124]" " -type \"float3\" -2.64476729999999982 0.51149111999999997 1.194488"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[125]" " -type \"float3\" -2.64476729999999982 0.58095788999999998 1.12308790000000003"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[126]" " -type \"float3\" -2.64476729999999982 0.65385967 1.0752835999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[127]" " -type \"float3\" -2.64476729999999982 0.72902202999999999 1.0454102999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[128]" " -type \"float3\" -2.78420449999999997 0.34142336000000001 1.49723540000000011"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[129]" " -type \"float3\" -2.78424 0.37936562000000001 1.35239789999999993"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[130]" " -type \"float3\" -2.78424 0.43920976 1.27117740000000001"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[131]" " -type \"float3\" -2.78424 0.51135081000000004 1.19435690000000005"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[132]" " -type \"float3\" -2.78424 0.58082031999999995 1.12295389999999995"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[133]" " -type \"float3\" -2.78424 0.65375285999999999 1.07512389999999991"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[134]" " -type \"float3\" -2.78424 0.72902202999999999 1.04522910000000002"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[135]" " -type \"float3\" -2.7841876000000001 0.72902197000000002 1.00942580000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[136]" " -type \"float3\" -2.64472320000000005 0.30350464999999999 1.49567380000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[137]" " -type \"float3\" -2.64471509999999999 0.34277376999999998 1.34295729999999991"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[138]" " -type \"float3\" -2.64471509999999999 0.40825811000000001 1.2494959000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[139]" " -type \"float3\" -2.64471509999999999 0.48371291 1.168584"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[140]" " -type \"float3\" -2.64471509999999999 0.55373222 1.09660380000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[141]" " -type \"float3\" -2.64471509999999999 0.63272952999999998 1.04372160000000003"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[142]" " -type \"float3\" -2.64471509999999999 0.72902197000000002 1.00960659999999991"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[143]" " -type \"float3\" -2.92365219999999981 0.30362784999999998 1.49263849999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[144]" " -type \"float3\" -2.92366029999999988 0.34240195000000001 1.34286140000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[145]" " -type \"float3\" -2.92366029999999988 0.40794357999999997 1.24927579999999994"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[146]" " -type \"float3\" -2.92366029999999988 0.48343214000000001 1.16832219999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[147]" " -type \"float3\" -2.92366029999999988 0.55345708000000005 1.09633610000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[148]" " -type \"float3\" -2.92366029999999988 0.63251608999999998 1.04340260000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[149]" " -type \"float3\" -2.92366029999999988 0.72902197000000002 1.00924480000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[150]" " -type \"float3\" -2.92366890000000001 0.34148489999999998 1.49571779999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[151]" " -type \"float3\" -2.92371250000000016 0.37917965999999997 1.35235"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[152]" " -type \"float3\" -2.92371250000000016 0.43905240000000001 1.27106739999999996"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[153]" " -type \"float3\" -2.92371250000000016 0.51121026000000003 1.194226"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[154]" " -type \"float3\" -2.92371250000000016 0.58068264000000003 1.12281990000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[155]" " -type \"float3\" -2.92371250000000016 0.65364610999999995 1.07496440000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[156]" " -type \"float3\" -2.92371250000000016 0.72902202999999999 1.045048"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[157]" " -type \"float3\" -2.78417089999999989 0.26570916 1.49107680000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[158]" " -type \"float3\" -2.78413529999999998 0.30581005999999999 1.33342059999999996"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[159]" " -type \"float3\" -2.78413529999999998 0.37699201999999998 1.227594"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[160]" " -type \"float3\" -2.78413529999999998 0.45579436000000001 1.14254919999999993"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[161]" " -type \"float3\" -2.78413529999999998 0.52636897999999999 1.06998590000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[162]" " -type \"float3\" -2.78413529999999998 0.61149268999999995 1.01200010000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[163]" " -type \"float3\" -2.78413529999999998 0.72902184999999997 0.97362219999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[164]" " -type \"float3\" -2.92363550000000005 0.26577070000000003 1.48955919999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[165]" " -type \"float3\" -2.92360810000000004 0.30562422 1.33337269999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[166]" " -type \"float3\" -2.92360810000000004 0.37683484 1.22748389999999996"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[167]" " -type \"float3\" -2.92360810000000004 0.45565413999999999 1.14241830000000011"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[168]" " -type \"float3\" -2.92360810000000004 0.52623147000000003 1.06985210000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[169]" " -type \"float3\" -2.92360810000000004 0.611386 1.01184059999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[170]" " -type \"float3\" -2.92360810000000004 0.72902184999999997 0.97344118000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[171]" " -type \"float3\" -2.6447061999999999 0.26564749999999998 1.49259450000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[172]" " -type \"float3\" -2.6446626000000002 0.30599594000000002 1.33346870000000006"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[173]" " -type \"float3\" -2.6446626000000002 0.37714927999999998 1.22770420000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[174]" " -type \"float3\" -2.6446626000000002 0.45593482000000002 1.14268020000000003"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[175]" " -type \"float3\" -2.6446626000000002 0.52650660000000005 1.07011970000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[176]" " -type \"float3\" -2.6446626000000002 0.61159949999999996 1.0121597"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
-		"pnts[177]" " -type \"float3\" -2.6446626000000002 0.72902184999999997 0.97380310000000003"
+		"pt[0:165]" (" -type \"float3\" -2.78140780000000021 4.797152 2.08784839999999994 -2.79118490000000019 4.797152 2.08784839999999994 -2.64682359999999983 0.32583701999999998 1.68730219999999997 -2.92576910000000012 0.32583701999999998 1.68730219999999997 -2.64682359999999983 0.32583701999999998 2.5174932000000001 -2.92576910000000012 0.32583701999999998 2.5174932000000001 -2.78140780000000021 4.797152 2.11694689999999985 -2.79118490000000019 4.797152 2.11694689999999985 -2.78483580000000019 4.84160039999999992 2.10674450000000002 -2.7877569000000002 4.84160039999999992 2.10674450000000002 -2.7877569000000002 4.84160039999999992 2.09805110000000017 -2.78483580000000019 4.84160039999999992 2.09805110000000017 -2.64682359999999983 0.24987272999999999 1.68730219999999997 -2.92576910000000012 0.24987272999999999 1.68730219999999997 -2.92576910000000012 0.24987272999999999 2.5174932000000001 -2.64682359999999983 0.24987272999999999 2.5174932000000001 -2.65260670000000021 0.32583701999999998 2.10239770000000004 -2.78161050000000021 "
+		+ "4.797152 2.10239770000000004 -2.78483580000000019 4.84160039999999992 2.10239770000000004 -2.7877569000000002 4.84160039999999992 2.10239770000000004 -2.79098220000000019 4.797152 2.10239770000000004 -2.919986 0.51507205 2.10239770000000004 -2.92576910000000012 0.24987272999999999 2.10239770000000004 -2.64682359999999983 0.24987272999999999 2.10239770000000004 -2.93386790000000008 0.32583701999999998 1.68730219999999997 -2.93386790000000008 0.24987272999999999 1.68730219999999997 -2.93209549999999997 0.32583701999999998 2.5174932000000001 -2.93209549999999997 0.24987272999999999 2.5174932000000001 -3.02612520000000007 0.50042914999999999 2.15076469999999986 -3.06194519999999981 0.51203536999999999 2.10239410000000015 -3.02612520000000007 0.49992877000000002 2.04881529999999978 -3.03854110000000022 0.51507205 2.10239770000000004 -3.02612520000000007 0.24093834 2.15076469999999986 -3.03854110000000022 0.24987272999999999 2.10239770000000004 -3.02612520000000007 0.24044439000000001 2.04881529999999978 -3.0620234"
+		+ "0000000017 0.24987272999999999 2.10239410000000015 -2.7862963999999999 4.797152 2.08784839999999994 -2.7862963999999999 0.32583701999999998 1.68730219999999997 -2.7862963999999999 0.24987272999999999 1.68730219999999997 -2.7862963999999999 0.24987272999999999 2.10239770000000004 -2.7862963999999999 0.24987272999999999 2.5174932000000001 -2.7862963999999999 0.32583701999999998 2.5174932000000001 -2.7862963999999999 4.797152 2.11694689999999985 -2.7862963999999999 4.84160039999999992 2.10674450000000002 -2.7862963999999999 4.84160039999999992 2.10239770000000004 -2.7862963999999999 4.84160039999999992 2.09805110000000017 -2.64682359999999983 0.28785487999999998 1.68730219999999997 -2.64971520000000016 0.28785487999999998 2.10239770000000004 -2.64682359999999983 0.28785487999999998 2.5174932000000001 -2.92576910000000012 0.28785487999999998 2.5174932000000001 -2.93209549999999997 0.28785487999999998 2.5174932000000001 -3.02612520000000007 0.3706837 2.15076469999999986 -3.06198430000000021 0.38095403 2.1023941000"
+		+ "0000015 -3.02612520000000007 0.37018659999999998 2.04881529999999978 -2.93386790000000008 0.28785487999999998 1.68730219999999997 -2.92576910000000012 0.28785487999999998 1.68730219999999997 -2.64447430000000017 0.30080208000000003 2.70162319999999978 -2.64446309999999984 0.32997036000000002 2.8491966999999998 -2.64446309999999984 0.38153419 2.940505 -2.64446309999999984 0.44592326999999998 3.01410720000000021 -2.64446309999999984 0.51063632999999997 3.08201979999999987 -2.64446309999999984 0.57158893 3.14114069999999979 -2.64446309999999984 0.64410727999999995 3.18345879999999992 -2.64446309999999984 0.72902197000000002 3.21263 -2.78393580000000007 0.72902197000000002 3.21279380000000003 -2.78395269999999995 0.33875325000000001 2.70073840000000009 -2.783983 0.36705628000000001 2.84183839999999988 -2.783983 0.41445777 2.92191579999999984 -2.783983 0.47438079 2.98921370000000008 -2.783983 0.53800833000000003 3.05593730000000008 -2.783983 0.59791302999999996 3.11400129999999997 -2.783983 0.66316551000000001 3.1"
+		+ "5080450000000001 -2.783983 0.72902202999999999 3.17687030000000004 -2.644491 0.33869146999999999 2.698972 -2.64451029999999987 0.36722609000000001 2.84180469999999996 -2.64451029999999987 0.41460838999999999 2.92183089999999979 -2.64451029999999987 0.47451103 2.9891 -2.64451029999999987 0.53813361999999998 3.0558181000000002 -2.64451029999999987 0.59803355000000002 3.11387709999999984 -2.64451029999999987 0.66325259000000003 3.150655 -2.64451029999999987 0.72902202999999999 3.17670679999999983 -2.92341419999999985 0.33881487999999998 2.70250510000000022 -2.92345569999999988 0.36688635000000003 2.84187220000000007 -2.92345569999999988 0.41430694000000001 2.92200110000000013 -2.92345569999999988 0.47425034999999999 2.98932770000000003 -2.92345569999999988 0.53788292000000004 3.05605670000000007 -2.92345569999999988 0.59779251 3.1141255000000001 -2.92345569999999988 0.66307806999999996 3.150954 -2.92345569999999988 0.72902215000000004 3.17703410000000019 -2.92339750000000009 0.30092549000000002 2.705156300000000"
+		+ "07 -2.92340849999999985 0.32963060999999999 2.84926410000000008 -2.92340849999999985 0.38123253000000001 2.9406753000000001 -2.92340849999999985 0.44566246999999998 3.0143352000000001 -2.92340849999999985 0.51038545000000002 3.08225870000000013 -2.92340849999999985 0.57134764999999998 3.1413894 -2.92340849999999985 0.64393275999999999 3.183758 -2.92340849999999985 0.72902197000000002 3.21295760000000019 -2.78391909999999987 0.26297431999999998 2.7060411000000002 -2.78388880000000016 0.29254459999999999 2.85662249999999984 -2.78388880000000016 0.34830895000000001 2.95926450000000019 -2.78388880000000016 0.41720498 3.0392288999999999 -2.78388880000000016 0.48301350999999998 3.10834119999999992 -2.78388880000000016 0.54502355999999996 3.168529 -2.78388880000000016 0.62487477000000002 3.2164123 -2.78388880000000016 0.72902173000000003 3.24871750000000015 -2.64445759999999996 0.26291253999999997 2.70427440000000008 -2.64441609999999994 0.29271441999999998 2.85658879999999993 -2.64441609999999994 0.34845978 2.95917"
+		+ "940000000002 -2.64441609999999994 0.41733530000000002 3.039115 -2.64441609999999994 0.48313892000000003 3.10822179999999992 -2.64441609999999994 0.54514419999999997 3.1684047999999998 -2.64441609999999994 0.62496202999999995 3.21626279999999998 -2.64441609999999994 0.72902173000000003 3.24855379999999982 -2.92338060000000022 0.26303595000000002 2.70780749999999992 -2.92336149999999995 0.29237467 2.85665630000000004 -2.92336149999999995 0.34815812000000002 2.95934959999999991 -2.92336149999999995 0.41707462000000001 3.03934289999999985 -2.92336149999999995 0.48288813000000003 3.10846070000000019 -2.92336149999999995 0.54490291999999996 3.16865320000000006 -2.92336149999999995 0.62478727000000001 3.216562 -2.92336129999999983 0.72902184999999997 3.24888129999999986 -2.64473989999999981 0.34136169999999999 1.49875310000000006 -2.64476729999999982 0.37955147 1.352446 -2.64476729999999982 0.43936693999999998 1.27128770000000002 -2.64476729999999982 0.51149111999999997 1.194488 -2.64476729999999982 0.58095788999999"
+		+ "998 1.12308790000000003 -2.64476729999999982 0.65385967 1.0752835999999999 -2.64476729999999982 0.72902202999999999 1.0454102999999999 -2.78420449999999997 0.34142336000000001 1.49723540000000011 -2.78424 0.37936562000000001 1.35239789999999993 -2.78424 0.43920976 1.27117740000000001 -2.78424 0.51135081000000004 1.19435690000000005 -2.78424 0.58082031999999995 1.12295389999999995 -2.78424 0.65375285999999999 1.07512389999999991 -2.78424 0.72902202999999999 1.04522910000000002 -2.7841876000000001 0.72902197000000002 1.00942580000000004 -2.64472320000000005 0.30350464999999999 1.49567380000000005 -2.64471509999999999 0.34277376999999998 1.34295729999999991 -2.64471509999999999 0.40825811000000001 1.2494959000000001 -2.64471509999999999 0.48371291 1.168584 -2.64471509999999999 0.55373222 1.09660380000000002 -2.64471509999999999 0.63272952999999998 1.04372160000000003 -2.64471509999999999 0.72902197000000002 1.00960659999999991 -2.92365219999999981 0.30362784999999998 1.49263849999999998 -2.92366029999999988 0.34"
+		+ "240195000000001 1.34286140000000009 -2.92366029999999988 0.40794357999999997 1.24927579999999994 -2.92366029999999988 0.48343214000000001 1.16832219999999998 -2.92366029999999988 0.55345708000000005 1.09633610000000004 -2.92366029999999988 0.63251608999999998 1.04340260000000007 -2.92366029999999988 0.72902197000000002 1.00924480000000005 -2.92366890000000001 0.34148489999999998 1.49571779999999999 -2.92371250000000016 0.37917965999999997 1.35235 -2.92371250000000016 0.43905240000000001 1.27106739999999996 -2.92371250000000016 0.51121026000000003 1.194226 -2.92371250000000016 0.58068264000000003 1.12281990000000009 -2.92371250000000016 0.65364610999999995 1.07496440000000004 -2.92371250000000016 0.72902202999999999 1.045048 -2.78417089999999989 0.26570916 1.49107680000000009 -2.78413529999999998 0.30581005999999999 1.33342059999999996 -2.78413529999999998 0.37699201999999998 1.227594 -2.78413529999999998 0.45579436000000001 1.14254919999999993 -2.78413529999999998 0.52636897999999999 1.06998590000000005 -2.78"
+		+ "413529999999998 0.61149268999999995 1.01200010000000007 -2.78413529999999998 0.72902184999999997 0.97362219999999999 -2.92363550000000005 0.26577070000000003 1.48955919999999997 -2.92360810000000004 0.30562422 1.33337269999999997"
+		)
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"pt[166:177]" " -2.92360810000000004 0.37683484 1.22748389999999996 -2.92360810000000004 0.45565413999999999 1.14241830000000011 -2.92360810000000004 0.52623147000000003 1.06985210000000008 -2.92360810000000004 0.611386 1.01184059999999998 -2.92360810000000004 0.72902184999999997 0.97344118000000002 -2.6447061999999999 0.26564749999999998 1.49259450000000005 -2.6446626000000002 0.30599594000000002 1.33346870000000006 -2.6446626000000002 0.37714927999999998 1.22770420000000002 -2.6446626000000002 0.45593482000000002 1.14268020000000003 -2.6446626000000002 0.52650660000000005 1.07011970000000001 -2.6446626000000002 0.61159949999999996 1.0121597 -2.6446626000000002 0.72902184999999997 0.97380310000000003"
 		
 		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Guard1" "visibility" " 0"
 		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Guard1" "rotate" " -type \"double3\" 0 0 0"
@@ -1949,6 +1466,8 @@ createNode reference -n "Mounted_SwordRN";
 		
 		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Handle" "scalePivot" " -type \"double3\" -2.80957317839549336 2.02010045249350156 2.10239774488093412"
 		
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Handle|Mounted_Sword:HandleShape" 
+		"uvPivot" " -type \"double2\" 0.42499992251396179 0.34999999403953552"
 		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Handle|Mounted_Sword:HandleShape" 
 		"pnts" " -s 191"
 		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Handle|Mounted_Sword:HandleShape" 
@@ -2477,7 +1996,7 @@ createNode reference -n "Mounted_SwordRN";
 		"pnts[183]" " -type \"float3\" -2.943815 0.035929154999999997 2.12914590000000015"
 		
 		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Handle|Mounted_Sword:HandleShape" 
-		"pnts[184]" " -type \"float3\" -2.97741560000000005 0.033986046999999998 2.1348514999999999"
+		"pnts[184]" " -type \"float3\" -2.94049329999999998 0.028725504999999998 2.11339280000000018"
 		
 		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Handle|Mounted_Sword:HandleShape" 
 		"pnts[184]" " -type \"float3\" -5.5879354000000002e-09 0 0"
@@ -2500,1124 +2019,55 @@ createNode reference -n "Mounted_SwordRN";
 		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
 		"pnts" " -s 382"
 		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[0]" " -type \"float3\" -2.80260709999999991 -1.152316 2.11146659999999997"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[1]" " -type \"float3\" -2.80017110000000002 -1.152316 2.1196476999999998"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[2]" " -type \"float3\" -2.79637689999999983 -1.152316 2.12614040000000015"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[3]" " -type \"float3\" -2.79159619999999986 -1.152316 2.13030890000000017"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[4]" " -type \"float3\" -2.7862963999999999 -1.152316 2.13174529999999995"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[5]" " -type \"float3\" -2.78099680000000005 -1.152316 2.13030890000000017"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[6]" " -type \"float3\" -2.77621580000000012 -1.152316 2.12614040000000015"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[7]" " -type \"float3\" -2.77242159999999993 -1.152316 2.1196476999999998"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[8]" " -type \"float3\" -2.76998569999999988 -1.152316 2.11146659999999997"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[9]" " -type \"float3\" -2.76914619999999978 -1.152316 2.10239770000000004"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[10]" " -type \"float3\" -2.76998569999999988 -1.152316 2.093329"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[11]" " -type \"float3\" -2.77242159999999993 -1.152316 2.08514759999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[12]" " -type \"float3\" -2.77621580000000012 -1.152316 2.078655"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[13]" " -type \"float3\" -2.78099680000000005 -1.152316 2.0744864999999999"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[14]" " -type \"float3\" -2.7862963999999999 -1.152316 2.07305029999999979"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[15]" " -type \"float3\" -2.79159619999999986 -1.152316 2.0744864999999999"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[16]" " -type \"float3\" -2.79637689999999983 -1.152316 2.078655"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[17]" " -type \"float3\" -2.80017110000000002 -1.152316 2.08514759999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[18]" " -type \"float3\" -2.80260709999999991 -1.152316 2.093329"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[19]" " -type \"float3\" -2.80344650000000017 -1.152316 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[20]" " -type \"float3\" -2.8185163000000002 -1.15918030000000005 2.12031219999999987"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[21]" " -type \"float3\" -2.81370429999999994 -1.15918030000000005 2.13647320000000018"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[22]" " -type \"float3\" -2.80620929999999991 -1.15918030000000005 2.14929840000000016"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[23]" " -type \"float3\" -2.79676530000000012 -1.15918030000000005 2.15753290000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[24]" " -type \"float3\" -2.7862963999999999 -1.15918030000000005 2.16037010000000018"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[25]" " -type \"float3\" -2.77582759999999995 -1.15918030000000005 2.15753290000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[26]" " -type \"float3\" -2.76638340000000005 -1.15918030000000005 2.14929840000000016"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[27]" " -type \"float3\" -2.75888849999999985 -1.15918030000000005 2.13647320000000018"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[28]" " -type \"float3\" -2.75407650000000004 -1.15918030000000005 2.12031219999999987"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[29]" " -type \"float3\" -2.7524185000000001 -1.15918030000000005 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[30]" " -type \"float3\" -2.75407650000000004 -1.15918030000000005 2.08448339999999988"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[31]" " -type \"float3\" -2.75888849999999985 -1.15918030000000005 2.06832240000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[32]" " -type \"float3\" -2.76638340000000005 -1.15918030000000005 2.05549690000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[33]" " -type \"float3\" -2.77582759999999995 -1.15918030000000005 2.0472627000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[34]" " -type \"float3\" -2.7862963999999999 -1.15918030000000005 2.04442520000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[35]" " -type \"float3\" -2.79676530000000012 -1.15918030000000005 2.0472627000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[36]" " -type \"float3\" -2.80620929999999991 -1.15918030000000005 2.05549690000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[37]" " -type \"float3\" -2.81370429999999994 -1.15918030000000005 2.06832240000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[38]" " -type \"float3\" -2.8185163000000002 -1.15918030000000005 2.08448339999999988"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[39]" " -type \"float3\" -2.82017419999999985 -1.15918030000000005 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[40]" " -type \"float3\" -2.833632 -1.1704327000000001 2.12871670000000002"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[41]" " -type \"float3\" -2.82656239999999981 -1.1704327000000001 2.15245940000000013"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[42]" " -type \"float3\" -2.81555130000000009 -1.1704327000000001 2.17130160000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[43]" " -type \"float3\" -2.80167680000000008 -1.1704327000000001 2.18339920000000021"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[44]" " -type \"float3\" -2.7862963999999999 -1.1704327000000001 2.18756769999999978"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[45]" " -type \"float3\" -2.77091619999999983 -1.1704327000000001 2.18339920000000021"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[46]" " -type \"float3\" -2.75704150000000014 -1.1704327000000001 2.17130160000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[47]" " -type \"float3\" -2.74603030000000015 -1.1704327000000001 2.15245940000000013"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[48]" " -type \"float3\" -2.7389606999999998 -1.1704327000000001 2.12871670000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[49]" " -type \"float3\" -2.7365248000000002 -1.1704327000000001 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[50]" " -type \"float3\" -2.7389606999999998 -1.1704327000000001 2.07607890000000017"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[51]" " -type \"float3\" -2.74603030000000015 -1.1704327000000001 2.05233620000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[52]" " -type \"float3\" -2.75704150000000014 -1.1704327000000001 2.03349380000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[53]" " -type \"float3\" -2.77091619999999983 -1.1704327000000001 2.02139639999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[54]" " -type \"float3\" -2.7862963999999999 -1.1704327000000001 2.01722789999999996"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[55]" " -type \"float3\" -2.80167680000000008 -1.1704327000000001 2.02139639999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[56]" " -type \"float3\" -2.81555130000000009 -1.1704327000000001 2.03349380000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[57]" " -type \"float3\" -2.82656239999999981 -1.1704327000000001 2.05233620000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[58]" " -type \"float3\" -2.833632 -1.1704327000000001 2.07607890000000017"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[59]" " -type \"float3\" -2.8360679000000002 -1.1704327000000001 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[60]" " -type \"float3\" -2.84758209999999989 -1.18579630000000003 2.13647320000000018"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[61]" " -type \"float3\" -2.83842920000000021 -1.18579630000000003 2.167213"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[62]" " -type \"float3\" -2.824173 -1.18579630000000003 2.19160820000000012"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[63]" " -type \"float3\" -2.80620929999999991 -1.18579630000000003 2.20727090000000015"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[64]" " -type \"float3\" -2.7862963999999999 -1.18579630000000003 2.21266790000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[65]" " -type \"float3\" -2.76638340000000005 -1.18579630000000003 2.20727090000000015"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[66]" " -type \"float3\" -2.74841980000000019 -1.18579630000000003 2.19160820000000012"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[67]" " -type \"float3\" -2.73416380000000014 -1.18579630000000003 2.167213"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[68]" " -type \"float3\" -2.72501060000000006 -1.18579630000000003 2.13647320000000018"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[69]" " -type \"float3\" -2.72185679999999985 -1.18579630000000003 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[70]" " -type \"float3\" -2.72501060000000006 -1.18579630000000003 2.06832240000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[71]" " -type \"float3\" -2.73416380000000014 -1.18579630000000003 2.03758259999999991"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[72]" " -type \"float3\" -2.74841980000000019 -1.18579630000000003 2.01318740000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[73]" " -type \"float3\" -2.76638340000000005 -1.18579630000000003 1.99752459999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[74]" " -type \"float3\" -2.7862963999999999 -1.18579630000000003 1.99212750000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[75]" " -type \"float3\" -2.80620929999999991 -1.18579630000000003 1.99752459999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[76]" " -type \"float3\" -2.824173 -1.18579630000000003 2.01318740000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[77]" " -type \"float3\" -2.83842920000000021 -1.18579630000000003 2.03758259999999991"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[78]" " -type \"float3\" -2.84758209999999989 -1.18579630000000003 2.06832240000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[79]" " -type \"float3\" -2.8507359000000001 -1.18579630000000003 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[80]" " -type \"float3\" -2.86002329999999994 -1.20489289999999993 2.14339039999999992"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[81]" " -type \"float3\" -2.84901209999999994 -1.20489289999999993 2.18037059999999983"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[82]" " -type \"float3\" -2.83186220000000022 -1.20489289999999993 2.20971820000000019"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[83]" " -type \"float3\" -2.8102516999999998 -1.20489289999999993 2.22856040000000011"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[84]" " -type \"float3\" -2.7862963999999999 -1.20489289999999993 2.23505310000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[85]" " -type \"float3\" -2.762341 -1.20489289999999993 2.22856040000000011"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[86]" " -type \"float3\" -2.74073080000000013 -1.20489289999999993 2.209718"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[87]" " -type \"float3\" -2.72358060000000002 -1.20489289999999993 2.18037059999999983"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[88]" " -type \"float3\" -2.71256949999999986 -1.20489289999999993 2.14339039999999992"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[89]" " -type \"float3\" -2.70877549999999978 -1.20489289999999993 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[90]" " -type \"float3\" -2.71256949999999986 -1.20489289999999993 2.06140489999999987"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[91]" " -type \"float3\" -2.72358060000000002 -1.20489289999999993 2.024425"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[92]" " -type \"float3\" -2.74073080000000013 -1.20489289999999993 1.9950774"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[93]" " -type \"float3\" -2.762341 -1.20489289999999993 1.97623520000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[94]" " -type \"float3\" -2.7862963999999999 -1.20489289999999993 1.96974249999999995"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[95]" " -type \"float3\" -2.8102516999999998 -1.20489289999999993 1.97623520000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[96]" " -type \"float3\" -2.831862 -1.20489289999999993 1.99507750000000006"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[97]" " -type \"float3\" -2.84901209999999994 -1.20489289999999993 2.024425"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[98]" " -type \"float3\" -2.86002329999999994 -1.20489289999999993 2.06140489999999987"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[99]" " -type \"float3\" -2.86381750000000013 -1.20489289999999993 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[100]" " -type \"float3\" -2.87064889999999995 -1.227252 2.14929840000000016"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[101]" " -type \"float3\" -2.85805109999999996 -1.227252 2.19160820000000012"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[102]" " -type \"float3\" -2.83842920000000021 -1.227252 2.22518539999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[103]" " -type \"float3\" -2.81370429999999994 -1.227252 2.24674320000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[104]" " -type \"float3\" -2.7862963999999999 -1.227252 2.25417159999999983"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[105]" " -type \"float3\" -2.75888849999999985 -1.227252 2.24674320000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[106]" " -type \"float3\" -2.73416350000000019 -1.227252 2.22518539999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[107]" " -type \"float3\" -2.71454189999999995 -1.227252 2.19160820000000012"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[108]" " -type \"float3\" -2.70194389999999984 -1.227252 2.14929840000000016"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[109]" " -type \"float3\" -2.697603 -1.227252 2.10239770000000004"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[110]" " -type \"float3\" -2.70194389999999984 -1.227252 2.05549690000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[111]" " -type \"float3\" -2.71454189999999995 -1.227252 2.01318740000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[112]" " -type \"float3\" -2.73416380000000014 -1.227252 1.97961009999999993"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[113]" " -type \"float3\" -2.75888849999999985 -1.227252 1.95805230000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[114]" " -type \"float3\" -2.7862963999999999 -1.227252 1.95062390000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[115]" " -type \"float3\" -2.81370429999999994 -1.227252 1.95805230000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[116]" " -type \"float3\" -2.83842920000000021 -1.227252 1.97961009999999993"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[117]" " -type \"float3\" -2.85805109999999996 -1.227252 2.01318740000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[118]" " -type \"float3\" -2.87064889999999995 -1.227252 2.05549720000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[119]" " -type \"float3\" -2.87499 -1.227252 2.10239770000000004"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[120]" " -type \"float3\" -2.87919759999999991 -1.25232319999999997 2.15405150000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[121]" " -type \"float3\" -2.86532279999999995 -1.25232319999999997 2.20064929999999981"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[122]" " -type \"float3\" -2.84371259999999992 -1.25232319999999997 2.23762939999999988"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[123]" " -type \"float3\" -2.81648180000000004 -1.25232319999999997 2.26137189999999988"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[124]" " -type \"float3\" -2.7862963999999999 -1.25232319999999997 2.26955319999999983"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[125]" " -type \"float3\" -2.75611089999999992 -1.25232319999999997 2.26137189999999988"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[126]" " -type \"float3\" -2.72888019999999987 -1.25232319999999997 2.23762920000000021"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[127]" " -type \"float3\" -2.70726990000000001 -1.25232319999999997 2.20064929999999981"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[128]" " -type \"float3\" -2.69339510000000004 -1.25232319999999997 2.15405150000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[129]" " -type \"float3\" -2.68861440000000007 -1.25232319999999997 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[130]" " -type \"float3\" -2.69339510000000004 -1.25232319999999997 2.05074379999999978"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[131]" " -type \"float3\" -2.70726990000000001 -1.25232319999999997 2.00414629999999994"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[132]" " -type \"float3\" -2.72888019999999987 -1.25232319999999997 1.96716620000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[133]" " -type \"float3\" -2.75611089999999992 -1.25232319999999997 1.94342360000000003"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[134]" " -type \"float3\" -2.7862963999999999 -1.25232319999999997 1.93524239999999992"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[135]" " -type \"float3\" -2.81648180000000004 -1.25232319999999997 1.94342360000000003"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[136]" " -type \"float3\" -2.84371259999999992 -1.25232319999999997 1.96716629999999992"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[137]" " -type \"float3\" -2.86532279999999995 -1.25232319999999997 2.00414629999999994"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[138]" " -type \"float3\" -2.87919759999999991 -1.25232319999999997 2.05074379999999978"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[139]" " -type \"float3\" -2.88397859999999984 -1.25232319999999997 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[140]" " -type \"float3\" -2.88545870000000004 -1.279489 2.15753290000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[141]" " -type \"float3\" -2.87064889999999995 -1.279489 2.20727090000000015"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[142]" " -type \"float3\" -2.84758209999999989 -1.279489 2.24674340000000017"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[143]" " -type \"float3\" -2.8185163000000002 -1.279489 2.27208610000000011"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[144]" " -type \"float3\" -2.7862963999999999 -1.279489 2.2808187000000002"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[145]" " -type \"float3\" -2.75407650000000004 -1.279489 2.27208610000000011"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[146]" " -type \"float3\" -2.72501060000000006 -1.279489 2.24674320000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[147]" " -type \"float3\" -2.70194389999999984 -1.279489 2.20727090000000015"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[148]" " -type \"float3\" -2.687134 -1.279489 2.15753290000000009"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[149]" " -type \"float3\" -2.6820309 -1.279489 2.10239770000000004"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[150]" " -type \"float3\" -2.687134 -1.279489 2.0472627000000001"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[151]" " -type \"float3\" -2.70194389999999984 -1.279489 1.99752459999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[152]" " -type \"float3\" -2.72501060000000006 -1.279489 1.95805230000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[153]" " -type \"float3\" -2.75407650000000004 -1.279489 1.93270950000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[154]" " -type \"float3\" -2.7862963999999999 -1.279489 1.92397689999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[155]" " -type \"float3\" -2.8185163000000002 -1.279489 1.93270950000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[156]" " -type \"float3\" -2.84758209999999989 -1.279489 1.95805230000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[157]" " -type \"float3\" -2.87064889999999995 -1.279489 1.99752459999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[158]" " -type \"float3\" -2.88545870000000004 -1.279489 2.0472627000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[159]" " -type \"float3\" -2.89056179999999996 -1.279489 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[160]" " -type \"float3\" -2.88927820000000013 -1.30808089999999999 2.15965650000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[161]" " -type \"float3\" -2.873898 -1.30808089999999999 2.2113103999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[162]" " -type \"float3\" -2.84994270000000016 -1.30808089999999999 2.25230309999999978"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[163]" " -type \"float3\" -2.81975720000000019 -1.30808089999999999 2.27862190000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[164]" " -type \"float3\" -2.7862963999999999 -1.30808089999999999 2.28769089999999986"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[165]" " -type \"float3\" -2.75283550000000021 -1.30808089999999999 2.27862190000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[166]" " -type \"float3\" -2.72265010000000007 -1.30808089999999999 2.25230309999999978"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[167]" " -type \"float3\" -2.69869490000000001 -1.30808089999999999 2.2113103999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[168]" " -type \"float3\" -2.68331460000000011 -1.30808089999999999 2.15965650000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[169]" " -type \"float3\" -2.678015 -1.30808089999999999 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[170]" " -type \"float3\" -2.68331460000000011 -1.30808089999999999 2.0451391000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[171]" " -type \"float3\" -2.69869490000000001 -1.30808089999999999 1.99348520000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[172]" " -type \"float3\" -2.72265010000000007 -1.30808089999999999 1.95249249999999996"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[173]" " -type \"float3\" -2.75283550000000021 -1.30808089999999999 1.92617360000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[174]" " -type \"float3\" -2.7862963999999999 -1.30808089999999999 1.91710460000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[175]" " -type \"float3\" -2.81975720000000019 -1.30808089999999999 1.92617360000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[176]" " -type \"float3\" -2.84994270000000016 -1.30808089999999999 1.95249249999999996"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[177]" " -type \"float3\" -2.873898 -1.30808089999999999 1.99348520000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[178]" " -type \"float3\" -2.88927820000000013 -1.30808089999999999 2.0451391000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[179]" " -type \"float3\" -2.89457770000000014 -1.30808089999999999 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[180]" " -type \"float3\" -2.89056179999999996 -1.33739439999999998 2.16037029999999985"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[181]" " -type \"float3\" -2.87499 -1.33739439999999998 2.21266790000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[182]" " -type \"float3\" -2.85073610000000022 -1.33739439999999998 2.25417159999999983"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[183]" " -type \"float3\" -2.82017419999999985 -1.33739439999999998 2.2808187000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[184]" " -type \"float3\" -2.7862963999999999 -1.33739439999999998 2.29000069999999978"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[185]" " -type \"float3\" -2.7524185000000001 -1.33739439999999998 2.2808187000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[186]" " -type \"float3\" -2.72185679999999985 -1.33739439999999998 2.25417159999999983"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[187]" " -type \"float3\" -2.697603 -1.33739439999999998 2.21266790000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[188]" " -type \"float3\" -2.6820309 -1.33739439999999998 2.16037010000000018"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[189]" " -type \"float3\" -2.67666510000000013 -1.33739439999999998 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[190]" " -type \"float3\" -2.6820309 -1.33739439999999998 2.04442520000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[191]" " -type \"float3\" -2.697603 -1.33739439999999998 1.99212750000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[192]" " -type \"float3\" -2.72185679999999985 -1.33739439999999998 1.95062390000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[193]" " -type \"float3\" -2.7524185000000001 -1.33739439999999998 1.92397689999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[194]" " -type \"float3\" -2.7862963999999999 -1.33739439999999998 1.91479489999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[195]" " -type \"float3\" -2.82017419999999985 -1.33739439999999998 1.92397689999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[196]" " -type \"float3\" -2.8507359000000001 -1.33739439999999998 1.95062390000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[197]" " -type \"float3\" -2.87499 -1.33739439999999998 1.99212750000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[198]" " -type \"float3\" -2.89056179999999996 -1.33739439999999998 2.04442520000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[199]" " -type \"float3\" -2.8959277000000001 -1.33739439999999998 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[200]" " -type \"float3\" -2.88927820000000013 -1.36670779999999992 2.15965650000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[201]" " -type \"float3\" -2.873898 -1.36670779999999992 2.2113103999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[202]" " -type \"float3\" -2.84994270000000016 -1.36670779999999992 2.25230309999999978"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[203]" " -type \"float3\" -2.81975720000000019 -1.36670779999999992 2.27862190000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[204]" " -type \"float3\" -2.7862963999999999 -1.36670779999999992 2.28769089999999986"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[205]" " -type \"float3\" -2.75283550000000021 -1.36670779999999992 2.27862190000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[206]" " -type \"float3\" -2.72265010000000007 -1.36670779999999992 2.25230309999999978"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[207]" " -type \"float3\" -2.69869490000000001 -1.36670779999999992 2.2113103999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[208]" " -type \"float3\" -2.68331460000000011 -1.36670779999999992 2.15965650000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[209]" " -type \"float3\" -2.678015 -1.36670779999999992 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[210]" " -type \"float3\" -2.68331460000000011 -1.36670779999999992 2.0451391000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[211]" " -type \"float3\" -2.69869490000000001 -1.36670779999999992 1.99348520000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[212]" " -type \"float3\" -2.72265010000000007 -1.36670779999999992 1.95249249999999996"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[213]" " -type \"float3\" -2.75283550000000021 -1.36670779999999992 1.92617360000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[214]" " -type \"float3\" -2.7862963999999999 -1.36670779999999992 1.91710460000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[215]" " -type \"float3\" -2.81975720000000019 -1.36670779999999992 1.92617360000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[216]" " -type \"float3\" -2.84994270000000016 -1.36670779999999992 1.95249249999999996"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[217]" " -type \"float3\" -2.873898 -1.36670779999999992 1.99348520000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[218]" " -type \"float3\" -2.88927820000000013 -1.36670779999999992 2.0451391000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[219]" " -type \"float3\" -2.89457770000000014 -1.36670779999999992 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[220]" " -type \"float3\" -2.88545870000000004 -1.39529970000000003 2.15753290000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[221]" " -type \"float3\" -2.87064889999999995 -1.39529970000000003 2.20727090000000015"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[222]" " -type \"float3\" -2.84758209999999989 -1.39529970000000003 2.24674340000000017"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[223]" " -type \"float3\" -2.8185163000000002 -1.39529970000000003 2.27208610000000011"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[224]" " -type \"float3\" -2.7862963999999999 -1.39529970000000003 2.2808187000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[225]" " -type \"float3\" -2.75407650000000004 -1.39529970000000003 2.27208610000000011"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[226]" " -type \"float3\" -2.72501060000000006 -1.39529970000000003 2.24674320000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[227]" " -type \"float3\" -2.70194389999999984 -1.39529970000000003 2.20727090000000015"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[228]" " -type \"float3\" -2.687134 -1.39529970000000003 2.15753290000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[229]" " -type \"float3\" -2.6820309 -1.39529970000000003 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[230]" " -type \"float3\" -2.687134 -1.39529970000000003 2.0472627000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[231]" " -type \"float3\" -2.70194389999999984 -1.39529970000000003 1.99752459999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[232]" " -type \"float3\" -2.72501060000000006 -1.39529970000000003 1.95805230000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[233]" " -type \"float3\" -2.75407650000000004 -1.39529970000000003 1.93270950000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[234]" " -type \"float3\" -2.7862963999999999 -1.39529970000000003 1.92397689999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[235]" " -type \"float3\" -2.8185163000000002 -1.39529970000000003 1.93270950000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[236]" " -type \"float3\" -2.84758209999999989 -1.39529970000000003 1.95805230000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[237]" " -type \"float3\" -2.87064889999999995 -1.39529970000000003 1.99752459999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[238]" " -type \"float3\" -2.88545870000000004 -1.39529970000000003 2.0472627000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[239]" " -type \"float3\" -2.89056179999999996 -1.39529970000000003 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[240]" " -type \"float3\" -2.87919759999999991 -1.4224656 2.15405150000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[241]" " -type \"float3\" -2.86532279999999995 -1.4224656 2.20064929999999981"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[242]" " -type \"float3\" -2.84371259999999992 -1.4224656 2.23762939999999988"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[243]" " -type \"float3\" -2.81648180000000004 -1.4224656 2.26137189999999988"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[244]" " -type \"float3\" -2.7862963999999999 -1.4224656 2.26955319999999983"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[245]" " -type \"float3\" -2.75611089999999992 -1.4224656 2.26137189999999988"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[246]" " -type \"float3\" -2.72888019999999987 -1.4224656 2.23762920000000021"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[247]" " -type \"float3\" -2.70726990000000001 -1.4224656 2.20064929999999981"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[248]" " -type \"float3\" -2.69339510000000004 -1.4224656 2.15405150000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[249]" " -type \"float3\" -2.68861440000000007 -1.4224656 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[250]" " -type \"float3\" -2.69339510000000004 -1.4224656 2.05074379999999978"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[251]" " -type \"float3\" -2.70726990000000001 -1.4224656 2.00414629999999994"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[252]" " -type \"float3\" -2.72888019999999987 -1.4224656 1.96716620000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[253]" " -type \"float3\" -2.75611089999999992 -1.4224656 1.94342360000000003"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[254]" " -type \"float3\" -2.7862963999999999 -1.4224656 1.93524239999999992"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[255]" " -type \"float3\" -2.81648180000000004 -1.4224656 1.94342360000000003"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[256]" " -type \"float3\" -2.84371259999999992 -1.4224656 1.96716629999999992"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[257]" " -type \"float3\" -2.86532279999999995 -1.4224656 2.00414629999999994"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[258]" " -type \"float3\" -2.87919759999999991 -1.4224656 2.05074379999999978"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[259]" " -type \"float3\" -2.88397859999999984 -1.4224656 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[260]" " -type \"float3\" -2.87064889999999995 -1.4475366999999999 2.14929840000000016"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[261]" " -type \"float3\" -2.85805109999999996 -1.4475366999999999 2.19160820000000012"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[262]" " -type \"float3\" -2.83842920000000021 -1.4475366999999999 2.22518539999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[263]" " -type \"float3\" -2.81370429999999994 -1.4475366999999999 2.24674320000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[264]" " -type \"float3\" -2.7862963999999999 -1.4475366999999999 2.25417159999999983"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[265]" " -type \"float3\" -2.75888849999999985 -1.4475366999999999 2.24674320000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[266]" " -type \"float3\" -2.73416350000000019 -1.4475366999999999 2.22518539999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[267]" " -type \"float3\" -2.71454189999999995 -1.4475366999999999 2.19160820000000012"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[268]" " -type \"float3\" -2.70194389999999984 -1.4475366999999999 2.14929840000000016"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[269]" " -type \"float3\" -2.697603 -1.4475366999999999 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[270]" " -type \"float3\" -2.70194389999999984 -1.4475366999999999 2.05549690000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[271]" " -type \"float3\" -2.71454189999999995 -1.4475366999999999 2.01318740000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[272]" " -type \"float3\" -2.73416380000000014 -1.4475366999999999 1.97961009999999993"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[273]" " -type \"float3\" -2.75888849999999985 -1.4475366999999999 1.95805230000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[274]" " -type \"float3\" -2.7862963999999999 -1.4475366999999999 1.95062390000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[275]" " -type \"float3\" -2.81370429999999994 -1.4475366999999999 1.95805230000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[276]" " -type \"float3\" -2.83842920000000021 -1.4475366999999999 1.97961009999999993"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[277]" " -type \"float3\" -2.85805109999999996 -1.4475366999999999 2.01318740000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[278]" " -type \"float3\" -2.87064889999999995 -1.4475366999999999 2.05549720000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[279]" " -type \"float3\" -2.87499 -1.4475366999999999 2.10239770000000004"
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[280]" " -type \"float3\" -2.86002329999999994 -1.46989579999999997 2.14339039999999992"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[281]" " -type \"float3\" -2.84901209999999994 -1.46989579999999997 2.18037059999999983"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[282]" " -type \"float3\" -2.83186220000000022 -1.46989579999999997 2.20971820000000019"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[283]" " -type \"float3\" -2.8102516999999998 -1.46989579999999997 2.22856040000000011"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[284]" " -type \"float3\" -2.7862963999999999 -1.46989579999999997 2.23505310000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[285]" " -type \"float3\" -2.762341 -1.46989579999999997 2.22856040000000011"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[286]" " -type \"float3\" -2.74073080000000013 -1.46989579999999997 2.209718"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[287]" " -type \"float3\" -2.72358060000000002 -1.46989579999999997 2.18037059999999983"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[288]" " -type \"float3\" -2.71256949999999986 -1.46989579999999997 2.14339039999999992"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[289]" " -type \"float3\" -2.70877549999999978 -1.46989579999999997 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[290]" " -type \"float3\" -2.71256949999999986 -1.46989579999999997 2.06140489999999987"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[291]" " -type \"float3\" -2.72358060000000002 -1.46989579999999997 2.024425"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[292]" " -type \"float3\" -2.74073080000000013 -1.46989579999999997 1.9950774"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[293]" " -type \"float3\" -2.762341 -1.46989579999999997 1.97623520000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[294]" " -type \"float3\" -2.7862963999999999 -1.46989579999999997 1.96974249999999995"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[295]" " -type \"float3\" -2.8102516999999998 -1.46989579999999997 1.97623520000000008"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[296]" " -type \"float3\" -2.831862 -1.46989579999999997 1.99507750000000006"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[297]" " -type \"float3\" -2.84901209999999994 -1.46989579999999997 2.024425"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[298]" " -type \"float3\" -2.86002329999999994 -1.46989579999999997 2.06140489999999987"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[299]" " -type \"float3\" -2.86381750000000013 -1.46989579999999997 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[300]" " -type \"float3\" -2.84758209999999989 -1.48899249999999994 2.13647320000000018"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[301]" " -type \"float3\" -2.83842920000000021 -1.48899249999999994 2.167213"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[302]" " -type \"float3\" -2.824173 -1.48899249999999994 2.19160820000000012"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[303]" " -type \"float3\" -2.80620929999999991 -1.48899249999999994 2.20727090000000015"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[304]" " -type \"float3\" -2.7862963999999999 -1.48899249999999994 2.21266790000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[305]" " -type \"float3\" -2.76638340000000005 -1.48899249999999994 2.20727090000000015"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[306]" " -type \"float3\" -2.74841980000000019 -1.48899249999999994 2.19160820000000012"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[307]" " -type \"float3\" -2.73416380000000014 -1.48899249999999994 2.167213"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[308]" " -type \"float3\" -2.72501060000000006 -1.48899249999999994 2.13647320000000018"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[309]" " -type \"float3\" -2.72185679999999985 -1.48899249999999994 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[310]" " -type \"float3\" -2.72501060000000006 -1.48899249999999994 2.06832240000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[311]" " -type \"float3\" -2.73416380000000014 -1.48899249999999994 2.03758259999999991"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[312]" " -type \"float3\" -2.74841980000000019 -1.48899249999999994 2.01318740000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[313]" " -type \"float3\" -2.76638340000000005 -1.48899249999999994 1.99752459999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[314]" " -type \"float3\" -2.7862963999999999 -1.48899249999999994 1.99212750000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[315]" " -type \"float3\" -2.80620929999999991 -1.48899249999999994 1.99752459999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[316]" " -type \"float3\" -2.824173 -1.48899249999999994 2.01318740000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[317]" " -type \"float3\" -2.83842920000000021 -1.48899249999999994 2.03758259999999991"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[318]" " -type \"float3\" -2.84758209999999989 -1.48899249999999994 2.06832240000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[319]" " -type \"float3\" -2.8507359000000001 -1.48899249999999994 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[320]" " -type \"float3\" -2.833632 -1.50435589999999997 2.12871670000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[321]" " -type \"float3\" -2.82656239999999981 -1.50435589999999997 2.15245940000000013"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[322]" " -type \"float3\" -2.81555130000000009 -1.50435589999999997 2.17130160000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[323]" " -type \"float3\" -2.80167680000000008 -1.50435589999999997 2.18339920000000021"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[324]" " -type \"float3\" -2.7862963999999999 -1.50435589999999997 2.18756769999999978"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[325]" " -type \"float3\" -2.77091619999999983 -1.50435589999999997 2.18339920000000021"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[326]" " -type \"float3\" -2.75704150000000014 -1.50435589999999997 2.17130160000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[327]" " -type \"float3\" -2.74603030000000015 -1.50435589999999997 2.15245940000000013"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[328]" " -type \"float3\" -2.7389606999999998 -1.50435589999999997 2.12871670000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[329]" " -type \"float3\" -2.7365248000000002 -1.50435589999999997 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[330]" " -type \"float3\" -2.7389606999999998 -1.50435589999999997 2.07607890000000017"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[331]" " -type \"float3\" -2.74603030000000015 -1.50435589999999997 2.05233620000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[332]" " -type \"float3\" -2.75704150000000014 -1.50435589999999997 2.03349380000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[333]" " -type \"float3\" -2.77091619999999983 -1.50435589999999997 2.02139639999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[334]" " -type \"float3\" -2.7862963999999999 -1.50435589999999997 2.01722789999999996"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[335]" " -type \"float3\" -2.80167680000000008 -1.50435589999999997 2.02139639999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[336]" " -type \"float3\" -2.81555130000000009 -1.50435589999999997 2.03349380000000002"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[337]" " -type \"float3\" -2.82656239999999981 -1.50435589999999997 2.05233620000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[338]" " -type \"float3\" -2.833632 -1.50435589999999997 2.07607890000000017"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[339]" " -type \"float3\" -2.8360679000000002 -1.50435589999999997 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[340]" " -type \"float3\" -2.8185163000000002 -1.51560840000000008 2.12031219999999987"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[341]" " -type \"float3\" -2.81370429999999994 -1.51560840000000008 2.13647320000000018"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[342]" " -type \"float3\" -2.80620929999999991 -1.51560840000000008 2.14929840000000016"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[343]" " -type \"float3\" -2.79676530000000012 -1.51560840000000008 2.15753290000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[344]" " -type \"float3\" -2.7862963999999999 -1.51560840000000008 2.16037010000000018"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[345]" " -type \"float3\" -2.77582759999999995 -1.51560840000000008 2.15753290000000009"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[346]" " -type \"float3\" -2.76638340000000005 -1.51560840000000008 2.14929840000000016"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[347]" " -type \"float3\" -2.75888849999999985 -1.51560840000000008 2.13647320000000018"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[348]" " -type \"float3\" -2.75407650000000004 -1.51560840000000008 2.12031219999999987"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[349]" " -type \"float3\" -2.7524185000000001 -1.51560840000000008 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[350]" " -type \"float3\" -2.75407650000000004 -1.51560840000000008 2.08448339999999988"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[351]" " -type \"float3\" -2.75888849999999985 -1.51560840000000008 2.06832240000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[352]" " -type \"float3\" -2.76638340000000005 -1.51560840000000008 2.05549690000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[353]" " -type \"float3\" -2.77582759999999995 -1.51560840000000008 2.0472627000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[354]" " -type \"float3\" -2.7862963999999999 -1.51560840000000008 2.04442520000000005"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[355]" " -type \"float3\" -2.79676530000000012 -1.51560840000000008 2.0472627000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[356]" " -type \"float3\" -2.80620929999999991 -1.51560840000000008 2.05549690000000007"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[357]" " -type \"float3\" -2.81370429999999994 -1.51560840000000008 2.06832240000000001"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[358]" " -type \"float3\" -2.8185163000000002 -1.51560840000000008 2.08448339999999988"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[359]" " -type \"float3\" -2.82017419999999985 -1.51560840000000008 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[360]" " -type \"float3\" -2.80260709999999991 -1.52247270000000001 2.11146659999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[361]" " -type \"float3\" -2.80017110000000002 -1.52247270000000001 2.1196476999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[362]" " -type \"float3\" -2.79637689999999983 -1.52247270000000001 2.12614040000000015"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[363]" " -type \"float3\" -2.79159619999999986 -1.52247270000000001 2.13030890000000017"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[364]" " -type \"float3\" -2.7862963999999999 -1.52247270000000001 2.13174529999999995"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[365]" " -type \"float3\" -2.78099680000000005 -1.52247270000000001 2.13030890000000017"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[366]" " -type \"float3\" -2.77621580000000012 -1.52247270000000001 2.12614040000000015"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[367]" " -type \"float3\" -2.77242159999999993 -1.52247270000000001 2.1196476999999998"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[368]" " -type \"float3\" -2.76998569999999988 -1.52247270000000001 2.11146659999999997"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[369]" " -type \"float3\" -2.76914619999999978 -1.52247270000000001 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[370]" " -type \"float3\" -2.76998569999999988 -1.52247270000000001 2.093329"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[371]" " -type \"float3\" -2.77242159999999993 -1.52247270000000001 2.08514759999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[372]" " -type \"float3\" -2.77621580000000012 -1.52247270000000001 2.078655"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[373]" " -type \"float3\" -2.78099680000000005 -1.52247270000000001 2.0744864999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[374]" " -type \"float3\" -2.7862963999999999 -1.52247270000000001 2.07305029999999979"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[375]" " -type \"float3\" -2.79159619999999986 -1.52247270000000001 2.0744864999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[376]" " -type \"float3\" -2.79637689999999983 -1.52247270000000001 2.078655"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[377]" " -type \"float3\" -2.80017110000000002 -1.52247270000000001 2.08514759999999999"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[378]" " -type \"float3\" -2.80260709999999991 -1.52247270000000001 2.093329"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[379]" " -type \"float3\" -2.80344650000000017 -1.52247270000000001 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[380]" " -type \"float3\" -2.7862963999999999 -1.15000879999999994 2.10239770000000004"
-		
-		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
-		"pnts[381]" " -type \"float3\" -2.7862963999999999 -1.52477989999999997 2.10239770000000004";
+		"pt[0:165]" (" -type \"float3\" -2.80260709999999991 -1.152316 2.11146659999999997 -2.80017110000000002 -1.152316 2.1196476999999998 -2.79637689999999983 -1.152316 2.12614040000000015 -2.79159619999999986 -1.152316 2.13030890000000017 -2.7862963999999999 -1.152316 2.13174529999999995 -2.78099680000000005 -1.152316 2.13030890000000017 -2.77621580000000012 -1.152316 2.12614040000000015 -2.77242159999999993 -1.152316 2.1196476999999998 -2.76998569999999988 -1.152316 2.11146659999999997 -2.76914619999999978 -1.152316 2.10239770000000004 -2.76998569999999988 -1.152316 2.093329 -2.77242159999999993 -1.152316 2.08514759999999999 -2.77621580000000012 -1.152316 2.078655 -2.78099680000000005 -1.152316 2.0744864999999999 -2.7862963999999999 -1.152316 2.07305029999999979 -2.79159619999999986 -1.152316 2.0744864999999999 -2.79637689999999983 -1.152316 2.078655 -2.80017110000000002 -1.152316 2.08514759999999999 -2.80260709999999991 -1.152316 2.093329 -2.80344650000000017 -1.152316 2.10239770000000004 -2.8185163000000002 -1.159180300000000"
+		+ "05 2.12031219999999987 -2.81370429999999994 -1.15918030000000005 2.13647320000000018 -2.80620929999999991 -1.15918030000000005 2.14929840000000016 -2.79676530000000012 -1.15918030000000005 2.15753290000000009 -2.7862963999999999 -1.15918030000000005 2.16037010000000018 -2.77582759999999995 -1.15918030000000005 2.15753290000000009 -2.76638340000000005 -1.15918030000000005 2.14929840000000016 -2.75888849999999985 -1.15918030000000005 2.13647320000000018 -2.75407650000000004 -1.15918030000000005 2.12031219999999987 -2.7524185000000001 -1.15918030000000005 2.10239770000000004 -2.75407650000000004 -1.15918030000000005 2.08448339999999988 -2.75888849999999985 -1.15918030000000005 2.06832240000000001 -2.76638340000000005 -1.15918030000000005 2.05549690000000007 -2.77582759999999995 -1.15918030000000005 2.0472627000000001 -2.7862963999999999 -1.15918030000000005 2.04442520000000005 -2.79676530000000012 -1.15918030000000005 2.0472627000000001 -2.80620929999999991 -1.15918030000000005 2.05549690000000007 -2.81370429999"
+		+ "999994 -1.15918030000000005 2.06832240000000001 -2.8185163000000002 -1.15918030000000005 2.08448339999999988 -2.82017419999999985 -1.15918030000000005 2.10239770000000004 -2.833632 -1.1704327000000001 2.12871670000000002 -2.82656239999999981 -1.1704327000000001 2.15245940000000013 -2.81555130000000009 -1.1704327000000001 2.17130160000000005 -2.80167680000000008 -1.1704327000000001 2.18339920000000021 -2.7862963999999999 -1.1704327000000001 2.18756769999999978 -2.77091619999999983 -1.1704327000000001 2.18339920000000021 -2.75704150000000014 -1.1704327000000001 2.17130160000000005 -2.74603030000000015 -1.1704327000000001 2.15245940000000013 -2.7389606999999998 -1.1704327000000001 2.12871670000000002 -2.7365248000000002 -1.1704327000000001 2.10239770000000004 -2.7389606999999998 -1.1704327000000001 2.07607890000000017 -2.74603030000000015 -1.1704327000000001 2.05233620000000005 -2.75704150000000014 -1.1704327000000001 2.03349380000000002 -2.77091619999999983 -1.1704327000000001 2.02139639999999998 -2.78629639999"
+		+ "99999 -1.1704327000000001 2.01722789999999996 -2.80167680000000008 -1.1704327000000001 2.02139639999999998 -2.81555130000000009 -1.1704327000000001 2.03349380000000002 -2.82656239999999981 -1.1704327000000001 2.05233620000000005 -2.833632 -1.1704327000000001 2.07607890000000017 -2.8360679000000002 -1.1704327000000001 2.10239770000000004 -2.84758209999999989 -1.18579630000000003 2.13647320000000018 -2.83842920000000021 -1.18579630000000003 2.167213 -2.824173 -1.18579630000000003 2.19160820000000012 -2.80620929999999991 -1.18579630000000003 2.20727090000000015 -2.7862963999999999 -1.18579630000000003 2.21266790000000002 -2.76638340000000005 -1.18579630000000003 2.20727090000000015 -2.74841980000000019 -1.18579630000000003 2.19160820000000012 -2.73416380000000014 -1.18579630000000003 2.167213 -2.72501060000000006 -1.18579630000000003 2.13647320000000018 -2.72185679999999985 -1.18579630000000003 2.10239770000000004 -2.72501060000000006 -1.18579630000000003 2.06832240000000001 -2.73416380000000014 -1.1857963000000"
+		+ "0003 2.03758259999999991 -2.74841980000000019 -1.18579630000000003 2.01318740000000007 -2.76638340000000005 -1.18579630000000003 1.99752459999999998 -2.7862963999999999 -1.18579630000000003 1.99212750000000005 -2.80620929999999991 -1.18579630000000003 1.99752459999999998 -2.824173 -1.18579630000000003 2.01318740000000007 -2.83842920000000021 -1.18579630000000003 2.03758259999999991 -2.84758209999999989 -1.18579630000000003 2.06832240000000001 -2.8507359000000001 -1.18579630000000003 2.10239770000000004 -2.86002329999999994 -1.20489289999999993 2.14339039999999992 -2.84901209999999994 -1.20489289999999993 2.18037059999999983 -2.83186220000000022 -1.20489289999999993 2.20971820000000019 -2.8102516999999998 -1.20489289999999993 2.22856040000000011 -2.7862963999999999 -1.20489289999999993 2.23505310000000001 -2.762341 -1.20489289999999993 2.22856040000000011 -2.74073080000000013 -1.20489289999999993 2.209718 -2.72358060000000002 -1.20489289999999993 2.18037059999999983 -2.71256949999999986 -1.20489289999999993 2."
+		+ "14339039999999992 -2.70877549999999978 -1.20489289999999993 2.10239770000000004 -2.71256949999999986 -1.20489289999999993 2.06140489999999987 -2.72358060000000002 -1.20489289999999993 2.024425 -2.74073080000000013 -1.20489289999999993 1.9950774 -2.762341 -1.20489289999999993 1.97623520000000008 -2.7862963999999999 -1.20489289999999993 1.96974249999999995 -2.8102516999999998 -1.20489289999999993 1.97623520000000008 -2.831862 -1.20489289999999993 1.99507750000000006 -2.84901209999999994 -1.20489289999999993 2.024425 -2.86002329999999994 -1.20489289999999993 2.06140489999999987 -2.86381750000000013 -1.20489289999999993 2.10239770000000004 -2.87064889999999995 -1.227252 2.14929840000000016 -2.85805109999999996 -1.227252 2.19160820000000012 -2.83842920000000021 -1.227252 2.22518539999999998 -2.81370429999999994 -1.227252 2.24674320000000005 -2.7862963999999999 -1.227252 2.25417159999999983 -2.75888849999999985 -1.227252 2.24674320000000005 -2.73416350000000019 -1.227252 2.22518539999999998 -2.71454189999999995 -1."
+		+ "227252 2.19160820000000012 -2.70194389999999984 -1.227252 2.14929840000000016 -2.697603 -1.227252 2.10239770000000004 -2.70194389999999984 -1.227252 2.05549690000000007 -2.71454189999999995 -1.227252 2.01318740000000007 -2.73416380000000014 -1.227252 1.97961009999999993 -2.75888849999999985 -1.227252 1.95805230000000008 -2.7862963999999999 -1.227252 1.95062390000000008 -2.81370429999999994 -1.227252 1.95805230000000008 -2.83842920000000021 -1.227252 1.97961009999999993 -2.85805109999999996 -1.227252 2.01318740000000007 -2.87064889999999995 -1.227252 2.05549720000000002 -2.87499 -1.227252 2.10239770000000004 -2.87919759999999991 -1.25232319999999997 2.15405150000000001 -2.86532279999999995 -1.25232319999999997 2.20064929999999981 -2.84371259999999992 -1.25232319999999997 2.23762939999999988 -2.81648180000000004 -1.25232319999999997 2.26137189999999988 -2.7862963999999999 -1.25232319999999997 2.26955319999999983 -2.75611089999999992 -1.25232319999999997 2.26137189999999988 -2.72888019999999987 -1.25232319999999"
+		+ "997 2.23762920000000021 -2.70726990000000001 -1.25232319999999997 2.20064929999999981 -2.69339510000000004 -1.25232319999999997 2.15405150000000001 -2.68861440000000007 -1.25232319999999997 2.10239770000000004 -2.69339510000000004 -1.25232319999999997 2.05074379999999978 -2.70726990000000001 -1.25232319999999997 2.00414629999999994 -2.72888019999999987 -1.25232319999999997 1.96716620000000009 -2.75611089999999992 -1.25232319999999997 1.94342360000000003 -2.7862963999999999 -1.25232319999999997 1.93524239999999992 -2.81648180000000004 -1.25232319999999997 1.94342360000000003 -2.84371259999999992 -1.25232319999999997 1.96716629999999992 -2.86532279999999995 -1.25232319999999997 2.00414629999999994 -2.87919759999999991 -1.25232319999999997 2.05074379999999978 -2.88397859999999984 -1.25232319999999997 2.10239770000000004 -2.88545870000000004 -1.279489 2.15753290000000009 -2.87064889999999995 -1.279489 2.20727090000000015 -2.84758209999999989 -1.279489 2.24674340000000017 -2.8185163000000002 -1.279489 2.2720861000"
+		+ "0000011 -2.7862963999999999 -1.279489 2.2808187000000002 -2.75407650000000004 -1.279489 2.27208610000000011 -2.72501060000000006 -1.279489 2.24674320000000005 -2.70194389999999984 -1.279489 2.20727090000000015 -2.687134 -1.279489 2.15753290000000009 -2.6820309 -1.279489 2.10239770000000004 -2.687134 -1.279489 2.0472627000000001 -2.70194389999999984 -1.279489 1.99752459999999998 -2.72501060000000006 -1.279489 1.95805230000000008 -2.75407650000000004 -1.279489 1.93270950000000008 -2.7862963999999999 -1.279489 1.92397689999999999 -2.8185163000000002 -1.279489 1.93270950000000008 -2.84758209999999989 -1.279489 1.95805230000000008 -2.87064889999999995 -1.279489 1.99752459999999998 -2.88545870000000004 -1.279489 2.0472627000000001 -2.89056179999999996 -1.279489 2.10239770000000004 -2.88927820000000013 -1.30808089999999999 2.15965650000000009 -2.873898 -1.30808089999999999 2.2113103999999999 -2.84994270000000016 -1.30808089999999999 2.25230309999999978 -2.81975720000000019 -1.30808089999999999 2.27862190000000009 -2"
+		+ ".7862963999999999 -1.30808089999999999 2.28769089999999986 -2.75283550000000021 -1.30808089999999999 2.27862190000000009"
+		)
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
+		"pt[166:331]" (" -2.72265010000000007 -1.30808089999999999 2.25230309999999978 -2.69869490000000001 -1.30808089999999999 2.2113103999999999 -2.68331460000000011 -1.30808089999999999 2.15965650000000009 -2.678015 -1.30808089999999999 2.10239770000000004 -2.68331460000000011 -1.30808089999999999 2.0451391000000001 -2.69869490000000001 -1.30808089999999999 1.99348520000000007 -2.72265010000000007 -1.30808089999999999 1.95249249999999996 -2.75283550000000021 -1.30808089999999999 1.92617360000000004 -2.7862963999999999 -1.30808089999999999 1.91710460000000005 -2.81975720000000019 -1.30808089999999999 1.92617360000000004 -2.84994270000000016 -1.30808089999999999 1.95249249999999996 -2.873898 -1.30808089999999999 1.99348520000000007 -2.88927820000000013 -1.30808089999999999 2.0451391000000001 -2.89457770000000014 -1.30808089999999999 2.10239770000000004 -2.89056179999999996 -1.33739439999999998 2.16037029999999985 -2.87499 -1.33739439999999998 2.21266790000000002 -2.85073610000000022 -1.33739439999999998 2.25417159999999983 -2.8201"
+		+ "7419999999985 -1.33739439999999998 2.2808187000000002 -2.7862963999999999 -1.33739439999999998 2.29000069999999978 -2.7524185000000001 -1.33739439999999998 2.2808187000000002 -2.72185679999999985 -1.33739439999999998 2.25417159999999983 -2.697603 -1.33739439999999998 2.21266790000000002 -2.6820309 -1.33739439999999998 2.16037010000000018 -2.67666510000000013 -1.33739439999999998 2.10239770000000004 -2.6820309 -1.33739439999999998 2.04442520000000005 -2.697603 -1.33739439999999998 1.99212750000000005 -2.72185679999999985 -1.33739439999999998 1.95062390000000008 -2.7524185000000001 -1.33739439999999998 1.92397689999999999 -2.7862963999999999 -1.33739439999999998 1.91479489999999997 -2.82017419999999985 -1.33739439999999998 1.92397689999999999 -2.8507359000000001 -1.33739439999999998 1.95062390000000008 -2.87499 -1.33739439999999998 1.99212750000000005 -2.89056179999999996 -1.33739439999999998 2.04442520000000005 -2.8959277000000001 -1.33739439999999998 2.10239770000000004 -2.88927820000000013 -1.366707799999999"
+		+ "92 2.15965650000000009 -2.873898 -1.36670779999999992 2.2113103999999999 -2.84994270000000016 -1.36670779999999992 2.25230309999999978 -2.81975720000000019 -1.36670779999999992 2.27862190000000009 -2.7862963999999999 -1.36670779999999992 2.28769089999999986 -2.75283550000000021 -1.36670779999999992 2.27862190000000009 -2.72265010000000007 -1.36670779999999992 2.25230309999999978 -2.69869490000000001 -1.36670779999999992 2.2113103999999999 -2.68331460000000011 -1.36670779999999992 2.15965650000000009 -2.678015 -1.36670779999999992 2.10239770000000004 -2.68331460000000011 -1.36670779999999992 2.0451391000000001 -2.69869490000000001 -1.36670779999999992 1.99348520000000007 -2.72265010000000007 -1.36670779999999992 1.95249249999999996 -2.75283550000000021 -1.36670779999999992 1.92617360000000004 -2.7862963999999999 -1.36670779999999992 1.91710460000000005 -2.81975720000000019 -1.36670779999999992 1.92617360000000004 -2.84994270000000016 -1.36670779999999992 1.95249249999999996 -2.873898 -1.36670779999999992 1.993"
+		+ "48520000000007 -2.88927820000000013 -1.36670779999999992 2.0451391000000001 -2.89457770000000014 -1.36670779999999992 2.10239770000000004 -2.88545870000000004 -1.39529970000000003 2.15753290000000009 -2.87064889999999995 -1.39529970000000003 2.20727090000000015 -2.84758209999999989 -1.39529970000000003 2.24674340000000017 -2.8185163000000002 -1.39529970000000003 2.27208610000000011 -2.7862963999999999 -1.39529970000000003 2.2808187000000002 -2.75407650000000004 -1.39529970000000003 2.27208610000000011 -2.72501060000000006 -1.39529970000000003 2.24674320000000005 -2.70194389999999984 -1.39529970000000003 2.20727090000000015 -2.687134 -1.39529970000000003 2.15753290000000009 -2.6820309 -1.39529970000000003 2.10239770000000004 -2.687134 -1.39529970000000003 2.0472627000000001 -2.70194389999999984 -1.39529970000000003 1.99752459999999998 -2.72501060000000006 -1.39529970000000003 1.95805230000000008 -2.75407650000000004 -1.39529970000000003 1.93270950000000008 -2.7862963999999999 -1.39529970000000003 1.92397689999"
+		+ "999999 -2.8185163000000002 -1.39529970000000003 1.93270950000000008 -2.84758209999999989 -1.39529970000000003 1.95805230000000008 -2.87064889999999995 -1.39529970000000003 1.99752459999999998 -2.88545870000000004 -1.39529970000000003 2.0472627000000001 -2.89056179999999996 -1.39529970000000003 2.10239770000000004 -2.87919759999999991 -1.4224656 2.15405150000000001 -2.86532279999999995 -1.4224656 2.20064929999999981 -2.84371259999999992 -1.4224656 2.23762939999999988 -2.81648180000000004 -1.4224656 2.26137189999999988 -2.7862963999999999 -1.4224656 2.26955319999999983 -2.75611089999999992 -1.4224656 2.26137189999999988 -2.72888019999999987 -1.4224656 2.23762920000000021 -2.70726990000000001 -1.4224656 2.20064929999999981 -2.69339510000000004 -1.4224656 2.15405150000000001 -2.68861440000000007 -1.4224656 2.10239770000000004 -2.69339510000000004 -1.4224656 2.05074379999999978 -2.70726990000000001 -1.4224656 2.00414629999999994 -2.72888019999999987 -1.4224656 1.96716620000000009 -2.75611089999999992 -1.4224656 1."
+		+ "94342360000000003 -2.7862963999999999 -1.4224656 1.93524239999999992 -2.81648180000000004 -1.4224656 1.94342360000000003 -2.84371259999999992 -1.4224656 1.96716629999999992 -2.86532279999999995 -1.4224656 2.00414629999999994 -2.87919759999999991 -1.4224656 2.05074379999999978 -2.88397859999999984 -1.4224656 2.10239770000000004 -2.87064889999999995 -1.4475366999999999 2.14929840000000016 -2.85805109999999996 -1.4475366999999999 2.19160820000000012 -2.83842920000000021 -1.4475366999999999 2.22518539999999998 -2.81370429999999994 -1.4475366999999999 2.24674320000000005 -2.7862963999999999 -1.4475366999999999 2.25417159999999983 -2.75888849999999985 -1.4475366999999999 2.24674320000000005 -2.73416350000000019 -1.4475366999999999 2.22518539999999998 -2.71454189999999995 -1.4475366999999999 2.19160820000000012 -2.70194389999999984 -1.4475366999999999 2.14929840000000016 -2.697603 -1.4475366999999999 2.10239770000000004 -2.70194389999999984 -1.4475366999999999 2.05549690000000007 -2.71454189999999995 -1.447536699999"
+		+ "9999 2.01318740000000007 -2.73416380000000014 -1.4475366999999999 1.97961009999999993 -2.75888849999999985 -1.4475366999999999 1.95805230000000008 -2.7862963999999999 -1.4475366999999999 1.95062390000000008 -2.81370429999999994 -1.4475366999999999 1.95805230000000008 -2.83842920000000021 -1.4475366999999999 1.97961009999999993 -2.85805109999999996 -1.4475366999999999 2.01318740000000007 -2.87064889999999995 -1.4475366999999999 2.05549720000000002 -2.87499 -1.4475366999999999 2.10239770000000004 -2.86002329999999994 -1.46989579999999997 2.14339039999999992 -2.84901209999999994 -1.46989579999999997 2.18037059999999983 -2.83186220000000022 -1.46989579999999997 2.20971820000000019 -2.8102516999999998 -1.46989579999999997 2.22856040000000011 -2.7862963999999999 -1.46989579999999997 2.23505310000000001 -2.762341 -1.46989579999999997 2.22856040000000011 -2.74073080000000013 -1.46989579999999997 2.209718 -2.72358060000000002 -1.46989579999999997 2.18037059999999983 -2.71256949999999986 -1.46989579999999997 2.14339039"
+		+ "999999992 -2.70877549999999978 -1.46989579999999997 2.10239770000000004 -2.71256949999999986 -1.46989579999999997 2.06140489999999987 -2.72358060000000002 -1.46989579999999997 2.024425 -2.74073080000000013 -1.46989579999999997 1.9950774 -2.762341 -1.46989579999999997 1.97623520000000008 -2.7862963999999999 -1.46989579999999997 1.96974249999999995 -2.8102516999999998 -1.46989579999999997 1.97623520000000008 -2.831862 -1.46989579999999997 1.99507750000000006 -2.84901209999999994 -1.46989579999999997 2.024425 -2.86002329999999994 -1.46989579999999997 2.06140489999999987 -2.86381750000000013 -1.46989579999999997 2.10239770000000004 -2.84758209999999989 -1.48899249999999994 2.13647320000000018 -2.83842920000000021 -1.48899249999999994 2.167213 -2.824173 -1.48899249999999994 2.19160820000000012 -2.80620929999999991 -1.48899249999999994 2.20727090000000015 -2.7862963999999999 -1.48899249999999994 2.21266790000000002 -2.76638340000000005 -1.48899249999999994 2.20727090000000015 -2.74841980000000019 -1.488992499999999"
+		+ "94 2.19160820000000012 -2.73416380000000014 -1.48899249999999994 2.167213 -2.72501060000000006 -1.48899249999999994 2.13647320000000018 -2.72185679999999985 -1.48899249999999994 2.10239770000000004 -2.72501060000000006 -1.48899249999999994 2.06832240000000001 -2.73416380000000014 -1.48899249999999994 2.03758259999999991 -2.74841980000000019 -1.48899249999999994 2.01318740000000007 -2.76638340000000005 -1.48899249999999994 1.99752459999999998 -2.7862963999999999 -1.48899249999999994 1.99212750000000005 -2.80620929999999991 -1.48899249999999994 1.99752459999999998 -2.824173 -1.48899249999999994 2.01318740000000007 -2.83842920000000021 -1.48899249999999994 2.03758259999999991 -2.84758209999999989 -1.48899249999999994 2.06832240000000001 -2.8507359000000001 -1.48899249999999994 2.10239770000000004 -2.833632 -1.50435589999999997 2.12871670000000002 -2.82656239999999981 -1.50435589999999997 2.15245940000000013 -2.81555130000000009 -1.50435589999999997 2.17130160000000005 -2.80167680000000008 -1.50435589999999997 2."
+		+ "18339920000000021 -2.7862963999999999 -1.50435589999999997 2.18756769999999978 -2.77091619999999983 -1.50435589999999997 2.18339920000000021 -2.75704150000000014 -1.50435589999999997 2.17130160000000005 -2.74603030000000015 -1.50435589999999997 2.15245940000000013 -2.7389606999999998 -1.50435589999999997 2.12871670000000002 -2.7365248000000002 -1.50435589999999997 2.10239770000000004 -2.7389606999999998 -1.50435589999999997 2.07607890000000017 -2.74603030000000015 -1.50435589999999997 2.05233620000000005"
+		)
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
+		"pt[332:381]" (" -2.75704150000000014 -1.50435589999999997 2.03349380000000002 -2.77091619999999983 -1.50435589999999997 2.02139639999999998 -2.7862963999999999 -1.50435589999999997 2.01722789999999996 -2.80167680000000008 -1.50435589999999997 2.02139639999999998 -2.81555130000000009 -1.50435589999999997 2.03349380000000002 -2.82656239999999981 -1.50435589999999997 2.05233620000000005 -2.833632 -1.50435589999999997 2.07607890000000017 -2.8360679000000002 -1.50435589999999997 2.10239770000000004 -2.8185163000000002 -1.51560840000000008 2.12031219999999987 -2.81370429999999994 -1.51560840000000008 2.13647320000000018 -2.80620929999999991 -1.51560840000000008 2.14929840000000016 -2.79676530000000012 -1.51560840000000008 2.15753290000000009 -2.7862963999999999 -1.51560840000000008 2.16037010000000018 -2.77582759999999995 -1.51560840000000008 2.15753290000000009 -2.76638340000000005 -1.51560840000000008 2.14929840000000016 -2.75888849999999985 -1.51560840000000008 2.13647320000000018 -2.75407650000000004 -1.51560840000000008 2.12"
+		+ "031219999999987 -2.7524185000000001 -1.51560840000000008 2.10239770000000004 -2.75407650000000004 -1.51560840000000008 2.08448339999999988 -2.75888849999999985 -1.51560840000000008 2.06832240000000001 -2.76638340000000005 -1.51560840000000008 2.05549690000000007 -2.77582759999999995 -1.51560840000000008 2.0472627000000001 -2.7862963999999999 -1.51560840000000008 2.04442520000000005 -2.79676530000000012 -1.51560840000000008 2.0472627000000001 -2.80620929999999991 -1.51560840000000008 2.05549690000000007 -2.81370429999999994 -1.51560840000000008 2.06832240000000001 -2.8185163000000002 -1.51560840000000008 2.08448339999999988 -2.82017419999999985 -1.51560840000000008 2.10239770000000004 -2.80260709999999991 -1.52247270000000001 2.11146659999999997 -2.80017110000000002 -1.52247270000000001 2.1196476999999998 -2.79637689999999983 -1.52247270000000001 2.12614040000000015 -2.79159619999999986 -1.52247270000000001 2.13030890000000017 -2.7862963999999999 -1.52247270000000001 2.13174529999999995 -2.78099680000000005 -1"
+		+ ".52247270000000001 2.13030890000000017 -2.77621580000000012 -1.52247270000000001 2.12614040000000015 -2.77242159999999993 -1.52247270000000001 2.1196476999999998 -2.76998569999999988 -1.52247270000000001 2.11146659999999997 -2.76914619999999978 -1.52247270000000001 2.10239770000000004 -2.76998569999999988 -1.52247270000000001 2.093329 -2.77242159999999993 -1.52247270000000001 2.08514759999999999 -2.77621580000000012 -1.52247270000000001 2.078655 -2.78099680000000005 -1.52247270000000001 2.0744864999999999 -2.7862963999999999 -1.52247270000000001 2.07305029999999979 -2.79159619999999986 -1.52247270000000001 2.0744864999999999 -2.79637689999999983 -1.52247270000000001 2.078655 -2.80017110000000002 -1.52247270000000001 2.08514759999999999 -2.80260709999999991 -1.52247270000000001 2.093329 -2.80344650000000017 -1.52247270000000001 2.10239770000000004 -2.7862963999999999 -1.15000879999999994 2.10239770000000004 -2.7862963999999999 -1.52477989999999997 2.10239770000000004"
+		);
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "Rock_SculptureRN";
+	rename -uid "CCF2523F-9845-6AED-B07F-BA99990CE57C";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Rock_SculptureRN"
+		"Rock_SculptureRN" 0
+		"Rock_SculptureRN" 7
+		2 "|Rock_Sculpture:Rock_Sculpture" "translate" " -type \"double3\" -2.12564736658701303 0.32028247796475806 2.1878648840410686"
+		
+		2 "|Rock_Sculpture:Rock_Sculpture" "rotate" " -type \"double3\" 0 165.07251016240280705 0"
+		
+		2 "|Rock_Sculpture:Rock_Sculpture" "scale" " -type \"double3\" 0.51934739408219499 0.51934739408219499 0.51934739408219499"
+		
+		2 "|Rock_Sculpture:Rock_Sculpture" "rotatePivot" " -type \"double3\" -0.0097539595655034908 0.13304662607198414 -0.023986315677649583"
+		
+		2 "|Rock_Sculpture:Rock_Sculpture" "rotatePivotTranslate" " -type \"double3\" 0 0 0"
+		
+		2 "|Rock_Sculpture:Rock_Sculpture" "scalePivot" " -type \"double3\" -0.018781185150146484 0.25618040561676025 -0.046185493469238281"
+		
+		2 "|Rock_Sculpture:Rock_Sculpture" "scalePivotTranslate" " -type \"double3\" 0.0090272255846429936 -0.12313377954477611 0.022199177791588698";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 select -ne :time1;
@@ -3631,14 +2081,14 @@ select -ne :hardwareRenderingGlobals;
 	setAttr ".fprt" yes;
 	setAttr ".rtfm" 3;
 select -ne :renderPartition;
-	setAttr -s 24 ".st";
+	setAttr -s 25 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 27 ".s";
+	setAttr -s 28 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderingList1;
-	setAttr -s 6 ".r";
+	setAttr -s 7 ".r";
 select -ne :standardSurface1;
 	setAttr ".bc" -type "float3" 0.40000001 0.40000001 0.40000001 ;
 	setAttr ".sr" 0.5;
