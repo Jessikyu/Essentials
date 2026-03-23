@@ -1,103 +1,106 @@
 //Maya ASCII 2025ff03 scene
 //Name: Game_Room.ma
-//Last modified: Thu, Mar 19, 2026 02:47:29 PM
-//Codeset: UTF-8
-file -rdi 1 -ns "DM_Screen" -rfn "DM_ScreenRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/DM_Screen.ma";
-file -rdi 1 -ns "Chairs" -rfn "ChairsRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Chairs.ma";
-file -rdi 1 -ns "Table" -rfn "TableRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Table.ma";
+//Last modified: Mon, Mar 23, 2026 03:46:30 PM
+//Codeset: 1252
+file -rdi 1 -ns "DM_Screen" -rfn "DM_ScreenRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/DM_Screen.ma";
+file -rdi 1 -ns "Chairs" -rfn "ChairsRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/Chairs.ma";
+file -rdi 1 -ns "Table" -rfn "TableRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/Table.ma";
 file -rdi 1 -ns "Potion_Bottle1" -rfn "Potion_BottleRN" -op "v=0;" -typ "mayaAscii"
-		 "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Potion_Bottle.ma";
+		 "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/Potion_Bottle.ma";
 file -rdi 1 -ns "Bookshelf2" -rfn "BookshelfRN1" -op "v=0;" -typ "mayaAscii"
-		 "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Bookshelf.ma";
+		 "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/Bookshelf.ma";
 file -rdi 1 -ns "Mounted_Sword" -rfn "Mounted_SwordRN" -op "v=0;" -typ "mayaAscii"
-		 "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Mounted_Sword.ma";
-file -rdi 1 -ns "Shelfs" -rfn "ShelfsRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Shelfs.ma";
+		 "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/Mounted_Sword.ma";
+file -rdi 1 -ns "Shelfs" -rfn "ShelfsRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/Shelfs.ma";
 file -rdi 1 -ns "Rock_Sculpture" -rfn "Rock_SculptureRN" -op "v=0;" -typ "mayaAscii"
-		 "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Rock_Sculpture.ma";
-file -r -ns "DM_Screen" -dr 1 -rfn "DM_ScreenRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/DM_Screen.ma";
-file -r -ns "Chairs" -dr 1 -rfn "ChairsRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Chairs.ma";
-file -r -ns "Table" -dr 1 -rfn "TableRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Table.ma";
+		 "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/Rock_Sculpture.ma";
+file -r -ns "DM_Screen" -dr 1 -rfn "DM_ScreenRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/DM_Screen.ma";
+file -r -ns "Chairs" -dr 1 -rfn "ChairsRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/Chairs.ma";
+file -r -ns "Table" -dr 1 -rfn "TableRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/Table.ma";
 file -r -ns "Potion_Bottle1" -dr 1 -rfn "Potion_BottleRN" -op "v=0;" -typ "mayaAscii"
-		 "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Potion_Bottle.ma";
-file -r -ns "Bookshelf2" -dr 1 -rfn "BookshelfRN1" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Bookshelf.ma";
+		 "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/Potion_Bottle.ma";
+file -r -ns "Bookshelf2" -dr 1 -rfn "BookshelfRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/Bookshelf.ma";
 file -r -ns "Mounted_Sword" -dr 1 -rfn "Mounted_SwordRN" -op "v=0;" -typ "mayaAscii"
-		 "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Mounted_Sword.ma";
-file -r -ns "Shelfs" -dr 1 -rfn "ShelfsRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Shelfs.ma";
+		 "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/Mounted_Sword.ma";
+file -r -ns "Shelfs" -dr 1 -rfn "ShelfsRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/Shelfs.ma";
 file -r -ns "Rock_Sculpture" -dr 1 -rfn "Rock_SculptureRN" -op "v=0;" -typ "mayaAscii"
-		 "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Rock_Sculpture.ma";
+		 "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/assets/Rock_Sculpture.ma";
 requires maya "2025ff03";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
-		 "mtoa" "5.4.8.2";
+		 "mtoa" "5.4.5";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
 fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
-fileInfo "cutIdentifier" "202512041342-b90de33065";
-fileInfo "osv" "Mac OS X 12.7.6";
-fileInfo "UUID" "99987FA4-0742-209E-F59C-32A20361F77B";
+fileInfo "cutIdentifier" "202409190603-cbdc5a7e54";
+fileInfo "osv" "Windows 11 Enterprise v2009 (Build: 26200)";
+fileInfo "UUID" "AE2851B1-49B0-92C2-0B48-D2B5A8F5EB98";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "9E8F468F-834E-2F00-40E3-FA8B25017C1A";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 5.2351209193219947 3.1049834091877231 7.502335473129853 ;
-	setAttr ".r" -type "double3" -10.53835272894001 2562.5999999919131 1.6203134427021782e-15 ;
+	setAttr ".t" -type "double3" 1.2553926473114054 2.4173250783889344 2.4901127204673346 ;
+	setAttr ".r" -type "double3" -19.538352728632344 2964.5999999998799 -1.6898372573251108e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0D7FC2BD-5C40-87E5-9DD5-91851D8F8F96";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 8.7756760903074422;
+	setAttr ".coi" 3.5852682505120028;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -0.11568737337396184 2.3949646254265016 -0.12137977074100537 ;
+	setAttr ".tp" -type "double3" -0.033321022987365723 1.4773180186748505 0 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "A8061B55-5640-CD74-6BD5-BF9EB699BE6D";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0 1000.1 0 ;
+	setAttr ".t" -type "double3" -0.033321022987365723 1000.1000005559112 2.2173877901315555e-13 ;
 	setAttr ".r" -type "double3" -89.999999999999986 0 0 ;
 createNode camera -s -n "topShape" -p "top";
 	rename -uid "7D9838D9-2B44-D04D-794C-0A85D104E8C7";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
-	setAttr ".coi" 1000.1;
-	setAttr ".ow" 30;
+	setAttr ".coi" 998.62268253723607;
+	setAttr ".ow" 6.2922382354736328;
 	setAttr ".imn" -type "string" "top";
 	setAttr ".den" -type "string" "top_depth";
 	setAttr ".man" -type "string" "top_mask";
+	setAttr ".tp" -type "double3" -0.033321022987365723 1.4773180186748505 0 ;
 	setAttr ".hc" -type "string" "viewSet -t %camera";
 	setAttr ".o" yes;
 	setAttr ".ai_translator" -type "string" "orthographic";
 createNode transform -s -n "front";
 	rename -uid "0A2329B6-994F-AFEC-CA29-41A1F5D69378";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0 0 1000.1 ;
+	setAttr ".t" -type "double3" -0.033321022987365723 1.4773180186748505 1000.1010916796456 ;
 createNode camera -s -n "frontShape" -p "front";
 	rename -uid "B3CC3CDB-474B-C729-8DB2-D3BFF47D1F87";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
-	setAttr ".coi" 1000.1;
-	setAttr ".ow" 30;
+	setAttr ".coi" 1000.1010916796456;
+	setAttr ".ow" 6.2538134424309986;
 	setAttr ".imn" -type "string" "front";
 	setAttr ".den" -type "string" "front_depth";
 	setAttr ".man" -type "string" "front_mask";
+	setAttr ".tp" -type "double3" -0.033321022987365723 1.4773180186748505 0 ;
 	setAttr ".hc" -type "string" "viewSet -f %camera";
 	setAttr ".o" yes;
 	setAttr ".ai_translator" -type "string" "orthographic";
 createNode transform -s -n "side";
 	rename -uid "A035C751-3847-3961-0BAB-D4BE0D335E2F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1000.1 0.8311483007917474 -0.11872986816878853 ;
+	setAttr ".t" -type "double3" 1000.1002157872509 1.4773180186748505 2.2207236050064694e-13 ;
 	setAttr ".r" -type "double3" 0 89.999999999999986 0 ;
 createNode camera -s -n "sideShape" -p "side";
 	rename -uid "F7EE767F-1045-3D35-8DCA-6FA8BA317CC3";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
-	setAttr ".coi" 1000.1;
-	setAttr ".ow" 10.477288340661463;
+	setAttr ".coi" 1000.1335368102381;
+	setAttr ".ow" 6.2922382354736328;
 	setAttr ".imn" -type "string" "side";
 	setAttr ".den" -type "string" "side_depth";
 	setAttr ".man" -type "string" "side_mask";
+	setAttr ".tp" -type "double3" -0.033321022987365723 1.4773180186748505 0 ;
 	setAttr ".hc" -type "string" "viewSet -s %camera";
 	setAttr ".o" yes;
 	setAttr ".ai_translator" -type "string" "orthographic";
@@ -788,21 +791,340 @@ createNode mesh -n "Wall1Shape" -p "Wall1";
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode fosterParent -n "Potion_BottleRNfosterParent1";
+	rename -uid "9C6E03C6-4C15-84C9-91D5-7E9BAF7F5D8A";
+createNode mesh -n "Potion_Bottle1:polySurfaceShape1" -p "Potion_BottleRNfosterParent1";
+	rename -uid "F643D1F6-4E8C-1B7E-C501-69AD35928119";
+	setAttr -k off ".v";
+	setAttr ".io" yes;
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.5 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 106 ".uvst[0].uvsp[0:105]" -type "float2" 0 0 1 0.9375 0.5
+		 1 0.5 0.5 0 0.6875 0.25 0 0.25 0.5 0.25 0.25 0 0.1875 0.083333336 0 0.083333336 0.25
+		 0.083333336 0.125 0.25 0.125 0.16666667 0 0.16666667 0.125 0.16666667 0.25 0.083333336
+		 0.5 0.083333336 0.375 0.25 0.375 0.16666667 0.375 0.16666667 0.5 0.5 0.25 0.33333334
+		 0 0.33333334 0.25 0.33333334 0.125 0.5 0.125 0.41666666 1 0.41666666 0.125 0.41666666
+		 0.25 0.33333334 0.5 0.33333334 0.375 0.5 0.375 0.41666666 0.375 0.41666666 0.5 0.25
+		 0.75 0.083333336 0.75 0.083333336 0.625 0.25 0.625 0.16666667 0.625 0.16666667 0.75
+		 0.083333336 0.875 0.25 0.875 0.16666667 0.875 0.5 0.75 0.33333334 0.75 0.33333334
+		 0.625 0.5 0.625 0.41666666 0.625 0.41666666 0.75 0.33333334 0.875 0.5 0.875 0.41666666
+		 0.875 1 0.4375 0.75 0 0.75 0.5 0.75 0.25 0.58333331 0 0.58333331 0.25 0.58333331
+		 0.125 0.75 0.125 0.66666669 0 0.66666669 0.125 0.66666669 0.25 0.58333331 0.5 0.58333331
+		 0.375 0.75 0.375 0.66666669 0.375 0.66666669 0.5 1 0.125 0.83333331 0 0.83333331
+		 0.25 0.83333331 0.125 0.91666669 1 0.91666669 0.125 0.91666669 0.25 0.83333331 0.5
+		 0.83333331 0.375 0.91666669 0.375 0.91666669 0.5 0.75 0.75 0.58333331 0.75 0.58333331
+		 0.625 0.75 0.625 0.66666669 0.625 0.66666669 0.75 0.58333331 0.875 0.75 0.875 0.66666669
+		 0.875 1 0.6875 0.83333331 0.75 0.83333331 0.625 0.91666669 0.625 0.91666669 0.75
+		 0.83333331 0.875 0.91666669 0.875 0.41666666 0 0.5 0 0.25 1 0.16666667 1 0.083333336
+		 1 0.33333334 1 0.91666669 0 0.75 1 0.66666669 1 0.58333331 1 0.83333331 1;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 90 ".pt[0:89]" -type "float3"  -0.032406688 5.9604645e-08 
+		-0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 
+		-0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 
+		5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 
+		-0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 
+		-0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 
+		5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 
+		-0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 
+		-0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 
+		5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 
+		-0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 
+		-0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 
+		5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 
+		-0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 
+		-0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 
+		5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 
+		-0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 
+		-0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 
+		5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 
+		-0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 
+		-0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 
+		5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 
+		-0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 
+		-0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 
+		5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 
+		-0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 
+		-0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 
+		5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 
+		-0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 
+		-0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 
+		5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 
+		-0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 
+		-0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 
+		5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 
+		-0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 
+		-0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 
+		5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 
+		-0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 
+		-0.032406688 5.9604645e-08 -0.12258673 -0.032406688 5.9604645e-08 -0.12258673 -0.032406688 
+		5.9604645e-08 -0.12258673;
+	setAttr -s 90 ".vt[0:89]"  0.66954976 0.93341458 -0.66794229 0.66954976 0.73290855 -0.66794229
+		 0.66954976 0.84806651 -0.7267741 0.66954976 0.84806651 -0.60911047 0.66954976 0.89679503 -0.72131628
+		 0.66954976 0.89679503 -0.61456829 0.72292376 0.89679503 -0.66794229 0.66954976 0.93341458 -0.69489825
+		 0.69650573 0.93341458 -0.66794229 0.68861049 0.93341458 -0.68700302 0.70729089 0.89679503 -0.70568341
+		 0.66954976 0.92509472 -0.71962631 0.70609587 0.92509472 -0.7044884 0.72123379 0.92509472 -0.66794229
+		 0.66954976 0.93341458 -0.64098632 0.68861049 0.93341458 -0.64888155 0.70729089 0.89679503 -0.63020116
+		 0.70609587 0.92509472 -0.63139617 0.66954976 0.92509472 -0.61625826 0.72838157 0.84806651 -0.66794229
+		 0.66954976 0.87998492 -0.69782972 0.6994372 0.87998492 -0.66794229 0.69068336 0.87998492 -0.68907589
+		 0.71115017 0.84806651 -0.70954269 0.66954976 0.86003262 -0.69872314 0.69131511 0.86003262 -0.68970764
+		 0.70033062 0.86003262 -0.66794229 0.66954976 0.87998492 -0.63805485 0.69068336 0.87998492 -0.64680868
+		 0.71115017 0.84806651 -0.62634188 0.69131511 0.86003262 -0.64617693 0.66954976 0.86003262 -0.63716143
+		 0.61617577 0.89679503 -0.66794229 0.6425938 0.93341458 -0.66794229 0.65048903 0.93341458 -0.64888155
+		 0.63180864 0.89679503 -0.63020116 0.63300365 0.92509472 -0.63139617 0.61786574 0.92509472 -0.66794229
+		 0.65048903 0.93341458 -0.68700302 0.63180864 0.89679503 -0.70568341 0.63300365 0.92509472 -0.7044884
+		 0.61071795 0.84806651 -0.66794229 0.63966233 0.87998492 -0.66794229 0.64841616 0.87998492 -0.64680868
+		 0.62794936 0.84806651 -0.62634188 0.64778441 0.86003262 -0.64617693 0.63876891 0.86003262 -0.66794229
+		 0.64841616 0.87998492 -0.68907589 0.62794936 0.84806651 -0.70954269 0.64778441 0.86003262 -0.68970764
+		 0.66954976 0.76671869 -0.74183422 0.66954976 0.76671869 -0.59405035 0.7434417 0.76671869 -0.66794229
+		 0.66954976 0.82292086 -0.73855895 0.74016643 0.82292086 -0.66794229 0.71948326 0.82292086 -0.71787578
+		 0.72179925 0.76671869 -0.72019178 0.66954976 0.79552853 -0.74367654 0.72310197 0.79552853 -0.7214945
+		 0.74528402 0.79552853 -0.66794229 0.66954976 0.82292086 -0.59732562 0.71948326 0.82292086 -0.61800879
+		 0.72179925 0.76671869 -0.61569279 0.72310197 0.79552853 -0.61439008 0.66954976 0.79552853 -0.59220803
+		 0.66954976 0.7472437 -0.72234154 0.72394902 0.7472437 -0.66794229 0.70801586 0.7472437 -0.70640838
+		 0.66954976 0.73520082 -0.69676065 0.68992746 0.73520082 -0.68831998 0.69836813 0.73520082 -0.66794229
+		 0.66954976 0.7472437 -0.61354303 0.70801586 0.7472437 -0.62947619 0.68992746 0.73520082 -0.64756459
+		 0.66954976 0.73520082 -0.63912392 0.59565783 0.76671869 -0.66794229 0.5989331 0.82292086 -0.66794229
+		 0.61961627 0.82292086 -0.61800879 0.61730027 0.76671869 -0.61569279 0.61599755 0.79552853 -0.61439008
+		 0.59381551 0.79552853 -0.66794229 0.61961627 0.82292086 -0.71787578 0.61730027 0.76671869 -0.72019178
+		 0.61599755 0.79552853 -0.7214945 0.61515051 0.7472437 -0.66794229 0.63108367 0.7472437 -0.62947619
+		 0.64917207 0.73520082 -0.64756459 0.64073139 0.73520082 -0.66794229 0.63108367 0.7472437 -0.70640838
+		 0.64917207 0.73520082 -0.68831998;
+	setAttr -s 184 ".ed";
+	setAttr ".ed[0:165]"  1 68 1 68 89 1 89 1 1 48 2 1 2 24 1 24 49 1 49 48 1
+		 29 3 1 3 31 1 31 30 1 30 29 1 16 5 1 5 18 1 18 17 1 17 16 1 10 6 1 6 13 1 13 12 1
+		 12 10 1 9 8 1 8 0 1 0 9 1 0 7 1 7 9 1 11 4 1 4 10 1 12 11 1 7 11 1 12 9 1 13 8 1
+		 14 0 1 0 15 1 15 14 1 8 15 1 6 16 1 17 13 1 17 15 1 18 14 1 23 19 1 19 26 1 26 25 1
+		 25 23 1 22 21 1 21 6 1 10 22 1 4 20 1 20 22 1 2 23 1 25 24 1 20 24 1 25 22 1 26 21 1
+		 27 5 1 16 28 1 28 27 1 21 28 1 19 29 1 30 26 1 30 28 1 31 27 1 11 40 1 40 39 1 39 4 1
+		 35 32 1 32 37 1 37 36 1 36 35 1 0 34 1 34 33 1 33 0 1 14 34 1 5 35 1 36 18 1 36 34 1
+		 37 33 1 0 38 1 38 7 1 33 38 1 32 39 1 40 37 1 40 38 1 44 41 1 41 46 1 46 45 1 45 44 1
+		 42 32 1 35 43 1 43 42 1 27 43 1 3 44 1 45 31 1 45 43 1 46 42 1 39 47 1 47 20 1 42 47 1
+		 41 48 1 49 46 1 49 47 1 1 74 1 74 73 1 73 1 1 62 51 1 51 64 1 64 63 1 63 62 1 56 52 1
+		 52 59 1 59 58 1 58 56 1 55 54 1 54 19 1 23 55 1 2 53 1 53 55 1 57 50 1 50 56 1 58 57 1
+		 53 57 1 58 55 1 59 54 1 60 3 1 29 61 1 61 60 1 54 61 1 52 62 1 63 59 1 63 61 1 64 60 1
+		 1 70 1 70 69 1 69 1 1 67 66 1 66 52 1 56 67 1 50 65 1 65 67 1 69 68 1 65 68 1 69 67 1
+		 70 66 1 71 51 1 62 72 1 72 71 1 66 72 1 73 70 1 73 72 1 74 71 1 57 83 1 83 82 1 82 50 1
+		 78 75 1 75 80 1 80 79 1 79 78 1 44 77 1 77 76 1 76 41 1 60 77 1 51 78 1 79 64 1 79 77 1
+		 80 76 1 48 81 1 81 53 1 76 81 1;
+	setAttr ".ed[166:183]" 75 82 1 83 80 1 83 81 1 1 87 1 87 86 1 86 1 1 84 75 1
+		 78 85 1 85 84 1 71 85 1 86 74 1 86 85 1 87 84 1 82 88 1 88 65 1 84 88 1 89 87 1 89 88 1;
+	setAttr -s 96 -ch 368 ".fc[0:95]" -type "polyFaces" 
+		f 3 -3 -2 -1
+		mu 0 3 1 94 72
+		f 4 -7 -6 -5 -4
+		mu 0 4 50 51 26 2
+		f 4 -11 -10 -9 -8
+		mu 0 4 31 32 33 3
+		f 4 -15 -14 -13 -12
+		mu 0 4 18 19 20 6
+		f 4 -19 -18 -17 -16
+		mu 0 4 12 14 15 7
+		f 3 -22 -21 -20
+		mu 0 3 11 8 10
+		f 3 21 -24 -23
+		mu 0 3 0 11 9
+		f 4 -27 18 -26 -25
+		mu 0 4 13 14 12 5
+		f 4 23 -29 26 -28
+		mu 0 4 9 11 14 13
+		f 4 17 28 19 -30
+		mu 0 4 15 14 11 10
+		f 3 -33 -32 -31
+		mu 0 3 16 17 4
+		f 3 31 -34 20
+		mu 0 3 4 17 10
+		f 4 16 -36 14 -35
+		mu 0 4 7 15 19 18
+		f 4 35 29 33 -37
+		mu 0 4 19 15 10 17
+		f 4 13 36 32 -38
+		mu 0 4 20 19 17 16
+		f 4 -42 -41 -40 -39
+		mu 0 4 25 27 28 21
+		f 4 -45 15 -44 -43
+		mu 0 4 24 12 7 23
+		f 4 25 44 -47 -46
+		mu 0 4 5 12 24 22
+		f 4 -49 41 -48 4
+		mu 0 4 95 27 25 96
+		f 4 46 -51 48 -50
+		mu 0 4 22 24 27 95
+		f 4 40 50 42 -52
+		mu 0 4 28 27 24 23
+		f 4 -55 -54 11 -53
+		mu 0 4 29 30 18 6
+		f 4 53 -56 43 34
+		mu 0 4 18 30 23 7
+		f 4 39 -58 10 -57
+		mu 0 4 21 28 32 31
+		f 4 57 51 55 -59
+		mu 0 4 32 28 23 30
+		f 4 9 58 54 -60
+		mu 0 4 33 32 30 29
+		f 4 -63 -62 -61 24
+		mu 0 4 97 41 42 98
+		f 4 -67 -66 -65 -64
+		mu 0 4 37 38 39 34
+		f 3 -70 -69 -68
+		mu 0 3 4 35 36
+		f 3 67 -71 30
+		mu 0 3 4 36 16
+		f 4 -73 66 -72 12
+		mu 0 4 20 38 37 6
+		f 4 70 -74 72 37
+		mu 0 4 16 36 38 20
+		f 4 65 73 68 -75
+		mu 0 4 39 38 36 35
+		f 3 -77 -76 22
+		mu 0 3 99 40 4
+		f 3 75 -78 69
+		mu 0 3 4 40 35
+		f 4 -80 61 -79 64
+		mu 0 4 39 42 41 34
+		f 4 -81 79 74 77
+		mu 0 4 40 42 39 35
+		f 4 60 80 76 27
+		mu 0 4 98 42 40 99
+		f 4 -85 -84 -83 -82
+		mu 0 4 46 47 48 43
+		f 4 -88 -87 63 -86
+		mu 0 4 44 45 37 34
+		f 4 86 -89 52 71
+		mu 0 4 37 45 29 6
+		f 4 8 -91 84 -90
+		mu 0 4 3 33 47 46
+		f 4 90 59 88 -92
+		mu 0 4 47 33 29 45
+		f 4 83 91 87 -93
+		mu 0 4 48 47 45 44
+		f 4 -95 -94 62 45
+		mu 0 4 100 49 41 97
+		f 4 93 -96 85 78
+		mu 0 4 41 49 44 34
+		f 4 82 -98 6 -97
+		mu 0 4 43 48 51 50
+		f 4 97 92 95 -99
+		mu 0 4 51 48 44 49
+		f 4 5 98 94 49
+		mu 0 4 26 51 49 100
+		f 3 -102 -101 -100
+		mu 0 3 52 77 78
+		f 4 -106 -105 -104 -103
+		mu 0 4 65 66 67 54
+		f 4 -110 -109 -108 -107
+		mu 0 4 59 61 62 55
+		f 4 -113 38 -112 -111
+		mu 0 4 58 25 21 57
+		f 4 47 112 -115 -114
+		mu 0 4 96 25 58 56
+		f 4 -118 109 -117 -116
+		mu 0 4 60 61 59 53
+		f 4 114 -120 117 -119
+		mu 0 4 56 58 61 60
+		f 4 108 119 110 -121
+		mu 0 4 62 61 58 57
+		f 4 -124 -123 7 -122
+		mu 0 4 63 64 31 3
+		f 4 122 -125 111 56
+		mu 0 4 31 64 57 21
+		f 4 107 -127 105 -126
+		mu 0 4 55 62 66 65
+		f 4 126 120 124 -128
+		mu 0 4 66 62 57 64
+		f 4 104 127 123 -129
+		mu 0 4 67 66 64 63
+		f 3 -132 -131 -130
+		mu 0 3 68 73 74
+		f 4 -135 106 -134 -133
+		mu 0 4 71 59 55 70
+		f 4 116 134 -137 -136
+		mu 0 4 53 59 71 69
+		f 3 -138 131 0
+		mu 0 3 101 73 68
+		f 4 136 -140 137 -139
+		mu 0 4 69 71 73 101
+		f 4 130 139 132 -141
+		mu 0 4 74 73 71 70
+		f 4 -144 -143 102 -142
+		mu 0 4 75 76 65 54
+		f 4 142 -145 133 125
+		mu 0 4 65 76 70 55
+		f 3 129 -146 101
+		mu 0 3 68 74 77
+		f 4 145 140 144 -147
+		mu 0 4 77 74 70 76
+		f 4 100 146 143 -148
+		mu 0 4 78 77 76 75
+		f 4 -151 -150 -149 115
+		mu 0 4 102 86 87 103
+		f 4 -155 -154 -153 -152
+		mu 0 4 82 83 84 79
+		f 4 -158 -157 -156 81
+		mu 0 4 43 80 81 46
+		f 4 155 -159 121 89
+		mu 0 4 46 81 63 3
+		f 4 -161 154 -160 103
+		mu 0 4 67 83 82 54
+		f 4 158 -162 160 128
+		mu 0 4 63 81 83 67
+		f 4 153 161 156 -163
+		mu 0 4 84 83 81 80
+		f 4 -165 -164 3 113
+		mu 0 4 104 85 50 2
+		f 4 163 -166 157 96
+		mu 0 4 50 85 80 43
+		f 4 -168 149 -167 152
+		mu 0 4 84 87 86 79
+		f 4 -169 167 162 165
+		mu 0 4 85 87 84 80
+		f 4 148 168 164 118
+		mu 0 4 103 87 85 104
+		f 3 -172 -171 -170
+		mu 0 3 88 91 92
+		f 4 -175 -174 151 -173
+		mu 0 4 89 90 82 79
+		f 4 173 -176 141 159
+		mu 0 4 82 90 75 54
+		f 3 99 -177 171
+		mu 0 3 52 78 91
+		f 4 176 147 175 -178
+		mu 0 4 91 78 75 90
+		f 4 170 177 174 -179
+		mu 0 4 92 91 90 89
+		f 4 -181 -180 150 135
+		mu 0 4 105 93 86 102
+		f 4 179 -182 172 166
+		mu 0 4 86 93 89 79
+		f 3 169 -183 2
+		mu 0 3 88 92 94
+		f 4 182 178 181 -184
+		mu 0 4 94 92 89 93
+		f 4 1 183 180 138
+		mu 0 4 72 94 93 105;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "54DA10D8-B942-60C2-68A5-B29669255900";
-	setAttr -s 41 ".lnk";
-	setAttr -s 41 ".slnk";
+	rename -uid "83AD60A6-4FB5-DAAB-4FD7-45BA31837B4D";
+	setAttr -s 28 ".lnk";
+	setAttr -s 28 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "0EAF81A9-CC4E-2F92-039A-3E834E93E6A8";
+	rename -uid "07F15E7D-429E-5FC0-DABA-9487ED31B3E0";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "782150C4-1240-60E2-5E5D-4DA9C8F9CB0E";
+	rename -uid "29CCB398-4A3C-3F37-93B1-8288E4294D53";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "97C9A997-A74B-41CD-FF0F-D4AADD655397";
+	rename -uid "2CE2F078-451A-AF8C-58CD-7B989999ADB2";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "5732F82F-C54A-B292-8A81-4BB8BDFB48BD";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "9D71AC34-0747-528E-5D6F-2090BF5445B2";
+	rename -uid "94115AA9-4E2E-8BB6-4B50-4990BD7249AA";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "B3288502-9344-028B-85E8-BEAEFAED93A9";
 	setAttr ".g" yes;
@@ -825,19 +1147,19 @@ createNode script -n "uiConfigurationScriptNode";
 	rename -uid "6C26F61E-6B43-AA30-DC77-C3B216A4B6FB";
 	setAttr ".b" -type "string" (
 		"// Maya Mel UI Configuration File.\n//\n//  This script is machine generated.  Edit at your own risk.\n//\n//\n\nglobal string $gMainPane;\nif (`paneLayout -exists $gMainPane`) {\n\n\tglobal int $gUseScenePanelConfig;\n\tint    $useSceneConfig = $gUseScenePanelConfig;\n\tint    $nodeEditorPanelVisible = stringArrayContains(\"nodeEditorPanel1\", `getPanel -vis`);\n\tint    $nodeEditorWorkspaceControlOpen = (`workspaceControl -exists nodeEditorPanel1Window` && `workspaceControl -q -visible nodeEditorPanel1Window`);\n\tint    $menusOkayInPanels = `optionVar -q allowMenusInPanels`;\n\tint    $nVisPanes = `paneLayout -q -nvp $gMainPane`;\n\tint    $nPanes = 0;\n\tstring $editorName;\n\tstring $panelName;\n\tstring $itemFilterName;\n\tstring $panelConfig;\n\n\t//\n\t//  get current state of the UI\n\t//\n\tsceneUIReplacement -update $gMainPane;\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Top View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Top View\")) -mbv $menusOkayInPanels  $panelName;\n"
-		+ "\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"|top\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n"
+		+ "\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"|top\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n"
 		+ "            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n"
 		+ "            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n"
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Side View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Side View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"|side\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n"
-		+ "            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n"
+		+ "            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n"
 		+ "            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n"
 		+ "            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Front View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Front View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"|front\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n"
-		+ "            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n"
+		+ "            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n"
 		+ "            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n"
 		+ "            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n"
-		+ "            -camera \"|persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n"
+		+ "            -camera \"|persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n"
 		+ "            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n"
-		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 2156\n            -height 1330\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n"
+		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 667\n            -height 794\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n"
 		+ "\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n"
 		+ "            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -showUfeItems 1\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n"
 		+ "            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n"
@@ -860,8 +1182,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"dynRelEdPanel\" (localizedPanelLabel(\"Dynamic Relationships\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Dynamic Relationships\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"relationshipPanel\" (localizedPanelLabel(\"Relationship Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Relationship Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"referenceEditorPanel\" (localizedPanelLabel(\"Reference Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Reference Editor\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"dynPaintScriptedPanelType\" (localizedPanelLabel(\"Paint Effects\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Paint Effects\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"scriptEditorPanel\" (localizedPanelLabel(\"Script Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Script Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"profilerPanel\" (localizedPanelLabel(\"Profiler Tool\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Profiler Tool\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"contentBrowserPanel\" (localizedPanelLabel(\"Content Browser\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Content Browser\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 2156\\n    -height 1330\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 2156\\n    -height 1330\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 667\\n    -height 794\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 667\\n    -height 794\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -901,7 +1223,6 @@ createNode lambert -n "WallWood";
 createNode shadingEngine -n "lambert2SG";
 	rename -uid "21199C6C-444A-6FA8-775B-E1881F15C6C7";
 	setAttr ".ihi" 0;
-	setAttr -s 2 ".dsm";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo4";
 	rename -uid "FC8DB056-D547-AC85-136C-A89EA3091302";
@@ -952,10 +1273,11 @@ createNode materialInfo -n "materialInfo9";
 	rename -uid "E88E76A1-7449-042D-CA49-F7A6CD98DC1B";
 createNode reference -n "DM_ScreenRN";
 	rename -uid "5787928A-4840-6850-C569-70951C79942A";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"DM_ScreenRN"
 		"DM_ScreenRN" 0
-		"DM_ScreenRN" 5
+		"DM_ScreenRN" 13
 		2 "|DM_Screen:DM_Screen" "visibility" " 1"
 		2 "|DM_Screen:DM_Screen" "translate" " -type \"double3\" 0 0 0"
 		2 "|DM_Screen:DM_Screen" "rotatePivot" " -type \"double3\" 0 0.73290860652923584 -0.98387937458071029"
@@ -970,25 +1292,807 @@ createNode reference -n "DM_ScreenRN";
 		+ "000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.1"
 		+ "9352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.01067489400000"
 		+ "0001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001 -0.010674894000000001 -1.5817825000000001e-07 0.19352145000000001"
-		);
+		)
+		2 "DM_Screen:groupParts1" "inputRemoveComponent" " -type \"componentList\" 1 \"f[0:95]\""
+		
+		2 "DM_Screen:groupParts1" "groupId" " 196"
+		3 "|DM_Screen:DM_Screen|DM_Screen:DM_ScreenShape.instObjGroups.objectGroups[0]" 
+		"DM_Screen:lambert6SG.dagSetMembers" "-na"
+		3 "DM_Screen:groupId1.message" "DM_Screen:lambert6SG.groupNodes" "-na"
+		3 "DM_Screen:groupId1.groupId" "|DM_Screen:DM_Screen|DM_Screen:DM_ScreenShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "DM_Screen:lambert6SG.memberWireframeColor" "|DM_Screen:DM_Screen|DM_Screen:DM_ScreenShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "DM_Screen:groupId1.groupId" "DM_Screen:groupParts1.groupId" ""
+		5 3 "DM_ScreenRN" "|DM_Screen:DM_Screen|DM_Screen:DM_ScreenShape.instObjGroups" 
+		"DM_ScreenRN.placeHolderList[1]" "";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "ChairsRN";
 	rename -uid "B35949C2-9E44-5807-F4BC-868AB2449284";
+	setAttr -s 6 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".phl[3]" 0;
+	setAttr ".phl[4]" 0;
+	setAttr ".phl[5]" 0;
+	setAttr ".phl[6]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"ChairsRN"
 		"ChairsRN" 0
-		"ChairsRN" 1
-		2 "|Chairs:Chairs" "visibility" " 1";
+		"ChairsRN" 61
+		2 "|Chairs:Chairs" "visibility" " 1"
+		2 "|Chairs:Chairs|Chairs:Chair1|Chairs:ChairShape1" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Chairs:Chairs|Chairs:Chair2|Chairs:ChairShape2" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Chairs:Chairs|Chairs:Chair3|Chairs:ChairShape3" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Chairs:Chairs|Chairs:Chair4|Chairs:ChairShape4" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Chairs:Chairs|Chairs:Chair5|Chairs:ChairShape5" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Chairs:Chairs|Chairs:Chair6|Chairs:ChairShape6" "instObjGroups.objectGroups" 
+		" -s 2"
+		3 "Chairs:groupId59.groupId" "|Chairs:Chairs|Chairs:Chair4|Chairs:ChairShape4.instObjGroups.objectGroups[2].objectGroupId" 
+		""
+		3 "Chairs:standardSurface3SG.memberWireframeColor" "|Chairs:Chairs|Chairs:Chair4|Chairs:ChairShape4.instObjGroups.objectGroups[2].objectGrpColor" 
+		""
+		3 "Chairs:groupId60.groupId" "|Chairs:Chairs|Chairs:Chair4|Chairs:ChairShape4.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Chairs:standardSurface4SG.memberWireframeColor" "|Chairs:Chairs|Chairs:Chair4|Chairs:ChairShape4.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Chairs:groupId57.groupId" "|Chairs:Chairs|Chairs:Chair3|Chairs:ChairShape3.instObjGroups.objectGroups[2].objectGroupId" 
+		""
+		3 "Chairs:standardSurface3SG.memberWireframeColor" "|Chairs:Chairs|Chairs:Chair3|Chairs:ChairShape3.instObjGroups.objectGroups[2].objectGrpColor" 
+		""
+		3 "Chairs:groupId58.groupId" "|Chairs:Chairs|Chairs:Chair3|Chairs:ChairShape3.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Chairs:standardSurface4SG.memberWireframeColor" "|Chairs:Chairs|Chairs:Chair3|Chairs:ChairShape3.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Chairs:groupId63.groupId" "|Chairs:Chairs|Chairs:Chair6|Chairs:ChairShape6.instObjGroups.objectGroups[2].objectGroupId" 
+		""
+		3 "Chairs:standardSurface3SG.memberWireframeColor" "|Chairs:Chairs|Chairs:Chair6|Chairs:ChairShape6.instObjGroups.objectGroups[2].objectGrpColor" 
+		""
+		3 "Chairs:groupId64.groupId" "|Chairs:Chairs|Chairs:Chair6|Chairs:ChairShape6.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Chairs:standardSurface4SG.memberWireframeColor" "|Chairs:Chairs|Chairs:Chair6|Chairs:ChairShape6.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Chairs:groupId65.groupId" "|Chairs:Chairs|Chairs:Chair1|Chairs:ChairShape1.instObjGroups.objectGroups[2].objectGroupId" 
+		""
+		3 "Chairs:standardSurface3SG.memberWireframeColor" "|Chairs:Chairs|Chairs:Chair1|Chairs:ChairShape1.instObjGroups.objectGroups[2].objectGrpColor" 
+		""
+		3 "Chairs:groupId66.groupId" "|Chairs:Chairs|Chairs:Chair1|Chairs:ChairShape1.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Chairs:standardSurface4SG.memberWireframeColor" "|Chairs:Chairs|Chairs:Chair1|Chairs:ChairShape1.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "|Chairs:Chairs|Chairs:Chair2|Chairs:ChairShape2.instObjGroups.objectGroups[3]" 
+		"Chairs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Chairs:groupId56.message" "Chairs:standardSurface4SG.groupNodes" "-na"
+		
+		3 "|Chairs:Chairs|Chairs:Chair5|Chairs:ChairShape5.instObjGroups.objectGroups[3]" 
+		"Chairs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Chairs:groupId62.message" "Chairs:standardSurface4SG.groupNodes" "-na"
+		
+		3 "|Chairs:Chairs|Chairs:Chair6|Chairs:ChairShape6.instObjGroups.objectGroups[3]" 
+		"Chairs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Chairs:groupId64.message" "Chairs:standardSurface4SG.groupNodes" "-na"
+		
+		3 "|Chairs:Chairs|Chairs:Chair4|Chairs:ChairShape4.instObjGroups.objectGroups[3]" 
+		"Chairs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Chairs:groupId60.message" "Chairs:standardSurface4SG.groupNodes" "-na"
+		
+		3 "|Chairs:Chairs|Chairs:Chair1|Chairs:ChairShape1.instObjGroups.objectGroups[3]" 
+		"Chairs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Chairs:groupId66.message" "Chairs:standardSurface4SG.groupNodes" "-na"
+		
+		3 "|Chairs:Chairs|Chairs:Chair3|Chairs:ChairShape3.instObjGroups.objectGroups[3]" 
+		"Chairs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Chairs:groupId58.message" "Chairs:standardSurface4SG.groupNodes" "-na"
+		
+		3 "Chairs:groupId55.groupId" "|Chairs:Chairs|Chairs:Chair2|Chairs:ChairShape2.instObjGroups.objectGroups[2].objectGroupId" 
+		""
+		3 "Chairs:standardSurface3SG.memberWireframeColor" "|Chairs:Chairs|Chairs:Chair2|Chairs:ChairShape2.instObjGroups.objectGroups[2].objectGrpColor" 
+		""
+		3 "Chairs:groupId56.groupId" "|Chairs:Chairs|Chairs:Chair2|Chairs:ChairShape2.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Chairs:standardSurface4SG.memberWireframeColor" "|Chairs:Chairs|Chairs:Chair2|Chairs:ChairShape2.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "|Chairs:Chairs|Chairs:Chair2|Chairs:ChairShape2.instObjGroups.objectGroups[2]" 
+		"Chairs:standardSurface3SG.dagSetMembers" "-na"
+		3 "Chairs:groupId55.message" "Chairs:standardSurface3SG.groupNodes" "-na"
+		
+		3 "|Chairs:Chairs|Chairs:Chair5|Chairs:ChairShape5.instObjGroups.objectGroups[2]" 
+		"Chairs:standardSurface3SG.dagSetMembers" "-na"
+		3 "Chairs:groupId61.message" "Chairs:standardSurface3SG.groupNodes" "-na"
+		
+		3 "|Chairs:Chairs|Chairs:Chair6|Chairs:ChairShape6.instObjGroups.objectGroups[2]" 
+		"Chairs:standardSurface3SG.dagSetMembers" "-na"
+		3 "Chairs:groupId63.message" "Chairs:standardSurface3SG.groupNodes" "-na"
+		
+		3 "|Chairs:Chairs|Chairs:Chair4|Chairs:ChairShape4.instObjGroups.objectGroups[2]" 
+		"Chairs:standardSurface3SG.dagSetMembers" "-na"
+		3 "Chairs:groupId59.message" "Chairs:standardSurface3SG.groupNodes" "-na"
+		
+		3 "|Chairs:Chairs|Chairs:Chair1|Chairs:ChairShape1.instObjGroups.objectGroups[2]" 
+		"Chairs:standardSurface3SG.dagSetMembers" "-na"
+		3 "Chairs:groupId65.message" "Chairs:standardSurface3SG.groupNodes" "-na"
+		
+		3 "|Chairs:Chairs|Chairs:Chair3|Chairs:ChairShape3.instObjGroups.objectGroups[2]" 
+		"Chairs:standardSurface3SG.dagSetMembers" "-na"
+		3 "Chairs:groupId57.message" "Chairs:standardSurface3SG.groupNodes" "-na"
+		
+		3 "Chairs:groupId61.groupId" "|Chairs:Chairs|Chairs:Chair5|Chairs:ChairShape5.instObjGroups.objectGroups[2].objectGroupId" 
+		""
+		3 "Chairs:standardSurface3SG.memberWireframeColor" "|Chairs:Chairs|Chairs:Chair5|Chairs:ChairShape5.instObjGroups.objectGroups[2].objectGrpColor" 
+		""
+		3 "Chairs:groupId62.groupId" "|Chairs:Chairs|Chairs:Chair5|Chairs:ChairShape5.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Chairs:standardSurface4SG.memberWireframeColor" "|Chairs:Chairs|Chairs:Chair5|Chairs:ChairShape5.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		5 3 "ChairsRN" "|Chairs:Chairs|Chairs:Chair1|Chairs:ChairShape1.instObjGroups" 
+		"ChairsRN.placeHolderList[1]" ""
+		5 3 "ChairsRN" "|Chairs:Chairs|Chairs:Chair2|Chairs:ChairShape2.instObjGroups" 
+		"ChairsRN.placeHolderList[2]" ""
+		5 3 "ChairsRN" "|Chairs:Chairs|Chairs:Chair3|Chairs:ChairShape3.instObjGroups" 
+		"ChairsRN.placeHolderList[3]" ""
+		5 3 "ChairsRN" "|Chairs:Chairs|Chairs:Chair4|Chairs:ChairShape4.instObjGroups" 
+		"ChairsRN.placeHolderList[4]" ""
+		5 3 "ChairsRN" "|Chairs:Chairs|Chairs:Chair5|Chairs:ChairShape5.instObjGroups" 
+		"ChairsRN.placeHolderList[5]" ""
+		5 3 "ChairsRN" "|Chairs:Chairs|Chairs:Chair6|Chairs:ChairShape6.instObjGroups" 
+		"ChairsRN.placeHolderList[6]" "";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "TableRN";
 	rename -uid "74356D78-0540-C6A8-A448-DF9617ED1B1F";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"TableRN"
 		"TableRN" 0
-		"TableRN" 1
-		2 "|Table:Table" "visibility" " 1";
+		"TableRN" 322
+		2 "|Table:Table" "visibility" " 1"
+		2 "|Table:Table|Table:TableShape" "uvPivot" " -type \"double2\" 0.60705882799625399 0.79066314356856848"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints" " -s 317"
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[0]" " -type \"float2\" 0.61162329000000004 0.82725906000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[1]" " -type \"float2\" 0.56982374000000002 0.82022262000000001"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[2]" " -type \"float2\" 0.67729253 0.81959486000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[3]" " -type \"float2\" 0.61162329000000004 0.82359897999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[4]" " -type \"float2\" 0.61438864000000004 0.82725906000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[5]" " -type \"float2\" 0.61474441999999996 0.82760781000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[6]" " -type \"float2\" 0.61503558999999997 0.82725906000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[7]" " -type \"float2\" 0.70204926000000001 0.76599830000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[8]" " -type \"float2\" 0.702398 0.76628940999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[9]" " -type \"float2\" 0.70204926000000001 0.76664524999999994"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[10]" " -type \"float2\" 0.56488824000000004 0.82022262000000001"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[11]" " -type \"float2\" 0.67729253 0.81959486000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[12]" " -type \"float2\" 0.64343488000000004 0.82325488000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[13]" " -type \"float2\" 0.64343488000000004 0.82691490999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[14]" " -type \"float2\" 0.56425314999999998 0.81920201000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[15]" " -type \"float2\" 0.67729253 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[16]" " -type \"float2\" 0.64343488000000004 0.75737387"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[17]" " -type \"float2\" 0.64343488000000004 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[18]" " -type \"float2\" 0.56373357999999996 0.81858962999999996"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[19]" " -type \"float2\" 0.67729253 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[20]" " -type \"float2\" 0.61162329000000004 0.75771796999999996"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[21]" " -type \"float2\" 0.61162329000000004 0.75405794000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[22]" " -type \"float2\" 0.61438864000000004 0.75771796999999996"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[23]" " -type \"float2\" 0.61474441999999996 0.75828980999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[24]" " -type \"float2\" 0.61503558999999997 0.75863296000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[25]" " -type \"float2\" 0.61503558999999997 0.79065847"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[26]" " -type \"float2\" 0.61162329000000004 0.79065847"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[27]" " -type \"float2\" 0.67729253 0.78665428999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[28]" " -type \"float2\" 0.67729253 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[29]" " -type \"float2\" 0.67729253 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[30]" " -type \"float2\" 0.67729253 0.78665428999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[31]" " -type \"float2\" 0.67729253 0.78665428999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[32]" " -type \"float2\" 0.67729253 0.78665428999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[33]" " -type \"float2\" 0.64343488000000004 0.79031437999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[34]" " -type \"float2\" 0.64002258000000001 0.79031437999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[35]" " -type \"float2\" 0.64002258000000001 0.75828874000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[36]" " -type \"float2\" 0.64031373999999996 0.75794572000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[37]" " -type \"float2\" 0.64066951999999999 0.75737387"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[38]" " -type \"float2\" 0.61503558999999997 0.82268405"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[39]" " -type \"float2\" 0.61474441999999996 0.82302719000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[40]" " -type \"float2\" 0.61438864000000004 0.82359897999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[41]" " -type \"float2\" 0.64066951999999999 0.82325488000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[42]" " -type \"float2\" 0.64031373999999996 0.82268304000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[43]" " -type \"float2\" 0.64002258000000001 0.82233995000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[44]" " -type \"float2\" 0.67729253 0.81959486000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[45]" " -type \"float2\" 0.67729253 0.81959486000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[46]" " -type \"float2\" 0.63937569000000005 0.82691490999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[47]" " -type \"float2\" 0.64002258000000001 0.82691490999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[48]" " -type \"float2\" 0.70239335000000003 0.76593124999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[49]" " -type \"float2\" 0.70204926000000001 0.76521735999999996"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[50]" " -type \"float2\" 0.64066951999999999 0.82691490999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[51]" " -type \"float2\" 0.69838917 0.76508337000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[52]" " -type \"float2\" 0.69812118999999995 0.76573031999999996"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[53]" " -type \"float2\" 0.63963210999999998 0.82279742"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[54]" " -type \"float2\" 0.63924164000000006 0.82325488000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[55]" " -type \"float2\" 0.69747424000000002 0.76599830000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[56]" " -type \"float2\" 0.69838917 0.75436073999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[57]" " -type \"float2\" 0.69865716 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[58]" " -type \"float2\" 0.70178127000000001 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[59]" " -type \"float2\" 0.70204926000000001 0.75436073999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[60]" " -type \"float2\" 0.50279945000000004 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[61]" " -type \"float2\" 0.50697946999999999 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[62]" " -type \"float2\" 0.50697946999999999 0.75740874000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[63]" " -type \"float2\" 0.50279945000000004 0.75740874000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[64]" " -type \"float2\" 0.54083705000000004 0.75740874000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[65]" " -type \"float2\" 0.62838512999999996 0.82325488000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[66]" " -type \"float2\" 0.62838512999999996 0.82691490999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[67]" " -type \"float2\" 0.63995564000000005 0.82325488000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[68]" " -type \"float2\" 0.70204926000000001 0.76560782999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[69]" " -type \"float2\" 0.62773811999999996 0.82352287000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[70]" " -type \"float2\" 0.62773811999999996 0.82664698000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[71]" " -type \"float2\" 0.70233279000000004 0.76585798999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[72]" " -type \"float2\" 0.63988233000000005 0.82287180000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[73]" " -type \"float2\" 0.61503558999999997 0.75405794000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[74]" " -type \"float2\" 0.61474448000000004 0.75398922000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[75]" " -type \"float2\" 0.61438864000000004 0.75405794000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[76]" " -type \"float2\" 0.69289928999999995 0.76692157999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[77]" " -type \"float2\" 0.69255047999999997 0.76656574"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[78]" " -type \"float2\" 0.69289928999999995 0.76627462999999996"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[79]" " -type \"float2\" 0.61568254 0.82725906000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[80]" " -type \"float2\" 0.61503558999999997 0.82725906000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[81]" " -type \"float2\" 0.61510259 0.82359897999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[82]" " -type \"float2\" 0.61581646999999995 0.82359897999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[83]" " -type \"float2\" 0.61438864000000004 0.82725906000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[84]" " -type \"float2\" 0.61568254 0.75405794000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[85]" " -type \"float2\" 0.61503558999999997 0.75405794000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[86]" " -type \"float2\" 0.61510259 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[87]" " -type \"float2\" 0.61581646999999995 0.75405794000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[88]" " -type \"float2\" 0.61438864000000004 0.75405794000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[89]" " -type \"float2\" 0.61542606 0.75817548999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[90]" " -type \"float2\" 0.61530351999999999 0.75798600999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[91]" " -type \"float2\" 0.61503558999999997 0.75863296000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[92]" " -type \"float2\" 0.61581646999999995 0.75771796999999996"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[93]" " -type \"float2\" 0.61595051999999995 0.75771796999999996"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[94]" " -type \"float2\" 0.63937569000000005 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[95]" " -type \"float2\" 0.64002258000000001 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[96]" " -type \"float2\" 0.63995564000000005 0.75737387"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[97]" " -type \"float2\" 0.63924164000000006 0.75737387"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[98]" " -type \"float2\" 0.64066951999999999 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[99]" " -type \"float2\" 0.69289928999999995 0.76588416000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[100]" " -type \"float2\" 0.69682728999999999 0.76600665000000001"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[101]" " -type \"float2\" 0.69747424000000002 0.76627462999999996"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[102]" " -type \"float2\" 0.69289928999999995 0.76549369"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[103]" " -type \"float2\" 0.69655931000000004 0.76535969999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[104]" " -type \"float2\" 0.61542606 0.82314151999999996"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[105]" " -type \"float2\" 0.61530351999999999 0.82333106"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[106]" " -type \"float2\" 0.61595051999999995 0.82359897999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[107]" " -type \"float2\" 0.61503558999999997 0.82268405"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[108]" " -type \"float2\" 0.54083705000000004 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[109]" " -type \"float2\" 0.62746179000000002 0.75710588999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[110]" " -type \"float2\" 0.69629132999999999 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[111]" " -type \"float2\" 0.56373357999999996 0.76199764000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[112]" " -type \"float2\" 0.56425314999999998 0.76138525999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[113]" " -type \"float2\" 0.62744248000000002 0.75432593000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[114]" " -type \"float2\" 0.62744248000000002 0.75432593000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[115]" " -type \"float2\" 0.54083705000000004 0.82761240000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[116]" " -type \"float2\" 0.62679552999999999 0.75405794000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[117]" " -type \"float2\" 0.62679552999999999 0.75405794000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[118]" " -type \"float2\" 0.54083705000000004 0.82391751000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[119]" " -type \"float2\" 0.62746179000000002 0.82386696000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[120]" " -type \"float2\" 0.62746179000000002 0.82386696000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[121]" " -type \"float2\" 0.56488824000000004 0.76036471000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[122]" " -type \"float2\" 0.62681483999999998 0.82359897999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[123]" " -type \"float2\" 0.62681483999999998 0.82359897999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[124]" " -type \"float2\" 0.56982374000000002 0.76036471000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[125]" " -type \"float2\" 0.50697946999999999 0.82761240000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[126]" " -type \"float2\" 0.50697946999999999 0.82391751000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[127]" " -type \"float2\" 0.50279945000000004 0.82391751000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[128]" " -type \"float2\" 0.50279945000000004 0.82761240000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[129]" " -type \"float2\" 0.50279945000000004 0.79066312000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[130]" " -type \"float2\" 0.50697946999999999 0.79066312000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[131]" " -type \"float2\" 0.62679552999999999 0.75771796999999996"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[132]" " -type \"float2\" 0.62679552999999999 0.75771796999999996"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[133]" " -type \"float2\" 0.61581646999999995 0.82725906000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[134]" " -type \"float2\" 0.62681483999999998 0.82725906000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[135]" " -type \"float2\" 0.62681483999999998 0.82725906000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[136]" " -type \"float2\" 0.61510259 0.82760321999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[137]" " -type \"float2\" 0.61510259 0.75771796999999996"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[138]" " -type \"float2\" 0.69255513000000002 0.76620763999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[139]" " -type \"float2\" 0.61542606 0.75405794000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[140]" " -type \"float2\" 0.63963210999999998 0.75783133999999996"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[141]" " -type \"float2\" 0.61542606 0.82725906000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[142]" " -type \"float2\" 0.69316727 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[143]" " -type \"float2\" 0.62746179000000002 0.75398177"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[144]" " -type \"float2\" 0.62744248000000002 0.75745004000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[145]" " -type \"float2\" 0.62744248000000002 0.75745004000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[146]" " -type \"float2\" 0.62746179000000002 0.82699107999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[147]" " -type \"float2\" 0.62746179000000002 0.82699107999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[148]" " -type \"float2\" 0.61517584000000003 0.82754183000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[149]" " -type \"float2\" 0.61517321999999997 0.75387358999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[150]" " -type \"float2\" 0.61517566000000001 0.75810087000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[151]" " -type \"float2\" 0.63988233000000005 0.75775694999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[152]" " -type \"float2\" 0.69261563000000004 0.76613438"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[153]" " -type \"float2\" 0.61517566000000001 0.82321613999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[154]" " -type \"float2\" 0.62778533000000003 0.75723987999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[155]" " -type \"float2\" 0.62845885999999995 0.75737387"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[156]" " -type \"float2\" 0.69655931000000004 0.75471085000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[157]" " -type \"float2\" 0.69642537999999998 0.75403732000000001"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[158]" " -type \"float2\" 0.62778533000000003 0.75384777999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[159]" " -type \"float2\" 0.62845885999999995 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[160]" " -type \"float2\" 0.69303322000000001 0.75403732000000001"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[161]" " -type \"float2\" 0.69289928999999995 0.75471085000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[162]" " -type \"float2\" 0.67729253 0.82022262000000001"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[163]" " -type \"float2\" 0.64343488000000004 0.82022262000000001"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[164]" " -type \"float2\" 0.64343488000000004 0.78696816999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[165]" " -type \"float2\" 0.67729253 0.78696816999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[166]" " -type \"float2\" 0.57358569000000004 0.75740874000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[167]" " -type \"float2\" 0.56982374000000002 0.75740874000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[168]" " -type \"float2\" 0.64343488000000004 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[169]" " -type \"float2\" 0.67729253 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[170]" " -type \"float2\" 0.70935881000000001 0.75686770999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[171]" " -type \"float2\" 0.70870571999999998 0.75621455999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[172]" " -type \"float2\" 0.70870571999999998 0.75436692999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[173]" " -type \"float2\" 0.70935881000000001 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[174]" " -type \"float2\" 0.71001196 0.75621455999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[175]" " -type \"float2\" 0.71001196 0.75436692999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[176]" " -type \"float2\" 0.56982374000000002 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[177]" " -type \"float2\" 0.57450931999999999 0.75833236999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[178]" " -type \"float2\" 0.57358569000000004 0.79066312000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[179]" " -type \"float2\" 0.56982374000000002 0.76036471000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[180]" " -type \"float2\" 0.70935881000000001 0.75686770999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[181]" " -type \"float2\" 0.70935881000000001 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[182]" " -type \"float2\" 0.71131818999999996 0.75436692999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[183]" " -type \"float2\" 0.71066505000000002 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[184]" " -type \"float2\" 0.71066505000000002 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[185]" " -type \"float2\" 0.71001196 0.75436692999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[186]" " -type \"float2\" 0.70305108999999999 0.75669956000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[187]" " -type \"float2\" 0.702398 0.75735271000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[188]" " -type \"float2\" 0.702398 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[189]" " -type \"float2\" 0.70305108999999999 0.75436692999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[190]" " -type \"float2\" 0.70620495000000005 0.75669956000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[191]" " -type \"float2\" 0.70555186000000003 0.75735271000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[192]" " -type \"float2\" 0.70555186000000003 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[193]" " -type \"float2\" 0.70620495000000005 0.75436692999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[194]" " -type \"float2\" 0.70805258000000004 0.75436692999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[195]" " -type \"float2\" 0.70805258000000004 0.75669956000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[196]" " -type \"float2\" 0.70489871999999998 0.75436692999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[197]" " -type \"float2\" 0.70489871999999998 0.75669956000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[198]" " -type \"float2\" 0.57450931999999999 0.82299387000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[199]" " -type \"float2\" 0.60651964000000003 0.82299387000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[200]" " -type \"float2\" 0.60651969999999999 0.82761240000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[201]" " -type \"float2\" 0.57450937999999996 0.82761240000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[202]" " -type \"float2\" 0.71001196 0.75621455999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[203]" " -type \"float2\" 0.71131818999999996 0.75621455999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[204]" " -type \"float2\" 0.56982374000000002 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[205]" " -type \"float2\" 0.60744374999999995 0.79066312000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[206]" " -type \"float2\" 0.61162329000000004 0.82299387000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[207]" " -type \"float2\" 0.61162293000000001 0.79066312000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[208]" " -type \"float2\" 0.60651969999999999 0.75833236999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[209]" " -type \"float2\" 0.61162329000000004 0.75833236999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[210]" " -type \"float2\" 0.60651969999999999 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[211]" " -type \"float2\" 0.57450937999999996 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[212]" " -type \"float2\" 0.71066505000000002 0.75686770999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[213]" " -type \"float2\" 0.71066505000000002 0.75686770999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[214]" " -type \"float2\" 0.70555186000000003 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[215]" " -type \"float2\" 0.70555186000000003 0.75735271000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[216]" " -type \"float2\" 0.70870571999999998 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[217]" " -type \"float2\" 0.70870571999999998 0.75735271000000004"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[218]" " -type \"float2\" 0.57358569000000004 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[219]" " -type \"float2\" 0.56982374000000002 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[220]" " -type \"float2\" 0.56982374000000002 0.82761240000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[221]" " -type \"float2\" 0.56982374000000002 0.82391751000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[222]" " -type \"float2\" 0.56257891999999998 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[223]" " -type \"float2\" 0.56373357999999996 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[224]" " -type \"float2\" 0.56361401 0.76036471000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[225]" " -type \"float2\" 0.56233977999999996 0.76036471000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[226]" " -type \"float2\" 0.56488824000000004 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[227]" " -type \"float2\" 0.56210064999999998 0.76036471000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[228]" " -type \"float2\" 0.56325530999999995 0.76084297999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[229]" " -type \"float2\" 0.56303667999999996 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[230]" " -type \"float2\" 0.56233977999999996 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[231]" " -type \"float2\" 0.56373357999999996 0.76199764000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[232]" " -type \"float2\" 0.56373357999999996 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[233]" " -type \"float2\" 0.54133028000000005 0.75873172"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[234]" " -type \"float2\" 0.54133028000000005 0.75873172"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[235]" " -type \"float2\" 0.54133028000000005 0.75534672000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[236]" " -type \"float2\" 0.54133028000000005 0.75534672000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[237]" " -type \"float2\" 0.56373357999999996 0.76036471000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[238]" " -type \"float2\" 0.56373357999999996 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[239]" " -type \"float2\" 0.54296321000000003 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[240]" " -type \"float2\" 0.54296321000000003 0.76036471000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[241]" " -type \"float2\" 0.54296321000000003 0.76036471000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[242]" " -type \"float2\" 0.54296321000000003 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[243]" " -type \"float2\" 0.54180855000000006 0.75988637999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[244]" " -type \"float2\" 0.54180855000000006 0.75419210999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[245]" " -type \"float2\" 0.54180855000000006 0.75988637999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[246]" " -type \"float2\" 0.54180855000000006 0.75419210999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[247]" " -type \"float2\" 0.56373357999999996 0.81858962999999996"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[248]" " -type \"float2\" 0.56425309000000001 0.81920170999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[249]" " -type \"float2\" 0.56488824000000004 0.82022262000000001"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[250]" " -type \"float2\" 0.56982374000000002 0.82022262000000001"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[251]" " -type \"float2\" 0.56488824000000004 0.76036471000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[252]" " -type \"float2\" 0.56425314999999998 0.76138525999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[253]" " -type \"float2\" 0.56373357999999996 0.76199764000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[254]" " -type \"float2\" 0.56257891999999998 0.82761245999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[255]" " -type \"float2\" 0.56373357999999996 0.82761245999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[256]" " -type \"float2\" 0.56361401 0.82022262000000001"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[257]" " -type \"float2\" 0.56233977999999996 0.82022262000000001"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[258]" " -type \"float2\" 0.56488824000000004 0.82761245999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[259]" " -type \"float2\" 0.69255047999999997 0.77334331999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[260]" " -type \"float2\" 0.69255047999999997 0.77404021999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[261]" " -type \"float2\" 0.68468236999999998 0.77425885000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[262]" " -type \"float2\" 0.68516063999999999 0.77310418999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[263]" " -type \"float2\" 0.54083705000000004 0.75534672000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[264]" " -type \"float2\" 0.54131532000000004 0.75419210999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[265]" " -type \"float2\" 0.54131532000000004 0.75988637999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[266]" " -type \"float2\" 0.54083705000000004 0.75873172"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[267]" " -type \"float2\" 0.54158998000000003 0.82713413000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[268]" " -type \"float2\" 0.54274469999999997 0.82761245999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[269]" " -type \"float2\" 0.54274469999999997 0.82022262000000001"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[270]" " -type \"float2\" 0.54158998000000003 0.82070082"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[271]" " -type \"float2\" 0.56488824000000004 0.82761245999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[272]" " -type \"float2\" 0.56982374000000002 0.82761245999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[273]" " -type \"float2\" 0.56982374000000002 0.82761245999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[274]" " -type \"float2\" 0.56488824000000004 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[275]" " -type \"float2\" 0.54083705000000004 0.75873172"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[276]" " -type \"float2\" 0.54083705000000004 0.75534672000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[277]" " -type \"float2\" 0.56373357999999996 0.76199764000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[278]" " -type \"float2\" 0.56373357999999996 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[279]" " -type \"float2\" 0.68468236999999998 0.77422446"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[280]" " -type \"float2\" 0.67729253 0.77446358999999998"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[281]" " -type \"float2\" 0.67729253 0.75486845000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[282]" " -type \"float2\" 0.68468236999999998 0.75486845000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[283]" " -type \"float2\" 0.68516063999999999 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[284]" " -type \"float2\" 0.69255047999999997 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[285]" " -type \"float2\" 0.56233977999999996 0.82022262000000001"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[286]" " -type \"float2\" 0.56257891999999998 0.82761245999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[287]" " -type \"float2\" 0.54271024000000001 0.82761245999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[288]" " -type \"float2\" 0.54271024000000001 0.82022262000000001"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[289]" " -type \"float2\" 0.56373357999999996 0.82761245999999999"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[290]" " -type \"float2\" 0.56361401 0.82022262000000001"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[291]" " -type \"float2\" 0.56373357999999996 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[292]" " -type \"float2\" 0.56361401 0.76036471000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[293]" " -type \"float2\" 0.56257891999999998 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[294]" " -type \"float2\" 0.56233977999999996 0.76036471000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[295]" " -type \"float2\" 0.56233977999999996 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[296]" " -type \"float2\" 0.56303667999999996 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[297]" " -type \"float2\" 0.56325530999999995 0.76084297999999995"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[298]" " -type \"float2\" 0.56210064999999998 0.76036471000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[299]" " -type \"float2\" 0.54131532000000004 0.75988637999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[300]" " -type \"float2\" 0.54131532000000004 0.75419210999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[301]" " -type \"float2\" 0.68420409999999998 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[302]" " -type \"float2\" 0.67777078999999996 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[303]" " -type \"float2\" 0.54155558000000004 0.82070082"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[304]" " -type \"float2\" 0.54155558000000004 0.82713413000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[305]" " -type \"float2\" 0.54189271000000006 0.75395292000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[306]" " -type \"float2\" 0.54309481000000004 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[307]" " -type \"float2\" 0.54309481000000004 0.76036471000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[308]" " -type \"float2\" 0.54189271000000006 0.76012557999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[309]" " -type \"float2\" 0.54309481000000004 0.75371379000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[310]" " -type \"float2\" 0.54189271000000006 0.75395292000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[311]" " -type \"float2\" 0.54189271000000006 0.76012557999999997"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[312]" " -type \"float2\" 0.54309481000000004 0.76036471000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[313]" " -type \"float2\" 0.57358569000000004 0.82391751000000002"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[314]" " -type \"float2\" 0.57358569000000004 0.82761240000000003"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[315]" " -type \"float2\" 0.56982374000000002 0.79066312000000005"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints[316]" " -type \"float2\" 0.57358569000000004 0.79066312000000005"
+		
+		3 "|Table:Table|Table:TableShape.instObjGroups" "Table:standardSurface3SG.dagSetMembers" 
+		"-na"
+		5 3 "TableRN" "|Table:Table|Table:TableShape.instObjGroups" "TableRN.placeHolderList[1]" 
+		"Table:standardSurface3SG.dsm";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode lambert -n "Glass";
@@ -1002,10 +2106,16 @@ createNode materialInfo -n "materialInfo10";
 	rename -uid "E8D1F88E-AF4D-04EB-4DE7-E4B8264F8FEE";
 createNode reference -n "Potion_BottleRN";
 	rename -uid "FCB58734-6347-4AC7-FE6F-FA8EABD8D85C";
+	setAttr -s 3 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".phl[3]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Potion_BottleRN"
 		"Potion_BottleRN" 0
-		"Potion_BottleRN" 6
+		"Potion_BottleRN" 11
+		0 "|Potion_BottleRNfosterParent1|Potion_Bottle1:polySurfaceShape1" "|Potion_Bottle1:Potion_Bottle" 
+		"-s -r "
 		2 "|Potion_Bottle1:Potion_Bottle" "visibility" " 1"
 		2 "|Potion_Bottle1:Potion_Bottle" "translate" " -type \"double3\" 0 0 0"
 		2 "|Potion_Bottle1:Potion_Bottle" "rotatePivot" " -type \"double3\" 0.63714308783369189 0.73290860652923584 -0.79052902055794272"
@@ -1014,41 +2124,970 @@ createNode reference -n "Potion_BottleRN";
 		
 		2 "|Potion_Bottle1:Potion_Bottle|Potion_Bottle1:Potion_BottleShape" "uvPivot" 
 		" -type \"double2\" 0.5 0.5"
-		2 "|Potion_Bottle1:Potion_Bottle|Potion_Bottle1:Potion_BottleShape" "pt[0:89]" 
-		(" -s 90 -type \"float3\" -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.960464499"
-		+ "9999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644"
-		+ "999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.96046"
-		+ "44999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.960"
-		+ "4644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9604644999999993e-08 -0.12258673 -0.032406688000000003 5.9"
-		+ "604644999999993e-08 -0.12258673");
+		2 "|Potion_Bottle1:Potion_Bottle|Potion_Bottle1:Potion_BottleShape" "uvSet[0].uvSetName" 
+		" -type \"string\" \"map1\""
+		3 "|Potion_Bottle1:Potion_Bottle|Potion_Bottle1:Potion_BottleShape.instObjGroups" 
+		"Potion_Bottle1:lambert8SG.dagSetMembers" "-na"
+		5 3 "Potion_BottleRN" "|Potion_Bottle1:Potion_Bottle|Potion_Bottle1:Potion_BottleShape.instObjGroups" 
+		"Potion_BottleRN.placeHolderList[1]" "Potion_Bottle1:lambert8SG.dsm"
+		5 4 "Potion_BottleRN" "|Potion_Bottle1:Potion_Bottle|Potion_Bottle1:Potion_BottleShape.inMesh" 
+		"Potion_BottleRN.placeHolderList[2]" ""
+		5 3 "Potion_BottleRN" "|Potion_Bottle1:Potion_Bottle|Potion_Bottle1:Potion_BottleShape.worldMatrix" 
+		"Potion_BottleRN.placeHolderList[3]" "";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "BookshelfRN1";
 	rename -uid "9EEE56F2-2943-9BEC-941F-7BBEBF6EE902";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"BookshelfRN1"
 		"BookshelfRN1" 0
-		"BookshelfRN1" 1
-		2 "|Bookshelf2:Bookshelf" "translate" " -type \"double3\" 0.027164885165017694 0 0";
+		"BookshelfRN1" 3
+		2 "|Bookshelf2:Bookshelf" "translate" " -type \"double3\" 0.027164885165017694 0 0"
+		
+		3 "|Bookshelf2:Bookshelf|Bookshelf2:BookshelfShape.instObjGroups" "Bookshelf2:lambert7SG.dagSetMembers" 
+		"-na"
+		5 3 "BookshelfRN1" "|Bookshelf2:Bookshelf|Bookshelf2:BookshelfShape.instObjGroups" 
+		"BookshelfRN1.placeHolderList[1]" "Bookshelf2:lambert7SG.dsm";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "Mounted_SwordRN";
 	rename -uid "95F94F3C-7B47-0322-72F4-FA8852402D86";
+	setAttr -s 9 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".phl[3]" 0;
+	setAttr ".phl[4]" 0;
+	setAttr ".phl[5]" 0;
+	setAttr ".phl[6]" 0;
+	setAttr ".phl[7]" 0;
+	setAttr ".phl[8]" 0;
+	setAttr ".phl[9]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Mounted_SwordRN"
 		"Mounted_SwordRN" 0
-		"Mounted_SwordRN" 2
+		"Mounted_SwordRN" 441
 		2 "|Mounted_Sword:Mounted_Sword" "translate" " -type \"double3\" -2.19003655681637754 0.99546247335204852 2.18540255166574715"
 		
-		2 "|Mounted_Sword:Mounted_Sword" "scale" " -type \"double3\" 0.15129768536135965 0.15129768536135965 0.15129768536135965";
+		2 "|Mounted_Sword:Mounted_Sword" "scale" " -type \"double3\" 0.15129768536135965 0.15129768536135965 0.15129768536135965"
+		
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"uvPivot" " -type \"double2\" 0.11275252160236282 0.17403931012924978"
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"uvSet[0].uvSetName" " -type \"string\" \"map1\""
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"pnts" " -s 12"
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"pnts[0]" " -type \"float3\" 0 0 0"
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"pnts[1]" " -type \"float3\" 0 0 0"
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"pnts[2]" " -type \"float3\" 0 0 0"
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"pnts[3]" " -type \"float3\" 0 0 0"
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"pnts[4]" " -type \"float3\" 0 0 0"
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"pnts[5]" " -type \"float3\" -4.4703483999999995e-08 0 0"
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"pnts[14]" " -type \"float3\" -4.4703483999999995e-08 0 0"
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"pnts[24]" " -type \"float3\" 0 0 0"
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"pnts[26]" " -type \"float3\" -4.4703483999999995e-08 0 0"
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"pnts[27]" " -type \"float3\" -4.4703483999999995e-08 0 0"
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"pnts[49]" " -type \"float3\" -4.4703483999999995e-08 0 0"
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape" 
+		"pnts[50]" " -type \"float3\" -4.4703483999999995e-08 0 0"
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Handle|Mounted_Sword:HandleShape" 
+		"uvPivot" " -type \"double2\" 0.13687487906275997 0.12663213295095105"
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Handle|Mounted_Sword:HandleShape" 
+		"uvSet[0].uvSetName" " -type \"string\" \"map1\""
+		2 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape" 
+		"uvPivot" " -type \"double2\" 0.79062085718527708 0.99735412799260192"
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak" " -s 406"
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[0]" " -type \"float2\" -0.41020941999999999 0.51255989000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[1]" " -type \"float2\" -0.46121275 0.50765711000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[2]" " -type \"float2\" -0.46121287 0.47552609000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[3]" " -type \"float2\" -0.41020953999999998 0.48521015000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[4]" " -type \"float2\" -0.49766564000000002 0.50252216999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[5]" " -type \"float2\" -0.49766564000000002 0.46552196000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[6]" " -type \"float2\" -0.52592658999999997 0.45849377000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[7]" " -type \"float2\" 0.27954342999999998 0.49755830000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[8]" " -type \"float2\" 0.2795434 0.45600230000000003"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[9]" " -type \"float2\" 0.25474814000000001 0.49886543"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[10]" " -type \"float2\" 0.25474814000000001 0.45849380000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[11]" " -type \"float2\" 0.22648729000000001 0.50252222999999996"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[12]" " -type \"float2\" 0.22648726 0.46552199"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[13]" " -type \"float2\" 0.19003439999999999 0.50765722999999996"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[14]" " -type \"float2\" 0.19003443 0.47552612"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[15]" " -type \"float2\" 0.13903103999999999 0.51255989000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[16]" " -type \"float2\" 0.13903107000000001 0.48521020999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[17]" " -type \"float2\" 0.071976817999999998 0.51469922000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[18]" " -type \"float2\" 0.071976967000000003 0.48947221000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[19]" " -type \"float2\" 0.0049227252999999999 0.51255989000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[20]" " -type \"float2\" 0.0049228147 0.48521015000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[21]" " -type \"float2\" -0.046080484999999997 0.50765711000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[22]" " -type \"float2\" -0.046080454999999999 0.47552605999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[23]" " -type \"float2\" -0.082533255 0.50252216999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[24]" " -type \"float2\" -0.082533166000000005 0.46552189999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[25]" " -type \"float2\" -0.11079408 0.49886536999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[26]" " -type \"float2\" -0.11079401999999999 0.45849371"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[27]" " -type \"float2\" -0.13558925999999999 0.49755821"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[28]" " -type \"float2\" -0.13558925999999999 0.45600224"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[29]" " -type \"float2\" -0.16038457 0.49886536999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[30]" " -type \"float2\" -0.16038451000000001 0.45849371"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[31]" " -type \"float2\" -0.18864538 0.50252216999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[32]" " -type \"float2\" -0.18864538 0.46552189999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[33]" " -type \"float2\" -0.22509809 0.50765711000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[34]" " -type \"float2\" -0.22509815 0.47552602999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[35]" " -type \"float2\" -0.27610135000000002 0.51255976999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[36]" " -type \"float2\" -0.27610135000000002 0.48521012000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[37]" " -type \"float2\" -0.34315526000000002 0.51469922000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[38]" " -type \"float2\" -0.34315538000000001 0.48947217999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[39]" " -type \"float2\" -0.46121287 0.44204052999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[40]" " -type \"float2\" -0.41020965999999998 0.45621949000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[41]" " -type \"float2\" -0.49766564000000002 0.42772925000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[42]" " -type \"float2\" -0.52592658999999997 0.41789567"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[43]" " -type \"float2\" 0.2795434 0.41445509000000003"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[44]" " -type \"float2\" 0.25474811000000003 0.41789567"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[45]" " -type \"float2\" 0.22648726 0.42772934000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[46]" " -type \"float2\" 0.19003445999999999 0.44204059000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[47]" " -type \"float2\" 0.13903109999999999 0.45621951999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[48]" " -type \"float2\" 0.071976937000000005 0.46255276000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[49]" " -type \"float2\" 0.0049228743000000004 0.45621951999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[50]" " -type \"float2\" -0.046080425000000001 0.44204052999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[51]" " -type \"float2\" -0.082533166000000005 0.42772922000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[52]" " -type \"float2\" -0.11079398999999999 0.41789562000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[53]" " -type \"float2\" -0.13558925999999999 0.41445503"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[54]" " -type \"float2\" -0.16038451000000001 0.41789562000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[55]" " -type \"float2\" -0.18864538 0.42772922000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[56]" " -type \"float2\" -0.22509815 0.44204052999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[57]" " -type \"float2\" -0.27610135000000002 0.45621951999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[58]" " -type \"float2\" -0.3431555 0.46255273000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[59]" " -type \"float2\" -0.46121287 0.40649369000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[60]" " -type \"float2\" -0.41020965999999998 0.42462090000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[61]" " -type \"float2\" -0.49766564000000002 0.38878914999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[62]" " -type \"float2\" -0.52592658999999997 0.37698155999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[63]" " -type \"float2\" 0.2795434 0.37292013000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[64]" " -type \"float2\" 0.25474811000000003 0.37698155999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[65]" " -type \"float2\" 0.22648726 0.38878921"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[66]" " -type \"float2\" 0.19003445999999999 0.40649374999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[67]" " -type \"float2\" 0.13903109999999999 0.42462098999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[68]" " -type \"float2\" 0.071976997000000001 0.43289643999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[69]" " -type \"float2\" 0.0049229041000000001 0.42462095999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[70]" " -type \"float2\" -0.046080396000000003 0.40649369000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[71]" " -type \"float2\" -0.082533196000000003 0.38878911999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[72]" " -type \"float2\" -0.11079398999999999 0.37698153000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[73]" " -type \"float2\" -0.13558925999999999 0.37292013000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[74]" " -type \"float2\" -0.16038451000000001 0.37698153000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[75]" " -type \"float2\" -0.18864538 0.38878911999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[76]" " -type \"float2\" -0.22509815 0.40649369000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[77]" " -type \"float2\" -0.27610135000000002 0.42462093000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[78]" " -type \"float2\" -0.3431555 0.43289641000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[79]" " -type \"float2\" -0.46121287 0.36817601"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[80]" " -type \"float2\" -0.41020965999999998 0.38928938000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[81]" " -type \"float2\" -0.49766564000000002 0.34840828000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[82]" " -type \"float2\" -0.52592658999999997 0.33568959999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[83]" " -type \"float2\" 0.2795434 0.33139934999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[84]" " -type \"float2\" 0.25474811000000003 0.33568963000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[85]" " -type \"float2\" 0.22648729000000001 0.34840833999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[86]" " -type \"float2\" 0.19003445999999999 0.36817610000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[87]" " -type \"float2\" 0.13903109999999999 0.38928947000000003"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[88]" " -type \"float2\" 0.071976997000000001 0.39921879999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[89]" " -type \"float2\" 0.0049229041000000001 0.38928941"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[90]" " -type \"float2\" -0.046080365999999998 0.36817603999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[91]" " -type \"float2\" -0.082533196000000003 0.34840828000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[92]" " -type \"float2\" -0.11079398999999999 0.33568959999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[93]" " -type \"float2\" -0.13558925999999999 0.33139932"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[94]" " -type \"float2\" -0.16038451000000001 0.33568959999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[95]" " -type \"float2\" -0.18864538 0.34840831"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[96]" " -type \"float2\" -0.22509815 0.36817603999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[97]" " -type \"float2\" -0.27610135000000002 0.38928941"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[98]" " -type \"float2\" -0.3431555 0.39921877"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[99]" " -type \"float2\" -0.46121287 0.32644188000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[100]" " -type \"float2\" -0.41020965999999998 0.34895542000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[101]" " -type \"float2\" -0.49766576000000001 0.30639407000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[102]" " -type \"float2\" -0.52592658999999997 0.29399305999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[103]" " -type \"float2\" 0.27954337000000001 0.28989359999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[104]" " -type \"float2\" 0.25474811000000003 0.29399309000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[105]" " -type \"float2\" 0.22648729000000001 0.30639412999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[106]" " -type \"float2\" 0.19003445999999999 0.32644197000000003"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[107]" " -type \"float2\" 0.13903113 0.34895545"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[108]" " -type \"float2\" 0.071976997000000001 0.35995144000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[109]" " -type \"float2\" 0.0049229041000000001 0.34895547999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[110]" " -type \"float2\" -0.046080365999999998 0.32644191"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[111]" " -type \"float2\" -0.082533196000000003 0.30639407000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[112]" " -type \"float2\" -0.11079398999999999 0.29399305999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[113]" " -type \"float2\" -0.13558925999999999 0.28989359999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[114]" " -type \"float2\" -0.16038451000000001 0.29399305999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[115]" " -type \"float2\" -0.18864538 0.30639407000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[116]" " -type \"float2\" -0.22509815 0.32644191"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[117]" " -type \"float2\" -0.27610135000000002 0.34895545"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[118]" " -type \"float2\" -0.3431555 0.35995141000000003"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[119]" " -type \"float2\" -0.46121298999999999 0.28084698000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[120]" " -type \"float2\" -0.41020965999999998 0.30236042000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[121]" " -type \"float2\" -0.49766576000000001 0.26270017000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[122]" " -type \"float2\" -0.52592658999999997 0.25190418999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[123]" " -type \"float2\" 0.27954337000000001 0.24840212"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[124]" " -type \"float2\" 0.25474811000000003 0.25190418999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[125]" " -type \"float2\" 0.22648729000000001 0.26270010999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[126]" " -type \"float2\" 0.19003443 0.28084703999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[127]" " -type \"float2\" 0.13903113 0.30236053000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[128]" " -type \"float2\" 0.071976997000000001 0.31334466"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[129]" " -type \"float2\" 0.0049229041000000001 0.30236047999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[130]" " -type \"float2\" -0.046080365999999998 0.28084701000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[131]" " -type \"float2\" -0.082533196000000003 0.26270010999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[132]" " -type \"float2\" -0.11079398999999999 0.25190418999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[133]" " -type \"float2\" -0.13558925999999999 0.24840212"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[134]" " -type \"float2\" -0.16038451000000001 0.25190418999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[135]" " -type \"float2\" -0.18864538 0.26270010999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[136]" " -type \"float2\" -0.22509815 0.28084701000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[137]" " -type \"float2\" -0.27610135000000002 0.30236047999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[138]" " -type \"float2\" -0.3431555 0.31334466"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[139]" " -type \"float2\" -0.46121298999999999 0.23136478999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[140]" " -type \"float2\" -0.41020965999999998 0.24870127"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[141]" " -type \"float2\" -0.49766564000000002 0.21746889"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[142]" " -type \"float2\" -0.52592658999999997 0.20947582000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[143]" " -type \"float2\" 0.27954337000000001 0.20692277000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[144]" " -type \"float2\" 0.25474811000000003 0.20947584999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[145]" " -type \"float2\" 0.22648726 0.21746892000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[146]" " -type \"float2\" 0.19003445999999999 0.23136482"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[147]" " -type \"float2\" 0.13903113 0.24870133"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[148]" " -type \"float2\" 0.071976997000000001 0.25796439999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[149]" " -type \"float2\" 0.0049229041000000001 0.24870129999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[150]" " -type \"float2\" -0.046080365999999998 0.23136478999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[151]" " -type \"float2\" -0.082533196000000003 0.21746889"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[152]" " -type \"float2\" -0.11079398999999999 0.20947584999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[153]" " -type \"float2\" -0.13558925999999999 0.20692277000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[154]" " -type \"float2\" -0.16038451000000001 0.20947584999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[155]" " -type \"float2\" -0.18864538 0.21746889"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[156]" " -type \"float2\" -0.22509815 0.23136478999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[157]" " -type \"float2\" -0.27610135000000002 0.24870129999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[158]" " -type \"float2\" -0.3431555 0.25796437"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[159]" " -type \"float2\" -0.46121298999999999 0.17862082000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[160]" " -type \"float2\" -0.41020965999999998 0.18842569000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[161]" " -type \"float2\" -0.49766576000000001 0.17105168000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[162]" " -type \"float2\" -0.52592658999999997 0.16679725000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[163]" " -type \"float2\" 0.27954337000000001 0.16545212000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[164]" " -type \"float2\" 0.25474811000000003 0.16679725000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[165]" " -type \"float2\" 0.22648729000000001 0.17105168000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[166]" " -type \"float2\" 0.19003445999999999 0.17862085"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[167]" " -type \"float2\" 0.13903113 0.18842571999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[168]" " -type \"float2\" 0.071976997000000001 0.19385669"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[169]" " -type \"float2\" 0.0049229041000000001 0.18842571999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[170]" " -type \"float2\" -0.046080365999999998 0.17862085"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[171]" " -type \"float2\" -0.082533166000000005 0.17105168000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[172]" " -type \"float2\" -0.11079398999999999 0.16679725000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[173]" " -type \"float2\" -0.13558925999999999 0.16545212000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[174]" " -type \"float2\" -0.16038451000000001 0.16679725000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[175]" " -type \"float2\" -0.18864538 0.17105168000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[176]" " -type \"float2\" -0.22509815 0.17862085"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[177]" " -type \"float2\" -0.27610135000000002 0.18842569000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[178]" " -type \"float2\" -0.3431555 0.19385669"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[179]" " -type \"float2\" -0.46121298999999999 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[180]" " -type \"float2\" -0.41020965999999998 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[181]" " -type \"float2\" -0.49766576000000001 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[182]" " -type \"float2\" -0.52592658999999997 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[183]" " -type \"float2\" 0.27954337000000001 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[184]" " -type \"float2\" 0.25474811000000003 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[185]" " -type \"float2\" 0.22648729000000001 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[186]" " -type \"float2\" 0.19003445999999999 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[187]" " -type \"float2\" 0.13903113 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[188]" " -type \"float2\" 0.071976997000000001 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[189]" " -type \"float2\" 0.0049229041000000001 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[190]" " -type \"float2\" -0.046080365999999998 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[191]" " -type \"float2\" -0.082533166000000005 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[192]" " -type \"float2\" -0.11079398999999999 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[193]" " -type \"float2\" -0.13558925999999999 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[194]" " -type \"float2\" -0.16038451000000001 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[195]" " -type \"float2\" -0.18864538 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[196]" " -type \"float2\" -0.22509815 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[197]" " -type \"float2\" -0.27610135000000002 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[198]" " -type \"float2\" -0.3431555 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[199]" " -type \"float2\" -0.46121298999999999 0.069351703000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[200]" " -type \"float2\" -0.41020965999999998 0.059546843000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[201]" " -type \"float2\" -0.49766576000000001 0.076920837000000006"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[202]" " -type \"float2\" -0.52592658999999997 0.081175283000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[203]" " -type \"float2\" 0.27954337000000001 0.082520395999999996"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[204]" " -type \"float2\" 0.25474811000000003 0.081175283000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[205]" " -type \"float2\" 0.22648729000000001 0.076920837000000006"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[206]" " -type \"float2\" 0.19003445999999999 0.069351703000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[207]" " -type \"float2\" 0.13903113 0.059546843000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[208]" " -type \"float2\" 0.071976997000000001 0.054115847000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[209]" " -type \"float2\" 0.0049229041000000001 0.059546843000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[210]" " -type \"float2\" -0.046080365999999998 0.069351703000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[211]" " -type \"float2\" -0.082533166000000005 0.076920837000000006"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[212]" " -type \"float2\" -0.11079398999999999 0.081175283000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[213]" " -type \"float2\" -0.13558925999999999 0.082520395999999996"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[214]" " -type \"float2\" -0.16038451000000001 0.081175283000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[215]" " -type \"float2\" -0.18864538 0.076920837000000006"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[216]" " -type \"float2\" -0.22509815 0.069351703000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[217]" " -type \"float2\" -0.27610135000000002 0.059546843000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[218]" " -type \"float2\" -0.3431555 0.054115847000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[219]" " -type \"float2\" -0.46121298999999999 0.016607732"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[220]" " -type \"float2\" -0.41020965999999998 -0.00072875619"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[221]" " -type \"float2\" -0.49766564000000002 0.030503704999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[222]" " -type \"float2\" -0.52592658999999997 0.038496747999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[223]" " -type \"float2\" 0.27954337000000001 0.041049793000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[224]" " -type \"float2\" 0.25474811000000003 0.038496747999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[225]" " -type \"float2\" 0.22648726 0.030503645999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[226]" " -type \"float2\" 0.19003445999999999 0.016607732"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[227]" " -type \"float2\" 0.13903113 -0.00072881579000000005"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[228]" " -type \"float2\" 0.071976997000000001 -0.0099919437999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[229]" " -type \"float2\" 0.0049229041000000001 -0.00072881579000000005"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[230]" " -type \"float2\" -0.046080365999999998 0.016607732"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[231]" " -type \"float2\" -0.082533196000000003 0.030503704999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[232]" " -type \"float2\" -0.11079398999999999 0.038496747999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[233]" " -type \"float2\" -0.13558925999999999 0.041049793000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[234]" " -type \"float2\" -0.16038451000000001 0.038496747999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[235]" " -type \"float2\" -0.18864538 0.030503704999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[236]" " -type \"float2\" -0.22509815 0.016607732"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[237]" " -type \"float2\" -0.27610135000000002 -0.00072881579000000005"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[238]" " -type \"float2\" -0.3431555 -0.0099919437999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[239]" " -type \"float2\" -0.46121298999999999 -0.032874494999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[240]" " -type \"float2\" -0.41020965999999998 -0.054387838000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[241]" " -type \"float2\" -0.49766576000000001 -0.014727532999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[242]" " -type \"float2\" -0.52592658999999997 -0.0039317012000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[243]" " -type \"float2\" 0.27954337000000001 -0.00042955576999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[244]" " -type \"float2\" 0.25474811000000003 -0.0039317012000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[245]" " -type \"float2\" 0.22648729000000001 -0.014727591999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[246]" " -type \"float2\" 0.19003443 -0.032874494999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[247]" " -type \"float2\" 0.13903113 -0.054387957000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[248]" " -type \"float2\" 0.071976997000000001 -0.065372138999999996"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[249]" " -type \"float2\" 0.0049229041000000001 -0.054387957000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[250]" " -type \"float2\" -0.046080365999999998 -0.032874494999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[251]" " -type \"float2\" -0.082533196000000003 -0.014727591999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[252]" " -type \"float2\" -0.11079398999999999 -0.0039317012000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[253]" " -type \"float2\" -0.13558925999999999 -0.00042955576999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[254]" " -type \"float2\" -0.16038451000000001 -0.0039317012000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[255]" " -type \"float2\" -0.18864538 -0.014727591999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[256]" " -type \"float2\" -0.22509815 -0.032874494999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[257]" " -type \"float2\" -0.27610135000000002 -0.054387957000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[258]" " -type \"float2\" -0.3431555 -0.065372138999999996"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[259]" " -type \"float2\" -0.46121287 -0.078469306000000003"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[260]" " -type \"float2\" -0.41020965999999998 -0.10098284"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[261]" " -type \"float2\" -0.49766576000000001 -0.058421521999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[262]" " -type \"float2\" -0.52592658999999997 -0.046020418"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[263]" " -type \"float2\" 0.27954337000000001 -0.041921049000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[264]" " -type \"float2\" 0.25474811000000003 -0.046020418"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[265]" " -type \"float2\" 0.22648729000000001 -0.058421642000000003"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[266]" " -type \"float2\" 0.19003445999999999 -0.078469424999999995"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[267]" " -type \"float2\" 0.13903113 -0.1009829"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[268]" " -type \"float2\" 0.071976997000000001 -0.11197889"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[269]" " -type \"float2\" 0.0049229041000000001 -0.10098284"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[270]" " -type \"float2\" -0.046080365999999998 -0.078469306000000003"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[271]" " -type \"float2\" -0.082533196000000003 -0.058421521999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[272]" " -type \"float2\" -0.11079398999999999 -0.046020418"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[273]" " -type \"float2\" -0.13558925999999999 -0.041921049000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[274]" " -type \"float2\" -0.16038451000000001 -0.046020418"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[275]" " -type \"float2\" -0.18864538 -0.058421521999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[276]" " -type \"float2\" -0.22509815 -0.078469306000000003"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[277]" " -type \"float2\" -0.27610135000000002 -0.10098284"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[278]" " -type \"float2\" -0.3431555 -0.11197883"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[279]" " -type \"float2\" -0.46121287 -0.12020343999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[280]" " -type \"float2\" -0.41020965999999998 -0.14131695"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[281]" " -type \"float2\" -0.49766564000000002 -0.10043579"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[282]" " -type \"float2\" -0.52592658999999997 -0.087717056000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[283]" " -type \"float2\" 0.2795434 -0.083426893000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[284]" " -type \"float2\" 0.25474811000000003 -0.087717115999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[285]" " -type \"float2\" 0.22648729000000001 -0.10043573"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[286]" " -type \"float2\" 0.19003445999999999 -0.1202035"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[287]" " -type \"float2\" 0.13903109999999999 -0.14131689"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[288]" " -type \"float2\" 0.071976997000000001 -0.15124636999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[289]" " -type \"float2\" 0.0049229041000000001 -0.14131695"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[290]" " -type \"float2\" -0.046080365999999998 -0.12020343999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[291]" " -type \"float2\" -0.082533196000000003 -0.10043579"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[292]" " -type \"float2\" -0.11079398999999999 -0.087717056000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[293]" " -type \"float2\" -0.13558925999999999 -0.083426713999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[294]" " -type \"float2\" -0.16038451000000001 -0.087717056000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[295]" " -type \"float2\" -0.18864538 -0.10043579"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[296]" " -type \"float2\" -0.22509815 -0.12020343999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[297]" " -type \"float2\" -0.27610135000000002 -0.14131695"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[298]" " -type \"float2\" -0.3431555 -0.15124619"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[299]" " -type \"float2\" -0.46121287 -0.15852123000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[300]" " -type \"float2\" -0.41020965999999998 -0.17664841000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[301]" " -type \"float2\" -0.49766564000000002 -0.14081657"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[302]" " -type \"float2\" -0.52592658999999997 -0.12900907"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[303]" " -type \"float2\" 0.2795434 -0.12494761"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[304]" " -type \"float2\" 0.25474811000000003 -0.12900907"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[305]" " -type \"float2\" 0.22648726 -0.14081674999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[306]" " -type \"float2\" 0.19003445999999999 -0.15852118000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[307]" " -type \"float2\" 0.13903109999999999 -0.17664841000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[308]" " -type \"float2\" 0.071976997000000001 -0.18492391999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[309]" " -type \"float2\" 0.0049229041000000001 -0.17664841000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[310]" " -type \"float2\" -0.046080396000000003 -0.15852123000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[311]" " -type \"float2\" -0.082533196000000003 -0.14081663"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[312]" " -type \"float2\" -0.11079398999999999 -0.12900907"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[313]" " -type \"float2\" -0.13558925999999999 -0.12494761"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[314]" " -type \"float2\" -0.16038451000000001 -0.12900907"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[315]" " -type \"float2\" -0.18864538 -0.14081663"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[316]" " -type \"float2\" -0.22509815 -0.15852123000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[317]" " -type \"float2\" -0.27610135000000002 -0.17664841000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[318]" " -type \"float2\" -0.3431555 -0.18492391999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[319]" " -type \"float2\" -0.46121287 -0.19406798"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[320]" " -type \"float2\" -0.41020965999999998 -0.20824698"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[321]" " -type \"float2\" -0.49766564000000002 -0.17975667000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[322]" " -type \"float2\" -0.52592658999999997 -0.16992309999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[323]" " -type \"float2\" 0.2795434 -0.16648260000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[324]" " -type \"float2\" 0.25474811000000003 -0.16992309999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[325]" " -type \"float2\" 0.22648726 -0.17975667000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[326]" " -type \"float2\" 0.19003445999999999 -0.19406809999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[327]" " -type \"float2\" 0.13903109999999999 -0.20824698"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[328]" " -type \"float2\" 0.071976937000000005 -0.21458020999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[329]" " -type \"float2\" 0.0049228743000000004 -0.20824698"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[330]" " -type \"float2\" -0.046080425000000001 -0.19406798"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[331]" " -type \"float2\" -0.082533166000000005 -0.17975667000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[332]" " -type \"float2\" -0.11079398999999999 -0.16992309999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[333]" " -type \"float2\" -0.13558925999999999 -0.16648247999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[334]" " -type \"float2\" -0.16038451000000001 -0.16992309999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[335]" " -type \"float2\" -0.18864538 -0.17975667000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[336]" " -type \"float2\" -0.22509815 -0.19406798"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[337]" " -type \"float2\" -0.27610135000000002 -0.20824698"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[338]" " -type \"float2\" -0.3431555 -0.21458020999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[339]" " -type \"float2\" -0.46121287 -0.22755352000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[340]" " -type \"float2\" -0.41020953999999998 -0.23723759999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[341]" " -type \"float2\" -0.49766564000000002 -0.21754935"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[342]" " -type \"float2\" -0.52592658999999997 -0.21052124999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[343]" " -type \"float2\" 0.2795434 -0.20802978"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[344]" " -type \"float2\" 0.25474814000000001 -0.21052124999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[345]" " -type \"float2\" 0.22648726 -0.21754946999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[346]" " -type \"float2\" 0.19003443 -0.22755364"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[347]" " -type \"float2\" 0.13903107000000001 -0.23723759999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[348]" " -type \"float2\" 0.071976967000000003 -0.24149968999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[349]" " -type \"float2\" 0.0049228147 -0.23723759999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[350]" " -type \"float2\" -0.046080454999999999 -0.22755352000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[351]" " -type \"float2\" -0.082533166000000005 -0.21754935"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[352]" " -type \"float2\" -0.11079401999999999 -0.21052113"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[353]" " -type \"float2\" -0.13558925999999999 -0.20802966000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[354]" " -type \"float2\" -0.16038451000000001 -0.21052113"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[355]" " -type \"float2\" -0.18864538 -0.21754935"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[356]" " -type \"float2\" -0.22509815 -0.22755352000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[357]" " -type \"float2\" -0.27610135000000002 -0.23723748"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[358]" " -type \"float2\" -0.34315538000000001 -0.24149957"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[359]" " -type \"float2\" -0.46121275 -0.25968458999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[360]" " -type \"float2\" -0.41020941999999999 -0.26458731000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[361]" " -type \"float2\" -0.49766564000000002 -0.25454965000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[362]" " -type \"float2\" -0.52592647000000003 -0.25089291000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[363]" " -type \"float2\" 0.27954342999999998 -0.24958565999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[364]" " -type \"float2\" 0.25474814000000001 -0.25089291000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[365]" " -type \"float2\" 0.22648729000000001 -0.25454965000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[366]" " -type \"float2\" 0.19003439999999999 -0.25968458999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[367]" " -type \"float2\" 0.13903103999999999 -0.26458731000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[368]" " -type \"float2\" 0.071976817999999998 -0.26672676000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[369]" " -type \"float2\" 0.0049227252999999999 -0.26458731000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[370]" " -type \"float2\" -0.046080484999999997 -0.25968458999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[371]" " -type \"float2\" -0.082533255 -0.25454965000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[372]" " -type \"float2\" -0.11079408 -0.25089278999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[373]" " -type \"float2\" -0.13558925999999999 -0.24958565999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[374]" " -type \"float2\" -0.16038457 -0.25089278999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[375]" " -type \"float2\" -0.18864538 -0.25454965000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[376]" " -type \"float2\" -0.22509809 -0.25968458999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[377]" " -type \"float2\" -0.27610135000000002 -0.26458719000000003"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[378]" " -type \"float2\" -0.34315526000000002 -0.26672664000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[379]" " -type \"float2\" -0.19146551000000001 0.53911889000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[380]" " -type \"float2\" -0.19146551000000001 -0.29114631000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[381]" " -type \"float2\" -0.55072175999999995 0.45600230000000003"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[382]" " -type \"float2\" -0.55072175999999995 0.41445509000000003"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[383]" " -type \"float2\" -0.55072175999999995 0.37292013000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[384]" " -type \"float2\" -0.55072175999999995 0.33139934999999998"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[385]" " -type \"float2\" -0.55072188 0.28989359999999997"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[386]" " -type \"float2\" -0.55072188 0.24840212"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[387]" " -type \"float2\" -0.55072188 0.20692277000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[388]" " -type \"float2\" -0.55072188 0.16545212000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[389]" " -type \"float2\" -0.55072188 0.12398629999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[390]" " -type \"float2\" -0.55072188 0.082520395999999996"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[391]" " -type \"float2\" -0.55072188 0.041049793000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[392]" " -type \"float2\" -0.55072188 -0.00042955576999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[393]" " -type \"float2\" -0.55072188 -0.041921049000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[394]" " -type \"float2\" -0.55072175999999995 -0.083426893000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[395]" " -type \"float2\" -0.55072175999999995 -0.12494761"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[396]" " -type \"float2\" -0.55072175999999995 -0.16648260000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[397]" " -type \"float2\" -0.55072175999999995 -0.20802978"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[398]" " -type \"float2\" -0.52592647000000003 0.49886543"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[399]" " -type \"float2\" -0.55072175999999995 0.49755830000000001"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[400]" " -type \"float2\" -0.57551717999999996 0.49886543"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[401]" " -type \"float2\" -0.603778 0.50252222999999996"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[402]" " -type \"float2\" -0.55072175999999995 -0.24958565999999999"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[403]" " -type \"float2\" -0.57551717999999996 -0.25089291000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[404]" " -type \"float2\" -0.603778 -0.25454965000000002"
+		
+		2 "Mounted_Sword:polyTweakUV1" "uvTweak[405]" " -type \"float2\" -0.64023089 -0.25968458999999999"
+		
+		3 "Mounted_Sword:polyAutoProj2.output" "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape.inMesh" 
+		""
+		3 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Handle|Mounted_Sword:HandleShape.instObjGroups" 
+		"Mounted_Sword:lambert3SG.dagSetMembers" "-na"
+		3 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape.instObjGroups" 
+		"Mounted_Sword:lambert2SG.dagSetMembers" "-na"
+		3 "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape.instObjGroups" 
+		"Mounted_Sword:lambert2SG.dagSetMembers" "-na"
+		3 "Mounted_Sword:polyMapSew1.output" "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Handle|Mounted_Sword:HandleShape.inMesh" 
+		""
+		5 4 "Mounted_SwordRN" "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape.inMesh" 
+		"Mounted_SwordRN.placeHolderList[1]" ""
+		5 3 "Mounted_SwordRN" "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape.instObjGroups" 
+		"Mounted_SwordRN.placeHolderList[2]" "Mounted_Sword:lambert2SG.dsm"
+		5 4 "Mounted_SwordRN" "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Blade|Mounted_Sword:BladeShape.uvSet[0].uvSetTweakLocation" 
+		"Mounted_SwordRN.placeHolderList[3]" ""
+		5 4 "Mounted_SwordRN" "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Handle|Mounted_Sword:HandleShape.inMesh" 
+		"Mounted_SwordRN.placeHolderList[4]" ""
+		5 3 "Mounted_SwordRN" "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Handle|Mounted_Sword:HandleShape.instObjGroups" 
+		"Mounted_SwordRN.placeHolderList[5]" "Mounted_Sword:lambert3SG.dsm"
+		5 4 "Mounted_SwordRN" "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Handle|Mounted_Sword:HandleShape.uvSet[0].uvSetTweakLocation" 
+		"Mounted_SwordRN.placeHolderList[6]" ""
+		5 3 "Mounted_SwordRN" "|Mounted_Sword:Mounted_Sword|Mounted_Sword:Pommel|Mounted_Sword:PommelShape.instObjGroups" 
+		"Mounted_SwordRN.placeHolderList[7]" "Mounted_Sword:lambert2SG.dsm"
+		5 3 "Mounted_SwordRN" "Mounted_Sword:polyAutoProj2.output" "Mounted_SwordRN.placeHolderList[8]" 
+		"Mounted_Sword:BladeShape.i"
+		5 3 "Mounted_SwordRN" "Mounted_Sword:polyMapSew1.output" "Mounted_SwordRN.placeHolderList[9]" 
+		"Mounted_Sword:HandleShape.i";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "ShelfsRN";
 	rename -uid "483B1127-544C-3984-01BD-57A15F020A12";
+	setAttr -s 31 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".phl[3]" 0;
+	setAttr ".phl[4]" 0;
+	setAttr ".phl[5]" 0;
+	setAttr ".phl[6]" 0;
+	setAttr ".phl[7]" 0;
+	setAttr ".phl[8]" 0;
+	setAttr ".phl[9]" 0;
+	setAttr ".phl[10]" 0;
+	setAttr ".phl[11]" 0;
+	setAttr ".phl[12]" 0;
+	setAttr ".phl[13]" 0;
+	setAttr ".phl[14]" 0;
+	setAttr ".phl[15]" 0;
+	setAttr ".phl[16]" 0;
+	setAttr ".phl[17]" 0;
+	setAttr ".phl[18]" 0;
+	setAttr ".phl[19]" 0;
+	setAttr ".phl[20]" 0;
+	setAttr ".phl[21]" 0;
+	setAttr ".phl[22]" 0;
+	setAttr ".phl[23]" 0;
+	setAttr ".phl[24]" 0;
+	setAttr ".phl[25]" 0;
+	setAttr ".phl[26]" 0;
+	setAttr ".phl[27]" 0;
+	setAttr ".phl[28]" 0;
+	setAttr ".phl[29]" 0;
+	setAttr ".phl[30]" 0;
+	setAttr ".phl[31]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"ShelfsRN"
 		"ShelfsRN" 0
-		"ShelfsRN" 2828
+		"ShelfsRN" 471
 		2 "|Shelfs:Shelfs" "translate" " -type \"double3\" 0 0 0"
 		2 "|Shelfs:Shelfs" "rotatePivot" " -type \"double3\" -2.38376575512151589 1.75784081046633345 0"
 		
@@ -1062,3268 +3101,202 @@ createNode reference -n "ShelfsRN";
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1" "scalePivot" " -type \"double3\" -2.38376575617730913 1.53049397294573408 0.59292349219322205"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts" " -s 88"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[0]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[1]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[2]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[3]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[4]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[5]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[6]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[7]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[8]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[9]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[10]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[11]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[12]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[13]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[14]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[15]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[16]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[17]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[18]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[19]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[20]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[21]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[22]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[23]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[24]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[25]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[26]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[27]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[28]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[29]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[30]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[31]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[32]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[33]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[34]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[35]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[36]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[37]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[38]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[39]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[40]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[41]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[42]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[43]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[44]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[45]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[46]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[47]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[48]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[49]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[50]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[51]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[52]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[53]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[54]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[55]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[56]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[57]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[58]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[59]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[60]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[61]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[62]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[63]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[64]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[65]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[66]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[67]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[68]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[69]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[70]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[71]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[72]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[73]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[74]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[75]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[76]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[77]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[78]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[79]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[80]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[81]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[82]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[83]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[84]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[85]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[86]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pnts[87]" 
-		" -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.00834018090000"
+		+ "00007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999"
+		+ "999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027"
+		+ " -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.008340180900"
+		+ "0000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.0040871500999999999 0.0083401809000000007 -0.016565027 -0.00408715009999"
+		+ "99999")
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2" "rotatePivot" " -type \"double3\" -2.38378815397431554 1.42531549628223608 0.59292355179786682"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2" "scalePivot" " -type \"double3\" -2.38378815397431554 1.42531549628223608 0.59292355179786682"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts" " -s 88"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351"
+		+ " -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.121743"
+		+ "51 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.1217"
+		+ "4351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12"
+		+ "174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004 0.0083177835000000002 -0.12174351 -0.0040870905000000004"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3" "rotatePivot" " -type \"double3\" -2.38378815397431554 1.32049587195940576 0.59292355179786682"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3" "scalePivot" " -type \"double3\" -2.38378815397431554 1.32049587195940576 0.59292355179786682"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts" " -s 88"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313"
+		+ " -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.226563"
+		+ "13 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.2265"
+		+ "6313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22"
+		+ "656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004 0.0083177835000000002 -0.22656313 -0.0040870905000000004"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19" "rotatePivot" " -type \"double3\" -2.38378815397431554 1.4901266466925045 0.28220170326207317"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19" "scalePivot" " -type \"double3\" -2.38378815397431554 1.4901266466925045 0.28220170326207317"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.040358487999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.14517814000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -0.48443973000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -0.58925939000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -0.48443973000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -0.58925939000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.040358487999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.14517814000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -0.48443973000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.040358487999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.14517814000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -0.58925939000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090070999999998 -0.13469610000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -0.57877743000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -0.57877743000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -0.57877743000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -0.13469607"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -0.13469607"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599698 -0.049792383000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -0.49387347999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -0.49387347999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -0.49387347999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -0.049792352999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -0.049792352999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -0.47879760999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -0.47879760999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -0.56370156999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -0.56370156999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -0.064868033000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -0.14977198999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -0.064868033000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -0.14977198999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -0.53632544999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -0.53632544999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -0.092244215000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -0.092244215000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -0.1073199"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -0.1073199"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -0.52124959000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -0.52124959000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -0.55755138000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -0.55755138000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -0.11347014"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -0.11347014"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -0.12854605999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -0.12854605999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -0.54247551999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -0.54247551999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -0.071018286"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -0.51509941000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -0.51509941000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -0.50002354000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -0.50002354000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -0.086093970000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -0.086093970000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -0.071018286"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -0.060405318"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -0.50448643999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -0.50448643999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -0.48941057999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -0.48941057999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -0.075481005000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -0.075481005000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -0.060405318"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -0.52571248999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -0.52571248999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -0.081631251000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -0.081631251000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -0.096706933999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -0.096706933999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -0.51063663000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -0.51063663000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -0.54693842000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -0.54693842000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -0.53186255999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -0.53186255999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -0.1179331"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -0.1179331"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -0.10285718000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -0.10285718000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -0.56816447000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -0.56816447000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -0.12408311"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -0.12408311"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -0.13915901999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -0.13915901999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -0.55308860999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -0.55308860999999998"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 -0.22656314 -0.040358487999999998 0.0083177835000000002 -0.33138281000000003 -0.14517814000000001 0.0083177835000000002 0.21751810999999999 -0.48443973000000001 0.0083177835000000002 0.11269845000000001 -0.58925939000000005 0.0083177835000000002 0.21751810999999999 -0.48443973000000001 0.0083177835000000002 0.11269845000000001 -0.58925939000000005 0.0083177835000000002 -0.22656314 -0.040358487999999998 0.0083177835000000002 -0.33138281000000003 -0.14517814000000001 0.0083177835000000002 0.21751810999999999 -0.48443973000000001 0.0083177835000000002 -0.22656314 -0.040358487999999998 0.0083177835000000002 -0.33138281000000003 -0.14517814000000001 0.0083177835000000002 0.11269845000000001 -0.58925939000000005 0.0083177835000000002 -0.32090070999999998 -0.13469610000000001 0.0083177835000000002 0.1231804 -0.57877743000000004 0.0083177835000000002 0.1231804 -0.57877743000000004 0.0083177835000000002 0.1231804 -0.57877743000000004 0.0083177835000000002 -0.3209007400000000"
+		+ "2 -0.13469607 0.0083177835000000002 -0.32090074000000002 -0.13469607 0.0083177835000000002 -0.23599698 -0.049792383000000003 0.0083177835000000002 0.20808436 -0.49387347999999998 0.0083177835000000002 0.20808436 -0.49387347999999998 0.0083177835000000002 0.20808436 -0.49387347999999998 0.0083177835000000002 -0.23599701000000001 -0.049792352999999998 0.0083177835000000002 -0.23599701000000001 -0.049792352999999998 0.0083177835000000002 0.1930085 -0.47879760999999998 0.0083177835000000002 0.1930085 -0.47879760999999998 0.0083177835000000002 0.10810453 -0.56370156999999999 0.0083177835000000002 0.10810453 -0.56370156999999999 0.0083177835000000002 -0.22092107999999999 -0.064868033000000005 0.0083177835000000002 -0.30582504999999999 -0.14977198999999999 0.0083177835000000002 -0.22092107999999999 -0.064868033000000005 0.0083177835000000002 -0.30582504999999999 -0.14977198999999999 0.0083177835000000002 0.16563238 -0.53632544999999998 0.0083177835000000002 0.16563238 -0.53632544999999998 0.0083177835000000002 -0.27"
+		+ "844888000000001 -0.092244215000000004 0.0083177835000000002 -0.27844888000000001 -0.092244215000000004 0.0083177835000000002 -0.26337295999999999 -0.1073199 0.0083177835000000002 -0.26337295999999999 -0.1073199 0.0083177835000000002 0.15055652 -0.52124959000000004 0.0083177835000000002 0.15055652 -0.52124959000000004 0.0083177835000000002 0.14440644999999999 -0.55755138000000004 0.0083177835000000002 0.14440644999999999 -0.55755138000000004 0.0083177835000000002 -0.29967481000000001 -0.11347014 0.0083177835000000002 -0.29967481000000001 -0.11347014 0.0083177835000000002 -0.28459912999999998 -0.12854605999999999 0.0083177835000000002 -0.28459912999999998 -0.12854605999999999 0.0083177835000000002 0.12933059 -0.54247551999999999 0.0083177835000000002 0.12933059 -0.54247551999999999 0.0083177835000000002 -0.25722295000000001 -0.071018286 0.0083177835000000002 0.18685842999999999 -0.51509941000000004 0.0083177835000000002 0.18685842999999999 -0.51509941000000004 0.0083177835000000002 0.17178257 -0.500023540000000"
+		+ "04 0.0083177835000000002 0.17178257 -0.50002354000000004 0.0083177835000000002 -0.24214701 -0.086093970000000006 0.0083177835000000002 -0.24214701 -0.086093970000000006 0.0083177835000000002 -0.25722295000000001 -0.071018286 0.0083177835000000002 -0.24660997000000001 -0.060405318 0.0083177835000000002 0.19747139999999999 -0.50448643999999998 0.0083177835000000002 0.19747139999999999 -0.50448643999999998 0.0083177835000000002 0.18239553 -0.48941057999999998 0.0083177835000000002 0.18239553 -0.48941057999999998 0.0083177835000000002 -0.23153404999999999 -0.075481005000000004 0.0083177835000000002 -0.23153404999999999 -0.075481005000000004 0.0083177835000000002 -0.24660997000000001 -0.060405318 0.0083177835000000002 0.17624535 -0.52571248999999998 0.0083177835000000002 0.17624535 -0.52571248999999998 0.0083177835000000002 -0.26783592000000001 -0.081631251000000002 0.0083177835000000002 -0.26783592000000001 -0.081631251000000002 0.0083177835000000002 -0.25275998999999999 -0.096706933999999994 0.008317783500000000"
+		+ "2 -0.25275998999999999 -0.096706933999999994 0.0083177835000000002 0.16116948 -0.51063663000000004 0.0083177835000000002 0.16116948 -0.51063663000000004 0.0083177835000000002 0.15501941999999999 -0.54693842000000004 0.0083177835000000002 0.15501941999999999 -0.54693842000000004 0.0083177835000000002 0.13994355 -0.53186255999999998 0.0083177835000000002 0.13994355 -0.53186255999999998 0.0083177835000000002 -0.27398615999999998 -0.1179331 0.0083177835000000002 -0.27398615999999998 -0.1179331 0.0083177835000000002 -0.28906184000000001 -0.10285718000000001 0.0083177835000000002 -0.28906184000000001 -0.10285718000000001 0.0083177835000000002 0.13379336999999999 -0.56816447000000003 0.0083177835000000002 0.13379336999999999 -0.56816447000000003 0.0083177835000000002 -0.31028777000000002 -0.12408311 0.0083177835000000002 -0.31028777000000002 -0.12408311 0.0083177835000000002 -0.29521208999999998 -0.13915901999999999 0.0083177835000000002 -0.29521208999999998 -0.13915901999999999 0.0083177835000000002 0.11871751 -0.5"
+		+ "5308860999999998 0.0083177835000000002 0.11871751 -0.55308860999999998")
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20" "rotatePivot" " -type \"double3\" -2.38378815397431554 1.49012664669249872 0.17738207893924374"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20" "scalePivot" " -type \"double3\" -2.38378815397431554 1.49012664669249872 0.17738207893924374"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.14517811"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.24999776000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -0.58925939000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -0.69407903999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -0.58925939000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -0.69407903999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.14517811"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.24999776000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -0.58925939000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.14517811"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.24999776000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -0.69407903999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090070999999998 -0.23951571999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -0.68359709000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -0.68359709000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -0.68359709000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -0.23951569"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -0.23951569"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599698 -0.154612"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -0.59869313000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -0.59869313000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -0.59869313000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -0.15461196999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -0.15461196999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -0.58361726999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -0.58361726999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -0.66852122999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -0.66852122999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -0.16968765999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -0.25459161000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -0.16968765999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -0.25459161000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -0.64114510999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -0.64114510999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -0.19706383"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -0.19706383"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -0.21213952"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -0.21213952"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -0.62606925000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -0.62606925000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -0.66237104000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -0.66237104000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -0.21828976"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -0.21828976"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -0.23336567999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -0.23336567999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -0.64729517999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -0.64729517999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -0.17583789999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -0.61991905999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -0.61991905999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -0.60484320000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -0.60484320000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -0.19091358999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -0.19091358999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -0.17583789999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -0.16522493999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -0.60930609999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -0.60930609999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -0.59423022999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -0.59423022999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -0.18030061999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -0.18030061999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -0.16522493999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -0.63053214999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -0.63053214999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -0.18645086999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -0.18645086999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -0.20152655"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -0.20152655"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -0.61545627999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -0.61545627999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -0.65175806999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -0.65175806999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -0.63668221000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -0.63668221000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -0.22275271999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -0.22275271999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -0.20767679999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -0.20767679999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -0.67298411999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -0.67298411999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -0.22890273"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -0.22890273"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -0.24397864999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -0.24397864999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -0.65790826000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -0.65790826000000002"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 -0.22656314 -0.14517811 0.0083177835000000002 -0.33138281000000003 -0.24999776000000001 0.0083177835000000002 0.21751810999999999 -0.58925939000000005 0.0083177835000000002 0.11269845000000001 -0.69407903999999998 0.0083177835000000002 0.21751810999999999 -0.58925939000000005 0.0083177835000000002 0.11269845000000001 -0.69407903999999998 0.0083177835000000002 -0.22656314 -0.14517811 0.0083177835000000002 -0.33138281000000003 -0.24999776000000001 0.0083177835000000002 0.21751810999999999 -0.58925939000000005 0.0083177835000000002 -0.22656314 -0.14517811 0.0083177835000000002 -0.33138281000000003 -0.24999776000000001 0.0083177835000000002 0.11269845000000001 -0.69407903999999998 0.0083177835000000002 -0.32090070999999998 -0.23951571999999999 0.0083177835000000002 0.1231804 -0.68359709000000002 0.0083177835000000002 0.1231804 -0.68359709000000002 0.0083177835000000002 0.1231804 -0.68359709000000002 0.0083177835000000002 -0.32090074000000002 -0.23951569 0.00831778350000"
+		+ "00002 -0.32090074000000002 -0.23951569 0.0083177835000000002 -0.23599698 -0.154612 0.0083177835000000002 0.20808436 -0.59869313000000002 0.0083177835000000002 0.20808436 -0.59869313000000002 0.0083177835000000002 0.20808436 -0.59869313000000002 0.0083177835000000002 -0.23599701000000001 -0.15461196999999999 0.0083177835000000002 -0.23599701000000001 -0.15461196999999999 0.0083177835000000002 0.1930085 -0.58361726999999997 0.0083177835000000002 0.1930085 -0.58361726999999997 0.0083177835000000002 0.10810453 -0.66852122999999997 0.0083177835000000002 0.10810453 -0.66852122999999997 0.0083177835000000002 -0.22092107999999999 -0.16968765999999999 0.0083177835000000002 -0.30582504999999999 -0.25459161000000002 0.0083177835000000002 -0.22092107999999999 -0.16968765999999999 0.0083177835000000002 -0.30582504999999999 -0.25459161000000002 0.0083177835000000002 0.16563238 -0.64114510999999996 0.0083177835000000002 0.16563238 -0.64114510999999996 0.0083177835000000002 -0.27844888000000001 -0.19706383 0.0083177835000000"
+		+ "002 -0.27844888000000001 -0.19706383 0.0083177835000000002 -0.26337295999999999 -0.21213952 0.0083177835000000002 -0.26337295999999999 -0.21213952 0.0083177835000000002 0.15055652 -0.62606925000000002 0.0083177835000000002 0.15055652 -0.62606925000000002 0.0083177835000000002 0.14440644999999999 -0.66237104000000002 0.0083177835000000002 0.14440644999999999 -0.66237104000000002 0.0083177835000000002 -0.29967481000000001 -0.21828976 0.0083177835000000002 -0.29967481000000001 -0.21828976 0.0083177835000000002 -0.28459912999999998 -0.23336567999999999 0.0083177835000000002 -0.28459912999999998 -0.23336567999999999 0.0083177835000000002 0.12933059 -0.64729517999999997 0.0083177835000000002 0.12933059 -0.64729517999999997 0.0083177835000000002 -0.25722295000000001 -0.17583789999999999 0.0083177835000000002 0.18685842999999999 -0.61991905999999997 0.0083177835000000002 0.18685842999999999 -0.61991905999999997 0.0083177835000000002 0.17178257 -0.60484320000000003 0.0083177835000000002 0.17178257 -0.60484320000000003"
+		+ " 0.0083177835000000002 -0.24214701 -0.19091358999999999 0.0083177835000000002 -0.24214701 -0.19091358999999999 0.0083177835000000002 -0.25722295000000001 -0.17583789999999999 0.0083177835000000002 -0.24660997000000001 -0.16522493999999999 0.0083177835000000002 0.19747139999999999 -0.60930609999999996 0.0083177835000000002 0.19747139999999999 -0.60930609999999996 0.0083177835000000002 0.18239553 -0.59423022999999997 0.0083177835000000002 0.18239553 -0.59423022999999997 0.0083177835000000002 -0.23153404999999999 -0.18030061999999999 0.0083177835000000002 -0.23153404999999999 -0.18030061999999999 0.0083177835000000002 -0.24660997000000001 -0.16522493999999999 0.0083177835000000002 0.17624535 -0.63053214999999996 0.0083177835000000002 0.17624535 -0.63053214999999996 0.0083177835000000002 -0.26783592000000001 -0.18645086999999999 0.0083177835000000002 -0.26783592000000001 -0.18645086999999999 0.0083177835000000002 -0.25275998999999999 -0.20152655 0.0083177835000000002 -0.25275998999999999 -0.20152655 0.00831778350"
+		+ "00000002 0.16116948 -0.61545627999999997 0.0083177835000000002 0.16116948 -0.61545627999999997 0.0083177835000000002 0.15501941999999999 -0.65175806999999997 0.0083177835000000002 0.15501941999999999 -0.65175806999999997 0.0083177835000000002 0.13994355 -0.63668221000000003 0.0083177835000000002 0.13994355 -0.63668221000000003 0.0083177835000000002 -0.27398615999999998 -0.22275271999999999 0.0083177835000000002 -0.27398615999999998 -0.22275271999999999 0.0083177835000000002 -0.28906184000000001 -0.20767679999999999 0.0083177835000000002 -0.28906184000000001 -0.20767679999999999 0.0083177835000000002 0.13379336999999999 -0.67298411999999996 0.0083177835000000002 0.13379336999999999 -0.67298411999999996 0.0083177835000000002 -0.31028777000000002 -0.22890273 0.0083177835000000002 -0.31028777000000002 -0.22890273 0.0083177835000000002 -0.29521208999999998 -0.24397864999999999 0.0083177835000000002 -0.29521208999999998 -0.24397864999999999 0.0083177835000000002 0.11871751 -0.65790826000000002 0.0083177835000000002"
+		+ " 0.11871751 -0.65790826000000002")
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18" "rotatePivot" " -type \"double3\" -2.38376575617730913 1.49012658708785617 0.072203602275740408"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18" "scalePivot" " -type \"double3\" -2.38376575617730913 1.49012658708785617 0.072203602275740408"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[0]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -0.25035658"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[1]" 
-		" -type \"float3\" 0.0083401809000000007 -0.33138287 -0.35517623999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[2]" 
-		" -type \"float3\" 0.0083401809000000007 0.21751804999999999 -0.69443785999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[3]" 
-		" -type \"float3\" 0.0083401809000000007 0.11269839 -0.79925752000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[4]" 
-		" -type \"float3\" 0.0083401809000000007 0.21751804999999999 -0.69443785999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[5]" 
-		" -type \"float3\" 0.0083401809000000007 0.11269839 -0.79925752000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[6]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -0.25035658"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[7]" 
-		" -type \"float3\" 0.0083401809000000007 -0.33138287 -0.35517623999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[8]" 
-		" -type \"float3\" 0.0083401809000000007 0.21751804999999999 -0.69443785999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[9]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -0.25035658"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[10]" 
-		" -type \"float3\" 0.0083401809000000007 -0.33138287 -0.35517623999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[11]" 
-		" -type \"float3\" 0.0083401809000000007 0.11269839 -0.79925752000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[12]" 
-		" -type \"float3\" 0.0083401809000000007 -0.32090077 -0.34469420000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[13]" 
-		" -type \"float3\" 0.0083401809000000007 0.12318034 -0.78877556000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[14]" 
-		" -type \"float3\" 0.0083401809000000007 0.12318034 -0.78877556000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[15]" 
-		" -type \"float3\" 0.0083401809000000007 0.12318034 -0.78877556000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[16]" 
-		" -type \"float3\" 0.0083401809000000007 -0.32090079999999999 -0.34469417000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[17]" 
-		" -type \"float3\" 0.0083401809000000007 -0.32090079999999999 -0.34469417000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[18]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23599703999999999 -0.25979047999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[19]" 
-		" -type \"float3\" 0.0083401809000000007 0.2080843 -0.70387160999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[20]" 
-		" -type \"float3\" 0.0083401809000000007 0.2080843 -0.70387160999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[21]" 
-		" -type \"float3\" 0.0083401809000000007 0.2080843 -0.70387160999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[22]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23599707 -0.25979045000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[23]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23599707 -0.25979045000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[24]" 
-		" -type \"float3\" 0.0083401809000000007 0.19300844 -0.68879575000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[25]" 
-		" -type \"float3\" 0.0083401809000000007 0.19300844 -0.68879575000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[26]" 
-		" -type \"float3\" 0.0083401809000000007 0.10810446999999999 -0.77369969999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[27]" 
-		" -type \"float3\" 0.0083401809000000007 0.10810446999999999 -0.77369969999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[28]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22092113999999999 -0.27486612999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[29]" 
-		" -type \"float3\" 0.0083401809000000007 -0.30582511000000001 -0.35977008999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[30]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22092113999999999 -0.27486612999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[31]" 
-		" -type \"float3\" 0.0083401809000000007 -0.30582511000000001 -0.35977008999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[32]" 
-		" -type \"float3\" 0.0083401809000000007 0.16563232 -0.74632359000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[33]" 
-		" -type \"float3\" 0.0083401809000000007 0.16563232 -0.74632359000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[34]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27844893999999998 -0.30224231000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[35]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27844893999999998 -0.30224231000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[36]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26337302000000001 -0.31731798999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[37]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26337302000000001 -0.31731798999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[38]" 
-		" -type \"float3\" 0.0083401809000000007 0.15055646 -0.73124772000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[39]" 
-		" -type \"float3\" 0.0083401809000000007 0.15055646 -0.73124772000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[40]" 
-		" -type \"float3\" 0.0083401809000000007 0.14440639 -0.76754951000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[41]" 
-		" -type \"float3\" 0.0083401809000000007 0.14440639 -0.76754951000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[42]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29967486999999998 -0.32346824000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[43]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29967486999999998 -0.32346824000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[44]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28459918000000001 -0.33854415999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[45]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28459918000000001 -0.33854415999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[46]" 
-		" -type \"float3\" 0.0083401809000000007 0.12933053 -0.75247364999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[47]" 
-		" -type \"float3\" 0.0083401809000000007 0.12933053 -0.75247364999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[48]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25722300999999997 -0.28101638000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[49]" 
-		" -type \"float3\" 0.0083401809000000007 0.18685837 -0.72509754000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[50]" 
-		" -type \"float3\" 0.0083401809000000007 0.18685837 -0.72509754000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[51]" 
-		" -type \"float3\" 0.0083401809000000007 0.17178251 -0.71002167000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[52]" 
-		" -type \"float3\" 0.0083401809000000007 0.17178251 -0.71002167000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[53]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24214706999999999 -0.29609205999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[54]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24214706999999999 -0.29609205999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[55]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25722300999999997 -0.28101638000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[56]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24661003000000001 -0.27040341000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[57]" 
-		" -type \"float3\" 0.0083401809000000007 0.19747134 -0.71448456999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[58]" 
-		" -type \"float3\" 0.0083401809000000007 0.19747134 -0.71448456999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[59]" 
-		" -type \"float3\" 0.0083401809000000007 0.18239547 -0.69940871000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[60]" 
-		" -type \"float3\" 0.0083401809000000007 0.18239547 -0.69940871000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[61]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23153410999999999 -0.28547909999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[62]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23153410999999999 -0.28547909999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[63]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24661003000000001 -0.27040341000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[64]" 
-		" -type \"float3\" 0.0083401809000000007 0.17624529 -0.73571061999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[65]" 
-		" -type \"float3\" 0.0083401809000000007 0.17624529 -0.73571061999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[66]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26783596999999998 -0.29162934000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[67]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26783596999999998 -0.29162934000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[68]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25276005000000001 -0.30670502999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[69]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25276005000000001 -0.30670502999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[70]" 
-		" -type \"float3\" 0.0083401809000000007 0.16116942000000001 -0.72063476000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[71]" 
-		" -type \"float3\" 0.0083401809000000007 0.16116942000000001 -0.72063476000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[72]" 
-		" -type \"float3\" 0.0083401809000000007 0.15501935999999999 -0.75693655000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[73]" 
-		" -type \"float3\" 0.0083401809000000007 0.15501935999999999 -0.75693655000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[74]" 
-		" -type \"float3\" 0.0083401809000000007 0.1399435 -0.74186068999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[75]" 
-		" -type \"float3\" 0.0083401809000000007 0.1399435 -0.74186068999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[76]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27398622 -0.32793119999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[77]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27398622 -0.32793119999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[78]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28906189999999998 -0.31285527000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[79]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28906189999999998 -0.31285527000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[80]" 
-		" -type \"float3\" 0.0083401809000000007 0.13379331 -0.77816260000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[81]" 
-		" -type \"float3\" 0.0083401809000000007 0.13379331 -0.77816260000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[82]" 
-		" -type \"float3\" 0.0083401809000000007 -0.31028782999999999 -0.33408120000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[83]" 
-		" -type \"float3\" 0.0083401809000000007 -0.31028782999999999 -0.33408120000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[84]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29521215000000001 -0.34915711999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[85]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29521215000000001 -0.34915711999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[86]" 
-		" -type \"float3\" 0.0083401809000000007 0.11871745 -0.76308673999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pnts[87]" 
-		" -type \"float3\" 0.0083401809000000007 0.11871745 -0.76308673999999999"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -0.25035658 0.0083401809000000007 -0.33138287 -0.35517623999999998 0.0083401809000000007 0.21751804999999999 -0.69443785999999996 0.0083401809000000007 0.11269839 -0.79925752000000005 0.0083401809000000007 0.21751804999999999 -0.69443785999999996 0.0083401809000000007 0.11269839 -0.79925752000000005 0.0083401809000000007 -0.22656319999999999 -0.25035658 0.0083401809000000007 -0.33138287 -0.35517623999999998 0.0083401809000000007 0.21751804999999999 -0.69443785999999996 0.0083401809000000007 -0.22656319999999999 -0.25035658 0.0083401809000000007 -0.33138287 -0.35517623999999998 0.0083401809000000007 0.11269839 -0.79925752000000005 0.0083401809000000007 -0.32090077 -0.34469420000000001 0.0083401809000000007 0.12318034 -0.78877556000000004 0.0083401809000000007 0.12318034 -0.78877556000000004 0.0083401809000000007 0.12318034 -0.78877556000000004 0.0083401809000000007 -0.32090079999999999 -0.34469417000000002 0.0083401809000000007 -0.320900799999999"
+		+ "99 -0.34469417000000002 0.0083401809000000007 -0.23599703999999999 -0.25979047999999999 0.0083401809000000007 0.2080843 -0.70387160999999998 0.0083401809000000007 0.2080843 -0.70387160999999998 0.0083401809000000007 0.2080843 -0.70387160999999998 0.0083401809000000007 -0.23599707 -0.25979045000000001 0.0083401809000000007 -0.23599707 -0.25979045000000001 0.0083401809000000007 0.19300844 -0.68879575000000004 0.0083401809000000007 0.19300844 -0.68879575000000004 0.0083401809000000007 0.10810446999999999 -0.77369969999999999 0.0083401809000000007 0.10810446999999999 -0.77369969999999999 0.0083401809000000007 -0.22092113999999999 -0.27486612999999999 0.0083401809000000007 -0.30582511000000001 -0.35977008999999999 0.0083401809000000007 -0.22092113999999999 -0.27486612999999999 0.0083401809000000007 -0.30582511000000001 -0.35977008999999999 0.0083401809000000007 0.16563232 -0.74632359000000004 0.0083401809000000007 0.16563232 -0.74632359000000004 0.0083401809000000007 -0.27844893999999998 -0.30224231000000001 0.008"
+		+ "3401809000000007 -0.27844893999999998 -0.30224231000000001 0.0083401809000000007 -0.26337302000000001 -0.31731798999999999 0.0083401809000000007 -0.26337302000000001 -0.31731798999999999 0.0083401809000000007 0.15055646 -0.73124772000000005 0.0083401809000000007 0.15055646 -0.73124772000000005 0.0083401809000000007 0.14440639 -0.76754951000000005 0.0083401809000000007 0.14440639 -0.76754951000000005 0.0083401809000000007 -0.29967486999999998 -0.32346824000000002 0.0083401809000000007 -0.29967486999999998 -0.32346824000000002 0.0083401809000000007 -0.28459918000000001 -0.33854415999999998 0.0083401809000000007 -0.28459918000000001 -0.33854415999999998 0.0083401809000000007 0.12933053 -0.75247364999999999 0.0083401809000000007 0.12933053 -0.75247364999999999 0.0083401809000000007 -0.25722300999999997 -0.28101638000000001 0.0083401809000000007 0.18685837 -0.72509754000000004 0.0083401809000000007 0.18685837 -0.72509754000000004 0.0083401809000000007 0.17178251 -0.71002167000000005 0.0083401809000000007 0.1717825"
+		+ "1 -0.71002167000000005 0.0083401809000000007 -0.24214706999999999 -0.29609205999999999 0.0083401809000000007 -0.24214706999999999 -0.29609205999999999 0.0083401809000000007 -0.25722300999999997 -0.28101638000000001 0.0083401809000000007 -0.24661003000000001 -0.27040341000000001 0.0083401809000000007 0.19747134 -0.71448456999999999 0.0083401809000000007 0.19747134 -0.71448456999999999 0.0083401809000000007 0.18239547 -0.69940871000000004 0.0083401809000000007 0.18239547 -0.69940871000000004 0.0083401809000000007 -0.23153410999999999 -0.28547909999999999 0.0083401809000000007 -0.23153410999999999 -0.28547909999999999 0.0083401809000000007 -0.24661003000000001 -0.27040341000000001 0.0083401809000000007 0.17624529 -0.73571061999999998 0.0083401809000000007 0.17624529 -0.73571061999999998 0.0083401809000000007 -0.26783596999999998 -0.29162934000000001 0.0083401809000000007 -0.26783596999999998 -0.29162934000000001 0.0083401809000000007 -0.25276005000000001 -0.30670502999999999 0.0083401809000000007 -0.252760050000"
+		+ "00001 -0.30670502999999999 0.0083401809000000007 0.16116942000000001 -0.72063476000000004 0.0083401809000000007 0.16116942000000001 -0.72063476000000004 0.0083401809000000007 0.15501935999999999 -0.75693655000000004 0.0083401809000000007 0.15501935999999999 -0.75693655000000004 0.0083401809000000007 0.1399435 -0.74186068999999999 0.0083401809000000007 0.1399435 -0.74186068999999999 0.0083401809000000007 -0.27398622 -0.32793119999999998 0.0083401809000000007 -0.27398622 -0.32793119999999998 0.0083401809000000007 -0.28906189999999998 -0.31285527000000002 0.0083401809000000007 -0.28906189999999998 -0.31285527000000002 0.0083401809000000007 0.13379331 -0.77816260000000004 0.0083401809000000007 0.13379331 -0.77816260000000004 0.0083401809000000007 -0.31028782999999999 -0.33408120000000002 0.0083401809000000007 -0.31028782999999999 -0.33408120000000002 0.0083401809000000007 -0.29521215000000001 -0.34915711999999999 0.0083401809000000007 -0.29521215000000001 -0.34915711999999999 0.0083401809000000007 0.11871745 -0.7"
+		+ "6308673999999999 0.0083401809000000007 0.11871745 -0.76308673999999999")
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21" "rotatePivot" " -type \"double3\" -2.38376575617730913 1.49012658708785617 -0.24621504080158441"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21" "scalePivot" " -type \"double3\" -2.38376575617730913 1.49012658708785617 -0.24621504080158441"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[0]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -0.56877524000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[1]" 
-		" -type \"float3\" 0.0083401809000000007 -0.33138287 -0.67359488999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[2]" 
-		" -type \"float3\" 0.0083401809000000007 0.21751804999999999 -1.01285650000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[3]" 
-		" -type \"float3\" 0.0083401809000000007 0.11269839 -1.117676"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[4]" 
-		" -type \"float3\" 0.0083401809000000007 0.21751804999999999 -1.01285650000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[5]" 
-		" -type \"float3\" 0.0083401809000000007 0.11269839 -1.117676"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[6]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -0.56877524000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[7]" 
-		" -type \"float3\" 0.0083401809000000007 -0.33138287 -0.67359488999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[8]" 
-		" -type \"float3\" 0.0083401809000000007 0.21751804999999999 -1.01285650000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[9]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -0.56877524000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[10]" 
-		" -type \"float3\" 0.0083401809000000007 -0.33138287 -0.67359488999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[11]" 
-		" -type \"float3\" 0.0083401809000000007 0.11269839 -1.117676"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[12]" 
-		" -type \"float3\" 0.0083401809000000007 -0.32090077 -0.66311282000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[13]" 
-		" -type \"float3\" 0.0083401809000000007 0.12318034 -1.10719419999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[14]" 
-		" -type \"float3\" 0.0083401809000000007 0.12318034 -1.10719419999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[15]" 
-		" -type \"float3\" 0.0083401809000000007 0.12318034 -1.10719419999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[16]" 
-		" -type \"float3\" 0.0083401809000000007 -0.32090079999999999 -0.66311282000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[17]" 
-		" -type \"float3\" 0.0083401809000000007 -0.32090079999999999 -0.66311282000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[18]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23599703999999999 -0.57820910000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[19]" 
-		" -type \"float3\" 0.0083401809000000007 0.2080843 -1.02229020000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[20]" 
-		" -type \"float3\" 0.0083401809000000007 0.2080843 -1.02229020000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[21]" 
-		" -type \"float3\" 0.0083401809000000007 0.2080843 -1.02229020000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[22]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23599707 -0.57820910000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[23]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23599707 -0.57820910000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[24]" 
-		" -type \"float3\" 0.0083401809000000007 0.19300844 -1.00721430000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[25]" 
-		" -type \"float3\" 0.0083401809000000007 0.19300844 -1.00721430000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[26]" 
-		" -type \"float3\" 0.0083401809000000007 0.10810446999999999 -1.0921183000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[27]" 
-		" -type \"float3\" 0.0083401809000000007 0.10810446999999999 -1.0921183000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[28]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22092113999999999 -0.59328479000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[29]" 
-		" -type \"float3\" 0.0083401809000000007 -0.30582511000000001 -0.67818873999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[30]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22092113999999999 -0.59328479000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[31]" 
-		" -type \"float3\" 0.0083401809000000007 -0.30582511000000001 -0.67818873999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[32]" 
-		" -type \"float3\" 0.0083401809000000007 0.16563232 -1.06474209999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[33]" 
-		" -type \"float3\" 0.0083401809000000007 0.16563232 -1.06474209999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[34]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27844893999999998 -0.62066096000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[35]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27844893999999998 -0.62066096000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[36]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26337302000000001 -0.63573663999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[37]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26337302000000001 -0.63573663999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[38]" 
-		" -type \"float3\" 0.0083401809000000007 0.15055646 -1.0496664"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[39]" 
-		" -type \"float3\" 0.0083401809000000007 0.15055646 -1.0496664"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[40]" 
-		" -type \"float3\" 0.0083401809000000007 0.14440639 -1.085968"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[41]" 
-		" -type \"float3\" 0.0083401809000000007 0.14440639 -1.085968"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[42]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29967486999999998 -0.64188688999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[43]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29967486999999998 -0.64188688999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[44]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28459918000000001 -0.65696281000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[45]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28459918000000001 -0.65696281000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[46]" 
-		" -type \"float3\" 0.0083401809000000007 0.12933053 -1.07089229999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[47]" 
-		" -type \"float3\" 0.0083401809000000007 0.12933053 -1.07089229999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[48]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25722300999999997 -0.59943502999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[49]" 
-		" -type \"float3\" 0.0083401809000000007 0.18685837 -1.0435162"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[50]" 
-		" -type \"float3\" 0.0083401809000000007 0.18685837 -1.0435162"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[51]" 
-		" -type \"float3\" 0.0083401809000000007 0.17178251 -1.02844019999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[52]" 
-		" -type \"float3\" 0.0083401809000000007 0.17178251 -1.02844019999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[53]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24214706999999999 -0.61451071999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[54]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24214706999999999 -0.61451071999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[55]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25722300999999997 -0.59943502999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[56]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24661003000000001 -0.58882206999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[57]" 
-		" -type \"float3\" 0.0083401809000000007 0.19747134 -1.03290320000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[58]" 
-		" -type \"float3\" 0.0083401809000000007 0.19747134 -1.03290320000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[59]" 
-		" -type \"float3\" 0.0083401809000000007 0.18239547 -1.01782729999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[60]" 
-		" -type \"float3\" 0.0083401809000000007 0.18239547 -1.01782729999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[61]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23153410999999999 -0.60389775000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[62]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23153410999999999 -0.60389775000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[63]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24661003000000001 -0.58882206999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[64]" 
-		" -type \"float3\" 0.0083401809000000007 0.17624529 -1.05412909999999993"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[65]" 
-		" -type \"float3\" 0.0083401809000000007 0.17624529 -1.05412909999999993"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[66]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26783596999999998 -0.610048"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[67]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26783596999999998 -0.610048"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[68]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25276005000000001 -0.62512367999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[69]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25276005000000001 -0.62512367999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[70]" 
-		" -type \"float3\" 0.0083401809000000007 0.16116942000000001 -1.03905340000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[71]" 
-		" -type \"float3\" 0.0083401809000000007 0.16116942000000001 -1.03905340000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[72]" 
-		" -type \"float3\" 0.0083401809000000007 0.15501935999999999 -1.0753550999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[73]" 
-		" -type \"float3\" 0.0083401809000000007 0.15501935999999999 -1.0753550999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[74]" 
-		" -type \"float3\" 0.0083401809000000007 0.1399435 -1.06027939999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[75]" 
-		" -type \"float3\" 0.0083401809000000007 0.1399435 -1.06027939999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[76]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27398622 -0.64634985"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[77]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27398622 -0.64634985"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[78]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28906189999999998 -0.63127392999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[79]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28906189999999998 -0.63127392999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[80]" 
-		" -type \"float3\" 0.0083401809000000007 0.13379331 -1.09658119999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[81]" 
-		" -type \"float3\" 0.0083401809000000007 0.13379331 -1.09658119999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[82]" 
-		" -type \"float3\" 0.0083401809000000007 -0.31028782999999999 -0.65249984999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[83]" 
-		" -type \"float3\" 0.0083401809000000007 -0.31028782999999999 -0.65249984999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[84]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29521215000000001 -0.66757577999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[85]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29521215000000001 -0.66757577999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[86]" 
-		" -type \"float3\" 0.0083401809000000007 0.11871745 -1.08150529999999989"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pnts[87]" 
-		" -type \"float3\" 0.0083401809000000007 0.11871745 -1.08150529999999989"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -0.56877524000000002 0.0083401809000000007 -0.33138287 -0.67359488999999995 0.0083401809000000007 0.21751804999999999 -1.01285650000000005 0.0083401809000000007 0.11269839 -1.117676 0.0083401809000000007 0.21751804999999999 -1.01285650000000005 0.0083401809000000007 0.11269839 -1.117676 0.0083401809000000007 -0.22656319999999999 -0.56877524000000002 0.0083401809000000007 -0.33138287 -0.67359488999999995 0.0083401809000000007 0.21751804999999999 -1.01285650000000005 0.0083401809000000007 -0.22656319999999999 -0.56877524000000002 0.0083401809000000007 -0.33138287 -0.67359488999999995 0.0083401809000000007 0.11269839 -1.117676 0.0083401809000000007 -0.32090077 -0.66311282000000005 0.0083401809000000007 0.12318034 -1.10719419999999991 0.0083401809000000007 0.12318034 -1.10719419999999991 0.0083401809000000007 0.12318034 -1.10719419999999991 0.0083401809000000007 -0.32090079999999999 -0.66311282000000005 0.0083401809000000007 -0.32090079999999999 -0."
+		+ "66311282000000005 0.0083401809000000007 -0.23599703999999999 -0.57820910000000003 0.0083401809000000007 0.2080843 -1.02229020000000004 0.0083401809000000007 0.2080843 -1.02229020000000004 0.0083401809000000007 0.2080843 -1.02229020000000004 0.0083401809000000007 -0.23599707 -0.57820910000000003 0.0083401809000000007 -0.23599707 -0.57820910000000003 0.0083401809000000007 0.19300844 -1.00721430000000001 0.0083401809000000007 0.19300844 -1.00721430000000001 0.0083401809000000007 0.10810446999999999 -1.0921183000000001 0.0083401809000000007 0.10810446999999999 -1.0921183000000001 0.0083401809000000007 -0.22092113999999999 -0.59328479000000001 0.0083401809000000007 -0.30582511000000001 -0.67818873999999996 0.0083401809000000007 -0.22092113999999999 -0.59328479000000001 0.0083401809000000007 -0.30582511000000001 -0.67818873999999996 0.0083401809000000007 0.16563232 -1.06474209999999991 0.0083401809000000007 0.16563232 -1.06474209999999991 0.0083401809000000007 -0.27844893999999998 -0.62066096000000004 0.00834018090"
+		+ "00000007 -0.27844893999999998 -0.62066096000000004 0.0083401809000000007 -0.26337302000000001 -0.63573663999999996 0.0083401809000000007 -0.26337302000000001 -0.63573663999999996 0.0083401809000000007 0.15055646 -1.0496664 0.0083401809000000007 0.15055646 -1.0496664 0.0083401809000000007 0.14440639 -1.085968 0.0083401809000000007 0.14440639 -1.085968 0.0083401809000000007 -0.29967486999999998 -0.64188688999999999 0.0083401809000000007 -0.29967486999999998 -0.64188688999999999 0.0083401809000000007 -0.28459918000000001 -0.65696281000000001 0.0083401809000000007 -0.28459918000000001 -0.65696281000000001 0.0083401809000000007 0.12933053 -1.07089229999999991 0.0083401809000000007 0.12933053 -1.07089229999999991 0.0083401809000000007 -0.25722300999999997 -0.59943502999999998 0.0083401809000000007 0.18685837 -1.0435162 0.0083401809000000007 0.18685837 -1.0435162 0.0083401809000000007 0.17178251 -1.02844019999999992 0.0083401809000000007 0.17178251 -1.02844019999999992 0.0083401809000000007 -0.24214706999999999 -0.6"
+		+ "1451071999999995 0.0083401809000000007 -0.24214706999999999 -0.61451071999999995 0.0083401809000000007 -0.25722300999999997 -0.59943502999999998 0.0083401809000000007 -0.24661003000000001 -0.58882206999999998 0.0083401809000000007 0.19747134 -1.03290320000000002 0.0083401809000000007 0.19747134 -1.03290320000000002 0.0083401809000000007 0.18239547 -1.01782729999999999 0.0083401809000000007 0.18239547 -1.01782729999999999 0.0083401809000000007 -0.23153410999999999 -0.60389775000000001 0.0083401809000000007 -0.23153410999999999 -0.60389775000000001 0.0083401809000000007 -0.24661003000000001 -0.58882206999999998 0.0083401809000000007 0.17624529 -1.05412909999999993 0.0083401809000000007 0.17624529 -1.05412909999999993 0.0083401809000000007 -0.26783596999999998 -0.610048 0.0083401809000000007 -0.26783596999999998 -0.610048 0.0083401809000000007 -0.25276005000000001 -0.62512367999999996 0.0083401809000000007 -0.25276005000000001 -0.62512367999999996 0.0083401809000000007 0.16116942000000001 -1.03905340000000002 0."
+		+ "0083401809000000007 0.16116942000000001 -1.03905340000000002 0.0083401809000000007 0.15501935999999999 -1.0753550999999999 0.0083401809000000007 0.15501935999999999 -1.0753550999999999 0.0083401809000000007 0.1399435 -1.06027939999999998 0.0083401809000000007 0.1399435 -1.06027939999999998 0.0083401809000000007 -0.27398622 -0.64634985 0.0083401809000000007 -0.27398622 -0.64634985 0.0083401809000000007 -0.28906189999999998 -0.63127392999999998 0.0083401809000000007 -0.28906189999999998 -0.63127392999999998 0.0083401809000000007 0.13379331 -1.09658119999999992 0.0083401809000000007 0.13379331 -1.09658119999999992 0.0083401809000000007 -0.31028782999999999 -0.65249984999999999 0.0083401809000000007 -0.31028782999999999 -0.65249984999999999 0.0083401809000000007 -0.29521215000000001 -0.66757577999999995 0.0083401809000000007 -0.29521215000000001 -0.66757577999999995 0.0083401809000000007 0.11871745 -1.08150529999999989 0.0083401809000000007 0.11871745 -1.08150529999999989"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22" "rotatePivot" " -type \"double3\" -2.38378815397431554 1.4901266466925045 -0.036216939815251648"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22" "scalePivot" " -type \"double3\" -2.38378815397431554 1.4901266466925045 -0.036216939815251648"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.35877713999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.46359678999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -0.80285835000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -0.90767801000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -0.80285835000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -0.90767801000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.35877713999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.46359678999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -0.80285835000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.35877713999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.46359678999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -0.90767801000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090070999999998 -0.45311475000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -0.89719605000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -0.89719605000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -0.89719605000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -0.45311472000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -0.45311472000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599698 -0.36821102999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -0.81229209999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -0.81229209999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -0.81229209999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -0.368211"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -0.368211"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -0.79721624000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -0.79721624000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -0.88212018999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -0.88212018999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -0.38328667999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -0.46819063999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -0.38328667999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -0.46819063999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -0.85474408000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -0.85474408000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -0.41066286000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -0.41066286000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -0.42573854"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -0.42573854"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -0.83966821000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -0.83966821000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -0.87597000999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -0.87597000999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -0.43188879000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -0.43188879000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -0.44696470999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -0.44696470999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -0.86089413999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -0.86089413999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -0.38943693000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -0.83351803000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -0.83351803000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -0.81844216999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -0.81844216999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -0.40451260999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -0.40451260999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -0.38943693000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -0.37882397000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -0.82290505999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -0.82290505999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -0.80782920000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -0.80782920000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -0.39389964999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -0.39389964999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -0.37882397000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -0.84413110999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -0.84413110999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -0.40004990000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -0.40004990000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -0.41512557999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -0.41512557999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -0.82905525000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -0.82905525000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -0.86535704000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -0.86535704000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -0.85028117999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -0.85028117999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -0.43635174999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -0.43635174999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -0.42127582000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -0.42127582000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -0.88658309000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -0.88658309000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -0.44250175000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -0.44250175000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -0.45757767999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -0.45757767999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -0.87150722999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -0.87150722999999997"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 -0.22656314 -0.35877713999999999 0.0083177835000000002 -0.33138281000000003 -0.46359678999999998 0.0083177835000000002 0.21751810999999999 -0.80285835000000005 0.0083177835000000002 0.11269845000000001 -0.90767801000000004 0.0083177835000000002 0.21751810999999999 -0.80285835000000005 0.0083177835000000002 0.11269845000000001 -0.90767801000000004 0.0083177835000000002 -0.22656314 -0.35877713999999999 0.0083177835000000002 -0.33138281000000003 -0.46359678999999998 0.0083177835000000002 0.21751810999999999 -0.80285835000000005 0.0083177835000000002 -0.22656314 -0.35877713999999999 0.0083177835000000002 -0.33138281000000003 -0.46359678999999998 0.0083177835000000002 0.11269845000000001 -0.90767801000000004 0.0083177835000000002 -0.32090070999999998 -0.45311475000000001 0.0083177835000000002 0.1231804 -0.89719605000000002 0.0083177835000000002 0.1231804 -0.89719605000000002 0.0083177835000000002 0.1231804 -0.89719605000000002 0.0083177835000000002 -0.32090074000000002 -"
+		+ "0.45311472000000003 0.0083177835000000002 -0.32090074000000002 -0.45311472000000003 0.0083177835000000002 -0.23599698 -0.36821102999999999 0.0083177835000000002 0.20808436 -0.81229209999999996 0.0083177835000000002 0.20808436 -0.81229209999999996 0.0083177835000000002 0.20808436 -0.81229209999999996 0.0083177835000000002 -0.23599701000000001 -0.368211 0.0083177835000000002 -0.23599701000000001 -0.368211 0.0083177835000000002 0.1930085 -0.79721624000000002 0.0083177835000000002 0.1930085 -0.79721624000000002 0.0083177835000000002 0.10810453 -0.88212018999999997 0.0083177835000000002 0.10810453 -0.88212018999999997 0.0083177835000000002 -0.22092107999999999 -0.38328667999999999 0.0083177835000000002 -0.30582504999999999 -0.46819063999999999 0.0083177835000000002 -0.22092107999999999 -0.38328667999999999 0.0083177835000000002 -0.30582504999999999 -0.46819063999999999 0.0083177835000000002 0.16563238 -0.85474408000000002 0.0083177835000000002 0.16563238 -0.85474408000000002 0.0083177835000000002 -0.27844888000000"
+		+ "001 -0.41066286000000002 0.0083177835000000002 -0.27844888000000001 -0.41066286000000002 0.0083177835000000002 -0.26337295999999999 -0.42573854 0.0083177835000000002 -0.26337295999999999 -0.42573854 0.0083177835000000002 0.15055652 -0.83966821000000003 0.0083177835000000002 0.15055652 -0.83966821000000003 0.0083177835000000002 0.14440644999999999 -0.87597000999999997 0.0083177835000000002 0.14440644999999999 -0.87597000999999997 0.0083177835000000002 -0.29967481000000001 -0.43188879000000002 0.0083177835000000002 -0.29967481000000001 -0.43188879000000002 0.0083177835000000002 -0.28459912999999998 -0.44696470999999999 0.0083177835000000002 -0.28459912999999998 -0.44696470999999999 0.0083177835000000002 0.12933059 -0.86089413999999997 0.0083177835000000002 0.12933059 -0.86089413999999997 0.0083177835000000002 -0.25722295000000001 -0.38943693000000001 0.0083177835000000002 0.18685842999999999 -0.83351803000000002 0.0083177835000000002 0.18685842999999999 -0.83351803000000002 0.0083177835000000002 0.17178257 -0.8"
+		+ "1844216999999997 0.0083177835000000002 0.17178257 -0.81844216999999997 0.0083177835000000002 -0.24214701 -0.40451260999999999 0.0083177835000000002 -0.24214701 -0.40451260999999999 0.0083177835000000002 -0.25722295000000001 -0.38943693000000001 0.0083177835000000002 -0.24660997000000001 -0.37882397000000001 0.0083177835000000002 0.19747139999999999 -0.82290505999999997 0.0083177835000000002 0.19747139999999999 -0.82290505999999997 0.0083177835000000002 0.18239553 -0.80782920000000003 0.0083177835000000002 0.18239553 -0.80782920000000003 0.0083177835000000002 -0.23153404999999999 -0.39389964999999999 0.0083177835000000002 -0.23153404999999999 -0.39389964999999999 0.0083177835000000002 -0.24660997000000001 -0.37882397000000001 0.0083177835000000002 0.17624535 -0.84413110999999996 0.0083177835000000002 0.17624535 -0.84413110999999996 0.0083177835000000002 -0.26783592000000001 -0.40004990000000001 0.0083177835000000002 -0.26783592000000001 -0.40004990000000001 0.0083177835000000002 -0.25275998999999999 -0.4151255"
+		+ "7999999999 0.0083177835000000002 -0.25275998999999999 -0.41512557999999999 0.0083177835000000002 0.16116948 -0.82905525000000002 0.0083177835000000002 0.16116948 -0.82905525000000002 0.0083177835000000002 0.15501941999999999 -0.86535704000000002 0.0083177835000000002 0.15501941999999999 -0.86535704000000002 0.0083177835000000002 0.13994355 -0.85028117999999997 0.0083177835000000002 0.13994355 -0.85028117999999997 0.0083177835000000002 -0.27398615999999998 -0.43635174999999998 0.0083177835000000002 -0.27398615999999998 -0.43635174999999998 0.0083177835000000002 -0.28906184000000001 -0.42127582000000002 0.0083177835000000002 -0.28906184000000001 -0.42127582000000002 0.0083177835000000002 0.13379336999999999 -0.88658309000000002 0.0083177835000000002 0.13379336999999999 -0.88658309000000002 0.0083177835000000002 -0.31028777000000002 -0.44250175000000003 0.0083177835000000002 -0.31028777000000002 -0.44250175000000003 0.0083177835000000002 -0.29521208999999998 -0.45757767999999999 0.0083177835000000002 -0.29521208"
+		+ "999999998 -0.45757767999999999 0.0083177835000000002 0.11871751 -0.87150722999999997 0.0083177835000000002 0.11871751 -0.87150722999999997"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23" "rotatePivot" " -type \"double3\" -2.38378815397431554 1.49012664669249872 -0.14103656413808108"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23" "scalePivot" " -type \"double3\" -2.38378815397431554 1.49012664669249872 -0.14103656413808108"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.46359676"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.56841642000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -0.90767801000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -1.01249769999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -0.90767801000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -1.01249769999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.46359676"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.56841642000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -0.90767801000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.46359676"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.56841642000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -1.01249769999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090070999999998 -0.55793433999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -1.00201570000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -1.00201570000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -1.00201570000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -0.55793433999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -0.55793433999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599698 -0.47303065999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -0.91711175"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -0.91711175"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -0.91711175"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -0.47303063000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -0.47303063000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -0.90203588999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -0.90203588999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -0.98693984999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -0.98693984999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -0.48810630999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -0.57301027000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -0.48810630999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -0.57301027000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -0.95956372999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -0.95956372999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -0.51548249000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -0.51548249000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -0.53055817000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -0.53055817000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -0.94448787000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -0.94448787000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -0.98078966000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -0.98078966000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -0.53670841000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -0.53670841000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -0.55178433999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -0.55178433999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -0.96571379999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -0.96571379999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -0.49425656000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -0.93833767999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -0.93833767999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -0.92326182000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -0.92326182000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -0.50933223999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -0.50933223999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -0.49425656000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -0.48364359000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -0.92772471999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -0.92772471999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -0.91264886000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -0.91264886000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -0.49871926999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -0.49871926999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -0.48364359000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -0.94895077000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -0.94895077000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -0.50486951999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -0.50486951999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -0.5199452"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -0.5199452"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -0.93387491"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -0.93387491"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -0.9701767"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -0.9701767"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -0.95510083000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -0.95510083000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -0.54117137000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -0.54117137000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -0.52609545000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -0.52609545000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -0.99140275"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -0.99140275"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -0.54732137999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -0.54732137999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -0.56239729999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -0.56239729999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -0.97632688000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -0.97632688000000001"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 -0.22656314 -0.46359676 0.0083177835000000002 -0.33138281000000003 -0.56841642000000003 0.0083177835000000002 0.21751810999999999 -0.90767801000000004 0.0083177835000000002 0.11269845000000001 -1.01249769999999994 0.0083177835000000002 0.21751810999999999 -0.90767801000000004 0.0083177835000000002 0.11269845000000001 -1.01249769999999994 0.0083177835000000002 -0.22656314 -0.46359676 0.0083177835000000002 -0.33138281000000003 -0.56841642000000003 0.0083177835000000002 0.21751810999999999 -0.90767801000000004 0.0083177835000000002 -0.22656314 -0.46359676 0.0083177835000000002 -0.33138281000000003 -0.56841642000000003 0.0083177835000000002 0.11269845000000001 -1.01249769999999994 0.0083177835000000002 -0.32090070999999998 -0.55793433999999997 0.0083177835000000002 0.1231804 -1.00201570000000006 0.0083177835000000002 0.1231804 -1.00201570000000006 0.0083177835000000002 0.1231804 -1.00201570000000006 0.0083177835000000002 -0.32090074000000002 -0.55793433999999997 0.00831"
+		+ "77835000000002 -0.32090074000000002 -0.55793433999999997 0.0083177835000000002 -0.23599698 -0.47303065999999999 0.0083177835000000002 0.20808436 -0.91711175 0.0083177835000000002 0.20808436 -0.91711175 0.0083177835000000002 0.20808436 -0.91711175 0.0083177835000000002 -0.23599701000000001 -0.47303063000000001 0.0083177835000000002 -0.23599701000000001 -0.47303063000000001 0.0083177835000000002 0.1930085 -0.90203588999999995 0.0083177835000000002 0.1930085 -0.90203588999999995 0.0083177835000000002 0.10810453 -0.98693984999999995 0.0083177835000000002 0.10810453 -0.98693984999999995 0.0083177835000000002 -0.22092107999999999 -0.48810630999999999 0.0083177835000000002 -0.30582504999999999 -0.57301027000000004 0.0083177835000000002 -0.22092107999999999 -0.48810630999999999 0.0083177835000000002 -0.30582504999999999 -0.57301027000000004 0.0083177835000000002 0.16563238 -0.95956372999999995 0.0083177835000000002 0.16563238 -0.95956372999999995 0.0083177835000000002 -0.27844888000000001 -0.51548249000000002 0.00831"
+		+ "77835000000002 -0.27844888000000001 -0.51548249000000002 0.0083177835000000002 -0.26337295999999999 -0.53055817000000005 0.0083177835000000002 -0.26337295999999999 -0.53055817000000005 0.0083177835000000002 0.15055652 -0.94448787000000001 0.0083177835000000002 0.15055652 -0.94448787000000001 0.0083177835000000002 0.14440644999999999 -0.98078966000000001 0.0083177835000000002 0.14440644999999999 -0.98078966000000001 0.0083177835000000002 -0.29967481000000001 -0.53670841000000002 0.0083177835000000002 -0.29967481000000001 -0.53670841000000002 0.0083177835000000002 -0.28459912999999998 -0.55178433999999998 0.0083177835000000002 -0.28459912999999998 -0.55178433999999998 0.0083177835000000002 0.12933059 -0.96571379999999996 0.0083177835000000002 0.12933059 -0.96571379999999996 0.0083177835000000002 -0.25722295000000001 -0.49425656000000001 0.0083177835000000002 0.18685842999999999 -0.93833767999999995 0.0083177835000000002 0.18685842999999999 -0.93833767999999995 0.0083177835000000002 0.17178257 -0.923261820000000"
+		+ "01 0.0083177835000000002 0.17178257 -0.92326182000000001 0.0083177835000000002 -0.24214701 -0.50933223999999999 0.0083177835000000002 -0.24214701 -0.50933223999999999 0.0083177835000000002 -0.25722295000000001 -0.49425656000000001 0.0083177835000000002 -0.24660997000000001 -0.48364359000000001 0.0083177835000000002 0.19747139999999999 -0.92772471999999995 0.0083177835000000002 0.19747139999999999 -0.92772471999999995 0.0083177835000000002 0.18239553 -0.91264886000000001 0.0083177835000000002 0.18239553 -0.91264886000000001 0.0083177835000000002 -0.23153404999999999 -0.49871926999999999 0.0083177835000000002 -0.23153404999999999 -0.49871926999999999 0.0083177835000000002 -0.24660997000000001 -0.48364359000000001 0.0083177835000000002 0.17624535 -0.94895077000000005 0.0083177835000000002 0.17624535 -0.94895077000000005 0.0083177835000000002 -0.26783592000000001 -0.50486951999999996 0.0083177835000000002 -0.26783592000000001 -0.50486951999999996 0.0083177835000000002 -0.25275998999999999 -0.5199452 0.00831778350"
+		+ "00000002 -0.25275998999999999 -0.5199452 0.0083177835000000002 0.16116948 -0.93387491 0.0083177835000000002 0.16116948 -0.93387491 0.0083177835000000002 0.15501941999999999 -0.9701767 0.0083177835000000002 0.15501941999999999 -0.9701767 0.0083177835000000002 0.13994355 -0.95510083000000001 0.0083177835000000002 0.13994355 -0.95510083000000001 0.0083177835000000002 -0.27398615999999998 -0.54117137000000004 0.0083177835000000002 -0.27398615999999998 -0.54117137000000004 0.0083177835000000002 -0.28906184000000001 -0.52609545000000002 0.0083177835000000002 -0.28906184000000001 -0.52609545000000002 0.0083177835000000002 0.13379336999999999 -0.99140275 0.0083177835000000002 0.13379336999999999 -0.99140275 0.0083177835000000002 -0.31028777000000002 -0.54732137999999997 0.0083177835000000002 -0.31028777000000002 -0.54732137999999997 0.0083177835000000002 -0.29521208999999998 -0.56239729999999999 0.0083177835000000002 -0.29521208999999998 -0.56239729999999999 0.0083177835000000002 0.11871751 -0.97632688000000001 0.008"
+		+ "3177835000000002 0.11871751 -0.97632688000000001")
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24" "rotatePivot" " -type \"double3\" -2.38376575617730913 1.49012658708785617 -0.56403704729114434"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24" "scalePivot" " -type \"double3\" -2.38376575617730913 1.49012658708785617 -0.56403704729114434"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[0]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -0.88659721999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[1]" 
-		" -type \"float3\" 0.0083401809000000007 -0.33138287 -0.99141687000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[2]" 
-		" -type \"float3\" 0.0083401809000000007 0.21751804999999999 -1.3306785000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[3]" 
-		" -type \"float3\" 0.0083401809000000007 0.11269839 -1.43549820000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[4]" 
-		" -type \"float3\" 0.0083401809000000007 0.21751804999999999 -1.3306785000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[5]" 
-		" -type \"float3\" 0.0083401809000000007 0.11269839 -1.43549820000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[6]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -0.88659721999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[7]" 
-		" -type \"float3\" 0.0083401809000000007 -0.33138287 -0.99141687000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[8]" 
-		" -type \"float3\" 0.0083401809000000007 0.21751804999999999 -1.3306785000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[9]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -0.88659721999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[10]" 
-		" -type \"float3\" 0.0083401809000000007 -0.33138287 -0.99141687000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[11]" 
-		" -type \"float3\" 0.0083401809000000007 0.11269839 -1.43549820000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[12]" 
-		" -type \"float3\" 0.0083401809000000007 -0.32090077 -0.98093485999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[13]" 
-		" -type \"float3\" 0.0083401809000000007 0.12318034 -1.42501619999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[14]" 
-		" -type \"float3\" 0.0083401809000000007 0.12318034 -1.42501619999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[15]" 
-		" -type \"float3\" 0.0083401809000000007 0.12318034 -1.42501619999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[16]" 
-		" -type \"float3\" 0.0083401809000000007 -0.32090079999999999 -0.9809348"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[17]" 
-		" -type \"float3\" 0.0083401809000000007 -0.32090079999999999 -0.9809348"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[18]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23599703999999999 -0.89603113999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[19]" 
-		" -type \"float3\" 0.0083401809000000007 0.2080843 -1.34011220000000009"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[20]" 
-		" -type \"float3\" 0.0083401809000000007 0.2080843 -1.34011220000000009"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[21]" 
-		" -type \"float3\" 0.0083401809000000007 0.2080843 -1.34011220000000009"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[22]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23599707 -0.89603107999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[23]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23599707 -0.89603107999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[24]" 
-		" -type \"float3\" 0.0083401809000000007 0.19300844 -1.32503630000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[25]" 
-		" -type \"float3\" 0.0083401809000000007 0.19300844 -1.32503630000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[26]" 
-		" -type \"float3\" 0.0083401809000000007 0.10810446999999999 -1.40994020000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[27]" 
-		" -type \"float3\" 0.0083401809000000007 0.10810446999999999 -1.40994020000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[28]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22092113999999999 -0.91110676999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[29]" 
-		" -type \"float3\" 0.0083401809000000007 -0.30582511000000001 -0.99601072000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[30]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22092113999999999 -0.91110676999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[31]" 
-		" -type \"float3\" 0.0083401809000000007 -0.30582511000000001 -0.99601072000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[32]" 
-		" -type \"float3\" 0.0083401809000000007 0.16563232 -1.38256430000000008"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[33]" 
-		" -type \"float3\" 0.0083401809000000007 0.16563232 -1.38256430000000008"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[34]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27844893999999998 -0.93848293999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[35]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27844893999999998 -0.93848293999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[36]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26337302000000001 -0.95355862000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[37]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26337302000000001 -0.95355862000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[38]" 
-		" -type \"float3\" 0.0083401809000000007 0.15055646 -1.36748840000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[39]" 
-		" -type \"float3\" 0.0083401809000000007 0.15055646 -1.36748840000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[40]" 
-		" -type \"float3\" 0.0083401809000000007 0.14440639 -1.40379019999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[41]" 
-		" -type \"float3\" 0.0083401809000000007 0.14440639 -1.40379019999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[42]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29967486999999998 -0.95970887000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[43]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29967486999999998 -0.95970887000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[44]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28459918000000001 -0.97478478999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[45]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28459918000000001 -0.97478478999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[46]" 
-		" -type \"float3\" 0.0083401809000000007 0.12933053 -1.38871429999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[47]" 
-		" -type \"float3\" 0.0083401809000000007 0.12933053 -1.38871429999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[48]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25722300999999997 -0.91725701000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[49]" 
-		" -type \"float3\" 0.0083401809000000007 0.18685837 -1.3613381"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[50]" 
-		" -type \"float3\" 0.0083401809000000007 0.18685837 -1.3613381"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[51]" 
-		" -type \"float3\" 0.0083401809000000007 0.17178251 -1.34626219999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[52]" 
-		" -type \"float3\" 0.0083401809000000007 0.17178251 -1.34626219999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[53]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24214706999999999 -0.93233268999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[54]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24214706999999999 -0.93233268999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[55]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25722300999999997 -0.91725701000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[56]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24661003000000001 -0.90664405000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[57]" 
-		" -type \"float3\" 0.0083401809000000007 0.19747134 -1.35072520000000007"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[58]" 
-		" -type \"float3\" 0.0083401809000000007 0.19747134 -1.35072520000000007"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[59]" 
-		" -type \"float3\" 0.0083401809000000007 0.18239547 -1.33564930000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[60]" 
-		" -type \"float3\" 0.0083401809000000007 0.18239547 -1.33564930000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[61]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23153410999999999 -0.92171972999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[62]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23153410999999999 -0.92171972999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[63]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24661003000000001 -0.90664405000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[64]" 
-		" -type \"float3\" 0.0083401809000000007 0.17624529 -1.3719513000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[65]" 
-		" -type \"float3\" 0.0083401809000000007 0.17624529 -1.3719513000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[66]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26783596999999998 -0.92786997999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[67]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26783596999999998 -0.92786997999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[68]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25276005000000001 -0.94294566000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[69]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25276005000000001 -0.94294566000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[70]" 
-		" -type \"float3\" 0.0083401809000000007 0.16116942000000001 -1.35687540000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[71]" 
-		" -type \"float3\" 0.0083401809000000007 0.16116942000000001 -1.35687540000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[72]" 
-		" -type \"float3\" 0.0083401809000000007 0.15501935999999999 -1.39317730000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[73]" 
-		" -type \"float3\" 0.0083401809000000007 0.15501935999999999 -1.39317730000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[74]" 
-		" -type \"float3\" 0.0083401809000000007 0.1399435 -1.37810129999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[75]" 
-		" -type \"float3\" 0.0083401809000000007 0.1399435 -1.37810129999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[76]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27398622 -0.96417182999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[77]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27398622 -0.96417182999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[78]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28906189999999998 -0.94909589999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[79]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28906189999999998 -0.94909589999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[80]" 
-		" -type \"float3\" 0.0083401809000000007 0.13379331 -1.41440319999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[81]" 
-		" -type \"float3\" 0.0083401809000000007 0.13379331 -1.41440319999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[82]" 
-		" -type \"float3\" 0.0083401809000000007 -0.31028782999999999 -0.97032183000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[83]" 
-		" -type \"float3\" 0.0083401809000000007 -0.31028782999999999 -0.97032183000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[84]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29521215000000001 -0.98539776000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[85]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29521215000000001 -0.98539776000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[86]" 
-		" -type \"float3\" 0.0083401809000000007 0.11871745 -1.39932729999999994"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pnts[87]" 
-		" -type \"float3\" 0.0083401809000000007 0.11871745 -1.39932729999999994"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -0.88659721999999996 0.0083401809000000007 -0.33138287 -0.99141687000000001 0.0083401809000000007 0.21751804999999999 -1.3306785000000001 0.0083401809000000007 0.11269839 -1.43549820000000006 0.0083401809000000007 0.21751804999999999 -1.3306785000000001 0.0083401809000000007 0.11269839 -1.43549820000000006 0.0083401809000000007 -0.22656319999999999 -0.88659721999999996 0.0083401809000000007 -0.33138287 -0.99141687000000001 0.0083401809000000007 0.21751804999999999 -1.3306785000000001 0.0083401809000000007 -0.22656319999999999 -0.88659721999999996 0.0083401809000000007 -0.33138287 -0.99141687000000001 0.0083401809000000007 0.11269839 -1.43549820000000006 0.0083401809000000007 -0.32090077 -0.98093485999999996 0.0083401809000000007 0.12318034 -1.42501619999999996 0.0083401809000000007 0.12318034 -1.42501619999999996 0.0083401809000000007 0.12318034 -1.42501619999999996 0.0083401809000000007 -0.32090079999999999 -0.9809348 0.0083401809000000007 -0.3"
+		+ "2090079999999999 -0.9809348 0.0083401809000000007 -0.23599703999999999 -0.89603113999999995 0.0083401809000000007 0.2080843 -1.34011220000000009 0.0083401809000000007 0.2080843 -1.34011220000000009 0.0083401809000000007 0.2080843 -1.34011220000000009 0.0083401809000000007 -0.23599707 -0.89603107999999998 0.0083401809000000007 -0.23599707 -0.89603107999999998 0.0083401809000000007 0.19300844 -1.32503630000000006 0.0083401809000000007 0.19300844 -1.32503630000000006 0.0083401809000000007 0.10810446999999999 -1.40994020000000009 0.0083401809000000007 0.10810446999999999 -1.40994020000000009 0.0083401809000000007 -0.22092113999999999 -0.91110676999999995 0.0083401809000000007 -0.30582511000000001 -0.99601072000000002 0.0083401809000000007 -0.22092113999999999 -0.91110676999999995 0.0083401809000000007 -0.30582511000000001 -0.99601072000000002 0.0083401809000000007 0.16563232 -1.38256430000000008 0.0083401809000000007 0.16563232 -1.38256430000000008 0.0083401809000000007 -0.27844893999999998 -0.93848293999999999 0"
+		+ ".0083401809000000007 -0.27844893999999998 -0.93848293999999999 0.0083401809000000007 -0.26337302000000001 -0.95355862000000002 0.0083401809000000007 -0.26337302000000001 -0.95355862000000002 0.0083401809000000007 0.15055646 -1.36748840000000005 0.0083401809000000007 0.15055646 -1.36748840000000005 0.0083401809000000007 0.14440639 -1.40379019999999999 0.0083401809000000007 0.14440639 -1.40379019999999999 0.0083401809000000007 -0.29967486999999998 -0.95970887000000005 0.0083401809000000007 -0.29967486999999998 -0.95970887000000005 0.0083401809000000007 -0.28459918000000001 -0.97478478999999996 0.0083401809000000007 -0.28459918000000001 -0.97478478999999996 0.0083401809000000007 0.12933053 -1.38871429999999996 0.0083401809000000007 0.12933053 -1.38871429999999996 0.0083401809000000007 -0.25722300999999997 -0.91725701000000004 0.0083401809000000007 0.18685837 -1.3613381 0.0083401809000000007 0.18685837 -1.3613381 0.0083401809000000007 0.17178251 -1.34626219999999996 0.0083401809000000007 0.17178251 -1.34626219999"
+		+ "999996 0.0083401809000000007 -0.24214706999999999 -0.93233268999999996 0.0083401809000000007 -0.24214706999999999 -0.93233268999999996 0.0083401809000000007 -0.25722300999999997 -0.91725701000000004 0.0083401809000000007 -0.24661003000000001 -0.90664405000000003 0.0083401809000000007 0.19747134 -1.35072520000000007 0.0083401809000000007 0.19747134 -1.35072520000000007 0.0083401809000000007 0.18239547 -1.33564930000000004 0.0083401809000000007 0.18239547 -1.33564930000000004 0.0083401809000000007 -0.23153410999999999 -0.92171972999999996 0.0083401809000000007 -0.23153410999999999 -0.92171972999999996 0.0083401809000000007 -0.24661003000000001 -0.90664405000000003 0.0083401809000000007 0.17624529 -1.3719513000000001 0.0083401809000000007 0.17624529 -1.3719513000000001 0.0083401809000000007 -0.26783596999999998 -0.92786997999999998 0.0083401809000000007 -0.26783596999999998 -0.92786997999999998 0.0083401809000000007 -0.25276005000000001 -0.94294566000000002 0.0083401809000000007 -0.25276005000000001 -0.942945660"
+		+ "00000002 0.0083401809000000007 0.16116942000000001 -1.35687540000000006 0.0083401809000000007 0.16116942000000001 -1.35687540000000006 0.0083401809000000007 0.15501935999999999 -1.39317730000000006 0.0083401809000000007 0.15501935999999999 -1.39317730000000006 0.0083401809000000007 0.1399435 -1.37810129999999997 0.0083401809000000007 0.1399435 -1.37810129999999997 0.0083401809000000007 -0.27398622 -0.96417182999999995 0.0083401809000000007 -0.27398622 -0.96417182999999995 0.0083401809000000007 -0.28906189999999998 -0.94909589999999999 0.0083401809000000007 -0.28906189999999998 -0.94909589999999999 0.0083401809000000007 0.13379331 -1.41440319999999997 0.0083401809000000007 0.13379331 -1.41440319999999997 0.0083401809000000007 -0.31028782999999999 -0.97032183000000005 0.0083401809000000007 -0.31028782999999999 -0.97032183000000005 0.0083401809000000007 -0.29521215000000001 -0.98539776000000001 0.0083401809000000007 -0.29521215000000001 -0.98539776000000001 0.0083401809000000007 0.11871745 -1.39932729999999994 0"
+		+ ".0083401809000000007 0.11871745 -1.39932729999999994")
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25" "rotatePivot" " -type \"double3\" -2.38378815397431554 1.4901266466925045 -0.3540389463048117"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25" "scalePivot" " -type \"double3\" -2.38378815397431554 1.4901266466925045 -0.3540389463048117"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.67659913999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.78141879999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -1.12068030000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -1.22550010000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -1.12068030000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -1.22550010000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.67659913999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.78141879999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -1.12068030000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.67659913999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.78141879999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -1.22550010000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090070999999998 -0.77093672999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -1.215018"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -1.215018"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -1.215018"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -0.77093672999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -0.77093672999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599698 -0.68603301000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -1.1301140999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -1.1301140999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -1.1301140999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -0.68603301000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -0.68603301000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -1.11503820000000009"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -1.11503820000000009"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -1.1999420999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -1.1999420999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -0.70110868999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -0.78601264999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -0.70110868999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -0.78601264999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -1.17256619999999989"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -1.17256619999999989"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -0.72848486999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -0.72848486999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -0.74356054999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -0.74356054999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -1.15749030000000008"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -1.15749030000000008"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -1.19379210000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -1.19379210000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -0.74971080000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -0.74971080000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -0.76478672000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -0.76478672000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -1.17871619999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -1.17871619999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -0.70725894"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -1.15134"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -1.15134"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -1.1362641"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -1.1362641"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -0.72233462000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -0.72233462000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -0.70725894"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -0.69664598"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -1.140727"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -1.140727"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -1.12565110000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -1.12565110000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -0.71172166000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -0.71172166000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -0.69664598"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -1.16195319999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -1.16195319999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -0.71787190000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -0.71787190000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -0.73294758999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -0.73294758999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -1.1468773000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -1.1468773000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -1.18317910000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -1.18317910000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -1.16810320000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -1.16810320000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -0.75417376000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -0.75417376000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -0.73909782999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -0.73909782999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -1.20440510000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -1.20440510000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -0.76032376000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -0.76032376000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -0.77539968000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -0.77539968000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -1.18932909999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -1.18932909999999992"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "uvPivot" 
+		" -type \"double2\" 0.28971099108457565 0.64718705415725708"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 -0.22656314 -0.67659913999999999 0.0083177835000000002 -0.33138281000000003 -0.78141879999999997 0.0083177835000000002 0.21751810999999999 -1.12068030000000007 0.0083177835000000002 0.11269845000000001 -1.22550010000000009 0.0083177835000000002 0.21751810999999999 -1.12068030000000007 0.0083177835000000002 0.11269845000000001 -1.22550010000000009 0.0083177835000000002 -0.22656314 -0.67659913999999999 0.0083177835000000002 -0.33138281000000003 -0.78141879999999997 0.0083177835000000002 0.21751810999999999 -1.12068030000000007 0.0083177835000000002 -0.22656314 -0.67659913999999999 0.0083177835000000002 -0.33138281000000003 -0.78141879999999997 0.0083177835000000002 0.11269845000000001 -1.22550010000000009 0.0083177835000000002 -0.32090070999999998 -0.77093672999999996 0.0083177835000000002 0.1231804 -1.215018 0.0083177835000000002 0.1231804 -1.215018 0.0083177835000000002 0.1231804 -1.215018 0.0083177835000000002 -0.32090074000000002 -0.77093672999999996 0.00831778350"
+		+ "00000002 -0.32090074000000002 -0.77093672999999996 0.0083177835000000002 -0.23599698 -0.68603301000000005 0.0083177835000000002 0.20808436 -1.1301140999999999 0.0083177835000000002 0.20808436 -1.1301140999999999 0.0083177835000000002 0.20808436 -1.1301140999999999 0.0083177835000000002 -0.23599701000000001 -0.68603301000000005 0.0083177835000000002 -0.23599701000000001 -0.68603301000000005 0.0083177835000000002 0.1930085 -1.11503820000000009 0.0083177835000000002 0.1930085 -1.11503820000000009 0.0083177835000000002 0.10810453 -1.1999420999999999 0.0083177835000000002 0.10810453 -1.1999420999999999 0.0083177835000000002 -0.22092107999999999 -0.70110868999999998 0.0083177835000000002 -0.30582504999999999 -0.78601264999999998 0.0083177835000000002 -0.22092107999999999 -0.70110868999999998 0.0083177835000000002 -0.30582504999999999 -0.78601264999999998 0.0083177835000000002 0.16563238 -1.17256619999999989 0.0083177835000000002 0.16563238 -1.17256619999999989 0.0083177835000000002 -0.27844888000000001 -0.728484869"
+		+ "99999995 0.0083177835000000002 -0.27844888000000001 -0.72848486999999995 0.0083177835000000002 -0.26337295999999999 -0.74356054999999999 0.0083177835000000002 -0.26337295999999999 -0.74356054999999999 0.0083177835000000002 0.15055652 -1.15749030000000008 0.0083177835000000002 0.15055652 -1.15749030000000008 0.0083177835000000002 0.14440644999999999 -1.19379210000000002 0.0083177835000000002 0.14440644999999999 -1.19379210000000002 0.0083177835000000002 -0.29967481000000001 -0.74971080000000001 0.0083177835000000002 -0.29967481000000001 -0.74971080000000001 0.0083177835000000002 -0.28459912999999998 -0.76478672000000003 0.0083177835000000002 -0.28459912999999998 -0.76478672000000003 0.0083177835000000002 0.12933059 -1.17871619999999999 0.0083177835000000002 0.12933059 -1.17871619999999999 0.0083177835000000002 -0.25722295000000001 -0.70725894 0.0083177835000000002 0.18685842999999999 -1.15134 0.0083177835000000002 0.18685842999999999 -1.15134 0.0083177835000000002 0.17178257 -1.1362641 0.0083177835000000002 0."
+		+ "17178257 -1.1362641 0.0083177835000000002 -0.24214701 -0.72233462000000004 0.0083177835000000002 -0.24214701 -0.72233462000000004 0.0083177835000000002 -0.25722295000000001 -0.70725894 0.0083177835000000002 -0.24660997000000001 -0.69664598 0.0083177835000000002 0.19747139999999999 -1.140727 0.0083177835000000002 0.19747139999999999 -1.140727 0.0083177835000000002 0.18239553 -1.12565110000000002 0.0083177835000000002 0.18239553 -1.12565110000000002 0.0083177835000000002 -0.23153404999999999 -0.71172166000000003 0.0083177835000000002 -0.23153404999999999 -0.71172166000000003 0.0083177835000000002 -0.24660997000000001 -0.69664598 0.0083177835000000002 0.17624535 -1.16195319999999991 0.0083177835000000002 0.17624535 -1.16195319999999991 0.0083177835000000002 -0.26783592000000001 -0.71787190000000001 0.0083177835000000002 -0.26783592000000001 -0.71787190000000001 0.0083177835000000002 -0.25275998999999999 -0.73294758999999998 0.0083177835000000002 -0.25275998999999999 -0.73294758999999998 0.0083177835000000002 0.1"
+		+ "6116948 -1.1468773000000001 0.0083177835000000002 0.16116948 -1.1468773000000001 0.0083177835000000002 0.15501941999999999 -1.18317910000000004 0.0083177835000000002 0.15501941999999999 -1.18317910000000004 0.0083177835000000002 0.13994355 -1.16810320000000001 0.0083177835000000002 0.13994355 -1.16810320000000001 0.0083177835000000002 -0.27398615999999998 -0.75417376000000003 0.0083177835000000002 -0.27398615999999998 -0.75417376000000003 0.0083177835000000002 -0.28906184000000001 -0.73909782999999996 0.0083177835000000002 -0.28906184000000001 -0.73909782999999996 0.0083177835000000002 0.13379336999999999 -1.20440510000000001 0.0083177835000000002 0.13379336999999999 -1.20440510000000001 0.0083177835000000002 -0.31028777000000002 -0.76032376000000002 0.0083177835000000002 -0.31028777000000002 -0.76032376000000002 0.0083177835000000002 -0.29521208999999998 -0.77539968000000004 0.0083177835000000002 -0.29521208999999998 -0.77539968000000004 0.0083177835000000002 0.11871751 -1.18932909999999992 0.008317783500000"
+		+ "0002 0.11871751 -1.18932909999999992")
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26" "rotatePivot" " -type \"double3\" -2.38378815397431554 1.49012664669249872 -0.45885857062764113"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26" "scalePivot" " -type \"double3\" -2.38378815397431554 1.49012664669249872 -0.45885857062764113"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.78141874"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.88623839999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -1.22550010000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -1.33031959999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -1.22550010000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -1.33031959999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.78141874"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.88623839999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -1.22550010000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.78141874"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -0.88623839999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -1.33031959999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090070999999998 -0.87575638"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -1.31983779999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -1.31983779999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -1.31983779999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -0.87575632000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -0.87575632000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599698 -0.79085267000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -1.23493389999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -1.23493389999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -1.23493389999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -0.79085260999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -0.79085260999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -1.21985790000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -1.21985790000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -1.30476189999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -1.30476189999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -0.80592828999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -0.89083224999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -0.80592828999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -0.89083224999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -1.27738569999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -1.27738569999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -0.83330446000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -0.83330446000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -0.84838015"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -0.84838015"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -1.26230979999999993"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -1.26230979999999993"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -1.29861160000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -1.29861160000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -0.85453038999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -0.85453038999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -0.86960632000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -0.86960632000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -1.28353570000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -1.28353570000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -0.81207854000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -1.25615980000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -1.25615980000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -1.24108390000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -1.24108390000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -0.82715422000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -0.82715422000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -0.81207854000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -0.80146556999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -1.24554680000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -1.24554680000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -1.23047090000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -1.23047090000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -0.81654125"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -0.81654125"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -0.80146556999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -1.26677269999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -1.26677269999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -0.82269150000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -0.82269150000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -0.83776717999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -0.83776717999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -1.25169679999999994"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -1.25169679999999994"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -1.28799869999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -1.28799869999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -1.27292279999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -1.27292279999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -0.85899334999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -0.85899334999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -0.84391742999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -0.84391742999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -1.30922479999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -1.30922479999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -0.86514336000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -0.86514336000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -0.88021928000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -0.88021928000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -1.29414889999999994"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -1.29414889999999994"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 -0.22656314 -0.78141874 0.0083177835000000002 -0.33138281000000003 -0.88623839999999998 0.0083177835000000002 0.21751810999999999 -1.22550010000000009 0.0083177835000000002 0.11269845000000001 -1.33031959999999994 0.0083177835000000002 0.21751810999999999 -1.22550010000000009 0.0083177835000000002 0.11269845000000001 -1.33031959999999994 0.0083177835000000002 -0.22656314 -0.78141874 0.0083177835000000002 -0.33138281000000003 -0.88623839999999998 0.0083177835000000002 0.21751810999999999 -1.22550010000000009 0.0083177835000000002 -0.22656314 -0.78141874 0.0083177835000000002 -0.33138281000000003 -0.88623839999999998 0.0083177835000000002 0.11269845000000001 -1.33031959999999994 0.0083177835000000002 -0.32090070999999998 -0.87575638 0.0083177835000000002 0.1231804 -1.31983779999999995 0.0083177835000000002 0.1231804 -1.31983779999999995 0.0083177835000000002 0.1231804 -1.31983779999999995 0.0083177835000000002 -0.32090074000000002 -0.87575632000000003 0.00831778350000"
+		+ "00002 -0.32090074000000002 -0.87575632000000003 0.0083177835000000002 -0.23599698 -0.79085267000000004 0.0083177835000000002 0.20808436 -1.23493389999999992 0.0083177835000000002 0.20808436 -1.23493389999999992 0.0083177835000000002 0.20808436 -1.23493389999999992 0.0083177835000000002 -0.23599701000000001 -0.79085260999999996 0.0083177835000000002 -0.23599701000000001 -0.79085260999999996 0.0083177835000000002 0.1930085 -1.21985790000000005 0.0083177835000000002 0.1930085 -1.21985790000000005 0.0083177835000000002 0.10810453 -1.30476189999999992 0.0083177835000000002 0.10810453 -1.30476189999999992 0.0083177835000000002 -0.22092107999999999 -0.80592828999999999 0.0083177835000000002 -0.30582504999999999 -0.89083224999999999 0.0083177835000000002 -0.22092107999999999 -0.80592828999999999 0.0083177835000000002 -0.30582504999999999 -0.89083224999999999 0.0083177835000000002 0.16563238 -1.27738569999999996 0.0083177835000000002 0.16563238 -1.27738569999999996 0.0083177835000000002 -0.27844888000000001 -0.8333044"
+		+ "6000000002 0.0083177835000000002 -0.27844888000000001 -0.83330446000000002 0.0083177835000000002 -0.26337295999999999 -0.84838015 0.0083177835000000002 -0.26337295999999999 -0.84838015 0.0083177835000000002 0.15055652 -1.26230979999999993 0.0083177835000000002 0.15055652 -1.26230979999999993 0.0083177835000000002 0.14440644999999999 -1.29861160000000009 0.0083177835000000002 0.14440644999999999 -1.29861160000000009 0.0083177835000000002 -0.29967481000000001 -0.85453038999999997 0.0083177835000000002 -0.29967481000000001 -0.85453038999999997 0.0083177835000000002 -0.28459912999999998 -0.86960632000000004 0.0083177835000000002 -0.28459912999999998 -0.86960632000000004 0.0083177835000000002 0.12933059 -1.28353570000000006 0.0083177835000000002 0.12933059 -1.28353570000000006 0.0083177835000000002 -0.25722295000000001 -0.81207854000000002 0.0083177835000000002 0.18685842999999999 -1.25615980000000005 0.0083177835000000002 0.18685842999999999 -1.25615980000000005 0.0083177835000000002 0.17178257 -1.241083900000000"
+		+ "02 0.0083177835000000002 0.17178257 -1.24108390000000002 0.0083177835000000002 -0.24214701 -0.82715422000000005 0.0083177835000000002 -0.24214701 -0.82715422000000005 0.0083177835000000002 -0.25722295000000001 -0.81207854000000002 0.0083177835000000002 -0.24660997000000001 -0.80146556999999996 0.0083177835000000002 0.19747139999999999 -1.24554680000000007 0.0083177835000000002 0.19747139999999999 -1.24554680000000007 0.0083177835000000002 0.18239553 -1.23047090000000003 0.0083177835000000002 0.18239553 -1.23047090000000003 0.0083177835000000002 -0.23153404999999999 -0.81654125 0.0083177835000000002 -0.23153404999999999 -0.81654125 0.0083177835000000002 -0.24660997000000001 -0.80146556999999996 0.0083177835000000002 0.17624535 -1.26677269999999997 0.0083177835000000002 0.17624535 -1.26677269999999997 0.0083177835000000002 -0.26783592000000001 -0.82269150000000002 0.0083177835000000002 -0.26783592000000001 -0.82269150000000002 0.0083177835000000002 -0.25275998999999999 -0.83776717999999994 0.0083177835000000002"
+		+ " -0.25275998999999999 -0.83776717999999994 0.0083177835000000002 0.16116948 -1.25169679999999994 0.0083177835000000002 0.16116948 -1.25169679999999994 0.0083177835000000002 0.15501941999999999 -1.28799869999999994 0.0083177835000000002 0.15501941999999999 -1.28799869999999994 0.0083177835000000002 0.13994355 -1.27292279999999991 0.0083177835000000002 0.13994355 -1.27292279999999991 0.0083177835000000002 -0.27398615999999998 -0.85899334999999999 0.0083177835000000002 -0.27398615999999998 -0.85899334999999999 0.0083177835000000002 -0.28906184000000001 -0.84391742999999997 0.0083177835000000002 -0.28906184000000001 -0.84391742999999997 0.0083177835000000002 0.13379336999999999 -1.30922479999999997 0.0083177835000000002 0.13379336999999999 -1.30922479999999997 0.0083177835000000002 -0.31028777000000002 -0.86514336000000003 0.0083177835000000002 -0.31028777000000002 -0.86514336000000003 0.0083177835000000002 -0.29521208999999998 -0.88021928000000005 0.0083177835000000002 -0.29521208999999998 -0.88021928000000005 0"
+		+ ".0083177835000000002 0.11871751 -1.29414889999999994 0.0083177835000000002 0.11871751 -1.29414889999999994"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27" "rotatePivot" " -type \"double3\" -2.38376575617730913 1.49012658708785439 -0.88185905378070417"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27" "scalePivot" " -type \"double3\" -2.38376575617730913 1.49012658708785439 -0.88185905378070417"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[0]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -1.20441909999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[1]" 
-		" -type \"float3\" 0.0083401809000000007 -0.33138287 -1.30923889999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[2]" 
-		" -type \"float3\" 0.0083401809000000007 0.21751804999999999 -1.64850040000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[3]" 
-		" -type \"float3\" 0.0083401809000000007 0.11269839 -1.75332020000000011"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[4]" 
-		" -type \"float3\" 0.0083401809000000007 0.21751804999999999 -1.64850040000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[5]" 
-		" -type \"float3\" 0.0083401809000000007 0.11269839 -1.75332020000000011"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[6]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -1.20441909999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[7]" 
-		" -type \"float3\" 0.0083401809000000007 -0.33138287 -1.30923889999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[8]" 
-		" -type \"float3\" 0.0083401809000000007 0.21751804999999999 -1.64850040000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[9]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -1.20441909999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[10]" 
-		" -type \"float3\" 0.0083401809000000007 -0.33138287 -1.30923889999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[11]" 
-		" -type \"float3\" 0.0083401809000000007 0.11269839 -1.75332020000000011"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[12]" 
-		" -type \"float3\" 0.0083401809000000007 -0.32090077 -1.29875680000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[13]" 
-		" -type \"float3\" 0.0083401809000000007 0.12318034 -1.74283809999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[14]" 
-		" -type \"float3\" 0.0083401809000000007 0.12318034 -1.74283809999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[15]" 
-		" -type \"float3\" 0.0083401809000000007 0.12318034 -1.74283809999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[16]" 
-		" -type \"float3\" 0.0083401809000000007 -0.32090079999999999 -1.29875680000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[17]" 
-		" -type \"float3\" 0.0083401809000000007 -0.32090079999999999 -1.29875680000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[18]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23599703999999999 -1.21385309999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[19]" 
-		" -type \"float3\" 0.0083401809000000007 0.2080843 -1.65793419999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[20]" 
-		" -type \"float3\" 0.0083401809000000007 0.2080843 -1.65793419999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[21]" 
-		" -type \"float3\" 0.0083401809000000007 0.2080843 -1.65793419999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[22]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23599707 -1.21385309999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[23]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23599707 -1.21385309999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[24]" 
-		" -type \"float3\" 0.0083401809000000007 0.19300844 -1.6428583000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[25]" 
-		" -type \"float3\" 0.0083401809000000007 0.19300844 -1.6428583000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[26]" 
-		" -type \"float3\" 0.0083401809000000007 0.10810446999999999 -1.72776219999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[27]" 
-		" -type \"float3\" 0.0083401809000000007 0.10810446999999999 -1.72776219999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[28]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22092113999999999 -1.22892880000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[29]" 
-		" -type \"float3\" 0.0083401809000000007 -0.30582511000000001 -1.31383279999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[30]" 
-		" -type \"float3\" 0.0083401809000000007 -0.22092113999999999 -1.22892880000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[31]" 
-		" -type \"float3\" 0.0083401809000000007 -0.30582511000000001 -1.31383279999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[32]" 
-		" -type \"float3\" 0.0083401809000000007 0.16563232 -1.70038629999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[33]" 
-		" -type \"float3\" 0.0083401809000000007 0.16563232 -1.70038629999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[34]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27844893999999998 -1.256305"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[35]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27844893999999998 -1.256305"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[36]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26337302000000001 -1.27138069999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[37]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26337302000000001 -1.27138069999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[38]" 
-		" -type \"float3\" 0.0083401809000000007 0.15055646 -1.6853104000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[39]" 
-		" -type \"float3\" 0.0083401809000000007 0.15055646 -1.6853104000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[40]" 
-		" -type \"float3\" 0.0083401809000000007 0.14440639 -1.72161220000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[41]" 
-		" -type \"float3\" 0.0083401809000000007 0.14440639 -1.72161220000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[42]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29967486999999998 -1.27753089999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[43]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29967486999999998 -1.27753089999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[44]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28459918000000001 -1.29260679999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[45]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28459918000000001 -1.29260679999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[46]" 
-		" -type \"float3\" 0.0083401809000000007 0.12933053 -1.70653630000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[47]" 
-		" -type \"float3\" 0.0083401809000000007 0.12933053 -1.70653630000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[48]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25722300999999997 -1.2350791000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[49]" 
-		" -type \"float3\" 0.0083401809000000007 0.18685837 -1.67916010000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[50]" 
-		" -type \"float3\" 0.0083401809000000007 0.18685837 -1.67916010000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[51]" 
-		" -type \"float3\" 0.0083401809000000007 0.17178251 -1.66408420000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[52]" 
-		" -type \"float3\" 0.0083401809000000007 0.17178251 -1.66408420000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[53]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24214706999999999 -1.25015469999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[54]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24214706999999999 -1.25015469999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[55]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25722300999999997 -1.2350791000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[56]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24661003000000001 -1.22446609999999989"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[57]" 
-		" -type \"float3\" 0.0083401809000000007 0.19747134 -1.6685471999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[58]" 
-		" -type \"float3\" 0.0083401809000000007 0.19747134 -1.6685471999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[59]" 
-		" -type \"float3\" 0.0083401809000000007 0.18239547 -1.65347120000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[60]" 
-		" -type \"float3\" 0.0083401809000000007 0.18239547 -1.65347120000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[61]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23153410999999999 -1.23954180000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[62]" 
-		" -type \"float3\" 0.0083401809000000007 -0.23153410999999999 -1.23954180000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[63]" 
-		" -type \"float3\" 0.0083401809000000007 -0.24661003000000001 -1.22446609999999989"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[64]" 
-		" -type \"float3\" 0.0083401809000000007 0.17624529 -1.68977329999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[65]" 
-		" -type \"float3\" 0.0083401809000000007 0.17624529 -1.68977329999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[66]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26783596999999998 -1.245692"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[67]" 
-		" -type \"float3\" 0.0083401809000000007 -0.26783596999999998 -1.245692"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[68]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25276005000000001 -1.26076769999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[69]" 
-		" -type \"float3\" 0.0083401809000000007 -0.25276005000000001 -1.26076769999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[70]" 
-		" -type \"float3\" 0.0083401809000000007 0.16116942000000001 -1.67469739999999989"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[71]" 
-		" -type \"float3\" 0.0083401809000000007 0.16116942000000001 -1.67469739999999989"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[72]" 
-		" -type \"float3\" 0.0083401809000000007 0.15501935999999999 -1.71099929999999989"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[73]" 
-		" -type \"float3\" 0.0083401809000000007 0.15501935999999999 -1.71099929999999989"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[74]" 
-		" -type \"float3\" 0.0083401809000000007 0.1399435 -1.69592330000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[75]" 
-		" -type \"float3\" 0.0083401809000000007 0.1399435 -1.69592330000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[76]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27398622 -1.28199390000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[77]" 
-		" -type \"float3\" 0.0083401809000000007 -0.27398622 -1.28199390000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[78]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28906189999999998 -1.26691789999999993"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[79]" 
-		" -type \"float3\" 0.0083401809000000007 -0.28906189999999998 -1.26691789999999993"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[80]" 
-		" -type \"float3\" 0.0083401809000000007 0.13379331 -1.73222520000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[81]" 
-		" -type \"float3\" 0.0083401809000000007 0.13379331 -1.73222520000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[82]" 
-		" -type \"float3\" 0.0083401809000000007 -0.31028782999999999 -1.2881438999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[83]" 
-		" -type \"float3\" 0.0083401809000000007 -0.31028782999999999 -1.2881438999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[84]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29521215000000001 -1.30321979999999993"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[85]" 
-		" -type \"float3\" 0.0083401809000000007 -0.29521215000000001 -1.30321979999999993"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[86]" 
-		" -type \"float3\" 0.0083401809000000007 0.11871745 -1.71714929999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pnts[87]" 
-		" -type \"float3\" 0.0083401809000000007 0.11871745 -1.71714929999999999"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083401809000000007 -0.22656319999999999 -1.20441909999999996 0.0083401809000000007 -0.33138287 -1.30923889999999998 0.0083401809000000007 0.21751804999999999 -1.64850040000000009 0.0083401809000000007 0.11269839 -1.75332020000000011 0.0083401809000000007 0.21751804999999999 -1.64850040000000009 0.0083401809000000007 0.11269839 -1.75332020000000011 0.0083401809000000007 -0.22656319999999999 -1.20441909999999996 0.0083401809000000007 -0.33138287 -1.30923889999999998 0.0083401809000000007 0.21751804999999999 -1.64850040000000009 0.0083401809000000007 -0.22656319999999999 -1.20441909999999996 0.0083401809000000007 -0.33138287 -1.30923889999999998 0.0083401809000000007 0.11269839 -1.75332020000000011 0.0083401809000000007 -0.32090077 -1.29875680000000004 0.0083401809000000007 0.12318034 -1.74283809999999995 0.0083401809000000007 0.12318034 -1.74283809999999995 0.0083401809000000007 0.12318034 -1.74283809999999995 0.0083401809000000007 -0.32090079999999999 -1.29875680000000004 0.00834018090"
+		+ "00000007 -0.32090079999999999 -1.29875680000000004 0.0083401809000000007 -0.23599703999999999 -1.21385309999999991 0.0083401809000000007 0.2080843 -1.65793419999999991 0.0083401809000000007 0.2080843 -1.65793419999999991 0.0083401809000000007 0.2080843 -1.65793419999999991 0.0083401809000000007 -0.23599707 -1.21385309999999991 0.0083401809000000007 -0.23599707 -1.21385309999999991 0.0083401809000000007 0.19300844 -1.6428583000000001 0.0083401809000000007 0.19300844 -1.6428583000000001 0.0083401809000000007 0.10810446999999999 -1.72776219999999991 0.0083401809000000007 0.10810446999999999 -1.72776219999999991 0.0083401809000000007 -0.22092113999999999 -1.22892880000000004 0.0083401809000000007 -0.30582511000000001 -1.31383279999999991 0.0083401809000000007 -0.22092113999999999 -1.22892880000000004 0.0083401809000000007 -0.30582511000000001 -1.31383279999999991 0.0083401809000000007 0.16563232 -1.70038629999999991 0.0083401809000000007 0.16563232 -1.70038629999999991 0.0083401809000000007 -0.27844893999999998 -"
+		+ "1.256305 0.0083401809000000007 -0.27844893999999998 -1.256305 0.0083401809000000007 -0.26337302000000001 -1.27138069999999992 0.0083401809000000007 -0.26337302000000001 -1.27138069999999992 0.0083401809000000007 0.15055646 -1.6853104000000001 0.0083401809000000007 0.15055646 -1.6853104000000001 0.0083401809000000007 0.14440639 -1.72161220000000004 0.0083401809000000007 0.14440639 -1.72161220000000004 0.0083401809000000007 -0.29967486999999998 -1.27753089999999991 0.0083401809000000007 -0.29967486999999998 -1.27753089999999991 0.0083401809000000007 -0.28459918000000001 -1.29260679999999994 0.0083401809000000007 -0.28459918000000001 -1.29260679999999994 0.0083401809000000007 0.12933053 -1.70653630000000001 0.0083401809000000007 0.12933053 -1.70653630000000001 0.0083401809000000007 -0.25722300999999997 -1.2350791000000001 0.0083401809000000007 0.18685837 -1.67916010000000004 0.0083401809000000007 0.18685837 -1.67916010000000004 0.0083401809000000007 0.17178251 -1.66408420000000001 0.0083401809000000007 0.1717825"
+		+ "1 -1.66408420000000001 0.0083401809000000007 -0.24214706999999999 -1.25015469999999995 0.0083401809000000007 -0.24214706999999999 -1.25015469999999995 0.0083401809000000007 -0.25722300999999997 -1.2350791000000001 0.0083401809000000007 -0.24661003000000001 -1.22446609999999989 0.0083401809000000007 0.19747134 -1.6685471999999999 0.0083401809000000007 0.19747134 -1.6685471999999999 0.0083401809000000007 0.18239547 -1.65347120000000003 0.0083401809000000007 0.18239547 -1.65347120000000003 0.0083401809000000007 -0.23153410999999999 -1.23954180000000003 0.0083401809000000007 -0.23153410999999999 -1.23954180000000003 0.0083401809000000007 -0.24661003000000001 -1.22446609999999989 0.0083401809000000007 0.17624529 -1.68977329999999992 0.0083401809000000007 0.17624529 -1.68977329999999992 0.0083401809000000007 -0.26783596999999998 -1.245692 0.0083401809000000007 -0.26783596999999998 -1.245692 0.0083401809000000007 -0.25276005000000001 -1.26076769999999994 0.0083401809000000007 -0.25276005000000001 -1.2607676999999999"
+		+ "4 0.0083401809000000007 0.16116942000000001 -1.67469739999999989 0.0083401809000000007 0.16116942000000001 -1.67469739999999989 0.0083401809000000007 0.15501935999999999 -1.71099929999999989 0.0083401809000000007 0.15501935999999999 -1.71099929999999989 0.0083401809000000007 0.1399435 -1.69592330000000002 0.0083401809000000007 0.1399435 -1.69592330000000002 0.0083401809000000007 -0.27398622 -1.28199390000000002 0.0083401809000000007 -0.27398622 -1.28199390000000002 0.0083401809000000007 -0.28906189999999998 -1.26691789999999993 0.0083401809000000007 -0.28906189999999998 -1.26691789999999993 0.0083401809000000007 0.13379331 -1.73222520000000002 0.0083401809000000007 0.13379331 -1.73222520000000002 0.0083401809000000007 -0.31028782999999999 -1.2881438999999999 0.0083401809000000007 -0.31028782999999999 -1.2881438999999999 0.0083401809000000007 -0.29521215000000001 -1.30321979999999993 0.0083401809000000007 -0.29521215000000001 -1.30321979999999993 0.0083401809000000007 0.11871745 -1.71714929999999999 0.00834018"
+		+ "09000000007 0.11871745 -1.71714929999999999")
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28" "rotatePivot" " -type \"double3\" -2.38378815397431554 1.49012664669250272 -0.67186095279437164"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28" "scalePivot" " -type \"double3\" -2.38378815397431554 1.49012664669250272 -0.67186095279437164"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.99442112000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -1.09924080000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -1.4385022999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -1.54332209999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -1.4385022999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -1.54332209999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.99442112000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -1.09924080000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -1.4385022999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -0.99442112000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -1.09924080000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -1.54332209999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090070999999998 -1.08875870000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -1.53284"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -1.53284"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -1.53284"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -1.08875870000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -1.08875870000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599698 -1.003855"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -1.44793609999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -1.44793609999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -1.44793609999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -1.003855"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -1.003855"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -1.43286040000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -1.43286040000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -1.51776430000000007"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -1.51776430000000007"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -1.01893070000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -1.10383460000000011"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -1.01893070000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -1.10383460000000011"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -1.49038819999999994"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -1.49038819999999994"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -1.04630679999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -1.04630679999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -1.0613824999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -1.0613824999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -1.47531220000000007"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -1.47531220000000007"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -1.51161410000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -1.51161410000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -1.06753279999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -1.06753279999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -1.08260869999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -1.08260869999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -1.49653820000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -1.49653820000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -1.02508090000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -1.469162"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -1.469162"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -1.45408629999999994"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -1.45408629999999994"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -1.04015659999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -1.04015659999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -1.02508090000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -1.014468"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -1.458549"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -1.458549"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -1.44347329999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -1.44347329999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -1.0295436"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -1.0295436"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -1.014468"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -1.47977519999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -1.47977519999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -1.03569390000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -1.03569390000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -1.05076959999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -1.05076959999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -1.46469929999999993"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -1.46469929999999993"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -1.50100110000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -1.50100110000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -1.48592520000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -1.48592520000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -1.0719957"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -1.0719957"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -1.05691979999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -1.05691979999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -1.522227"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -1.522227"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -1.0781457000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -1.0781457000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -1.09322169999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -1.09322169999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -1.50715139999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -1.50715139999999992"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 -0.22656314 -0.99442112000000005 0.0083177835000000002 -0.33138281000000003 -1.09924080000000002 0.0083177835000000002 0.21751810999999999 -1.4385022999999999 0.0083177835000000002 0.11269845000000001 -1.54332209999999992 0.0083177835000000002 0.21751810999999999 -1.4385022999999999 0.0083177835000000002 0.11269845000000001 -1.54332209999999992 0.0083177835000000002 -0.22656314 -0.99442112000000005 0.0083177835000000002 -0.33138281000000003 -1.09924080000000002 0.0083177835000000002 0.21751810999999999 -1.4385022999999999 0.0083177835000000002 -0.22656314 -0.99442112000000005 0.0083177835000000002 -0.33138281000000003 -1.09924080000000002 0.0083177835000000002 0.11269845000000001 -1.54332209999999992 0.0083177835000000002 -0.32090070999999998 -1.08875870000000008 0.0083177835000000002 0.1231804 -1.53284 0.0083177835000000002 0.1231804 -1.53284 0.0083177835000000002 0.1231804 -1.53284 0.0083177835000000002 -0.32090074000000002 -1.08875870000000008 0.00831778350000000"
+		+ "02 -0.32090074000000002 -1.08875870000000008 0.0083177835000000002 -0.23599698 -1.003855 0.0083177835000000002 0.20808436 -1.44793609999999995 0.0083177835000000002 0.20808436 -1.44793609999999995 0.0083177835000000002 0.20808436 -1.44793609999999995 0.0083177835000000002 -0.23599701000000001 -1.003855 0.0083177835000000002 -0.23599701000000001 -1.003855 0.0083177835000000002 0.1930085 -1.43286040000000003 0.0083177835000000002 0.1930085 -1.43286040000000003 0.0083177835000000002 0.10810453 -1.51776430000000007 0.0083177835000000002 0.10810453 -1.51776430000000007 0.0083177835000000002 -0.22092107999999999 -1.01893070000000008 0.0083177835000000002 -0.30582504999999999 -1.10383460000000011 0.0083177835000000002 -0.22092107999999999 -1.01893070000000008 0.0083177835000000002 -0.30582504999999999 -1.10383460000000011 0.0083177835000000002 0.16563238 -1.49038819999999994 0.0083177835000000002 0.16563238 -1.49038819999999994 0.0083177835000000002 -0.27844888000000001 -1.04630679999999998 0.0083177835000000002 -0."
+		+ "27844888000000001 -1.04630679999999998 0.0083177835000000002 -0.26337295999999999 -1.0613824999999999 0.0083177835000000002 -0.26337295999999999 -1.0613824999999999 0.0083177835000000002 0.15055652 -1.47531220000000007 0.0083177835000000002 0.15055652 -1.47531220000000007 0.0083177835000000002 0.14440644999999999 -1.51161410000000007 0.0083177835000000002 0.14440644999999999 -1.51161410000000007 0.0083177835000000002 -0.29967481000000001 -1.06753279999999995 0.0083177835000000002 -0.29967481000000001 -1.06753279999999995 0.0083177835000000002 -0.28459912999999998 -1.08260869999999998 0.0083177835000000002 -0.28459912999999998 -1.08260869999999998 0.0083177835000000002 0.12933059 -1.49653820000000004 0.0083177835000000002 0.12933059 -1.49653820000000004 0.0083177835000000002 -0.25722295000000001 -1.02508090000000007 0.0083177835000000002 0.18685842999999999 -1.469162 0.0083177835000000002 0.18685842999999999 -1.469162 0.0083177835000000002 0.17178257 -1.45408629999999994 0.0083177835000000002 0.17178257 -1.454"
+		+ "08629999999994 0.0083177835000000002 -0.24214701 -1.04015659999999999 0.0083177835000000002 -0.24214701 -1.04015659999999999 0.0083177835000000002 -0.25722295000000001 -1.02508090000000007 0.0083177835000000002 -0.24660997000000001 -1.014468 0.0083177835000000002 0.19747139999999999 -1.458549 0.0083177835000000002 0.19747139999999999 -1.458549 0.0083177835000000002 0.18239553 -1.44347329999999996 0.0083177835000000002 0.18239553 -1.44347329999999996 0.0083177835000000002 -0.23153404999999999 -1.0295436 0.0083177835000000002 -0.23153404999999999 -1.0295436 0.0083177835000000002 -0.24660997000000001 -1.014468 0.0083177835000000002 0.17624535 -1.47977519999999996 0.0083177835000000002 0.17624535 -1.47977519999999996 0.0083177835000000002 -0.26783592000000001 -1.03569390000000006 0.0083177835000000002 -0.26783592000000001 -1.03569390000000006 0.0083177835000000002 -0.25275998999999999 -1.05076959999999997 0.0083177835000000002 -0.25275998999999999 -1.05076959999999997 0.0083177835000000002 0.16116948 -1.464699299"
+		+ "99999993 0.0083177835000000002 0.16116948 -1.46469929999999993 0.0083177835000000002 0.15501941999999999 -1.50100110000000009 0.0083177835000000002 0.15501941999999999 -1.50100110000000009 0.0083177835000000002 0.13994355 -1.48592520000000006 0.0083177835000000002 0.13994355 -1.48592520000000006 0.0083177835000000002 -0.27398615999999998 -1.0719957 0.0083177835000000002 -0.27398615999999998 -1.0719957 0.0083177835000000002 -0.28906184000000001 -1.05691979999999996 0.0083177835000000002 -0.28906184000000001 -1.05691979999999996 0.0083177835000000002 0.13379336999999999 -1.522227 0.0083177835000000002 0.13379336999999999 -1.522227 0.0083177835000000002 -0.31028777000000002 -1.0781457000000001 0.0083177835000000002 -0.31028777000000002 -1.0781457000000001 0.0083177835000000002 -0.29521208999999998 -1.09322169999999996 0.0083177835000000002 -0.29521208999999998 -1.09322169999999996 0.0083177835000000002 0.11871751 -1.50715139999999992 0.0083177835000000002 0.11871751 -1.50715139999999992"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29" "rotatePivot" " -type \"double3\" -2.38378815397431554 1.49012664669249695 -0.77668057711720084"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29" "scalePivot" " -type \"double3\" -2.38378815397431554 1.49012664669249695 -0.77668057711720084"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -1.09924080000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -1.20406030000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -1.54332209999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -1.64814159999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -1.54332209999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -1.64814159999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -1.09924080000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -1.20406030000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.21751810999999999 -1.54332209999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22656314 -1.09924080000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 -0.33138281000000003 -1.20406030000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.11269845000000001 -1.64814159999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090070999999998 -1.1935785000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -1.6376598"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -1.6376598"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.1231804 -1.6376598"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -1.19357819999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 -0.32090074000000002 -1.19357819999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599698 -1.10867479999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -1.55275579999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -1.55275579999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.20808436 -1.55275579999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -1.10867450000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23599701000000001 -1.10867450000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -1.5376799000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.1930085 -1.5376799000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -1.62258389999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.10810453 -1.62258389999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -1.12375019999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -1.20865420000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 -0.22092107999999999 -1.12375019999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 -0.30582504999999999 -1.20865420000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -1.59520770000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.16563238 -1.59520770000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -1.15112640000000011"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27844888000000001 -1.15112640000000011"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -1.16620210000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26337295999999999 -1.16620210000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -1.58013179999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.15055652 -1.58013179999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -1.61643359999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.14440644999999999 -1.61643359999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -1.17235230000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29967481000000001 -1.17235230000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -1.18742820000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28459912999999998 -1.18742820000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -1.60135770000000011"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.12933059 -1.60135770000000011"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -1.12990049999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -1.5739818000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.18685842999999999 -1.5739818000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -1.55890580000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.17178257 -1.55890580000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -1.14497610000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24214701 -1.14497610000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25722295000000001 -1.12990049999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -1.11928749999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -1.56336879999999989"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.19747139999999999 -1.56336879999999989"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -1.54829290000000008"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.18239553 -1.54829290000000008"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -1.1343631999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 -0.23153404999999999 -1.1343631999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 -0.24660997000000001 -1.11928749999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -1.58459470000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.17624535 -1.58459470000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -1.1405133999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 -0.26783592000000001 -1.1405133999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -1.15558910000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 -0.25275998999999999 -1.15558910000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -1.56951879999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.16116948 -1.56951879999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -1.60582069999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.15501941999999999 -1.60582069999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -1.5907446999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.13994355 -1.5907446999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -1.1768152999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 -0.27398615999999998 -1.1768152999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -1.16173930000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 -0.28906184000000001 -1.16173930000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -1.62704680000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.13379336999999999 -1.62704680000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -1.1829653"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 -0.31028777000000002 -1.1829653"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -1.19804120000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 -0.29521208999999998 -1.19804120000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -1.61197089999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.11871751 -1.61197089999999998"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 -0.22656314 -1.09924080000000002 0.0083177835000000002 -0.33138281000000003 -1.20406030000000008 0.0083177835000000002 0.21751810999999999 -1.54332209999999992 0.0083177835000000002 0.11269845000000001 -1.64814159999999998 0.0083177835000000002 0.21751810999999999 -1.54332209999999992 0.0083177835000000002 0.11269845000000001 -1.64814159999999998 0.0083177835000000002 -0.22656314 -1.09924080000000002 0.0083177835000000002 -0.33138281000000003 -1.20406030000000008 0.0083177835000000002 0.21751810999999999 -1.54332209999999992 0.0083177835000000002 -0.22656314 -1.09924080000000002 0.0083177835000000002 -0.33138281000000003 -1.20406030000000008 0.0083177835000000002 0.11269845000000001 -1.64814159999999998 0.0083177835000000002 -0.32090070999999998 -1.1935785000000001 0.0083177835000000002 0.1231804 -1.6376598 0.0083177835000000002 0.1231804 -1.6376598 0.0083177835000000002 0.1231804 -1.6376598 0.0083177835000000002 -0.32090074000000002 -1.19357819999999992 0.008317783"
+		+ "5000000002 -0.32090074000000002 -1.19357819999999992 0.0083177835000000002 -0.23599698 -1.10867479999999996 0.0083177835000000002 0.20808436 -1.55275579999999991 0.0083177835000000002 0.20808436 -1.55275579999999991 0.0083177835000000002 0.20808436 -1.55275579999999991 0.0083177835000000002 -0.23599701000000001 -1.10867450000000001 0.0083177835000000002 -0.23599701000000001 -1.10867450000000001 0.0083177835000000002 0.1930085 -1.5376799000000001 0.0083177835000000002 0.1930085 -1.5376799000000001 0.0083177835000000002 0.10810453 -1.62258389999999997 0.0083177835000000002 0.10810453 -1.62258389999999997 0.0083177835000000002 -0.22092107999999999 -1.12375019999999992 0.0083177835000000002 -0.30582504999999999 -1.20865420000000001 0.0083177835000000002 -0.22092107999999999 -1.12375019999999992 0.0083177835000000002 -0.30582504999999999 -1.20865420000000001 0.0083177835000000002 0.16563238 -1.59520770000000001 0.0083177835000000002 0.16563238 -1.59520770000000001 0.0083177835000000002 -0.27844888000000001 -1.1511"
+		+ "2640000000011 0.0083177835000000002 -0.27844888000000001 -1.15112640000000011 0.0083177835000000002 -0.26337295999999999 -1.16620210000000002 0.0083177835000000002 -0.26337295999999999 -1.16620210000000002 0.0083177835000000002 0.15055652 -1.58013179999999998 0.0083177835000000002 0.15055652 -1.58013179999999998 0.0083177835000000002 0.14440644999999999 -1.61643359999999991 0.0083177835000000002 0.14440644999999999 -1.61643359999999991 0.0083177835000000002 -0.29967481000000001 -1.17235230000000001 0.0083177835000000002 -0.29967481000000001 -1.17235230000000001 0.0083177835000000002 -0.28459912999999998 -1.18742820000000004 0.0083177835000000002 -0.28459912999999998 -1.18742820000000004 0.0083177835000000002 0.12933059 -1.60135770000000011 0.0083177835000000002 0.12933059 -1.60135770000000011 0.0083177835000000002 -0.25722295000000001 -1.12990049999999997 0.0083177835000000002 0.18685842999999999 -1.5739818000000001 0.0083177835000000002 0.18685842999999999 -1.5739818000000001 0.0083177835000000002 0.17178257"
+		+ " -1.55890580000000001 0.0083177835000000002 0.17178257 -1.55890580000000001 0.0083177835000000002 -0.24214701 -1.14497610000000005 0.0083177835000000002 -0.24214701 -1.14497610000000005 0.0083177835000000002 -0.25722295000000001 -1.12990049999999997 0.0083177835000000002 -0.24660997000000001 -1.11928749999999999 0.0083177835000000002 0.19747139999999999 -1.56336879999999989 0.0083177835000000002 0.19747139999999999 -1.56336879999999989 0.0083177835000000002 0.18239553 -1.54829290000000008 0.0083177835000000002 0.18239553 -1.54829290000000008 0.0083177835000000002 -0.23153404999999999 -1.1343631999999999 0.0083177835000000002 -0.23153404999999999 -1.1343631999999999 0.0083177835000000002 -0.24660997000000001 -1.11928749999999999 0.0083177835000000002 0.17624535 -1.58459470000000002 0.0083177835000000002 0.17624535 -1.58459470000000002 0.0083177835000000002 -0.26783592000000001 -1.1405133999999999 0.0083177835000000002 -0.26783592000000001 -1.1405133999999999 0.0083177835000000002 -0.25275998999999999 -1.155589"
+		+ "10000000004 0.0083177835000000002 -0.25275998999999999 -1.15558910000000004 0.0083177835000000002 0.16116948 -1.56951879999999999 0.0083177835000000002 0.16116948 -1.56951879999999999 0.0083177835000000002 0.15501941999999999 -1.60582069999999999 0.0083177835000000002 0.15501941999999999 -1.60582069999999999 0.0083177835000000002 0.13994355 -1.5907446999999999 0.0083177835000000002 0.13994355 -1.5907446999999999 0.0083177835000000002 -0.27398615999999998 -1.1768152999999999 0.0083177835000000002 -0.27398615999999998 -1.1768152999999999 0.0083177835000000002 -0.28906184000000001 -1.16173930000000003 0.0083177835000000002 -0.28906184000000001 -1.16173930000000003 0.0083177835000000002 0.13379336999999999 -1.62704680000000002 0.0083177835000000002 0.13379336999999999 -1.62704680000000002 0.0083177835000000002 -0.31028777000000002 -1.1829653 0.0083177835000000002 -0.31028777000000002 -1.1829653 0.0083177835000000002 -0.29521208999999998 -1.19804120000000003 0.0083177835000000002 -0.29521208999999998 -1.1980412000"
+		+ "0000003 0.0083177835000000002 0.11871751 -1.61197089999999998 0.0083177835000000002 0.11871751 -1.61197089999999998"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1" "rotatePivot" " -type \"double3\" -2.3837657359035993 2.03338632103196204 3.7416916620625074e-08"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1" "scalePivot" " -type \"double3\" -2.3837657359035993 2.03338632103196204 3.7416916620625074e-08"
@@ -4332,3869 +3305,1145 @@ createNode reference -n "ShelfsRN";
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30" "scalePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040068 -0.77668057711720018"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -1.09924080000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -1.20406030000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -1.54332209999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -1.64814159999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -1.54332209999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -1.64814159999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -1.09924080000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -1.20406030000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -1.54332209999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -1.09924080000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -1.20406030000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -1.64814159999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476250999999999 -1.1935785000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -1.6376598"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -1.6376598"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -1.6376598"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -1.19357819999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -1.19357819999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966623 -1.10867479999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -1.55275579999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -1.55275579999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -1.55275579999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -1.10867450000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -1.10867450000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -1.5376799000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -1.5376799000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -1.62258389999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -1.62258389999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -1.12375019999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -1.20865420000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -1.12375019999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -1.20865420000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -1.59520770000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -1.59520770000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -1.15112640000000011"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -1.15112640000000011"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -1.16620210000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -1.16620210000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -1.58013179999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -1.58013179999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -1.61643359999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -1.61643359999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -1.17235230000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -1.17235230000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -1.18742820000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -1.18742820000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -1.60135770000000011"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -1.60135770000000011"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -1.12990049999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -1.5739818000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -1.5739818000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -1.55890580000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -1.55890580000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -1.14497610000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -1.14497610000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -1.12990049999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -1.11928749999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -1.56336879999999989"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -1.56336879999999989"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -1.54829290000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -1.54829290000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -1.1343631999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -1.1343631999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -1.11928749999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -1.58459470000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -1.58459470000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -1.1405133999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -1.1405133999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -1.15558910000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -1.15558910000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -1.56951879999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -1.56951879999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -1.60582069999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -1.60582069999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -1.5907446999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -1.5907446999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -1.1768152999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -1.1768152999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -1.16173930000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -1.16173930000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -1.62704680000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -1.62704680000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -1.1829653"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -1.1829653"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -1.19804120000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -1.19804120000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -1.61197089999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -1.61197089999999998"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 0.33910005999999998 -1.09924080000000002 0.0083177835000000002 0.23428040999999999 -1.20406030000000008 0.0083177835000000002 0.78318131000000002 -1.54332209999999992 0.0083177835000000002 0.67836165000000004 -1.64814159999999998 0.0083177835000000002 0.78318131000000002 -1.54332209999999992 0.0083177835000000002 0.67836165000000004 -1.64814159999999998 0.0083177835000000002 0.33910005999999998 -1.09924080000000002 0.0083177835000000002 0.23428040999999999 -1.20406030000000008 0.0083177835000000002 0.78318131000000002 -1.54332209999999992 0.0083177835000000002 0.33910005999999998 -1.09924080000000002 0.0083177835000000002 0.23428040999999999 -1.20406030000000008 0.0083177835000000002 0.67836165000000004 -1.64814159999999998 0.0083177835000000002 0.24476250999999999 -1.1935785000000001 0.0083177835000000002 0.68884361000000005 -1.6376598 0.0083177835000000002 0.68884361000000005 -1.6376598 0.0083177835000000002 0.68884361000000005 -1.6376598 0.0083177835000000002 0.2"
+		+ "4476248 -1.19357819999999992 0.0083177835000000002 0.24476248 -1.19357819999999992 0.0083177835000000002 0.32966623 -1.10867479999999996 0.0083177835000000002 0.77374756 -1.55275579999999991 0.0083177835000000002 0.77374756 -1.55275579999999991 0.0083177835000000002 0.77374756 -1.55275579999999991 0.0083177835000000002 0.32966620000000002 -1.10867450000000001 0.0083177835000000002 0.32966620000000002 -1.10867450000000001 0.0083177835000000002 0.75867169999999995 -1.5376799000000001 0.0083177835000000002 0.75867169999999995 -1.5376799000000001 0.0083177835000000002 0.67376775 -1.62258389999999997 0.0083177835000000002 0.67376775 -1.62258389999999997 0.0083177835000000002 0.34474211999999999 -1.12375019999999992 0.0083177835000000002 0.25983815999999998 -1.20865420000000001 0.0083177835000000002 0.34474211999999999 -1.12375019999999992 0.0083177835000000002 0.25983815999999998 -1.20865420000000001 0.0083177835000000002 0.73129559 -1.59520770000000001 0.0083177835000000002 0.73129559 -1.59520770000000001 0.00831"
+		+ "77835000000002 0.28721434000000001 -1.15112640000000011 0.0083177835000000002 0.28721434000000001 -1.15112640000000011 0.0083177835000000002 0.30229025999999998 -1.16620210000000002 0.0083177835000000002 0.30229025999999998 -1.16620210000000002 0.0083177835000000002 0.71621972 -1.58013179999999998 0.0083177835000000002 0.71621972 -1.58013179999999998 0.0083177835000000002 0.71006966000000005 -1.61643359999999991 0.0083177835000000002 0.71006966000000005 -1.61643359999999991 0.0083177835000000002 0.26598841000000001 -1.17235230000000001 0.0083177835000000002 0.26598841000000001 -1.17235230000000001 0.0083177835000000002 0.28106408999999999 -1.18742820000000004 0.0083177835000000002 0.28106408999999999 -1.18742820000000004 0.0083177835000000002 0.69499378999999994 -1.60135770000000011 0.0083177835000000002 0.69499378999999994 -1.60135770000000011 0.0083177835000000002 0.30844027000000002 -1.12990049999999997 0.0083177835000000002 0.75252163000000005 -1.5739818000000001 0.0083177835000000002 0.75252163000000005 "
+		+ "-1.5739818000000001 0.0083177835000000002 0.73744577 -1.55890580000000001 0.0083177835000000002 0.73744577 -1.55890580000000001 0.0083177835000000002 0.32351618999999998 -1.14497610000000005 0.0083177835000000002 0.32351618999999998 -1.14497610000000005 0.0083177835000000002 0.30844027000000002 -1.12990049999999997 0.0083177835000000002 0.31905323000000002 -1.11928749999999999 0.0083177835000000002 0.7631346 -1.56336879999999989 0.0083177835000000002 0.7631346 -1.56336879999999989 0.0083177835000000002 0.74805874000000006 -1.54829290000000008 0.0083177835000000002 0.74805874000000006 -1.54829290000000008 0.0083177835000000002 0.33412914999999999 -1.1343631999999999 0.0083177835000000002 0.33412914999999999 -1.1343631999999999 0.0083177835000000002 0.31905323000000002 -1.11928749999999999 0.0083177835000000002 0.74190855 -1.58459470000000002 0.0083177835000000002 0.74190855 -1.58459470000000002 0.0083177835000000002 0.29782730000000002 -1.1405133999999999 0.0083177835000000002 0.29782730000000002 -1.1405133999"
+		+ "999999 0.0083177835000000002 0.31290322999999998 -1.15558910000000004 0.0083177835000000002 0.31290322999999998 -1.15558910000000004 0.0083177835000000002 0.72683268999999995 -1.56951879999999999 0.0083177835000000002 0.72683268999999995 -1.56951879999999999 0.0083177835000000002 0.72068262000000005 -1.60582069999999999 0.0083177835000000002 0.72068262000000005 -1.60582069999999999 0.0083177835000000002 0.70560676 -1.5907446999999999 0.0083177835000000002 0.70560676 -1.5907446999999999 0.0083177835000000002 0.29167705999999999 -1.1768152999999999 0.0083177835000000002 0.29167705999999999 -1.1768152999999999 0.0083177835000000002 0.27660137000000001 -1.16173930000000003 0.0083177835000000002 0.27660137000000001 -1.16173930000000003 0.0083177835000000002 0.69945657000000006 -1.62704680000000002 0.0083177835000000002 0.69945657000000006 -1.62704680000000002 0.0083177835000000002 0.25537544000000001 -1.1829653 0.0083177835000000002 0.25537544000000001 -1.1829653 0.0083177835000000002 0.27045112999999998 -1.198041"
+		+ "20000000003 0.0083177835000000002 0.27045112999999998 -1.19804120000000003 0.0083177835000000002 0.68438071 -1.61197089999999998 0.0083177835000000002 0.68438071 -1.61197089999999998"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31" "rotatePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040689 -0.67186095279437097"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31" "scalePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040689 -0.67186095279437097"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.99442112000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -1.09924080000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -1.4385022999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -1.54332209999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -1.4385022999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -1.54332209999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.99442112000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -1.09924080000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -1.4385022999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.99442112000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -1.09924080000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -1.54332209999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476250999999999 -1.08875870000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -1.53284"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -1.53284"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -1.53284"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -1.08875870000000008"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -1.08875870000000008"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966623 -1.003855"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -1.44793609999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -1.44793609999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -1.44793609999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -1.003855"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -1.003855"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -1.43286040000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -1.43286040000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -1.51776430000000007"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -1.51776430000000007"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -1.01893070000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -1.10383460000000011"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -1.01893070000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -1.10383460000000011"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -1.49038819999999994"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -1.49038819999999994"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -1.04630679999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -1.04630679999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -1.0613824999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -1.0613824999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -1.47531220000000007"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -1.47531220000000007"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -1.51161410000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -1.51161410000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -1.06753279999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -1.06753279999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -1.08260869999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -1.08260869999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -1.49653820000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -1.49653820000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -1.02508090000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -1.469162"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -1.469162"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -1.45408629999999994"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -1.45408629999999994"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -1.04015659999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -1.04015659999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -1.02508090000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -1.014468"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -1.458549"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -1.458549"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -1.44347329999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -1.44347329999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -1.0295436"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -1.0295436"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -1.014468"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -1.47977519999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -1.47977519999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -1.03569390000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -1.03569390000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -1.05076959999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -1.05076959999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -1.46469929999999993"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -1.46469929999999993"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -1.50100110000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -1.50100110000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -1.48592520000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -1.48592520000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -1.0719957"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -1.0719957"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -1.05691979999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -1.05691979999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -1.522227"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -1.522227"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -1.0781457000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -1.0781457000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -1.09322169999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -1.09322169999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -1.50715139999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -1.50715139999999992"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.99442112000000005 0.0083177835000000002 0.23428040999999999 -1.09924080000000002 0.0083177835000000002 0.78318131000000002 -1.4385022999999999 0.0083177835000000002 0.67836165000000004 -1.54332209999999992 0.0083177835000000002 0.78318131000000002 -1.4385022999999999 0.0083177835000000002 0.67836165000000004 -1.54332209999999992 0.0083177835000000002 0.33910005999999998 -0.99442112000000005 0.0083177835000000002 0.23428040999999999 -1.09924080000000002 0.0083177835000000002 0.78318131000000002 -1.4385022999999999 0.0083177835000000002 0.33910005999999998 -0.99442112000000005 0.0083177835000000002 0.23428040999999999 -1.09924080000000002 0.0083177835000000002 0.67836165000000004 -1.54332209999999992 0.0083177835000000002 0.24476250999999999 -1.08875870000000008 0.0083177835000000002 0.68884361000000005 -1.53284 0.0083177835000000002 0.68884361000000005 -1.53284 0.0083177835000000002 0.68884361000000005 -1.53284 0.0083177835000000002 0.24476248 "
+		+ "-1.08875870000000008 0.0083177835000000002 0.24476248 -1.08875870000000008 0.0083177835000000002 0.32966623 -1.003855 0.0083177835000000002 0.77374756 -1.44793609999999995 0.0083177835000000002 0.77374756 -1.44793609999999995 0.0083177835000000002 0.77374756 -1.44793609999999995 0.0083177835000000002 0.32966620000000002 -1.003855 0.0083177835000000002 0.32966620000000002 -1.003855 0.0083177835000000002 0.75867169999999995 -1.43286040000000003 0.0083177835000000002 0.75867169999999995 -1.43286040000000003 0.0083177835000000002 0.67376775 -1.51776430000000007 0.0083177835000000002 0.67376775 -1.51776430000000007 0.0083177835000000002 0.34474211999999999 -1.01893070000000008 0.0083177835000000002 0.25983815999999998 -1.10383460000000011 0.0083177835000000002 0.34474211999999999 -1.01893070000000008 0.0083177835000000002 0.25983815999999998 -1.10383460000000011 0.0083177835000000002 0.73129559 -1.49038819999999994 0.0083177835000000002 0.73129559 -1.49038819999999994 0.0083177835000000002 0.28721434000000001 -1.0"
+		+ "4630679999999998 0.0083177835000000002 0.28721434000000001 -1.04630679999999998 0.0083177835000000002 0.30229025999999998 -1.0613824999999999 0.0083177835000000002 0.30229025999999998 -1.0613824999999999 0.0083177835000000002 0.71621972 -1.47531220000000007 0.0083177835000000002 0.71621972 -1.47531220000000007 0.0083177835000000002 0.71006966000000005 -1.51161410000000007 0.0083177835000000002 0.71006966000000005 -1.51161410000000007 0.0083177835000000002 0.26598841000000001 -1.06753279999999995 0.0083177835000000002 0.26598841000000001 -1.06753279999999995 0.0083177835000000002 0.28106408999999999 -1.08260869999999998 0.0083177835000000002 0.28106408999999999 -1.08260869999999998 0.0083177835000000002 0.69499378999999994 -1.49653820000000004 0.0083177835000000002 0.69499378999999994 -1.49653820000000004 0.0083177835000000002 0.30844027000000002 -1.02508090000000007 0.0083177835000000002 0.75252163000000005 -1.469162 0.0083177835000000002 0.75252163000000005 -1.469162 0.0083177835000000002 0.73744577 -1.45408"
+		+ "629999999994 0.0083177835000000002 0.73744577 -1.45408629999999994 0.0083177835000000002 0.32351618999999998 -1.04015659999999999 0.0083177835000000002 0.32351618999999998 -1.04015659999999999 0.0083177835000000002 0.30844027000000002 -1.02508090000000007 0.0083177835000000002 0.31905323000000002 -1.014468 0.0083177835000000002 0.7631346 -1.458549 0.0083177835000000002 0.7631346 -1.458549 0.0083177835000000002 0.74805874000000006 -1.44347329999999996 0.0083177835000000002 0.74805874000000006 -1.44347329999999996 0.0083177835000000002 0.33412914999999999 -1.0295436 0.0083177835000000002 0.33412914999999999 -1.0295436 0.0083177835000000002 0.31905323000000002 -1.014468 0.0083177835000000002 0.74190855 -1.47977519999999996 0.0083177835000000002 0.74190855 -1.47977519999999996 0.0083177835000000002 0.29782730000000002 -1.03569390000000006 0.0083177835000000002 0.29782730000000002 -1.03569390000000006 0.0083177835000000002 0.31290322999999998 -1.05076959999999997 0.0083177835000000002 0.31290322999999998 -1.050769"
+		+ "59999999997 0.0083177835000000002 0.72683268999999995 -1.46469929999999993 0.0083177835000000002 0.72683268999999995 -1.46469929999999993 0.0083177835000000002 0.72068262000000005 -1.50100110000000009 0.0083177835000000002 0.72068262000000005 -1.50100110000000009 0.0083177835000000002 0.70560676 -1.48592520000000006 0.0083177835000000002 0.70560676 -1.48592520000000006 0.0083177835000000002 0.29167705999999999 -1.0719957 0.0083177835000000002 0.29167705999999999 -1.0719957 0.0083177835000000002 0.27660137000000001 -1.05691979999999996 0.0083177835000000002 0.27660137000000001 -1.05691979999999996 0.0083177835000000002 0.69945657000000006 -1.522227 0.0083177835000000002 0.69945657000000006 -1.522227 0.0083177835000000002 0.25537544000000001 -1.0781457000000001 0.0083177835000000002 0.25537544000000001 -1.0781457000000001 0.0083177835000000002 0.27045112999999998 -1.09322169999999996 0.0083177835000000002 0.27045112999999998 -1.09322169999999996 0.0083177835000000002 0.68438071 -1.50715139999999992 0.0083177835"
+		+ "000000002 0.68438071 -1.50715139999999992")
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32" "rotatePivot" " -type \"double3\" -2.38376575617730913 2.05578979132575856 -0.88185905378070351"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32" "scalePivot" " -type \"double3\" -2.38376575617730913 2.05578979132575856 -0.88185905378070351"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[0]" 
-		" -type \"float3\" 0.0083401809000000007 0.3391 -1.20441909999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[1]" 
-		" -type \"float3\" 0.0083401809000000007 0.23428035 -1.30923889999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[2]" 
-		" -type \"float3\" 0.0083401809000000007 0.78318125000000005 -1.64850040000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[3]" 
-		" -type \"float3\" 0.0083401809000000007 0.67836158999999996 -1.75332020000000011"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[4]" 
-		" -type \"float3\" 0.0083401809000000007 0.78318125000000005 -1.64850040000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[5]" 
-		" -type \"float3\" 0.0083401809000000007 0.67836158999999996 -1.75332020000000011"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[6]" 
-		" -type \"float3\" 0.0083401809000000007 0.3391 -1.20441909999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[7]" 
-		" -type \"float3\" 0.0083401809000000007 0.23428035 -1.30923889999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[8]" 
-		" -type \"float3\" 0.0083401809000000007 0.78318125000000005 -1.64850040000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[9]" 
-		" -type \"float3\" 0.0083401809000000007 0.3391 -1.20441909999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[10]" 
-		" -type \"float3\" 0.0083401809000000007 0.23428035 -1.30923889999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[11]" 
-		" -type \"float3\" 0.0083401809000000007 0.67836158999999996 -1.75332020000000011"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[12]" 
-		" -type \"float3\" 0.0083401809000000007 0.24476244999999999 -1.29875680000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[13]" 
-		" -type \"float3\" 0.0083401809000000007 0.68884354999999997 -1.74283809999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[14]" 
-		" -type \"float3\" 0.0083401809000000007 0.68884354999999997 -1.74283809999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[15]" 
-		" -type \"float3\" 0.0083401809000000007 0.68884354999999997 -1.74283809999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[16]" 
-		" -type \"float3\" 0.0083401809000000007 0.24476242000000001 -1.29875680000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[17]" 
-		" -type \"float3\" 0.0083401809000000007 0.24476242000000001 -1.29875680000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[18]" 
-		" -type \"float3\" 0.0083401809000000007 0.32966616999999998 -1.21385309999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[19]" 
-		" -type \"float3\" 0.0083401809000000007 0.77374750000000003 -1.65793419999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[20]" 
-		" -type \"float3\" 0.0083401809000000007 0.77374750000000003 -1.65793419999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[21]" 
-		" -type \"float3\" 0.0083401809000000007 0.77374750000000003 -1.65793419999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[22]" 
-		" -type \"float3\" 0.0083401809000000007 0.32966614 -1.21385309999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[23]" 
-		" -type \"float3\" 0.0083401809000000007 0.32966614 -1.21385309999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[24]" 
-		" -type \"float3\" 0.0083401809000000007 0.75867163999999998 -1.6428583000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[25]" 
-		" -type \"float3\" 0.0083401809000000007 0.75867163999999998 -1.6428583000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[26]" 
-		" -type \"float3\" 0.0083401809000000007 0.67376769000000003 -1.72776219999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[27]" 
-		" -type \"float3\" 0.0083401809000000007 0.67376769000000003 -1.72776219999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[28]" 
-		" -type \"float3\" 0.0083401809000000007 0.34474206000000002 -1.22892880000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[29]" 
-		" -type \"float3\" 0.0083401809000000007 0.25983810000000002 -1.31383279999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[30]" 
-		" -type \"float3\" 0.0083401809000000007 0.34474206000000002 -1.22892880000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[31]" 
-		" -type \"float3\" 0.0083401809000000007 0.25983810000000002 -1.31383279999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[32]" 
-		" -type \"float3\" 0.0083401809000000007 0.73129553000000003 -1.70038629999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[33]" 
-		" -type \"float3\" 0.0083401809000000007 0.73129553000000003 -1.70038629999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[34]" 
-		" -type \"float3\" 0.0083401809000000007 0.28721427999999999 -1.256305"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[35]" 
-		" -type \"float3\" 0.0083401809000000007 0.28721427999999999 -1.256305"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[36]" 
-		" -type \"float3\" 0.0083401809000000007 0.30229020000000001 -1.27138069999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[37]" 
-		" -type \"float3\" 0.0083401809000000007 0.30229020000000001 -1.27138069999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[38]" 
-		" -type \"float3\" 0.0083401809000000007 0.71621966000000004 -1.6853104000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[39]" 
-		" -type \"float3\" 0.0083401809000000007 0.71621966000000004 -1.6853104000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[40]" 
-		" -type \"float3\" 0.0083401809000000007 0.71006959999999997 -1.72161220000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[41]" 
-		" -type \"float3\" 0.0083401809000000007 0.71006959999999997 -1.72161220000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[42]" 
-		" -type \"float3\" 0.0083401809000000007 0.26598834999999998 -1.27753089999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[43]" 
-		" -type \"float3\" 0.0083401809000000007 0.26598834999999998 -1.27753089999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[44]" 
-		" -type \"float3\" 0.0083401809000000007 0.28106403000000002 -1.29260679999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[45]" 
-		" -type \"float3\" 0.0083401809000000007 0.28106403000000002 -1.29260679999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[46]" 
-		" -type \"float3\" 0.0083401809000000007 0.69499372999999998 -1.70653630000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[47]" 
-		" -type \"float3\" 0.0083401809000000007 0.69499372999999998 -1.70653630000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[48]" 
-		" -type \"float3\" 0.0083401809000000007 0.30844020999999999 -1.2350791000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[49]" 
-		" -type \"float3\" 0.0083401809000000007 0.75252156999999997 -1.67916010000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[50]" 
-		" -type \"float3\" 0.0083401809000000007 0.75252156999999997 -1.67916010000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[51]" 
-		" -type \"float3\" 0.0083401809000000007 0.73744571000000003 -1.66408420000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[52]" 
-		" -type \"float3\" 0.0083401809000000007 0.73744571000000003 -1.66408420000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[53]" 
-		" -type \"float3\" 0.0083401809000000007 0.32351613000000001 -1.25015469999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[54]" 
-		" -type \"float3\" 0.0083401809000000007 0.32351613000000001 -1.25015469999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[55]" 
-		" -type \"float3\" 0.0083401809000000007 0.30844020999999999 -1.2350791000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[56]" 
-		" -type \"float3\" 0.0083401809000000007 0.31905317 -1.22446609999999989"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[57]" 
-		" -type \"float3\" 0.0083401809000000007 0.76313454000000003 -1.6685471999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[58]" 
-		" -type \"float3\" 0.0083401809000000007 0.76313454000000003 -1.6685471999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[59]" 
-		" -type \"float3\" 0.0083401809000000007 0.74805867999999998 -1.65347120000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[60]" 
-		" -type \"float3\" 0.0083401809000000007 0.74805867999999998 -1.65347120000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[61]" 
-		" -type \"float3\" 0.0083401809000000007 0.33412910000000001 -1.23954180000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[62]" 
-		" -type \"float3\" 0.0083401809000000007 0.33412910000000001 -1.23954180000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[63]" 
-		" -type \"float3\" 0.0083401809000000007 0.31905317 -1.22446609999999989"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[64]" 
-		" -type \"float3\" 0.0083401809000000007 0.74190849000000003 -1.68977329999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[65]" 
-		" -type \"float3\" 0.0083401809000000007 0.74190849000000003 -1.68977329999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[66]" 
-		" -type \"float3\" 0.0083401809000000007 0.29782723999999999 -1.245692"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[67]" 
-		" -type \"float3\" 0.0083401809000000007 0.29782723999999999 -1.245692"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[68]" 
-		" -type \"float3\" 0.0083401809000000007 0.31290317000000001 -1.26076769999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[69]" 
-		" -type \"float3\" 0.0083401809000000007 0.31290317000000001 -1.26076769999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[70]" 
-		" -type \"float3\" 0.0083401809000000007 0.72683262999999998 -1.67469739999999989"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[71]" 
-		" -type \"float3\" 0.0083401809000000007 0.72683262999999998 -1.67469739999999989"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[72]" 
-		" -type \"float3\" 0.0083401809000000007 0.72068255999999997 -1.71099929999999989"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[73]" 
-		" -type \"float3\" 0.0083401809000000007 0.72068255999999997 -1.71099929999999989"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[74]" 
-		" -type \"float3\" 0.0083401809000000007 0.70560670000000003 -1.69592330000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[75]" 
-		" -type \"float3\" 0.0083401809000000007 0.70560670000000003 -1.69592330000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[76]" 
-		" -type \"float3\" 0.0083401809000000007 0.291677 -1.28199390000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[77]" 
-		" -type \"float3\" 0.0083401809000000007 0.291677 -1.28199390000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[78]" 
-		" -type \"float3\" 0.0083401809000000007 0.27660130999999999 -1.26691789999999993"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[79]" 
-		" -type \"float3\" 0.0083401809000000007 0.27660130999999999 -1.26691789999999993"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[80]" 
-		" -type \"float3\" 0.0083401809000000007 0.69945650999999998 -1.73222520000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[81]" 
-		" -type \"float3\" 0.0083401809000000007 0.69945650999999998 -1.73222520000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[82]" 
-		" -type \"float3\" 0.0083401809000000007 0.25537538999999998 -1.2881438999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[83]" 
-		" -type \"float3\" 0.0083401809000000007 0.25537538999999998 -1.2881438999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[84]" 
-		" -type \"float3\" 0.0083401809000000007 0.27045107000000002 -1.30321979999999993"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[85]" 
-		" -type \"float3\" 0.0083401809000000007 0.27045107000000002 -1.30321979999999993"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[86]" 
-		" -type \"float3\" 0.0083401809000000007 0.68438065000000003 -1.71714929999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pnts[87]" 
-		" -type \"float3\" 0.0083401809000000007 0.68438065000000003 -1.71714929999999999"
-		
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083401809000000007 0.3391 -1.20441909999999996 0.0083401809000000007 0.23428035 -1.30923889999999998 0.0083401809000000007 0.78318125000000005 -1.64850040000000009 0.0083401809000000007 0.67836158999999996 -1.75332020000000011 0.0083401809000000007 0.78318125000000005 -1.64850040000000009 0.0083401809000000007 0.67836158999999996 -1.75332020000000011 0.0083401809000000007 0.3391 -1.20441909999999996 0.0083401809000000007 0.23428035 -1.30923889999999998 0.0083401809000000007 0.78318125000000005 -1.64850040000000009 0.0083401809000000007 0.3391 -1.20441909999999996 0.0083401809000000007 0.23428035 -1.30923889999999998 0.0083401809000000007 0.67836158999999996 -1.75332020000000011 0.0083401809000000007 0.24476244999999999 -1.29875680000000004 0.0083401809000000007 0.68884354999999997 -1.74283809999999995 0.0083401809000000007 0.68884354999999997 -1.74283809999999995 0.0083401809000000007 0.68884354999999997 -1.74283809999999995 0.0083401809000000007 0.24476242000000001 -1.298756800000000"
+		+ "04 0.0083401809000000007 0.24476242000000001 -1.29875680000000004 0.0083401809000000007 0.32966616999999998 -1.21385309999999991 0.0083401809000000007 0.77374750000000003 -1.65793419999999991 0.0083401809000000007 0.77374750000000003 -1.65793419999999991 0.0083401809000000007 0.77374750000000003 -1.65793419999999991 0.0083401809000000007 0.32966614 -1.21385309999999991 0.0083401809000000007 0.32966614 -1.21385309999999991 0.0083401809000000007 0.75867163999999998 -1.6428583000000001 0.0083401809000000007 0.75867163999999998 -1.6428583000000001 0.0083401809000000007 0.67376769000000003 -1.72776219999999991 0.0083401809000000007 0.67376769000000003 -1.72776219999999991 0.0083401809000000007 0.34474206000000002 -1.22892880000000004 0.0083401809000000007 0.25983810000000002 -1.31383279999999991 0.0083401809000000007 0.34474206000000002 -1.22892880000000004 0.0083401809000000007 0.25983810000000002 -1.31383279999999991 0.0083401809000000007 0.73129553000000003 -1.70038629999999991 0.0083401809000000007 0.731295530"
+		+ "00000003 -1.70038629999999991 0.0083401809000000007 0.28721427999999999 -1.256305 0.0083401809000000007 0.28721427999999999 -1.256305 0.0083401809000000007 0.30229020000000001 -1.27138069999999992 0.0083401809000000007 0.30229020000000001 -1.27138069999999992 0.0083401809000000007 0.71621966000000004 -1.6853104000000001 0.0083401809000000007 0.71621966000000004 -1.6853104000000001 0.0083401809000000007 0.71006959999999997 -1.72161220000000004 0.0083401809000000007 0.71006959999999997 -1.72161220000000004 0.0083401809000000007 0.26598834999999998 -1.27753089999999991 0.0083401809000000007 0.26598834999999998 -1.27753089999999991 0.0083401809000000007 0.28106403000000002 -1.29260679999999994 0.0083401809000000007 0.28106403000000002 -1.29260679999999994 0.0083401809000000007 0.69499372999999998 -1.70653630000000001 0.0083401809000000007 0.69499372999999998 -1.70653630000000001 0.0083401809000000007 0.30844020999999999 -1.2350791000000001 0.0083401809000000007 0.75252156999999997 -1.67916010000000004 0.008340180"
+		+ "9000000007 0.75252156999999997 -1.67916010000000004 0.0083401809000000007 0.73744571000000003 -1.66408420000000001 0.0083401809000000007 0.73744571000000003 -1.66408420000000001 0.0083401809000000007 0.32351613000000001 -1.25015469999999995 0.0083401809000000007 0.32351613000000001 -1.25015469999999995 0.0083401809000000007 0.30844020999999999 -1.2350791000000001 0.0083401809000000007 0.31905317 -1.22446609999999989 0.0083401809000000007 0.76313454000000003 -1.6685471999999999 0.0083401809000000007 0.76313454000000003 -1.6685471999999999 0.0083401809000000007 0.74805867999999998 -1.65347120000000003 0.0083401809000000007 0.74805867999999998 -1.65347120000000003 0.0083401809000000007 0.33412910000000001 -1.23954180000000003 0.0083401809000000007 0.33412910000000001 -1.23954180000000003 0.0083401809000000007 0.31905317 -1.22446609999999989 0.0083401809000000007 0.74190849000000003 -1.68977329999999992 0.0083401809000000007 0.74190849000000003 -1.68977329999999992 0.0083401809000000007 0.29782723999999999 -1.245"
+		+ "692 0.0083401809000000007 0.29782723999999999 -1.245692 0.0083401809000000007 0.31290317000000001 -1.26076769999999994 0.0083401809000000007 0.31290317000000001 -1.26076769999999994 0.0083401809000000007 0.72683262999999998 -1.67469739999999989 0.0083401809000000007 0.72683262999999998 -1.67469739999999989 0.0083401809000000007 0.72068255999999997 -1.71099929999999989 0.0083401809000000007 0.72068255999999997 -1.71099929999999989 0.0083401809000000007 0.70560670000000003 -1.69592330000000002 0.0083401809000000007 0.70560670000000003 -1.69592330000000002 0.0083401809000000007 0.291677 -1.28199390000000002 0.0083401809000000007 0.291677 -1.28199390000000002 0.0083401809000000007 0.27660130999999999 -1.26691789999999993 0.0083401809000000007 0.27660130999999999 -1.26691789999999993 0.0083401809000000007 0.69945650999999998 -1.73222520000000002 0.0083401809000000007 0.69945650999999998 -1.73222520000000002 0.0083401809000000007 0.25537538999999998 -1.2881438999999999 0.0083401809000000007 0.25537538999999998 -1.2"
+		+ "881438999999999 0.0083401809000000007 0.27045107000000002 -1.30321979999999993 0.0083401809000000007 0.27045107000000002 -1.30321979999999993 0.0083401809000000007 0.68438065000000003 -1.71714929999999999 0.0083401809000000007 0.68438065000000003 -1.71714929999999999"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33" "rotatePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040822 -0.35403894630481147"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33" "scalePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040822 -0.35403894630481147"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.67659913999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.78141879999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -1.12068030000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -1.22550010000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -1.12068030000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -1.22550010000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.67659913999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.78141879999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -1.12068030000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.67659913999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.78141879999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -1.22550010000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476250999999999 -0.77093672999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -1.215018"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -1.215018"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -1.215018"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -0.77093672999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -0.77093672999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966623 -0.68603301000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -1.1301140999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -1.1301140999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -1.1301140999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -0.68603301000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -0.68603301000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -1.11503820000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -1.11503820000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -1.1999420999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -1.1999420999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -0.70110868999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -0.78601264999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -0.70110868999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -0.78601264999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -1.17256619999999989"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -1.17256619999999989"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -0.72848486999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -0.72848486999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -0.74356054999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -0.74356054999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -1.15749030000000008"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -1.15749030000000008"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -1.19379210000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -1.19379210000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -0.74971080000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -0.74971080000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -0.76478672000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -0.76478672000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -1.17871619999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -1.17871619999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -0.70725894"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -1.15134"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -1.15134"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -1.1362641"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -1.1362641"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -0.72233462000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -0.72233462000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -0.70725894"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -0.69664598"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -1.140727"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -1.140727"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -1.12565110000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -1.12565110000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -0.71172166000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -0.71172166000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -0.69664598"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -1.16195319999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -1.16195319999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -0.71787190000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -0.71787190000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -0.73294758999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -0.73294758999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -1.1468773000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -1.1468773000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -1.18317910000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -1.18317910000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -1.16810320000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -1.16810320000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -0.75417376000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -0.75417376000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -0.73909782999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -0.73909782999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -1.20440510000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -1.20440510000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -0.76032376000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -0.76032376000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -0.77539968000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -0.77539968000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -1.18932909999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -1.18932909999999992"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.67659913999999999 0.0083177835000000002 0.23428040999999999 -0.78141879999999997 0.0083177835000000002 0.78318131000000002 -1.12068030000000007 0.0083177835000000002 0.67836165000000004 -1.22550010000000009 0.0083177835000000002 0.78318131000000002 -1.12068030000000007 0.0083177835000000002 0.67836165000000004 -1.22550010000000009 0.0083177835000000002 0.33910005999999998 -0.67659913999999999 0.0083177835000000002 0.23428040999999999 -0.78141879999999997 0.0083177835000000002 0.78318131000000002 -1.12068030000000007 0.0083177835000000002 0.33910005999999998 -0.67659913999999999 0.0083177835000000002 0.23428040999999999 -0.78141879999999997 0.0083177835000000002 0.67836165000000004 -1.22550010000000009 0.0083177835000000002 0.24476250999999999 -0.77093672999999996 0.0083177835000000002 0.68884361000000005 -1.215018 0.0083177835000000002 0.68884361000000005 -1.215018 0.0083177835000000002 0.68884361000000005 -1.215018 0.0083177835000000002 0.244"
+		+ "76248 -0.77093672999999996 0.0083177835000000002 0.24476248 -0.77093672999999996 0.0083177835000000002 0.32966623 -0.68603301000000005 0.0083177835000000002 0.77374756 -1.1301140999999999 0.0083177835000000002 0.77374756 -1.1301140999999999 0.0083177835000000002 0.77374756 -1.1301140999999999 0.0083177835000000002 0.32966620000000002 -0.68603301000000005 0.0083177835000000002 0.32966620000000002 -0.68603301000000005 0.0083177835000000002 0.75867169999999995 -1.11503820000000009 0.0083177835000000002 0.75867169999999995 -1.11503820000000009 0.0083177835000000002 0.67376775 -1.1999420999999999 0.0083177835000000002 0.67376775 -1.1999420999999999 0.0083177835000000002 0.34474211999999999 -0.70110868999999998 0.0083177835000000002 0.25983815999999998 -0.78601264999999998 0.0083177835000000002 0.34474211999999999 -0.70110868999999998 0.0083177835000000002 0.25983815999999998 -0.78601264999999998 0.0083177835000000002 0.73129559 -1.17256619999999989 0.0083177835000000002 0.73129559 -1.17256619999999989 0.0083177835"
+		+ "000000002 0.28721434000000001 -0.72848486999999995 0.0083177835000000002 0.28721434000000001 -0.72848486999999995 0.0083177835000000002 0.30229025999999998 -0.74356054999999999 0.0083177835000000002 0.30229025999999998 -0.74356054999999999 0.0083177835000000002 0.71621972 -1.15749030000000008 0.0083177835000000002 0.71621972 -1.15749030000000008 0.0083177835000000002 0.71006966000000005 -1.19379210000000002 0.0083177835000000002 0.71006966000000005 -1.19379210000000002 0.0083177835000000002 0.26598841000000001 -0.74971080000000001 0.0083177835000000002 0.26598841000000001 -0.74971080000000001 0.0083177835000000002 0.28106408999999999 -0.76478672000000003 0.0083177835000000002 0.28106408999999999 -0.76478672000000003 0.0083177835000000002 0.69499378999999994 -1.17871619999999999 0.0083177835000000002 0.69499378999999994 -1.17871619999999999 0.0083177835000000002 0.30844027000000002 -0.70725894 0.0083177835000000002 0.75252163000000005 -1.15134 0.0083177835000000002 0.75252163000000005 -1.15134 0.00831778350000"
+		+ "00002 0.73744577 -1.1362641 0.0083177835000000002 0.73744577 -1.1362641 0.0083177835000000002 0.32351618999999998 -0.72233462000000004 0.0083177835000000002 0.32351618999999998 -0.72233462000000004 0.0083177835000000002 0.30844027000000002 -0.70725894 0.0083177835000000002 0.31905323000000002 -0.69664598 0.0083177835000000002 0.7631346 -1.140727 0.0083177835000000002 0.7631346 -1.140727 0.0083177835000000002 0.74805874000000006 -1.12565110000000002 0.0083177835000000002 0.74805874000000006 -1.12565110000000002 0.0083177835000000002 0.33412914999999999 -0.71172166000000003 0.0083177835000000002 0.33412914999999999 -0.71172166000000003 0.0083177835000000002 0.31905323000000002 -0.69664598 0.0083177835000000002 0.74190855 -1.16195319999999991 0.0083177835000000002 0.74190855 -1.16195319999999991 0.0083177835000000002 0.29782730000000002 -0.71787190000000001 0.0083177835000000002 0.29782730000000002 -0.71787190000000001 0.0083177835000000002 0.31290322999999998 -0.73294758999999998 0.0083177835000000002 0.3129032"
+		+ "2999999998 -0.73294758999999998 0.0083177835000000002 0.72683268999999995 -1.1468773000000001 0.0083177835000000002 0.72683268999999995 -1.1468773000000001 0.0083177835000000002 0.72068262000000005 -1.18317910000000004 0.0083177835000000002 0.72068262000000005 -1.18317910000000004 0.0083177835000000002 0.70560676 -1.16810320000000001 0.0083177835000000002 0.70560676 -1.16810320000000001 0.0083177835000000002 0.29167705999999999 -0.75417376000000003 0.0083177835000000002 0.29167705999999999 -0.75417376000000003 0.0083177835000000002 0.27660137000000001 -0.73909782999999996 0.0083177835000000002 0.27660137000000001 -0.73909782999999996 0.0083177835000000002 0.69945657000000006 -1.20440510000000001 0.0083177835000000002 0.69945657000000006 -1.20440510000000001 0.0083177835000000002 0.25537544000000001 -0.76032376000000002 0.0083177835000000002 0.25537544000000001 -0.76032376000000002 0.0083177835000000002 0.27045112999999998 -0.77539968000000004 0.0083177835000000002 0.27045112999999998 -0.77539968000000004 0.00"
+		+ "83177835000000002 0.68438071 -1.18932909999999992 0.0083177835000000002 0.68438071 -1.18932909999999992"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34" "rotatePivot" " -type \"double3\" -2.38376575617730913 2.0557897913257599 -0.56403704729114412"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34" "scalePivot" " -type \"double3\" -2.38376575617730913 2.0557897913257599 -0.56403704729114412"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[0]" 
-		" -type \"float3\" 0.0083401809000000007 0.3391 -0.88659721999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[1]" 
-		" -type \"float3\" 0.0083401809000000007 0.23428035 -0.99141687000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[2]" 
-		" -type \"float3\" 0.0083401809000000007 0.78318125000000005 -1.3306785000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[3]" 
-		" -type \"float3\" 0.0083401809000000007 0.67836158999999996 -1.43549820000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[4]" 
-		" -type \"float3\" 0.0083401809000000007 0.78318125000000005 -1.3306785000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[5]" 
-		" -type \"float3\" 0.0083401809000000007 0.67836158999999996 -1.43549820000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[6]" 
-		" -type \"float3\" 0.0083401809000000007 0.3391 -0.88659721999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[7]" 
-		" -type \"float3\" 0.0083401809000000007 0.23428035 -0.99141687000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[8]" 
-		" -type \"float3\" 0.0083401809000000007 0.78318125000000005 -1.3306785000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[9]" 
-		" -type \"float3\" 0.0083401809000000007 0.3391 -0.88659721999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[10]" 
-		" -type \"float3\" 0.0083401809000000007 0.23428035 -0.99141687000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[11]" 
-		" -type \"float3\" 0.0083401809000000007 0.67836158999999996 -1.43549820000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[12]" 
-		" -type \"float3\" 0.0083401809000000007 0.24476244999999999 -0.98093485999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[13]" 
-		" -type \"float3\" 0.0083401809000000007 0.68884354999999997 -1.42501619999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[14]" 
-		" -type \"float3\" 0.0083401809000000007 0.68884354999999997 -1.42501619999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[15]" 
-		" -type \"float3\" 0.0083401809000000007 0.68884354999999997 -1.42501619999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[16]" 
-		" -type \"float3\" 0.0083401809000000007 0.24476242000000001 -0.9809348"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[17]" 
-		" -type \"float3\" 0.0083401809000000007 0.24476242000000001 -0.9809348"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[18]" 
-		" -type \"float3\" 0.0083401809000000007 0.32966616999999998 -0.89603113999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[19]" 
-		" -type \"float3\" 0.0083401809000000007 0.77374750000000003 -1.34011220000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[20]" 
-		" -type \"float3\" 0.0083401809000000007 0.77374750000000003 -1.34011220000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[21]" 
-		" -type \"float3\" 0.0083401809000000007 0.77374750000000003 -1.34011220000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[22]" 
-		" -type \"float3\" 0.0083401809000000007 0.32966614 -0.89603107999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[23]" 
-		" -type \"float3\" 0.0083401809000000007 0.32966614 -0.89603107999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[24]" 
-		" -type \"float3\" 0.0083401809000000007 0.75867163999999998 -1.32503630000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[25]" 
-		" -type \"float3\" 0.0083401809000000007 0.75867163999999998 -1.32503630000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[26]" 
-		" -type \"float3\" 0.0083401809000000007 0.67376769000000003 -1.40994020000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[27]" 
-		" -type \"float3\" 0.0083401809000000007 0.67376769000000003 -1.40994020000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[28]" 
-		" -type \"float3\" 0.0083401809000000007 0.34474206000000002 -0.91110676999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[29]" 
-		" -type \"float3\" 0.0083401809000000007 0.25983810000000002 -0.99601072000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[30]" 
-		" -type \"float3\" 0.0083401809000000007 0.34474206000000002 -0.91110676999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[31]" 
-		" -type \"float3\" 0.0083401809000000007 0.25983810000000002 -0.99601072000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[32]" 
-		" -type \"float3\" 0.0083401809000000007 0.73129553000000003 -1.38256430000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[33]" 
-		" -type \"float3\" 0.0083401809000000007 0.73129553000000003 -1.38256430000000008"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[34]" 
-		" -type \"float3\" 0.0083401809000000007 0.28721427999999999 -0.93848293999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[35]" 
-		" -type \"float3\" 0.0083401809000000007 0.28721427999999999 -0.93848293999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[36]" 
-		" -type \"float3\" 0.0083401809000000007 0.30229020000000001 -0.95355862000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[37]" 
-		" -type \"float3\" 0.0083401809000000007 0.30229020000000001 -0.95355862000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[38]" 
-		" -type \"float3\" 0.0083401809000000007 0.71621966000000004 -1.36748840000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[39]" 
-		" -type \"float3\" 0.0083401809000000007 0.71621966000000004 -1.36748840000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[40]" 
-		" -type \"float3\" 0.0083401809000000007 0.71006959999999997 -1.40379019999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[41]" 
-		" -type \"float3\" 0.0083401809000000007 0.71006959999999997 -1.40379019999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[42]" 
-		" -type \"float3\" 0.0083401809000000007 0.26598834999999998 -0.95970887000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[43]" 
-		" -type \"float3\" 0.0083401809000000007 0.26598834999999998 -0.95970887000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[44]" 
-		" -type \"float3\" 0.0083401809000000007 0.28106403000000002 -0.97478478999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[45]" 
-		" -type \"float3\" 0.0083401809000000007 0.28106403000000002 -0.97478478999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[46]" 
-		" -type \"float3\" 0.0083401809000000007 0.69499372999999998 -1.38871429999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[47]" 
-		" -type \"float3\" 0.0083401809000000007 0.69499372999999998 -1.38871429999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[48]" 
-		" -type \"float3\" 0.0083401809000000007 0.30844020999999999 -0.91725701000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[49]" 
-		" -type \"float3\" 0.0083401809000000007 0.75252156999999997 -1.3613381"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[50]" 
-		" -type \"float3\" 0.0083401809000000007 0.75252156999999997 -1.3613381"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[51]" 
-		" -type \"float3\" 0.0083401809000000007 0.73744571000000003 -1.34626219999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[52]" 
-		" -type \"float3\" 0.0083401809000000007 0.73744571000000003 -1.34626219999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[53]" 
-		" -type \"float3\" 0.0083401809000000007 0.32351613000000001 -0.93233268999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[54]" 
-		" -type \"float3\" 0.0083401809000000007 0.32351613000000001 -0.93233268999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[55]" 
-		" -type \"float3\" 0.0083401809000000007 0.30844020999999999 -0.91725701000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[56]" 
-		" -type \"float3\" 0.0083401809000000007 0.31905317 -0.90664405000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[57]" 
-		" -type \"float3\" 0.0083401809000000007 0.76313454000000003 -1.35072520000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[58]" 
-		" -type \"float3\" 0.0083401809000000007 0.76313454000000003 -1.35072520000000007"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[59]" 
-		" -type \"float3\" 0.0083401809000000007 0.74805867999999998 -1.33564930000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[60]" 
-		" -type \"float3\" 0.0083401809000000007 0.74805867999999998 -1.33564930000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[61]" 
-		" -type \"float3\" 0.0083401809000000007 0.33412910000000001 -0.92171972999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[62]" 
-		" -type \"float3\" 0.0083401809000000007 0.33412910000000001 -0.92171972999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[63]" 
-		" -type \"float3\" 0.0083401809000000007 0.31905317 -0.90664405000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[64]" 
-		" -type \"float3\" 0.0083401809000000007 0.74190849000000003 -1.3719513000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[65]" 
-		" -type \"float3\" 0.0083401809000000007 0.74190849000000003 -1.3719513000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[66]" 
-		" -type \"float3\" 0.0083401809000000007 0.29782723999999999 -0.92786997999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[67]" 
-		" -type \"float3\" 0.0083401809000000007 0.29782723999999999 -0.92786997999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[68]" 
-		" -type \"float3\" 0.0083401809000000007 0.31290317000000001 -0.94294566000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[69]" 
-		" -type \"float3\" 0.0083401809000000007 0.31290317000000001 -0.94294566000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[70]" 
-		" -type \"float3\" 0.0083401809000000007 0.72683262999999998 -1.35687540000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[71]" 
-		" -type \"float3\" 0.0083401809000000007 0.72683262999999998 -1.35687540000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[72]" 
-		" -type \"float3\" 0.0083401809000000007 0.72068255999999997 -1.39317730000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[73]" 
-		" -type \"float3\" 0.0083401809000000007 0.72068255999999997 -1.39317730000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[74]" 
-		" -type \"float3\" 0.0083401809000000007 0.70560670000000003 -1.37810129999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[75]" 
-		" -type \"float3\" 0.0083401809000000007 0.70560670000000003 -1.37810129999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[76]" 
-		" -type \"float3\" 0.0083401809000000007 0.291677 -0.96417182999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[77]" 
-		" -type \"float3\" 0.0083401809000000007 0.291677 -0.96417182999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[78]" 
-		" -type \"float3\" 0.0083401809000000007 0.27660130999999999 -0.94909589999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[79]" 
-		" -type \"float3\" 0.0083401809000000007 0.27660130999999999 -0.94909589999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[80]" 
-		" -type \"float3\" 0.0083401809000000007 0.69945650999999998 -1.41440319999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[81]" 
-		" -type \"float3\" 0.0083401809000000007 0.69945650999999998 -1.41440319999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[82]" 
-		" -type \"float3\" 0.0083401809000000007 0.25537538999999998 -0.97032183000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[83]" 
-		" -type \"float3\" 0.0083401809000000007 0.25537538999999998 -0.97032183000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[84]" 
-		" -type \"float3\" 0.0083401809000000007 0.27045107000000002 -0.98539776000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[85]" 
-		" -type \"float3\" 0.0083401809000000007 0.27045107000000002 -0.98539776000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[86]" 
-		" -type \"float3\" 0.0083401809000000007 0.68438065000000003 -1.39932729999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pnts[87]" 
-		" -type \"float3\" 0.0083401809000000007 0.68438065000000003 -1.39932729999999994"
-		
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083401809000000007 0.3391 -0.88659721999999996 0.0083401809000000007 0.23428035 -0.99141687000000001 0.0083401809000000007 0.78318125000000005 -1.3306785000000001 0.0083401809000000007 0.67836158999999996 -1.43549820000000006 0.0083401809000000007 0.78318125000000005 -1.3306785000000001 0.0083401809000000007 0.67836158999999996 -1.43549820000000006 0.0083401809000000007 0.3391 -0.88659721999999996 0.0083401809000000007 0.23428035 -0.99141687000000001 0.0083401809000000007 0.78318125000000005 -1.3306785000000001 0.0083401809000000007 0.3391 -0.88659721999999996 0.0083401809000000007 0.23428035 -0.99141687000000001 0.0083401809000000007 0.67836158999999996 -1.43549820000000006 0.0083401809000000007 0.24476244999999999 -0.98093485999999996 0.0083401809000000007 0.68884354999999997 -1.42501619999999996 0.0083401809000000007 0.68884354999999997 -1.42501619999999996 0.0083401809000000007 0.68884354999999997 -1.42501619999999996 0.0083401809000000007 0.24476242000000001 -0.9809348 0.00834018"
+		+ "09000000007 0.24476242000000001 -0.9809348 0.0083401809000000007 0.32966616999999998 -0.89603113999999995 0.0083401809000000007 0.77374750000000003 -1.34011220000000009 0.0083401809000000007 0.77374750000000003 -1.34011220000000009 0.0083401809000000007 0.77374750000000003 -1.34011220000000009 0.0083401809000000007 0.32966614 -0.89603107999999998 0.0083401809000000007 0.32966614 -0.89603107999999998 0.0083401809000000007 0.75867163999999998 -1.32503630000000006 0.0083401809000000007 0.75867163999999998 -1.32503630000000006 0.0083401809000000007 0.67376769000000003 -1.40994020000000009 0.0083401809000000007 0.67376769000000003 -1.40994020000000009 0.0083401809000000007 0.34474206000000002 -0.91110676999999995 0.0083401809000000007 0.25983810000000002 -0.99601072000000002 0.0083401809000000007 0.34474206000000002 -0.91110676999999995 0.0083401809000000007 0.25983810000000002 -0.99601072000000002 0.0083401809000000007 0.73129553000000003 -1.38256430000000008 0.0083401809000000007 0.73129553000000003 -1.382564300"
+		+ "00000008 0.0083401809000000007 0.28721427999999999 -0.93848293999999999 0.0083401809000000007 0.28721427999999999 -0.93848293999999999 0.0083401809000000007 0.30229020000000001 -0.95355862000000002 0.0083401809000000007 0.30229020000000001 -0.95355862000000002 0.0083401809000000007 0.71621966000000004 -1.36748840000000005 0.0083401809000000007 0.71621966000000004 -1.36748840000000005 0.0083401809000000007 0.71006959999999997 -1.40379019999999999 0.0083401809000000007 0.71006959999999997 -1.40379019999999999 0.0083401809000000007 0.26598834999999998 -0.95970887000000005 0.0083401809000000007 0.26598834999999998 -0.95970887000000005 0.0083401809000000007 0.28106403000000002 -0.97478478999999996 0.0083401809000000007 0.28106403000000002 -0.97478478999999996 0.0083401809000000007 0.69499372999999998 -1.38871429999999996 0.0083401809000000007 0.69499372999999998 -1.38871429999999996 0.0083401809000000007 0.30844020999999999 -0.91725701000000004 0.0083401809000000007 0.75252156999999997 -1.3613381 0.008340180900000"
+		+ "0007 0.75252156999999997 -1.3613381 0.0083401809000000007 0.73744571000000003 -1.34626219999999996 0.0083401809000000007 0.73744571000000003 -1.34626219999999996 0.0083401809000000007 0.32351613000000001 -0.93233268999999996 0.0083401809000000007 0.32351613000000001 -0.93233268999999996 0.0083401809000000007 0.30844020999999999 -0.91725701000000004 0.0083401809000000007 0.31905317 -0.90664405000000003 0.0083401809000000007 0.76313454000000003 -1.35072520000000007 0.0083401809000000007 0.76313454000000003 -1.35072520000000007 0.0083401809000000007 0.74805867999999998 -1.33564930000000004 0.0083401809000000007 0.74805867999999998 -1.33564930000000004 0.0083401809000000007 0.33412910000000001 -0.92171972999999996 0.0083401809000000007 0.33412910000000001 -0.92171972999999996 0.0083401809000000007 0.31905317 -0.90664405000000003 0.0083401809000000007 0.74190849000000003 -1.3719513000000001 0.0083401809000000007 0.74190849000000003 -1.3719513000000001 0.0083401809000000007 0.29782723999999999 -0.92786997999999998 "
+		+ "0.0083401809000000007 0.29782723999999999 -0.92786997999999998 0.0083401809000000007 0.31290317000000001 -0.94294566000000002 0.0083401809000000007 0.31290317000000001 -0.94294566000000002 0.0083401809000000007 0.72683262999999998 -1.35687540000000006 0.0083401809000000007 0.72683262999999998 -1.35687540000000006 0.0083401809000000007 0.72068255999999997 -1.39317730000000006 0.0083401809000000007 0.72068255999999997 -1.39317730000000006 0.0083401809000000007 0.70560670000000003 -1.37810129999999997 0.0083401809000000007 0.70560670000000003 -1.37810129999999997 0.0083401809000000007 0.291677 -0.96417182999999995 0.0083401809000000007 0.291677 -0.96417182999999995 0.0083401809000000007 0.27660130999999999 -0.94909589999999999 0.0083401809000000007 0.27660130999999999 -0.94909589999999999 0.0083401809000000007 0.69945650999999998 -1.41440319999999997 0.0083401809000000007 0.69945650999999998 -1.41440319999999997 0.0083401809000000007 0.25537538999999998 -0.97032183000000005 0.0083401809000000007 0.25537538999999"
+		+ "998 -0.97032183000000005 0.0083401809000000007 0.27045107000000002 -0.98539776000000001 0.0083401809000000007 0.27045107000000002 -0.98539776000000001 0.0083401809000000007 0.68438065000000003 -1.39932729999999994 0.0083401809000000007 0.68438065000000003 -1.39932729999999994"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35" "rotatePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040201 -0.4588585706276409"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35" "scalePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040201 -0.4588585706276409"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.78141874"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.88623839999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -1.22550010000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -1.33031959999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -1.22550010000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -1.33031959999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.78141874"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.88623839999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -1.22550010000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.78141874"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.88623839999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -1.33031959999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476250999999999 -0.87575638"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -1.31983779999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -1.31983779999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -1.31983779999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -0.87575632000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -0.87575632000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966623 -0.79085267000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -1.23493389999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -1.23493389999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -1.23493389999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -0.79085260999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -0.79085260999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -1.21985790000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -1.21985790000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -1.30476189999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -1.30476189999999992"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -0.80592828999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -0.89083224999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -0.80592828999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -0.89083224999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -1.27738569999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -1.27738569999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -0.83330446000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -0.83330446000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -0.84838015"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -0.84838015"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -1.26230979999999993"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -1.26230979999999993"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -1.29861160000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -1.29861160000000009"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -0.85453038999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -0.85453038999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -0.86960632000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -0.86960632000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -1.28353570000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -1.28353570000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -0.81207854000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -1.25615980000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -1.25615980000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -1.24108390000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -1.24108390000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -0.82715422000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -0.82715422000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -0.81207854000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -0.80146556999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -1.24554680000000007"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -1.24554680000000007"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -1.23047090000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -1.23047090000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -0.81654125"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -0.81654125"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -0.80146556999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -1.26677269999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -1.26677269999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -0.82269150000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -0.82269150000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -0.83776717999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -0.83776717999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -1.25169679999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -1.25169679999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -1.28799869999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -1.28799869999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -1.27292279999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -1.27292279999999991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -0.85899334999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -0.85899334999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -0.84391742999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -0.84391742999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -1.30922479999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -1.30922479999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -0.86514336000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -0.86514336000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -0.88021928000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -0.88021928000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -1.29414889999999994"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -1.29414889999999994"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.78141874 0.0083177835000000002 0.23428040999999999 -0.88623839999999998 0.0083177835000000002 0.78318131000000002 -1.22550010000000009 0.0083177835000000002 0.67836165000000004 -1.33031959999999994 0.0083177835000000002 0.78318131000000002 -1.22550010000000009 0.0083177835000000002 0.67836165000000004 -1.33031959999999994 0.0083177835000000002 0.33910005999999998 -0.78141874 0.0083177835000000002 0.23428040999999999 -0.88623839999999998 0.0083177835000000002 0.78318131000000002 -1.22550010000000009 0.0083177835000000002 0.33910005999999998 -0.78141874 0.0083177835000000002 0.23428040999999999 -0.88623839999999998 0.0083177835000000002 0.67836165000000004 -1.33031959999999994 0.0083177835000000002 0.24476250999999999 -0.87575638 0.0083177835000000002 0.68884361000000005 -1.31983779999999995 0.0083177835000000002 0.68884361000000005 -1.31983779999999995 0.0083177835000000002 0.68884361000000005 -1.31983779999999995 0.0083177835000000002 0.244762"
+		+ "48 -0.87575632000000003 0.0083177835000000002 0.24476248 -0.87575632000000003 0.0083177835000000002 0.32966623 -0.79085267000000004 0.0083177835000000002 0.77374756 -1.23493389999999992 0.0083177835000000002 0.77374756 -1.23493389999999992 0.0083177835000000002 0.77374756 -1.23493389999999992 0.0083177835000000002 0.32966620000000002 -0.79085260999999996 0.0083177835000000002 0.32966620000000002 -0.79085260999999996 0.0083177835000000002 0.75867169999999995 -1.21985790000000005 0.0083177835000000002 0.75867169999999995 -1.21985790000000005 0.0083177835000000002 0.67376775 -1.30476189999999992 0.0083177835000000002 0.67376775 -1.30476189999999992 0.0083177835000000002 0.34474211999999999 -0.80592828999999999 0.0083177835000000002 0.25983815999999998 -0.89083224999999999 0.0083177835000000002 0.34474211999999999 -0.80592828999999999 0.0083177835000000002 0.25983815999999998 -0.89083224999999999 0.0083177835000000002 0.73129559 -1.27738569999999996 0.0083177835000000002 0.73129559 -1.27738569999999996 0.00831778"
+		+ "35000000002 0.28721434000000001 -0.83330446000000002 0.0083177835000000002 0.28721434000000001 -0.83330446000000002 0.0083177835000000002 0.30229025999999998 -0.84838015 0.0083177835000000002 0.30229025999999998 -0.84838015 0.0083177835000000002 0.71621972 -1.26230979999999993 0.0083177835000000002 0.71621972 -1.26230979999999993 0.0083177835000000002 0.71006966000000005 -1.29861160000000009 0.0083177835000000002 0.71006966000000005 -1.29861160000000009 0.0083177835000000002 0.26598841000000001 -0.85453038999999997 0.0083177835000000002 0.26598841000000001 -0.85453038999999997 0.0083177835000000002 0.28106408999999999 -0.86960632000000004 0.0083177835000000002 0.28106408999999999 -0.86960632000000004 0.0083177835000000002 0.69499378999999994 -1.28353570000000006 0.0083177835000000002 0.69499378999999994 -1.28353570000000006 0.0083177835000000002 0.30844027000000002 -0.81207854000000002 0.0083177835000000002 0.75252163000000005 -1.25615980000000005 0.0083177835000000002 0.75252163000000005 -1.25615980000000005"
+		+ " 0.0083177835000000002 0.73744577 -1.24108390000000002 0.0083177835000000002 0.73744577 -1.24108390000000002 0.0083177835000000002 0.32351618999999998 -0.82715422000000005 0.0083177835000000002 0.32351618999999998 -0.82715422000000005 0.0083177835000000002 0.30844027000000002 -0.81207854000000002 0.0083177835000000002 0.31905323000000002 -0.80146556999999996 0.0083177835000000002 0.7631346 -1.24554680000000007 0.0083177835000000002 0.7631346 -1.24554680000000007 0.0083177835000000002 0.74805874000000006 -1.23047090000000003 0.0083177835000000002 0.74805874000000006 -1.23047090000000003 0.0083177835000000002 0.33412914999999999 -0.81654125 0.0083177835000000002 0.33412914999999999 -0.81654125 0.0083177835000000002 0.31905323000000002 -0.80146556999999996 0.0083177835000000002 0.74190855 -1.26677269999999997 0.0083177835000000002 0.74190855 -1.26677269999999997 0.0083177835000000002 0.29782730000000002 -0.82269150000000002 0.0083177835000000002 0.29782730000000002 -0.82269150000000002 0.0083177835000000002 0.31"
+		+ "290322999999998 -0.83776717999999994 0.0083177835000000002 0.31290322999999998 -0.83776717999999994 0.0083177835000000002 0.72683268999999995 -1.25169679999999994 0.0083177835000000002 0.72683268999999995 -1.25169679999999994 0.0083177835000000002 0.72068262000000005 -1.28799869999999994 0.0083177835000000002 0.72068262000000005 -1.28799869999999994 0.0083177835000000002 0.70560676 -1.27292279999999991 0.0083177835000000002 0.70560676 -1.27292279999999991 0.0083177835000000002 0.29167705999999999 -0.85899334999999999 0.0083177835000000002 0.29167705999999999 -0.85899334999999999 0.0083177835000000002 0.27660137000000001 -0.84391742999999997 0.0083177835000000002 0.27660137000000001 -0.84391742999999997 0.0083177835000000002 0.69945657000000006 -1.30922479999999997 0.0083177835000000002 0.69945657000000006 -1.30922479999999997 0.0083177835000000002 0.25537544000000001 -0.86514336000000003 0.0083177835000000002 0.25537544000000001 -0.86514336000000003 0.0083177835000000002 0.27045112999999998 -0.880219280000000"
+		+ "05 0.0083177835000000002 0.27045112999999998 -0.88021928000000005 0.0083177835000000002 0.68438071 -1.29414889999999994 0.0083177835000000002 0.68438071 -1.29414889999999994"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36" "rotatePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040822 0.28220170326207361"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36" "scalePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040822 0.28220170326207361"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.040358487999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.14517814000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.48443973000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -0.58925939000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.48443973000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -0.58925939000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.040358487999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.14517814000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.48443973000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.040358487999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.14517814000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -0.58925939000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476250999999999 -0.13469610000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -0.57877743000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -0.57877743000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -0.57877743000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -0.13469607"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -0.13469607"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966623 -0.049792383000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.49387347999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.49387347999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.49387347999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -0.049792352999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -0.049792352999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -0.47879760999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -0.47879760999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -0.56370156999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -0.56370156999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -0.064868033000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -0.14977198999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -0.064868033000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -0.14977198999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -0.53632544999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -0.53632544999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -0.092244215000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -0.092244215000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -0.1073199"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -0.1073199"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -0.52124959000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -0.52124959000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -0.55755138000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -0.55755138000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -0.11347014"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -0.11347014"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -0.12854605999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -0.12854605999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -0.54247551999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -0.54247551999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -0.071018286"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -0.51509941000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -0.51509941000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -0.50002354000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -0.50002354000000004"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -0.086093970000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -0.086093970000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -0.071018286"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -0.060405318"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -0.50448643999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -0.50448643999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -0.48941057999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -0.48941057999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -0.075481005000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -0.075481005000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -0.060405318"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -0.52571248999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -0.52571248999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -0.081631251000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -0.081631251000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -0.096706933999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -0.096706933999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -0.51063663000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -0.51063663000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -0.54693842000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -0.54693842000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -0.53186255999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -0.53186255999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -0.1179331"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -0.1179331"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -0.10285718000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -0.10285718000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -0.56816447000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -0.56816447000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -0.12408311"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -0.12408311"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -0.13915901999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -0.13915901999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -0.55308860999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -0.55308860999999998"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.040358487999999998 0.0083177835000000002 0.23428040999999999 -0.14517814000000001 0.0083177835000000002 0.78318131000000002 -0.48443973000000001 0.0083177835000000002 0.67836165000000004 -0.58925939000000005 0.0083177835000000002 0.78318131000000002 -0.48443973000000001 0.0083177835000000002 0.67836165000000004 -0.58925939000000005 0.0083177835000000002 0.33910005999999998 -0.040358487999999998 0.0083177835000000002 0.23428040999999999 -0.14517814000000001 0.0083177835000000002 0.78318131000000002 -0.48443973000000001 0.0083177835000000002 0.33910005999999998 -0.040358487999999998 0.0083177835000000002 0.23428040999999999 -0.14517814000000001 0.0083177835000000002 0.67836165000000004 -0.58925939000000005 0.0083177835000000002 0.24476250999999999 -0.13469610000000001 0.0083177835000000002 0.68884361000000005 -0.57877743000000004 0.0083177835000000002 0.68884361000000005 -0.57877743000000004 0.0083177835000000002 0.68884361000000005 -0.578777430"
+		+ "00000004 0.0083177835000000002 0.24476248 -0.13469607 0.0083177835000000002 0.24476248 -0.13469607 0.0083177835000000002 0.32966623 -0.049792383000000003 0.0083177835000000002 0.77374756 -0.49387347999999998 0.0083177835000000002 0.77374756 -0.49387347999999998 0.0083177835000000002 0.77374756 -0.49387347999999998 0.0083177835000000002 0.32966620000000002 -0.049792352999999998 0.0083177835000000002 0.32966620000000002 -0.049792352999999998 0.0083177835000000002 0.75867169999999995 -0.47879760999999998 0.0083177835000000002 0.75867169999999995 -0.47879760999999998 0.0083177835000000002 0.67376775 -0.56370156999999999 0.0083177835000000002 0.67376775 -0.56370156999999999 0.0083177835000000002 0.34474211999999999 -0.064868033000000005 0.0083177835000000002 0.25983815999999998 -0.14977198999999999 0.0083177835000000002 0.34474211999999999 -0.064868033000000005 0.0083177835000000002 0.25983815999999998 -0.14977198999999999 0.0083177835000000002 0.73129559 -0.53632544999999998 0.0083177835000000002 0.73129559 -0.53"
+		+ "632544999999998 0.0083177835000000002 0.28721434000000001 -0.092244215000000004 0.0083177835000000002 0.28721434000000001 -0.092244215000000004 0.0083177835000000002 0.30229025999999998 -0.1073199 0.0083177835000000002 0.30229025999999998 -0.1073199 0.0083177835000000002 0.71621972 -0.52124959000000004 0.0083177835000000002 0.71621972 -0.52124959000000004 0.0083177835000000002 0.71006966000000005 -0.55755138000000004 0.0083177835000000002 0.71006966000000005 -0.55755138000000004 0.0083177835000000002 0.26598841000000001 -0.11347014 0.0083177835000000002 0.26598841000000001 -0.11347014 0.0083177835000000002 0.28106408999999999 -0.12854605999999999 0.0083177835000000002 0.28106408999999999 -0.12854605999999999 0.0083177835000000002 0.69499378999999994 -0.54247551999999999 0.0083177835000000002 0.69499378999999994 -0.54247551999999999 0.0083177835000000002 0.30844027000000002 -0.071018286 0.0083177835000000002 0.75252163000000005 -0.51509941000000004 0.0083177835000000002 0.75252163000000005 -0.51509941000000004"
+		+ " 0.0083177835000000002 0.73744577 -0.50002354000000004 0.0083177835000000002 0.73744577 -0.50002354000000004 0.0083177835000000002 0.32351618999999998 -0.086093970000000006 0.0083177835000000002 0.32351618999999998 -0.086093970000000006 0.0083177835000000002 0.30844027000000002 -0.071018286 0.0083177835000000002 0.31905323000000002 -0.060405318 0.0083177835000000002 0.7631346 -0.50448643999999998 0.0083177835000000002 0.7631346 -0.50448643999999998 0.0083177835000000002 0.74805874000000006 -0.48941057999999998 0.0083177835000000002 0.74805874000000006 -0.48941057999999998 0.0083177835000000002 0.33412914999999999 -0.075481005000000004 0.0083177835000000002 0.33412914999999999 -0.075481005000000004 0.0083177835000000002 0.31905323000000002 -0.060405318 0.0083177835000000002 0.74190855 -0.52571248999999998 0.0083177835000000002 0.74190855 -0.52571248999999998 0.0083177835000000002 0.29782730000000002 -0.081631251000000002 0.0083177835000000002 0.29782730000000002 -0.081631251000000002 0.0083177835000000002 0.31"
+		+ "290322999999998 -0.096706933999999994 0.0083177835000000002 0.31290322999999998 -0.096706933999999994 0.0083177835000000002 0.72683268999999995 -0.51063663000000004 0.0083177835000000002 0.72683268999999995 -0.51063663000000004 0.0083177835000000002 0.72068262000000005 -0.54693842000000004 0.0083177835000000002 0.72068262000000005 -0.54693842000000004 0.0083177835000000002 0.70560676 -0.53186255999999998 0.0083177835000000002 0.70560676 -0.53186255999999998 0.0083177835000000002 0.29167705999999999 -0.1179331 0.0083177835000000002 0.29167705999999999 -0.1179331 0.0083177835000000002 0.27660137000000001 -0.10285718000000001 0.0083177835000000002 0.27660137000000001 -0.10285718000000001 0.0083177835000000002 0.69945657000000006 -0.56816447000000003 0.0083177835000000002 0.69945657000000006 -0.56816447000000003 0.0083177835000000002 0.25537544000000001 -0.12408311 0.0083177835000000002 0.25537544000000001 -0.12408311 0.0083177835000000002 0.27045112999999998 -0.13915901999999999 0.0083177835000000002 0.270451129"
+		+ "99999998 -0.13915901999999999 0.0083177835000000002 0.68438071 -0.55308860999999998 0.0083177835000000002 0.68438071 -0.55308860999999998"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37" "rotatePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040201 0.17738207893924374"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37" "scalePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040201 0.17738207893924374"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.14517811"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.24999776000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.58925939000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -0.69407903999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.58925939000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -0.69407903999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.14517811"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.24999776000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.58925939000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.14517811"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.24999776000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -0.69407903999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476250999999999 -0.23951571999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -0.68359709000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -0.68359709000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -0.68359709000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -0.23951569"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -0.23951569"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966623 -0.154612"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.59869313000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.59869313000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.59869313000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -0.15461196999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -0.15461196999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -0.58361726999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -0.58361726999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -0.66852122999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -0.66852122999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -0.16968765999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -0.25459161000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -0.16968765999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -0.25459161000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -0.64114510999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -0.64114510999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -0.19706383"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -0.19706383"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -0.21213952"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -0.21213952"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -0.62606925000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -0.62606925000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -0.66237104000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -0.66237104000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -0.21828976"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -0.21828976"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -0.23336567999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -0.23336567999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -0.64729517999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -0.64729517999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -0.17583789999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -0.61991905999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -0.61991905999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -0.60484320000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -0.60484320000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -0.19091358999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -0.19091358999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -0.17583789999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -0.16522493999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -0.60930609999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -0.60930609999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -0.59423022999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -0.59423022999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -0.18030061999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -0.18030061999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -0.16522493999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -0.63053214999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -0.63053214999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -0.18645086999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -0.18645086999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -0.20152655"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -0.20152655"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -0.61545627999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -0.61545627999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -0.65175806999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -0.65175806999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -0.63668221000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -0.63668221000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -0.22275271999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -0.22275271999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -0.20767679999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -0.20767679999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -0.67298411999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -0.67298411999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -0.22890273"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -0.22890273"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -0.24397864999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -0.24397864999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -0.65790826000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -0.65790826000000002"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.14517811 0.0083177835000000002 0.23428040999999999 -0.24999776000000001 0.0083177835000000002 0.78318131000000002 -0.58925939000000005 0.0083177835000000002 0.67836165000000004 -0.69407903999999998 0.0083177835000000002 0.78318131000000002 -0.58925939000000005 0.0083177835000000002 0.67836165000000004 -0.69407903999999998 0.0083177835000000002 0.33910005999999998 -0.14517811 0.0083177835000000002 0.23428040999999999 -0.24999776000000001 0.0083177835000000002 0.78318131000000002 -0.58925939000000005 0.0083177835000000002 0.33910005999999998 -0.14517811 0.0083177835000000002 0.23428040999999999 -0.24999776000000001 0.0083177835000000002 0.67836165000000004 -0.69407903999999998 0.0083177835000000002 0.24476250999999999 -0.23951571999999999 0.0083177835000000002 0.68884361000000005 -0.68359709000000002 0.0083177835000000002 0.68884361000000005 -0.68359709000000002 0.0083177835000000002 0.68884361000000005 -0.68359709000000002 0.0083177835000000002"
+		+ " 0.24476248 -0.23951569 0.0083177835000000002 0.24476248 -0.23951569 0.0083177835000000002 0.32966623 -0.154612 0.0083177835000000002 0.77374756 -0.59869313000000002 0.0083177835000000002 0.77374756 -0.59869313000000002 0.0083177835000000002 0.77374756 -0.59869313000000002 0.0083177835000000002 0.32966620000000002 -0.15461196999999999 0.0083177835000000002 0.32966620000000002 -0.15461196999999999 0.0083177835000000002 0.75867169999999995 -0.58361726999999997 0.0083177835000000002 0.75867169999999995 -0.58361726999999997 0.0083177835000000002 0.67376775 -0.66852122999999997 0.0083177835000000002 0.67376775 -0.66852122999999997 0.0083177835000000002 0.34474211999999999 -0.16968765999999999 0.0083177835000000002 0.25983815999999998 -0.25459161000000002 0.0083177835000000002 0.34474211999999999 -0.16968765999999999 0.0083177835000000002 0.25983815999999998 -0.25459161000000002 0.0083177835000000002 0.73129559 -0.64114510999999996 0.0083177835000000002 0.73129559 -0.64114510999999996 0.0083177835000000002 0.287214"
+		+ "34000000001 -0.19706383 0.0083177835000000002 0.28721434000000001 -0.19706383 0.0083177835000000002 0.30229025999999998 -0.21213952 0.0083177835000000002 0.30229025999999998 -0.21213952 0.0083177835000000002 0.71621972 -0.62606925000000002 0.0083177835000000002 0.71621972 -0.62606925000000002 0.0083177835000000002 0.71006966000000005 -0.66237104000000002 0.0083177835000000002 0.71006966000000005 -0.66237104000000002 0.0083177835000000002 0.26598841000000001 -0.21828976 0.0083177835000000002 0.26598841000000001 -0.21828976 0.0083177835000000002 0.28106408999999999 -0.23336567999999999 0.0083177835000000002 0.28106408999999999 -0.23336567999999999 0.0083177835000000002 0.69499378999999994 -0.64729517999999997 0.0083177835000000002 0.69499378999999994 -0.64729517999999997 0.0083177835000000002 0.30844027000000002 -0.17583789999999999 0.0083177835000000002 0.75252163000000005 -0.61991905999999997 0.0083177835000000002 0.75252163000000005 -0.61991905999999997 0.0083177835000000002 0.73744577 -0.60484320000000003 0"
+		+ ".0083177835000000002 0.73744577 -0.60484320000000003 0.0083177835000000002 0.32351618999999998 -0.19091358999999999 0.0083177835000000002 0.32351618999999998 -0.19091358999999999 0.0083177835000000002 0.30844027000000002 -0.17583789999999999 0.0083177835000000002 0.31905323000000002 -0.16522493999999999 0.0083177835000000002 0.7631346 -0.60930609999999996 0.0083177835000000002 0.7631346 -0.60930609999999996 0.0083177835000000002 0.74805874000000006 -0.59423022999999997 0.0083177835000000002 0.74805874000000006 -0.59423022999999997 0.0083177835000000002 0.33412914999999999 -0.18030061999999999 0.0083177835000000002 0.33412914999999999 -0.18030061999999999 0.0083177835000000002 0.31905323000000002 -0.16522493999999999 0.0083177835000000002 0.74190855 -0.63053214999999996 0.0083177835000000002 0.74190855 -0.63053214999999996 0.0083177835000000002 0.29782730000000002 -0.18645086999999999 0.0083177835000000002 0.29782730000000002 -0.18645086999999999 0.0083177835000000002 0.31290322999999998 -0.20152655 0.00831778"
+		+ "35000000002 0.31290322999999998 -0.20152655 0.0083177835000000002 0.72683268999999995 -0.61545627999999997 0.0083177835000000002 0.72683268999999995 -0.61545627999999997 0.0083177835000000002 0.72068262000000005 -0.65175806999999997 0.0083177835000000002 0.72068262000000005 -0.65175806999999997 0.0083177835000000002 0.70560676 -0.63668221000000003 0.0083177835000000002 0.70560676 -0.63668221000000003 0.0083177835000000002 0.29167705999999999 -0.22275271999999999 0.0083177835000000002 0.29167705999999999 -0.22275271999999999 0.0083177835000000002 0.27660137000000001 -0.20767679999999999 0.0083177835000000002 0.27660137000000001 -0.20767679999999999 0.0083177835000000002 0.69945657000000006 -0.67298411999999996 0.0083177835000000002 0.69945657000000006 -0.67298411999999996 0.0083177835000000002 0.25537544000000001 -0.22890273 0.0083177835000000002 0.25537544000000001 -0.22890273 0.0083177835000000002 0.27045112999999998 -0.24397864999999999 0.0083177835000000002 0.27045112999999998 -0.24397864999999999 0.008317"
+		+ "7835000000002 0.68438071 -0.65790826000000002 0.0083177835000000002 0.68438071 -0.65790826000000002"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38" "rotatePivot" " -type \"double3\" -2.38376575617730913 2.0557897913257599 0.072203602275740852"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38" "scalePivot" " -type \"double3\" -2.38376575617730913 2.0557897913257599 0.072203602275740852"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[0]" 
-		" -type \"float3\" 0.0083401809000000007 0.3391 -0.25035658"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[1]" 
-		" -type \"float3\" 0.0083401809000000007 0.23428035 -0.35517623999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[2]" 
-		" -type \"float3\" 0.0083401809000000007 0.78318125000000005 -0.69443785999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[3]" 
-		" -type \"float3\" 0.0083401809000000007 0.67836158999999996 -0.79925752000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[4]" 
-		" -type \"float3\" 0.0083401809000000007 0.78318125000000005 -0.69443785999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[5]" 
-		" -type \"float3\" 0.0083401809000000007 0.67836158999999996 -0.79925752000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[6]" 
-		" -type \"float3\" 0.0083401809000000007 0.3391 -0.25035658"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[7]" 
-		" -type \"float3\" 0.0083401809000000007 0.23428035 -0.35517623999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[8]" 
-		" -type \"float3\" 0.0083401809000000007 0.78318125000000005 -0.69443785999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[9]" 
-		" -type \"float3\" 0.0083401809000000007 0.3391 -0.25035658"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[10]" 
-		" -type \"float3\" 0.0083401809000000007 0.23428035 -0.35517623999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[11]" 
-		" -type \"float3\" 0.0083401809000000007 0.67836158999999996 -0.79925752000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[12]" 
-		" -type \"float3\" 0.0083401809000000007 0.24476244999999999 -0.34469420000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[13]" 
-		" -type \"float3\" 0.0083401809000000007 0.68884354999999997 -0.78877556000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[14]" 
-		" -type \"float3\" 0.0083401809000000007 0.68884354999999997 -0.78877556000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[15]" 
-		" -type \"float3\" 0.0083401809000000007 0.68884354999999997 -0.78877556000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[16]" 
-		" -type \"float3\" 0.0083401809000000007 0.24476242000000001 -0.34469417000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[17]" 
-		" -type \"float3\" 0.0083401809000000007 0.24476242000000001 -0.34469417000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[18]" 
-		" -type \"float3\" 0.0083401809000000007 0.32966616999999998 -0.25979047999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[19]" 
-		" -type \"float3\" 0.0083401809000000007 0.77374750000000003 -0.70387160999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[20]" 
-		" -type \"float3\" 0.0083401809000000007 0.77374750000000003 -0.70387160999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[21]" 
-		" -type \"float3\" 0.0083401809000000007 0.77374750000000003 -0.70387160999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[22]" 
-		" -type \"float3\" 0.0083401809000000007 0.32966614 -0.25979045000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[23]" 
-		" -type \"float3\" 0.0083401809000000007 0.32966614 -0.25979045000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[24]" 
-		" -type \"float3\" 0.0083401809000000007 0.75867163999999998 -0.68879575000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[25]" 
-		" -type \"float3\" 0.0083401809000000007 0.75867163999999998 -0.68879575000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[26]" 
-		" -type \"float3\" 0.0083401809000000007 0.67376769000000003 -0.77369969999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[27]" 
-		" -type \"float3\" 0.0083401809000000007 0.67376769000000003 -0.77369969999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[28]" 
-		" -type \"float3\" 0.0083401809000000007 0.34474206000000002 -0.27486612999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[29]" 
-		" -type \"float3\" 0.0083401809000000007 0.25983810000000002 -0.35977008999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[30]" 
-		" -type \"float3\" 0.0083401809000000007 0.34474206000000002 -0.27486612999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[31]" 
-		" -type \"float3\" 0.0083401809000000007 0.25983810000000002 -0.35977008999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[32]" 
-		" -type \"float3\" 0.0083401809000000007 0.73129553000000003 -0.74632359000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[33]" 
-		" -type \"float3\" 0.0083401809000000007 0.73129553000000003 -0.74632359000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[34]" 
-		" -type \"float3\" 0.0083401809000000007 0.28721427999999999 -0.30224231000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[35]" 
-		" -type \"float3\" 0.0083401809000000007 0.28721427999999999 -0.30224231000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[36]" 
-		" -type \"float3\" 0.0083401809000000007 0.30229020000000001 -0.31731798999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[37]" 
-		" -type \"float3\" 0.0083401809000000007 0.30229020000000001 -0.31731798999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[38]" 
-		" -type \"float3\" 0.0083401809000000007 0.71621966000000004 -0.73124772000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[39]" 
-		" -type \"float3\" 0.0083401809000000007 0.71621966000000004 -0.73124772000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[40]" 
-		" -type \"float3\" 0.0083401809000000007 0.71006959999999997 -0.76754951000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[41]" 
-		" -type \"float3\" 0.0083401809000000007 0.71006959999999997 -0.76754951000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[42]" 
-		" -type \"float3\" 0.0083401809000000007 0.26598834999999998 -0.32346824000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[43]" 
-		" -type \"float3\" 0.0083401809000000007 0.26598834999999998 -0.32346824000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[44]" 
-		" -type \"float3\" 0.0083401809000000007 0.28106403000000002 -0.33854415999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[45]" 
-		" -type \"float3\" 0.0083401809000000007 0.28106403000000002 -0.33854415999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[46]" 
-		" -type \"float3\" 0.0083401809000000007 0.69499372999999998 -0.75247364999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[47]" 
-		" -type \"float3\" 0.0083401809000000007 0.69499372999999998 -0.75247364999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[48]" 
-		" -type \"float3\" 0.0083401809000000007 0.30844020999999999 -0.28101638000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[49]" 
-		" -type \"float3\" 0.0083401809000000007 0.75252156999999997 -0.72509754000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[50]" 
-		" -type \"float3\" 0.0083401809000000007 0.75252156999999997 -0.72509754000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[51]" 
-		" -type \"float3\" 0.0083401809000000007 0.73744571000000003 -0.71002167000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[52]" 
-		" -type \"float3\" 0.0083401809000000007 0.73744571000000003 -0.71002167000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[53]" 
-		" -type \"float3\" 0.0083401809000000007 0.32351613000000001 -0.29609205999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[54]" 
-		" -type \"float3\" 0.0083401809000000007 0.32351613000000001 -0.29609205999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[55]" 
-		" -type \"float3\" 0.0083401809000000007 0.30844020999999999 -0.28101638000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[56]" 
-		" -type \"float3\" 0.0083401809000000007 0.31905317 -0.27040341000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[57]" 
-		" -type \"float3\" 0.0083401809000000007 0.76313454000000003 -0.71448456999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[58]" 
-		" -type \"float3\" 0.0083401809000000007 0.76313454000000003 -0.71448456999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[59]" 
-		" -type \"float3\" 0.0083401809000000007 0.74805867999999998 -0.69940871000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[60]" 
-		" -type \"float3\" 0.0083401809000000007 0.74805867999999998 -0.69940871000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[61]" 
-		" -type \"float3\" 0.0083401809000000007 0.33412910000000001 -0.28547909999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[62]" 
-		" -type \"float3\" 0.0083401809000000007 0.33412910000000001 -0.28547909999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[63]" 
-		" -type \"float3\" 0.0083401809000000007 0.31905317 -0.27040341000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[64]" 
-		" -type \"float3\" 0.0083401809000000007 0.74190849000000003 -0.73571061999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[65]" 
-		" -type \"float3\" 0.0083401809000000007 0.74190849000000003 -0.73571061999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[66]" 
-		" -type \"float3\" 0.0083401809000000007 0.29782723999999999 -0.29162934000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[67]" 
-		" -type \"float3\" 0.0083401809000000007 0.29782723999999999 -0.29162934000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[68]" 
-		" -type \"float3\" 0.0083401809000000007 0.31290317000000001 -0.30670502999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[69]" 
-		" -type \"float3\" 0.0083401809000000007 0.31290317000000001 -0.30670502999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[70]" 
-		" -type \"float3\" 0.0083401809000000007 0.72683262999999998 -0.72063476000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[71]" 
-		" -type \"float3\" 0.0083401809000000007 0.72683262999999998 -0.72063476000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[72]" 
-		" -type \"float3\" 0.0083401809000000007 0.72068255999999997 -0.75693655000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[73]" 
-		" -type \"float3\" 0.0083401809000000007 0.72068255999999997 -0.75693655000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[74]" 
-		" -type \"float3\" 0.0083401809000000007 0.70560670000000003 -0.74186068999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[75]" 
-		" -type \"float3\" 0.0083401809000000007 0.70560670000000003 -0.74186068999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[76]" 
-		" -type \"float3\" 0.0083401809000000007 0.291677 -0.32793119999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[77]" 
-		" -type \"float3\" 0.0083401809000000007 0.291677 -0.32793119999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[78]" 
-		" -type \"float3\" 0.0083401809000000007 0.27660130999999999 -0.31285527000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[79]" 
-		" -type \"float3\" 0.0083401809000000007 0.27660130999999999 -0.31285527000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[80]" 
-		" -type \"float3\" 0.0083401809000000007 0.69945650999999998 -0.77816260000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[81]" 
-		" -type \"float3\" 0.0083401809000000007 0.69945650999999998 -0.77816260000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[82]" 
-		" -type \"float3\" 0.0083401809000000007 0.25537538999999998 -0.33408120000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[83]" 
-		" -type \"float3\" 0.0083401809000000007 0.25537538999999998 -0.33408120000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[84]" 
-		" -type \"float3\" 0.0083401809000000007 0.27045107000000002 -0.34915711999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[85]" 
-		" -type \"float3\" 0.0083401809000000007 0.27045107000000002 -0.34915711999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[86]" 
-		" -type \"float3\" 0.0083401809000000007 0.68438065000000003 -0.76308673999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pnts[87]" 
-		" -type \"float3\" 0.0083401809000000007 0.68438065000000003 -0.76308673999999999"
-		
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083401809000000007 0.3391 -0.25035658 0.0083401809000000007 0.23428035 -0.35517623999999998 0.0083401809000000007 0.78318125000000005 -0.69443785999999996 0.0083401809000000007 0.67836158999999996 -0.79925752000000005 0.0083401809000000007 0.78318125000000005 -0.69443785999999996 0.0083401809000000007 0.67836158999999996 -0.79925752000000005 0.0083401809000000007 0.3391 -0.25035658 0.0083401809000000007 0.23428035 -0.35517623999999998 0.0083401809000000007 0.78318125000000005 -0.69443785999999996 0.0083401809000000007 0.3391 -0.25035658 0.0083401809000000007 0.23428035 -0.35517623999999998 0.0083401809000000007 0.67836158999999996 -0.79925752000000005 0.0083401809000000007 0.24476244999999999 -0.34469420000000001 0.0083401809000000007 0.68884354999999997 -0.78877556000000004 0.0083401809000000007 0.68884354999999997 -0.78877556000000004 0.0083401809000000007 0.68884354999999997 -0.78877556000000004 0.0083401809000000007 0.24476242000000001 -0.34469417000000002 0.0083401809000000007 0."
+		+ "24476242000000001 -0.34469417000000002 0.0083401809000000007 0.32966616999999998 -0.25979047999999999 0.0083401809000000007 0.77374750000000003 -0.70387160999999998 0.0083401809000000007 0.77374750000000003 -0.70387160999999998 0.0083401809000000007 0.77374750000000003 -0.70387160999999998 0.0083401809000000007 0.32966614 -0.25979045000000001 0.0083401809000000007 0.32966614 -0.25979045000000001 0.0083401809000000007 0.75867163999999998 -0.68879575000000004 0.0083401809000000007 0.75867163999999998 -0.68879575000000004 0.0083401809000000007 0.67376769000000003 -0.77369969999999999 0.0083401809000000007 0.67376769000000003 -0.77369969999999999 0.0083401809000000007 0.34474206000000002 -0.27486612999999999 0.0083401809000000007 0.25983810000000002 -0.35977008999999999 0.0083401809000000007 0.34474206000000002 -0.27486612999999999 0.0083401809000000007 0.25983810000000002 -0.35977008999999999 0.0083401809000000007 0.73129553000000003 -0.74632359000000004 0.0083401809000000007 0.73129553000000003 -0.7463235900000"
+		+ "0004 0.0083401809000000007 0.28721427999999999 -0.30224231000000001 0.0083401809000000007 0.28721427999999999 -0.30224231000000001 0.0083401809000000007 0.30229020000000001 -0.31731798999999999 0.0083401809000000007 0.30229020000000001 -0.31731798999999999 0.0083401809000000007 0.71621966000000004 -0.73124772000000005 0.0083401809000000007 0.71621966000000004 -0.73124772000000005 0.0083401809000000007 0.71006959999999997 -0.76754951000000005 0.0083401809000000007 0.71006959999999997 -0.76754951000000005 0.0083401809000000007 0.26598834999999998 -0.32346824000000002 0.0083401809000000007 0.26598834999999998 -0.32346824000000002 0.0083401809000000007 0.28106403000000002 -0.33854415999999998 0.0083401809000000007 0.28106403000000002 -0.33854415999999998 0.0083401809000000007 0.69499372999999998 -0.75247364999999999 0.0083401809000000007 0.69499372999999998 -0.75247364999999999 0.0083401809000000007 0.30844020999999999 -0.28101638000000001 0.0083401809000000007 0.75252156999999997 -0.72509754000000004 0.008340180"
+		+ "9000000007 0.75252156999999997 -0.72509754000000004 0.0083401809000000007 0.73744571000000003 -0.71002167000000005 0.0083401809000000007 0.73744571000000003 -0.71002167000000005 0.0083401809000000007 0.32351613000000001 -0.29609205999999999 0.0083401809000000007 0.32351613000000001 -0.29609205999999999 0.0083401809000000007 0.30844020999999999 -0.28101638000000001 0.0083401809000000007 0.31905317 -0.27040341000000001 0.0083401809000000007 0.76313454000000003 -0.71448456999999999 0.0083401809000000007 0.76313454000000003 -0.71448456999999999 0.0083401809000000007 0.74805867999999998 -0.69940871000000004 0.0083401809000000007 0.74805867999999998 -0.69940871000000004 0.0083401809000000007 0.33412910000000001 -0.28547909999999999 0.0083401809000000007 0.33412910000000001 -0.28547909999999999 0.0083401809000000007 0.31905317 -0.27040341000000001 0.0083401809000000007 0.74190849000000003 -0.73571061999999998 0.0083401809000000007 0.74190849000000003 -0.73571061999999998 0.0083401809000000007 0.29782723999999999 -0."
+		+ "29162934000000001 0.0083401809000000007 0.29782723999999999 -0.29162934000000001 0.0083401809000000007 0.31290317000000001 -0.30670502999999999 0.0083401809000000007 0.31290317000000001 -0.30670502999999999 0.0083401809000000007 0.72683262999999998 -0.72063476000000004 0.0083401809000000007 0.72683262999999998 -0.72063476000000004 0.0083401809000000007 0.72068255999999997 -0.75693655000000004 0.0083401809000000007 0.72068255999999997 -0.75693655000000004 0.0083401809000000007 0.70560670000000003 -0.74186068999999999 0.0083401809000000007 0.70560670000000003 -0.74186068999999999 0.0083401809000000007 0.291677 -0.32793119999999998 0.0083401809000000007 0.291677 -0.32793119999999998 0.0083401809000000007 0.27660130999999999 -0.31285527000000002 0.0083401809000000007 0.27660130999999999 -0.31285527000000002 0.0083401809000000007 0.69945650999999998 -0.77816260000000004 0.0083401809000000007 0.69945650999999998 -0.77816260000000004 0.0083401809000000007 0.25537538999999998 -0.33408120000000002 0.008340180900000000"
+		+ "7 0.25537538999999998 -0.33408120000000002 0.0083401809000000007 0.27045107000000002 -0.34915711999999999 0.0083401809000000007 0.27045107000000002 -0.34915711999999999 0.0083401809000000007 0.68438065000000003 -0.76308673999999999 0.0083401809000000007 0.68438065000000003 -0.76308673999999999"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39" "rotatePivot" " -type \"double3\" -2.38376575617730913 2.0557897913257599 -0.24621504080158418"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39" "scalePivot" " -type \"double3\" -2.38376575617730913 2.0557897913257599 -0.24621504080158418"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[0]" 
-		" -type \"float3\" 0.0083401809000000007 0.3391 -0.56877524000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[1]" 
-		" -type \"float3\" 0.0083401809000000007 0.23428035 -0.67359488999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[2]" 
-		" -type \"float3\" 0.0083401809000000007 0.78318125000000005 -1.01285650000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[3]" 
-		" -type \"float3\" 0.0083401809000000007 0.67836158999999996 -1.117676"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[4]" 
-		" -type \"float3\" 0.0083401809000000007 0.78318125000000005 -1.01285650000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[5]" 
-		" -type \"float3\" 0.0083401809000000007 0.67836158999999996 -1.117676"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[6]" 
-		" -type \"float3\" 0.0083401809000000007 0.3391 -0.56877524000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[7]" 
-		" -type \"float3\" 0.0083401809000000007 0.23428035 -0.67359488999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[8]" 
-		" -type \"float3\" 0.0083401809000000007 0.78318125000000005 -1.01285650000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[9]" 
-		" -type \"float3\" 0.0083401809000000007 0.3391 -0.56877524000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[10]" 
-		" -type \"float3\" 0.0083401809000000007 0.23428035 -0.67359488999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[11]" 
-		" -type \"float3\" 0.0083401809000000007 0.67836158999999996 -1.117676"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[12]" 
-		" -type \"float3\" 0.0083401809000000007 0.24476244999999999 -0.66311282000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[13]" 
-		" -type \"float3\" 0.0083401809000000007 0.68884354999999997 -1.10719419999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[14]" 
-		" -type \"float3\" 0.0083401809000000007 0.68884354999999997 -1.10719419999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[15]" 
-		" -type \"float3\" 0.0083401809000000007 0.68884354999999997 -1.10719419999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[16]" 
-		" -type \"float3\" 0.0083401809000000007 0.24476242000000001 -0.66311282000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[17]" 
-		" -type \"float3\" 0.0083401809000000007 0.24476242000000001 -0.66311282000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[18]" 
-		" -type \"float3\" 0.0083401809000000007 0.32966616999999998 -0.57820910000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[19]" 
-		" -type \"float3\" 0.0083401809000000007 0.77374750000000003 -1.02229020000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[20]" 
-		" -type \"float3\" 0.0083401809000000007 0.77374750000000003 -1.02229020000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[21]" 
-		" -type \"float3\" 0.0083401809000000007 0.77374750000000003 -1.02229020000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[22]" 
-		" -type \"float3\" 0.0083401809000000007 0.32966614 -0.57820910000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[23]" 
-		" -type \"float3\" 0.0083401809000000007 0.32966614 -0.57820910000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[24]" 
-		" -type \"float3\" 0.0083401809000000007 0.75867163999999998 -1.00721430000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[25]" 
-		" -type \"float3\" 0.0083401809000000007 0.75867163999999998 -1.00721430000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[26]" 
-		" -type \"float3\" 0.0083401809000000007 0.67376769000000003 -1.0921183000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[27]" 
-		" -type \"float3\" 0.0083401809000000007 0.67376769000000003 -1.0921183000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[28]" 
-		" -type \"float3\" 0.0083401809000000007 0.34474206000000002 -0.59328479000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[29]" 
-		" -type \"float3\" 0.0083401809000000007 0.25983810000000002 -0.67818873999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[30]" 
-		" -type \"float3\" 0.0083401809000000007 0.34474206000000002 -0.59328479000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[31]" 
-		" -type \"float3\" 0.0083401809000000007 0.25983810000000002 -0.67818873999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[32]" 
-		" -type \"float3\" 0.0083401809000000007 0.73129553000000003 -1.06474209999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[33]" 
-		" -type \"float3\" 0.0083401809000000007 0.73129553000000003 -1.06474209999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[34]" 
-		" -type \"float3\" 0.0083401809000000007 0.28721427999999999 -0.62066096000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[35]" 
-		" -type \"float3\" 0.0083401809000000007 0.28721427999999999 -0.62066096000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[36]" 
-		" -type \"float3\" 0.0083401809000000007 0.30229020000000001 -0.63573663999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[37]" 
-		" -type \"float3\" 0.0083401809000000007 0.30229020000000001 -0.63573663999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[38]" 
-		" -type \"float3\" 0.0083401809000000007 0.71621966000000004 -1.0496664"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[39]" 
-		" -type \"float3\" 0.0083401809000000007 0.71621966000000004 -1.0496664"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[40]" 
-		" -type \"float3\" 0.0083401809000000007 0.71006959999999997 -1.085968"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[41]" 
-		" -type \"float3\" 0.0083401809000000007 0.71006959999999997 -1.085968"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[42]" 
-		" -type \"float3\" 0.0083401809000000007 0.26598834999999998 -0.64188688999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[43]" 
-		" -type \"float3\" 0.0083401809000000007 0.26598834999999998 -0.64188688999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[44]" 
-		" -type \"float3\" 0.0083401809000000007 0.28106403000000002 -0.65696281000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[45]" 
-		" -type \"float3\" 0.0083401809000000007 0.28106403000000002 -0.65696281000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[46]" 
-		" -type \"float3\" 0.0083401809000000007 0.69499372999999998 -1.07089229999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[47]" 
-		" -type \"float3\" 0.0083401809000000007 0.69499372999999998 -1.07089229999999991"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[48]" 
-		" -type \"float3\" 0.0083401809000000007 0.30844020999999999 -0.59943502999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[49]" 
-		" -type \"float3\" 0.0083401809000000007 0.75252156999999997 -1.0435162"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[50]" 
-		" -type \"float3\" 0.0083401809000000007 0.75252156999999997 -1.0435162"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[51]" 
-		" -type \"float3\" 0.0083401809000000007 0.73744571000000003 -1.02844019999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[52]" 
-		" -type \"float3\" 0.0083401809000000007 0.73744571000000003 -1.02844019999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[53]" 
-		" -type \"float3\" 0.0083401809000000007 0.32351613000000001 -0.61451071999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[54]" 
-		" -type \"float3\" 0.0083401809000000007 0.32351613000000001 -0.61451071999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[55]" 
-		" -type \"float3\" 0.0083401809000000007 0.30844020999999999 -0.59943502999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[56]" 
-		" -type \"float3\" 0.0083401809000000007 0.31905317 -0.58882206999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[57]" 
-		" -type \"float3\" 0.0083401809000000007 0.76313454000000003 -1.03290320000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[58]" 
-		" -type \"float3\" 0.0083401809000000007 0.76313454000000003 -1.03290320000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[59]" 
-		" -type \"float3\" 0.0083401809000000007 0.74805867999999998 -1.01782729999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[60]" 
-		" -type \"float3\" 0.0083401809000000007 0.74805867999999998 -1.01782729999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[61]" 
-		" -type \"float3\" 0.0083401809000000007 0.33412910000000001 -0.60389775000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[62]" 
-		" -type \"float3\" 0.0083401809000000007 0.33412910000000001 -0.60389775000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[63]" 
-		" -type \"float3\" 0.0083401809000000007 0.31905317 -0.58882206999999998"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[64]" 
-		" -type \"float3\" 0.0083401809000000007 0.74190849000000003 -1.05412909999999993"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[65]" 
-		" -type \"float3\" 0.0083401809000000007 0.74190849000000003 -1.05412909999999993"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[66]" 
-		" -type \"float3\" 0.0083401809000000007 0.29782723999999999 -0.610048"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[67]" 
-		" -type \"float3\" 0.0083401809000000007 0.29782723999999999 -0.610048"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[68]" 
-		" -type \"float3\" 0.0083401809000000007 0.31290317000000001 -0.62512367999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[69]" 
-		" -type \"float3\" 0.0083401809000000007 0.31290317000000001 -0.62512367999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[70]" 
-		" -type \"float3\" 0.0083401809000000007 0.72683262999999998 -1.03905340000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[71]" 
-		" -type \"float3\" 0.0083401809000000007 0.72683262999999998 -1.03905340000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[72]" 
-		" -type \"float3\" 0.0083401809000000007 0.72068255999999997 -1.0753550999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[73]" 
-		" -type \"float3\" 0.0083401809000000007 0.72068255999999997 -1.0753550999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[74]" 
-		" -type \"float3\" 0.0083401809000000007 0.70560670000000003 -1.06027939999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[75]" 
-		" -type \"float3\" 0.0083401809000000007 0.70560670000000003 -1.06027939999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[76]" 
-		" -type \"float3\" 0.0083401809000000007 0.291677 -0.64634985"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[77]" 
-		" -type \"float3\" 0.0083401809000000007 0.291677 -0.64634985"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[78]" 
-		" -type \"float3\" 0.0083401809000000007 0.27660130999999999 -0.63127392999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[79]" 
-		" -type \"float3\" 0.0083401809000000007 0.27660130999999999 -0.63127392999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[80]" 
-		" -type \"float3\" 0.0083401809000000007 0.69945650999999998 -1.09658119999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[81]" 
-		" -type \"float3\" 0.0083401809000000007 0.69945650999999998 -1.09658119999999992"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[82]" 
-		" -type \"float3\" 0.0083401809000000007 0.25537538999999998 -0.65249984999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[83]" 
-		" -type \"float3\" 0.0083401809000000007 0.25537538999999998 -0.65249984999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[84]" 
-		" -type \"float3\" 0.0083401809000000007 0.27045107000000002 -0.66757577999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[85]" 
-		" -type \"float3\" 0.0083401809000000007 0.27045107000000002 -0.66757577999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[86]" 
-		" -type \"float3\" 0.0083401809000000007 0.68438065000000003 -1.08150529999999989"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pnts[87]" 
-		" -type \"float3\" 0.0083401809000000007 0.68438065000000003 -1.08150529999999989"
-		
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083401809000000007 0.3391 -0.56877524000000002 0.0083401809000000007 0.23428035 -0.67359488999999995 0.0083401809000000007 0.78318125000000005 -1.01285650000000005 0.0083401809000000007 0.67836158999999996 -1.117676 0.0083401809000000007 0.78318125000000005 -1.01285650000000005 0.0083401809000000007 0.67836158999999996 -1.117676 0.0083401809000000007 0.3391 -0.56877524000000002 0.0083401809000000007 0.23428035 -0.67359488999999995 0.0083401809000000007 0.78318125000000005 -1.01285650000000005 0.0083401809000000007 0.3391 -0.56877524000000002 0.0083401809000000007 0.23428035 -0.67359488999999995 0.0083401809000000007 0.67836158999999996 -1.117676 0.0083401809000000007 0.24476244999999999 -0.66311282000000005 0.0083401809000000007 0.68884354999999997 -1.10719419999999991 0.0083401809000000007 0.68884354999999997 -1.10719419999999991 0.0083401809000000007 0.68884354999999997 -1.10719419999999991 0.0083401809000000007 0.24476242000000001 -0.66311282000000005 0.0083401809000000007 0.244762"
+		+ "42000000001 -0.66311282000000005 0.0083401809000000007 0.32966616999999998 -0.57820910000000003 0.0083401809000000007 0.77374750000000003 -1.02229020000000004 0.0083401809000000007 0.77374750000000003 -1.02229020000000004 0.0083401809000000007 0.77374750000000003 -1.02229020000000004 0.0083401809000000007 0.32966614 -0.57820910000000003 0.0083401809000000007 0.32966614 -0.57820910000000003 0.0083401809000000007 0.75867163999999998 -1.00721430000000001 0.0083401809000000007 0.75867163999999998 -1.00721430000000001 0.0083401809000000007 0.67376769000000003 -1.0921183000000001 0.0083401809000000007 0.67376769000000003 -1.0921183000000001 0.0083401809000000007 0.34474206000000002 -0.59328479000000001 0.0083401809000000007 0.25983810000000002 -0.67818873999999996 0.0083401809000000007 0.34474206000000002 -0.59328479000000001 0.0083401809000000007 0.25983810000000002 -0.67818873999999996 0.0083401809000000007 0.73129553000000003 -1.06474209999999991 0.0083401809000000007 0.73129553000000003 -1.06474209999999991 0.0"
+		+ "083401809000000007 0.28721427999999999 -0.62066096000000004 0.0083401809000000007 0.28721427999999999 -0.62066096000000004 0.0083401809000000007 0.30229020000000001 -0.63573663999999996 0.0083401809000000007 0.30229020000000001 -0.63573663999999996 0.0083401809000000007 0.71621966000000004 -1.0496664 0.0083401809000000007 0.71621966000000004 -1.0496664 0.0083401809000000007 0.71006959999999997 -1.085968 0.0083401809000000007 0.71006959999999997 -1.085968 0.0083401809000000007 0.26598834999999998 -0.64188688999999999 0.0083401809000000007 0.26598834999999998 -0.64188688999999999 0.0083401809000000007 0.28106403000000002 -0.65696281000000001 0.0083401809000000007 0.28106403000000002 -0.65696281000000001 0.0083401809000000007 0.69499372999999998 -1.07089229999999991 0.0083401809000000007 0.69499372999999998 -1.07089229999999991 0.0083401809000000007 0.30844020999999999 -0.59943502999999998 0.0083401809000000007 0.75252156999999997 -1.0435162 0.0083401809000000007 0.75252156999999997 -1.0435162 0.0083401809000000"
+		+ "007 0.73744571000000003 -1.02844019999999992 0.0083401809000000007 0.73744571000000003 -1.02844019999999992 0.0083401809000000007 0.32351613000000001 -0.61451071999999995 0.0083401809000000007 0.32351613000000001 -0.61451071999999995 0.0083401809000000007 0.30844020999999999 -0.59943502999999998 0.0083401809000000007 0.31905317 -0.58882206999999998 0.0083401809000000007 0.76313454000000003 -1.03290320000000002 0.0083401809000000007 0.76313454000000003 -1.03290320000000002 0.0083401809000000007 0.74805867999999998 -1.01782729999999999 0.0083401809000000007 0.74805867999999998 -1.01782729999999999 0.0083401809000000007 0.33412910000000001 -0.60389775000000001 0.0083401809000000007 0.33412910000000001 -0.60389775000000001 0.0083401809000000007 0.31905317 -0.58882206999999998 0.0083401809000000007 0.74190849000000003 -1.05412909999999993 0.0083401809000000007 0.74190849000000003 -1.05412909999999993 0.0083401809000000007 0.29782723999999999 -0.610048 0.0083401809000000007 0.29782723999999999 -0.610048 0.008340180"
+		+ "9000000007 0.31290317000000001 -0.62512367999999996 0.0083401809000000007 0.31290317000000001 -0.62512367999999996 0.0083401809000000007 0.72683262999999998 -1.03905340000000002 0.0083401809000000007 0.72683262999999998 -1.03905340000000002 0.0083401809000000007 0.72068255999999997 -1.0753550999999999 0.0083401809000000007 0.72068255999999997 -1.0753550999999999 0.0083401809000000007 0.70560670000000003 -1.06027939999999998 0.0083401809000000007 0.70560670000000003 -1.06027939999999998 0.0083401809000000007 0.291677 -0.64634985 0.0083401809000000007 0.291677 -0.64634985 0.0083401809000000007 0.27660130999999999 -0.63127392999999998 0.0083401809000000007 0.27660130999999999 -0.63127392999999998 0.0083401809000000007 0.69945650999999998 -1.09658119999999992 0.0083401809000000007 0.69945650999999998 -1.09658119999999992 0.0083401809000000007 0.25537538999999998 -0.65249984999999999 0.0083401809000000007 0.25537538999999998 -0.65249984999999999 0.0083401809000000007 0.27045107000000002 -0.66757577999999995 0.0083"
+		+ "401809000000007 0.27045107000000002 -0.66757577999999995 0.0083401809000000007 0.68438065000000003 -1.08150529999999989 0.0083401809000000007 0.68438065000000003 -1.08150529999999989"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40" "rotatePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040201 -0.14103656413808086"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40" "scalePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040201 -0.14103656413808086"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.46359676"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.56841642000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.90767801000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -1.01249769999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.90767801000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -1.01249769999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.46359676"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.56841642000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.90767801000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.46359676"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.56841642000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -1.01249769999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476250999999999 -0.55793433999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -1.00201570000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -1.00201570000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -1.00201570000000006"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -0.55793433999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -0.55793433999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966623 -0.47303065999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.91711175"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.91711175"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.91711175"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -0.47303063000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -0.47303063000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -0.90203588999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -0.90203588999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -0.98693984999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -0.98693984999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -0.48810630999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -0.57301027000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -0.48810630999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -0.57301027000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -0.95956372999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -0.95956372999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -0.51548249000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -0.51548249000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -0.53055817000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -0.53055817000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -0.94448787000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -0.94448787000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -0.98078966000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -0.98078966000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -0.53670841000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -0.53670841000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -0.55178433999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -0.55178433999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -0.96571379999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -0.96571379999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -0.49425656000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -0.93833767999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -0.93833767999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -0.92326182000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -0.92326182000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -0.50933223999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -0.50933223999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -0.49425656000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -0.48364359000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -0.92772471999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -0.92772471999999995"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -0.91264886000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -0.91264886000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -0.49871926999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -0.49871926999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -0.48364359000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -0.94895077000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -0.94895077000000005"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -0.50486951999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -0.50486951999999996"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -0.5199452"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -0.5199452"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -0.93387491"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -0.93387491"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -0.9701767"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -0.9701767"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -0.95510083000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -0.95510083000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -0.54117137000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -0.54117137000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -0.52609545000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -0.52609545000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -0.99140275"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -0.99140275"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -0.54732137999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -0.54732137999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -0.56239729999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -0.56239729999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -0.97632688000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -0.97632688000000001"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.46359676 0.0083177835000000002 0.23428040999999999 -0.56841642000000003 0.0083177835000000002 0.78318131000000002 -0.90767801000000004 0.0083177835000000002 0.67836165000000004 -1.01249769999999994 0.0083177835000000002 0.78318131000000002 -0.90767801000000004 0.0083177835000000002 0.67836165000000004 -1.01249769999999994 0.0083177835000000002 0.33910005999999998 -0.46359676 0.0083177835000000002 0.23428040999999999 -0.56841642000000003 0.0083177835000000002 0.78318131000000002 -0.90767801000000004 0.0083177835000000002 0.33910005999999998 -0.46359676 0.0083177835000000002 0.23428040999999999 -0.56841642000000003 0.0083177835000000002 0.67836165000000004 -1.01249769999999994 0.0083177835000000002 0.24476250999999999 -0.55793433999999997 0.0083177835000000002 0.68884361000000005 -1.00201570000000006 0.0083177835000000002 0.68884361000000005 -1.00201570000000006 0.0083177835000000002 0.68884361000000005 -1.00201570000000006 0.0083177835000000002"
+		+ " 0.24476248 -0.55793433999999997 0.0083177835000000002 0.24476248 -0.55793433999999997 0.0083177835000000002 0.32966623 -0.47303065999999999 0.0083177835000000002 0.77374756 -0.91711175 0.0083177835000000002 0.77374756 -0.91711175 0.0083177835000000002 0.77374756 -0.91711175 0.0083177835000000002 0.32966620000000002 -0.47303063000000001 0.0083177835000000002 0.32966620000000002 -0.47303063000000001 0.0083177835000000002 0.75867169999999995 -0.90203588999999995 0.0083177835000000002 0.75867169999999995 -0.90203588999999995 0.0083177835000000002 0.67376775 -0.98693984999999995 0.0083177835000000002 0.67376775 -0.98693984999999995 0.0083177835000000002 0.34474211999999999 -0.48810630999999999 0.0083177835000000002 0.25983815999999998 -0.57301027000000004 0.0083177835000000002 0.34474211999999999 -0.48810630999999999 0.0083177835000000002 0.25983815999999998 -0.57301027000000004 0.0083177835000000002 0.73129559 -0.95956372999999995 0.0083177835000000002 0.73129559 -0.95956372999999995 0.0083177835000000002 0.2872"
+		+ "1434000000001 -0.51548249000000002 0.0083177835000000002 0.28721434000000001 -0.51548249000000002 0.0083177835000000002 0.30229025999999998 -0.53055817000000005 0.0083177835000000002 0.30229025999999998 -0.53055817000000005 0.0083177835000000002 0.71621972 -0.94448787000000001 0.0083177835000000002 0.71621972 -0.94448787000000001 0.0083177835000000002 0.71006966000000005 -0.98078966000000001 0.0083177835000000002 0.71006966000000005 -0.98078966000000001 0.0083177835000000002 0.26598841000000001 -0.53670841000000002 0.0083177835000000002 0.26598841000000001 -0.53670841000000002 0.0083177835000000002 0.28106408999999999 -0.55178433999999998 0.0083177835000000002 0.28106408999999999 -0.55178433999999998 0.0083177835000000002 0.69499378999999994 -0.96571379999999996 0.0083177835000000002 0.69499378999999994 -0.96571379999999996 0.0083177835000000002 0.30844027000000002 -0.49425656000000001 0.0083177835000000002 0.75252163000000005 -0.93833767999999995 0.0083177835000000002 0.75252163000000005 -0.93833767999999995"
+		+ " 0.0083177835000000002 0.73744577 -0.92326182000000001 0.0083177835000000002 0.73744577 -0.92326182000000001 0.0083177835000000002 0.32351618999999998 -0.50933223999999999 0.0083177835000000002 0.32351618999999998 -0.50933223999999999 0.0083177835000000002 0.30844027000000002 -0.49425656000000001 0.0083177835000000002 0.31905323000000002 -0.48364359000000001 0.0083177835000000002 0.7631346 -0.92772471999999995 0.0083177835000000002 0.7631346 -0.92772471999999995 0.0083177835000000002 0.74805874000000006 -0.91264886000000001 0.0083177835000000002 0.74805874000000006 -0.91264886000000001 0.0083177835000000002 0.33412914999999999 -0.49871926999999999 0.0083177835000000002 0.33412914999999999 -0.49871926999999999 0.0083177835000000002 0.31905323000000002 -0.48364359000000001 0.0083177835000000002 0.74190855 -0.94895077000000005 0.0083177835000000002 0.74190855 -0.94895077000000005 0.0083177835000000002 0.29782730000000002 -0.50486951999999996 0.0083177835000000002 0.29782730000000002 -0.50486951999999996 0.008317"
+		+ "7835000000002 0.31290322999999998 -0.5199452 0.0083177835000000002 0.31290322999999998 -0.5199452 0.0083177835000000002 0.72683268999999995 -0.93387491 0.0083177835000000002 0.72683268999999995 -0.93387491 0.0083177835000000002 0.72068262000000005 -0.9701767 0.0083177835000000002 0.72068262000000005 -0.9701767 0.0083177835000000002 0.70560676 -0.95510083000000001 0.0083177835000000002 0.70560676 -0.95510083000000001 0.0083177835000000002 0.29167705999999999 -0.54117137000000004 0.0083177835000000002 0.29167705999999999 -0.54117137000000004 0.0083177835000000002 0.27660137000000001 -0.52609545000000002 0.0083177835000000002 0.27660137000000001 -0.52609545000000002 0.0083177835000000002 0.69945657000000006 -0.99140275 0.0083177835000000002 0.69945657000000006 -0.99140275 0.0083177835000000002 0.25537544000000001 -0.54732137999999997 0.0083177835000000002 0.25537544000000001 -0.54732137999999997 0.0083177835000000002 0.27045112999999998 -0.56239729999999999 0.0083177835000000002 0.27045112999999998 -0.5623972999"
+		+ "9999999 0.0083177835000000002 0.68438071 -0.97632688000000001 0.0083177835000000002 0.68438071 -0.97632688000000001"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41" "rotatePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040822 -0.036216939815251425"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41" "scalePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040822 -0.036216939815251425"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.35877713999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.46359678999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.80285835000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -0.90767801000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.80285835000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -0.90767801000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.35877713999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.46359678999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.80285835000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.35877713999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 -0.46359678999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -0.90767801000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476250999999999 -0.45311475000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -0.89719605000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -0.89719605000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -0.89719605000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -0.45311472000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 -0.45311472000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966623 -0.36821102999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.81229209999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.81229209999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.81229209999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -0.368211"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 -0.368211"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -0.79721624000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -0.79721624000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -0.88212018999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -0.88212018999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -0.38328667999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -0.46819063999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 -0.38328667999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 -0.46819063999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -0.85474408000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -0.85474408000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -0.41066286000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 -0.41066286000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -0.42573854"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 -0.42573854"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -0.83966821000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -0.83966821000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -0.87597000999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -0.87597000999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -0.43188879000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 -0.43188879000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -0.44696470999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 -0.44696470999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -0.86089413999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -0.86089413999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -0.38943693000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -0.83351803000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -0.83351803000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -0.81844216999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -0.81844216999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -0.40451260999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 -0.40451260999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 -0.38943693000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -0.37882397000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -0.82290505999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -0.82290505999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -0.80782920000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -0.80782920000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -0.39389964999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 -0.39389964999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 -0.37882397000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -0.84413110999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -0.84413110999999996"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -0.40004990000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 -0.40004990000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -0.41512557999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 -0.41512557999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -0.82905525000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -0.82905525000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -0.86535704000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -0.86535704000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -0.85028117999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -0.85028117999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -0.43635174999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 -0.43635174999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -0.42127582000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 -0.42127582000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -0.88658309000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -0.88658309000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -0.44250175000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 -0.44250175000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -0.45757767999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 -0.45757767999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -0.87150722999999997"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -0.87150722999999997"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 0.33910005999999998 -0.35877713999999999 0.0083177835000000002 0.23428040999999999 -0.46359678999999998 0.0083177835000000002 0.78318131000000002 -0.80285835000000005 0.0083177835000000002 0.67836165000000004 -0.90767801000000004 0.0083177835000000002 0.78318131000000002 -0.80285835000000005 0.0083177835000000002 0.67836165000000004 -0.90767801000000004 0.0083177835000000002 0.33910005999999998 -0.35877713999999999 0.0083177835000000002 0.23428040999999999 -0.46359678999999998 0.0083177835000000002 0.78318131000000002 -0.80285835000000005 0.0083177835000000002 0.33910005999999998 -0.35877713999999999 0.0083177835000000002 0.23428040999999999 -0.46359678999999998 0.0083177835000000002 0.67836165000000004 -0.90767801000000004 0.0083177835000000002 0.24476250999999999 -0.45311475000000001 0.0083177835000000002 0.68884361000000005 -0.89719605000000002 0.0083177835000000002 0.68884361000000005 -0.89719605000000002 0.0083177835000000002 0.68884361000000005 -0.897196050000"
+		+ "00002 0.0083177835000000002 0.24476248 -0.45311472000000003 0.0083177835000000002 0.24476248 -0.45311472000000003 0.0083177835000000002 0.32966623 -0.36821102999999999 0.0083177835000000002 0.77374756 -0.81229209999999996 0.0083177835000000002 0.77374756 -0.81229209999999996 0.0083177835000000002 0.77374756 -0.81229209999999996 0.0083177835000000002 0.32966620000000002 -0.368211 0.0083177835000000002 0.32966620000000002 -0.368211 0.0083177835000000002 0.75867169999999995 -0.79721624000000002 0.0083177835000000002 0.75867169999999995 -0.79721624000000002 0.0083177835000000002 0.67376775 -0.88212018999999997 0.0083177835000000002 0.67376775 -0.88212018999999997 0.0083177835000000002 0.34474211999999999 -0.38328667999999999 0.0083177835000000002 0.25983815999999998 -0.46819063999999999 0.0083177835000000002 0.34474211999999999 -0.38328667999999999 0.0083177835000000002 0.25983815999999998 -0.46819063999999999 0.0083177835000000002 0.73129559 -0.85474408000000002 0.0083177835000000002 0.73129559 -0.85474408000000"
+		+ "002 0.0083177835000000002 0.28721434000000001 -0.41066286000000002 0.0083177835000000002 0.28721434000000001 -0.41066286000000002 0.0083177835000000002 0.30229025999999998 -0.42573854 0.0083177835000000002 0.30229025999999998 -0.42573854 0.0083177835000000002 0.71621972 -0.83966821000000003 0.0083177835000000002 0.71621972 -0.83966821000000003 0.0083177835000000002 0.71006966000000005 -0.87597000999999997 0.0083177835000000002 0.71006966000000005 -0.87597000999999997 0.0083177835000000002 0.26598841000000001 -0.43188879000000002 0.0083177835000000002 0.26598841000000001 -0.43188879000000002 0.0083177835000000002 0.28106408999999999 -0.44696470999999999 0.0083177835000000002 0.28106408999999999 -0.44696470999999999 0.0083177835000000002 0.69499378999999994 -0.86089413999999997 0.0083177835000000002 0.69499378999999994 -0.86089413999999997 0.0083177835000000002 0.30844027000000002 -0.38943693000000001 0.0083177835000000002 0.75252163000000005 -0.83351803000000002 0.0083177835000000002 0.75252163000000005 -0.833"
+		+ "51803000000002 0.0083177835000000002 0.73744577 -0.81844216999999997 0.0083177835000000002 0.73744577 -0.81844216999999997 0.0083177835000000002 0.32351618999999998 -0.40451260999999999 0.0083177835000000002 0.32351618999999998 -0.40451260999999999 0.0083177835000000002 0.30844027000000002 -0.38943693000000001 0.0083177835000000002 0.31905323000000002 -0.37882397000000001 0.0083177835000000002 0.7631346 -0.82290505999999997 0.0083177835000000002 0.7631346 -0.82290505999999997 0.0083177835000000002 0.74805874000000006 -0.80782920000000003 0.0083177835000000002 0.74805874000000006 -0.80782920000000003 0.0083177835000000002 0.33412914999999999 -0.39389964999999999 0.0083177835000000002 0.33412914999999999 -0.39389964999999999 0.0083177835000000002 0.31905323000000002 -0.37882397000000001 0.0083177835000000002 0.74190855 -0.84413110999999996 0.0083177835000000002 0.74190855 -0.84413110999999996 0.0083177835000000002 0.29782730000000002 -0.40004990000000001 0.0083177835000000002 0.29782730000000002 -0.400049900000"
+		+ "00001 0.0083177835000000002 0.31290322999999998 -0.41512557999999999 0.0083177835000000002 0.31290322999999998 -0.41512557999999999 0.0083177835000000002 0.72683268999999995 -0.82905525000000002 0.0083177835000000002 0.72683268999999995 -0.82905525000000002 0.0083177835000000002 0.72068262000000005 -0.86535704000000002 0.0083177835000000002 0.72068262000000005 -0.86535704000000002 0.0083177835000000002 0.70560676 -0.85028117999999997 0.0083177835000000002 0.70560676 -0.85028117999999997 0.0083177835000000002 0.29167705999999999 -0.43635174999999998 0.0083177835000000002 0.29167705999999999 -0.43635174999999998 0.0083177835000000002 0.27660137000000001 -0.42127582000000002 0.0083177835000000002 0.27660137000000001 -0.42127582000000002 0.0083177835000000002 0.69945657000000006 -0.88658309000000002 0.0083177835000000002 0.69945657000000006 -0.88658309000000002 0.0083177835000000002 0.25537544000000001 -0.44250175000000003 0.0083177835000000002 0.25537544000000001 -0.44250175000000003 0.0083177835000000002 0.2704"
+		+ "5112999999998 -0.45757767999999999 0.0083177835000000002 0.27045112999999998 -0.45757767999999999 0.0083177835000000002 0.68438071 -0.87150722999999997 0.0083177835000000002 0.68438071 -0.87150722999999997"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42" "rotatePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040822 0.60235172364039813"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42" "scalePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040822 0.60235172364039813"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 0.27979153000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 0.17497188"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.16428971000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -0.26910937000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.16428971000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -0.26910937000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 0.27979153000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 0.17497188"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.16428971000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 0.27979153000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 0.17497188"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -0.26910937000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476250999999999 0.18545391999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -0.25862741"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -0.25862741"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -0.25862741"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 0.18545395000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 0.18545395000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966623 0.27035764000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.17372346"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.17372346"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.17372346"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 0.27035766999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 0.27035766999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -0.1586476"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -0.1586476"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -0.24355155000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -0.24355155000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 0.25528198000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 0.17037803000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 0.25528198000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 0.17037803000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -0.21617544"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -0.21617544"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 0.22790580999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 0.22790580999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 0.21283013000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 0.21283013000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -0.20109957000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -0.20109957000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -0.23740137"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -0.23740137"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 0.20667988000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 0.20667988000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 0.19160395999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 0.19160395999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -0.22232550000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -0.22232550000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 0.24913173999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -0.19494939"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -0.19494939"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -0.17987353"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -0.17987353"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 0.23405606000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 0.23405606000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 0.24913173999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 0.2597447"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -0.18433642"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -0.18433642"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -0.16926056"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -0.16926056"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 0.24466901999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 0.24466901999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 0.2597447"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -0.20556247"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -0.20556247"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 0.23851876999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 0.23851876999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 0.22344309000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 0.22344309000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -0.19048661"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -0.19048661"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -0.2267884"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -0.2267884"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -0.21171254"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -0.21171254"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 0.20221691999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 0.20221691999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 0.21729285000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 0.21729285000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -0.24801445"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -0.24801445"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 0.19606692000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 0.19606692000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 0.18099098999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 0.18099098999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -0.23293859"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -0.23293859"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 0.33910005999999998 0.27979153000000001 0.0083177835000000002 0.23428040999999999 0.17497188 0.0083177835000000002 0.78318131000000002 -0.16428971000000001 0.0083177835000000002 0.67836165000000004 -0.26910937000000001 0.0083177835000000002 0.78318131000000002 -0.16428971000000001 0.0083177835000000002 0.67836165000000004 -0.26910937000000001 0.0083177835000000002 0.33910005999999998 0.27979153000000001 0.0083177835000000002 0.23428040999999999 0.17497188 0.0083177835000000002 0.78318131000000002 -0.16428971000000001 0.0083177835000000002 0.33910005999999998 0.27979153000000001 0.0083177835000000002 0.23428040999999999 0.17497188 0.0083177835000000002 0.67836165000000004 -0.26910937000000001 0.0083177835000000002 0.24476250999999999 0.18545391999999999 0.0083177835000000002 0.68884361000000005 -0.25862741 0.0083177835000000002 0.68884361000000005 -0.25862741 0.0083177835000000002 0.68884361000000005 -0.25862741 0.0083177835000000002 0.24476248 0.18545395000000001 0."
+		+ "0083177835000000002 0.24476248 0.18545395000000001 0.0083177835000000002 0.32966623 0.27035764000000001 0.0083177835000000002 0.77374756 -0.17372346 0.0083177835000000002 0.77374756 -0.17372346 0.0083177835000000002 0.77374756 -0.17372346 0.0083177835000000002 0.32966620000000002 0.27035766999999999 0.0083177835000000002 0.32966620000000002 0.27035766999999999 0.0083177835000000002 0.75867169999999995 -0.1586476 0.0083177835000000002 0.75867169999999995 -0.1586476 0.0083177835000000002 0.67376775 -0.24355155000000001 0.0083177835000000002 0.67376775 -0.24355155000000001 0.0083177835000000002 0.34474211999999999 0.25528198000000002 0.0083177835000000002 0.25983815999999998 0.17037803000000001 0.0083177835000000002 0.34474211999999999 0.25528198000000002 0.0083177835000000002 0.25983815999999998 0.17037803000000001 0.0083177835000000002 0.73129559 -0.21617544 0.0083177835000000002 0.73129559 -0.21617544 0.0083177835000000002 0.28721434000000001 0.22790580999999999 0.0083177835000000002 0.28721434000000001 0.227"
+		+ "90580999999999 0.0083177835000000002 0.30229025999999998 0.21283013000000001 0.0083177835000000002 0.30229025999999998 0.21283013000000001 0.0083177835000000002 0.71621972 -0.20109957000000001 0.0083177835000000002 0.71621972 -0.20109957000000001 0.0083177835000000002 0.71006966000000005 -0.23740137 0.0083177835000000002 0.71006966000000005 -0.23740137 0.0083177835000000002 0.26598841000000001 0.20667988000000001 0.0083177835000000002 0.26598841000000001 0.20667988000000001 0.0083177835000000002 0.28106408999999999 0.19160395999999999 0.0083177835000000002 0.28106408999999999 0.19160395999999999 0.0083177835000000002 0.69499378999999994 -0.22232550000000001 0.0083177835000000002 0.69499378999999994 -0.22232550000000001 0.0083177835000000002 0.30844027000000002 0.24913173999999999 0.0083177835000000002 0.75252163000000005 -0.19494939 0.0083177835000000002 0.75252163000000005 -0.19494939 0.0083177835000000002 0.73744577 -0.17987353 0.0083177835000000002 0.73744577 -0.17987353 0.0083177835000000002 0.32351618999"
+		+ "999998 0.23405606000000001 0.0083177835000000002 0.32351618999999998 0.23405606000000001 0.0083177835000000002 0.30844027000000002 0.24913173999999999 0.0083177835000000002 0.31905323000000002 0.2597447 0.0083177835000000002 0.7631346 -0.18433642 0.0083177835000000002 0.7631346 -0.18433642 0.0083177835000000002 0.74805874000000006 -0.16926056 0.0083177835000000002 0.74805874000000006 -0.16926056 0.0083177835000000002 0.33412914999999999 0.24466901999999999 0.0083177835000000002 0.33412914999999999 0.24466901999999999 0.0083177835000000002 0.31905323000000002 0.2597447 0.0083177835000000002 0.74190855 -0.20556247 0.0083177835000000002 0.74190855 -0.20556247 0.0083177835000000002 0.29782730000000002 0.23851876999999999 0.0083177835000000002 0.29782730000000002 0.23851876999999999 0.0083177835000000002 0.31290322999999998 0.22344309000000001 0.0083177835000000002 0.31290322999999998 0.22344309000000001 0.0083177835000000002 0.72683268999999995 -0.19048661 0.0083177835000000002 0.72683268999999995 -0.19048661 0.0"
+		+ "083177835000000002 0.72068262000000005 -0.2267884 0.0083177835000000002 0.72068262000000005 -0.2267884 0.0083177835000000002 0.70560676 -0.21171254 0.0083177835000000002 0.70560676 -0.21171254 0.0083177835000000002 0.29167705999999999 0.20221691999999999 0.0083177835000000002 0.29167705999999999 0.20221691999999999 0.0083177835000000002 0.27660137000000001 0.21729285000000001 0.0083177835000000002 0.27660137000000001 0.21729285000000001 0.0083177835000000002 0.69945657000000006 -0.24801445 0.0083177835000000002 0.69945657000000006 -0.24801445 0.0083177835000000002 0.25537544000000001 0.19606692000000001 0.0083177835000000002 0.25537544000000001 0.19606692000000001 0.0083177835000000002 0.27045112999999998 0.18099098999999999 0.0083177835000000002 0.27045112999999998 0.18099098999999999 0.0083177835000000002 0.68438071 -0.23293859 0.0083177835000000002 0.68438071 -0.23293859"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43" "rotatePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040201 0.49753209931756825"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43" "scalePivot" " -type \"double3\" -2.38378815397431554 2.05578985093040201 0.49753209931756825"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[0]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 0.17497191000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[1]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 0.070152252999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[2]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.26910933999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[3]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -0.37392899000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[4]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.26910933999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[5]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -0.37392899000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[6]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 0.17497191000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[7]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 0.070152252999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[8]" 
-		" -type \"float3\" 0.0083177835000000002 0.78318131000000002 -0.26910933999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[9]" 
-		" -type \"float3\" 0.0083177835000000002 0.33910005999999998 0.17497191000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[10]" 
-		" -type \"float3\" 0.0083177835000000002 0.23428040999999999 0.070152252999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[11]" 
-		" -type \"float3\" 0.0083177835000000002 0.67836165000000004 -0.37392899000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[12]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476250999999999 0.080634295999999994"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[13]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -0.36344704"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[14]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -0.36344704"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[15]" 
-		" -type \"float3\" 0.0083177835000000002 0.68884361000000005 -0.36344704"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[16]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 0.080634326000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[17]" 
-		" -type \"float3\" 0.0083177835000000002 0.24476248 0.080634326000000006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[18]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966623 0.16553801000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[19]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.27854308"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[20]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.27854308"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[21]" 
-		" -type \"float3\" 0.0083177835000000002 0.77374756 -0.27854308"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[22]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 0.16553804"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[23]" 
-		" -type \"float3\" 0.0083177835000000002 0.32966620000000002 0.16553804"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[24]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -0.26346722"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[25]" 
-		" -type \"float3\" 0.0083177835000000002 0.75867169999999995 -0.26346722"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[26]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -0.34837118"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[27]" 
-		" -type \"float3\" 0.0083177835000000002 0.67376775 -0.34837118"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[28]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 0.15046235999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[29]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 0.065558404000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[30]" 
-		" -type \"float3\" 0.0083177835000000002 0.34474211999999999 0.15046235999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[31]" 
-		" -type \"float3\" 0.0083177835000000002 0.25983815999999998 0.065558404000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[32]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -0.32099506"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[33]" 
-		" -type \"float3\" 0.0083177835000000002 0.73129559 -0.32099506"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[34]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 0.12308618"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[35]" 
-		" -type \"float3\" 0.0083177835000000002 0.28721434000000001 0.12308618"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[36]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 0.1080105"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[37]" 
-		" -type \"float3\" 0.0083177835000000002 0.30229025999999998 0.1080105"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[38]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -0.3059192"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[39]" 
-		" -type \"float3\" 0.0083177835000000002 0.71621972 -0.3059192"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[40]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -0.34222099"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[41]" 
-		" -type \"float3\" 0.0083177835000000002 0.71006966000000005 -0.34222099"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[42]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 0.10186025999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[43]" 
-		" -type \"float3\" 0.0083177835000000002 0.26598841000000001 0.10186025999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[44]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 0.086784333000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[45]" 
-		" -type \"float3\" 0.0083177835000000002 0.28106408999999999 0.086784333000000005"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[46]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -0.32714513000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[47]" 
-		" -type \"float3\" 0.0083177835000000002 0.69499378999999994 -0.32714513000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[48]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 0.14431210999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[49]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -0.29976901"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[50]" 
-		" -type \"float3\" 0.0083177835000000002 0.75252163000000005 -0.29976901"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[51]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -0.28469315000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[52]" 
-		" -type \"float3\" 0.0083177835000000002 0.73744577 -0.28469315000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[53]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 0.12923643000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[54]" 
-		" -type \"float3\" 0.0083177835000000002 0.32351618999999998 0.12923643000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[55]" 
-		" -type \"float3\" 0.0083177835000000002 0.30844027000000002 0.14431210999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[56]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 0.15492507999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[57]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -0.28915605"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[58]" 
-		" -type \"float3\" 0.0083177835000000002 0.7631346 -0.28915605"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[59]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -0.27408019"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[60]" 
-		" -type \"float3\" 0.0083177835000000002 0.74805874000000006 -0.27408019"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[61]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 0.13984938999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[62]" 
-		" -type \"float3\" 0.0083177835000000002 0.33412914999999999 0.13984938999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[63]" 
-		" -type \"float3\" 0.0083177835000000002 0.31905323000000002 0.15492507999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[64]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -0.31038209999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[65]" 
-		" -type \"float3\" 0.0083177835000000002 0.74190855 -0.31038209999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[66]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 0.13369914999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[67]" 
-		" -type \"float3\" 0.0083177835000000002 0.29782730000000002 0.13369914999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[68]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 0.11862346999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[69]" 
-		" -type \"float3\" 0.0083177835000000002 0.31290322999999998 0.11862346999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[70]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -0.29530624"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[71]" 
-		" -type \"float3\" 0.0083177835000000002 0.72683268999999995 -0.29530624"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[72]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -0.33160803"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[73]" 
-		" -type \"float3\" 0.0083177835000000002 0.72068262000000005 -0.33160803"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[74]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -0.31653216000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[75]" 
-		" -type \"float3\" 0.0083177835000000002 0.70560676 -0.31653216000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[76]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 0.097397297999999993"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[77]" 
-		" -type \"float3\" 0.0083177835000000002 0.29167705999999999 0.097397297999999993"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[78]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 0.11247322"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[79]" 
-		" -type \"float3\" 0.0083177835000000002 0.27660137000000001 0.11247322"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[80]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -0.35283407999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[81]" 
-		" -type \"float3\" 0.0083177835000000002 0.69945657000000006 -0.35283407999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[82]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 0.091247289999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[83]" 
-		" -type \"float3\" 0.0083177835000000002 0.25537544000000001 0.091247289999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[84]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 0.076171368000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[85]" 
-		" -type \"float3\" 0.0083177835000000002 0.27045112999999998 0.076171368000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[86]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -0.33775821"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pnts[87]" 
-		" -type \"float3\" 0.0083177835000000002 0.68438071 -0.33775821"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "instObjGroups.objectGroups" 
+		" -s 4"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083177835000000002 0.33910005999999998 0.17497191000000001 0.0083177835000000002 0.23428040999999999 0.070152252999999998 0.0083177835000000002 0.78318131000000002 -0.26910933999999997 0.0083177835000000002 0.67836165000000004 -0.37392899000000002 0.0083177835000000002 0.78318131000000002 -0.26910933999999997 0.0083177835000000002 0.67836165000000004 -0.37392899000000002 0.0083177835000000002 0.33910005999999998 0.17497191000000001 0.0083177835000000002 0.23428040999999999 0.070152252999999998 0.0083177835000000002 0.78318131000000002 -0.26910933999999997 0.0083177835000000002 0.33910005999999998 0.17497191000000001 0.0083177835000000002 0.23428040999999999 0.070152252999999998 0.0083177835000000002 0.67836165000000004 -0.37392899000000002 0.0083177835000000002 0.24476250999999999 0.080634295999999994 0.0083177835000000002 0.68884361000000005 -0.36344704 0.0083177835000000002 0.68884361000000005 -0.36344704 0.0083177835000000002 0.68884361000000005 -0.36344704 0.0083177835000000002 0."
+		+ "24476248 0.080634326000000006 0.0083177835000000002 0.24476248 0.080634326000000006 0.0083177835000000002 0.32966623 0.16553801000000001 0.0083177835000000002 0.77374756 -0.27854308 0.0083177835000000002 0.77374756 -0.27854308 0.0083177835000000002 0.77374756 -0.27854308 0.0083177835000000002 0.32966620000000002 0.16553804 0.0083177835000000002 0.32966620000000002 0.16553804 0.0083177835000000002 0.75867169999999995 -0.26346722 0.0083177835000000002 0.75867169999999995 -0.26346722 0.0083177835000000002 0.67376775 -0.34837118 0.0083177835000000002 0.67376775 -0.34837118 0.0083177835000000002 0.34474211999999999 0.15046235999999999 0.0083177835000000002 0.25983815999999998 0.065558404000000001 0.0083177835000000002 0.34474211999999999 0.15046235999999999 0.0083177835000000002 0.25983815999999998 0.065558404000000001 0.0083177835000000002 0.73129559 -0.32099506 0.0083177835000000002 0.73129559 -0.32099506 0.0083177835000000002 0.28721434000000001 0.12308618 0.0083177835000000002 0.28721434000000001 0.12308618 0."
+		+ "0083177835000000002 0.30229025999999998 0.1080105 0.0083177835000000002 0.30229025999999998 0.1080105 0.0083177835000000002 0.71621972 -0.3059192 0.0083177835000000002 0.71621972 -0.3059192 0.0083177835000000002 0.71006966000000005 -0.34222099 0.0083177835000000002 0.71006966000000005 -0.34222099 0.0083177835000000002 0.26598841000000001 0.10186025999999999 0.0083177835000000002 0.26598841000000001 0.10186025999999999 0.0083177835000000002 0.28106408999999999 0.086784333000000005 0.0083177835000000002 0.28106408999999999 0.086784333000000005 0.0083177835000000002 0.69499378999999994 -0.32714513000000001 0.0083177835000000002 0.69499378999999994 -0.32714513000000001 0.0083177835000000002 0.30844027000000002 0.14431210999999999 0.0083177835000000002 0.75252163000000005 -0.29976901 0.0083177835000000002 0.75252163000000005 -0.29976901 0.0083177835000000002 0.73744577 -0.28469315000000001 0.0083177835000000002 0.73744577 -0.28469315000000001 0.0083177835000000002 0.32351618999999998 0.12923643000000001 0.00831778"
+		+ "35000000002 0.32351618999999998 0.12923643000000001 0.0083177835000000002 0.30844027000000002 0.14431210999999999 0.0083177835000000002 0.31905323000000002 0.15492507999999999 0.0083177835000000002 0.7631346 -0.28915605 0.0083177835000000002 0.7631346 -0.28915605 0.0083177835000000002 0.74805874000000006 -0.27408019 0.0083177835000000002 0.74805874000000006 -0.27408019 0.0083177835000000002 0.33412914999999999 0.13984938999999999 0.0083177835000000002 0.33412914999999999 0.13984938999999999 0.0083177835000000002 0.31905323000000002 0.15492507999999999 0.0083177835000000002 0.74190855 -0.31038209999999999 0.0083177835000000002 0.74190855 -0.31038209999999999 0.0083177835000000002 0.29782730000000002 0.13369914999999999 0.0083177835000000002 0.29782730000000002 0.13369914999999999 0.0083177835000000002 0.31290322999999998 0.11862346999999999 0.0083177835000000002 0.31290322999999998 0.11862346999999999 0.0083177835000000002 0.72683268999999995 -0.29530624 0.0083177835000000002 0.72683268999999995 -0.29530624 0."
+		+ "0083177835000000002 0.72068262000000005 -0.33160803 0.0083177835000000002 0.72068262000000005 -0.33160803 0.0083177835000000002 0.70560676 -0.31653216000000001 0.0083177835000000002 0.70560676 -0.31653216000000001 0.0083177835000000002 0.29167705999999999 0.097397297999999993 0.0083177835000000002 0.29167705999999999 0.097397297999999993 0.0083177835000000002 0.27660137000000001 0.11247322 0.0083177835000000002 0.27660137000000001 0.11247322 0.0083177835000000002 0.69945657000000006 -0.35283407999999999 0.0083177835000000002 0.69945657000000006 -0.35283407999999999 0.0083177835000000002 0.25537544000000001 0.091247289999999995 0.0083177835000000002 0.25537544000000001 0.091247289999999995 0.0083177835000000002 0.27045112999999998 0.076171368000000003 0.0083177835000000002 0.27045112999999998 0.076171368000000003 0.0083177835000000002 0.68438071 -0.33775821 0.0083177835000000002 0.68438071 -0.33775821"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44" "rotatePivot" " -type \"double3\" -2.38376575617730913 2.0557897913257599 0.39235362265406559"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44" "scalePivot" " -type \"double3\" -2.38376575617730913 2.0557897913257599 0.39235362265406559"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[0]" 
-		" -type \"float3\" 0.0083401809000000007 0.3391 0.069793433000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[1]" 
-		" -type \"float3\" 0.0083401809000000007 0.23428035 -0.035026222000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[2]" 
-		" -type \"float3\" 0.0083401809000000007 0.78318125000000005 -0.37428781"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[3]" 
-		" -type \"float3\" 0.0083401809000000007 0.67836158999999996 -0.47910746999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[4]" 
-		" -type \"float3\" 0.0083401809000000007 0.78318125000000005 -0.37428781"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[5]" 
-		" -type \"float3\" 0.0083401809000000007 0.67836158999999996 -0.47910746999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[6]" 
-		" -type \"float3\" 0.0083401809000000007 0.3391 0.069793433000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[7]" 
-		" -type \"float3\" 0.0083401809000000007 0.23428035 -0.035026222000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[8]" 
-		" -type \"float3\" 0.0083401809000000007 0.78318125000000005 -0.37428781"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[9]" 
-		" -type \"float3\" 0.0083401809000000007 0.3391 0.069793433000000002"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[10]" 
-		" -type \"float3\" 0.0083401809000000007 0.23428035 -0.035026222000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[11]" 
-		" -type \"float3\" 0.0083401809000000007 0.67836158999999996 -0.47910746999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[12]" 
-		" -type \"float3\" 0.0083401809000000007 0.24476244999999999 -0.024544181000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[13]" 
-		" -type \"float3\" 0.0083401809000000007 0.68884354999999997 -0.46862552000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[14]" 
-		" -type \"float3\" 0.0083401809000000007 0.68884354999999997 -0.46862552000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[15]" 
-		" -type \"float3\" 0.0083401809000000007 0.68884354999999997 -0.46862552000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[16]" 
-		" -type \"float3\" 0.0083401809000000007 0.24476242000000001 -0.024544151"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[17]" 
-		" -type \"float3\" 0.0083401809000000007 0.24476242000000001 -0.024544151"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[18]" 
-		" -type \"float3\" 0.0083401809000000007 0.32966616999999998 0.060359537999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[19]" 
-		" -type \"float3\" 0.0083401809000000007 0.77374750000000003 -0.38372156000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[20]" 
-		" -type \"float3\" 0.0083401809000000007 0.77374750000000003 -0.38372156000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[21]" 
-		" -type \"float3\" 0.0083401809000000007 0.77374750000000003 -0.38372156000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[22]" 
-		" -type \"float3\" 0.0083401809000000007 0.32966614 0.060359567000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[23]" 
-		" -type \"float3\" 0.0083401809000000007 0.32966614 0.060359567000000003"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[24]" 
-		" -type \"float3\" 0.0083401809000000007 0.75867163999999998 -0.36864570000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[25]" 
-		" -type \"float3\" 0.0083401809000000007 0.75867163999999998 -0.36864570000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[26]" 
-		" -type \"float3\" 0.0083401809000000007 0.67376769000000003 -0.45354965000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[27]" 
-		" -type \"float3\" 0.0083401809000000007 0.67376769000000003 -0.45354965000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[28]" 
-		" -type \"float3\" 0.0083401809000000007 0.34474206000000002 0.045283884000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[29]" 
-		" -type \"float3\" 0.0083401809000000007 0.25983810000000002 -0.039620071999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[30]" 
-		" -type \"float3\" 0.0083401809000000007 0.34474206000000002 0.045283884000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[31]" 
-		" -type \"float3\" 0.0083401809000000007 0.25983810000000002 -0.039620071999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[32]" 
-		" -type \"float3\" 0.0083401809000000007 0.73129553000000003 -0.42617354000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[33]" 
-		" -type \"float3\" 0.0083401809000000007 0.73129553000000003 -0.42617354000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[34]" 
-		" -type \"float3\" 0.0083401809000000007 0.28721427999999999 0.017907706999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[35]" 
-		" -type \"float3\" 0.0083401809000000007 0.28721427999999999 0.017907706999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[36]" 
-		" -type \"float3\" 0.0083401809000000007 0.30229020000000001 0.0028320238999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[37]" 
-		" -type \"float3\" 0.0083401809000000007 0.30229020000000001 0.0028320238999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[38]" 
-		" -type \"float3\" 0.0083401809000000007 0.71621966000000004 -0.41109768000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[39]" 
-		" -type \"float3\" 0.0083401809000000007 0.71621966000000004 -0.41109768000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[40]" 
-		" -type \"float3\" 0.0083401809000000007 0.71006959999999997 -0.44739947000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[41]" 
-		" -type \"float3\" 0.0083401809000000007 0.71006959999999997 -0.44739947000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[42]" 
-		" -type \"float3\" 0.0083401809000000007 0.26598834999999998 -0.0033182217999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[43]" 
-		" -type \"float3\" 0.0083401809000000007 0.26598834999999998 -0.0033182217999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[44]" 
-		" -type \"float3\" 0.0083401809000000007 0.28106403000000002 -0.018394144000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[45]" 
-		" -type \"float3\" 0.0083401809000000007 0.28106403000000002 -0.018394144000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[46]" 
-		" -type \"float3\" 0.0083401809000000007 0.69499372999999998 -0.43232359999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[47]" 
-		" -type \"float3\" 0.0083401809000000007 0.69499372999999998 -0.43232359999999997"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[48]" 
-		" -type \"float3\" 0.0083401809000000007 0.30844020999999999 0.039133637999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[49]" 
-		" -type \"float3\" 0.0083401809000000007 0.75252156999999997 -0.40494749000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[50]" 
-		" -type \"float3\" 0.0083401809000000007 0.75252156999999997 -0.40494749000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[51]" 
-		" -type \"float3\" 0.0083401809000000007 0.73744571000000003 -0.38987163000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[52]" 
-		" -type \"float3\" 0.0083401809000000007 0.73744571000000003 -0.38987163000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[53]" 
-		" -type \"float3\" 0.0083401809000000007 0.32351613000000001 0.024057953"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[54]" 
-		" -type \"float3\" 0.0083401809000000007 0.32351613000000001 0.024057953"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[55]" 
-		" -type \"float3\" 0.0083401809000000007 0.30844020999999999 0.039133637999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[56]" 
-		" -type \"float3\" 0.0083401809000000007 0.31905317 0.049746603"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[57]" 
-		" -type \"float3\" 0.0083401809000000007 0.76313454000000003 -0.39433452000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[58]" 
-		" -type \"float3\" 0.0083401809000000007 0.76313454000000003 -0.39433452000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[59]" 
-		" -type \"float3\" 0.0083401809000000007 0.74805867999999998 -0.37925866000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[60]" 
-		" -type \"float3\" 0.0083401809000000007 0.74805867999999998 -0.37925866000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[61]" 
-		" -type \"float3\" 0.0083401809000000007 0.33412910000000001 0.034670919000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[62]" 
-		" -type \"float3\" 0.0083401809000000007 0.33412910000000001 0.034670919000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[63]" 
-		" -type \"float3\" 0.0083401809000000007 0.31905317 0.049746603"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[64]" 
-		" -type \"float3\" 0.0083401809000000007 0.74190849000000003 -0.41556057000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[65]" 
-		" -type \"float3\" 0.0083401809000000007 0.74190849000000003 -0.41556057000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[66]" 
-		" -type \"float3\" 0.0083401809000000007 0.29782723999999999 0.028520673999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[67]" 
-		" -type \"float3\" 0.0083401809000000007 0.29782723999999999 0.028520673999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[68]" 
-		" -type \"float3\" 0.0083401809000000007 0.31290317000000001 0.013444988"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[69]" 
-		" -type \"float3\" 0.0083401809000000007 0.31290317000000001 0.013444988"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[70]" 
-		" -type \"float3\" 0.0083401809000000007 0.72683262999999998 -0.40048471000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[71]" 
-		" -type \"float3\" 0.0083401809000000007 0.72683262999999998 -0.40048471000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[72]" 
-		" -type \"float3\" 0.0083401809000000007 0.72068255999999997 -0.43678650000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[73]" 
-		" -type \"float3\" 0.0083401809000000007 0.72068255999999997 -0.43678650000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[74]" 
-		" -type \"float3\" 0.0083401809000000007 0.70560670000000003 -0.42171064000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[75]" 
-		" -type \"float3\" 0.0083401809000000007 0.70560670000000003 -0.42171064000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[76]" 
-		" -type \"float3\" 0.0083401809000000007 0.291677 -0.0077811792000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[77]" 
-		" -type \"float3\" 0.0083401809000000007 0.291677 -0.0077811792000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[78]" 
-		" -type \"float3\" 0.0083401809000000007 0.27660130999999999 0.0072947415000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[79]" 
-		" -type \"float3\" 0.0083401809000000007 0.27660130999999999 0.0072947415000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[80]" 
-		" -type \"float3\" 0.0083401809000000007 0.69945650999999998 -0.45801255000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[81]" 
-		" -type \"float3\" 0.0083401809000000007 0.69945650999999998 -0.45801255000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[82]" 
-		" -type \"float3\" 0.0083401809000000007 0.25537538999999998 -0.013931186999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[83]" 
-		" -type \"float3\" 0.0083401809000000007 0.25537538999999998 -0.013931186999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[84]" 
-		" -type \"float3\" 0.0083401809000000007 0.27045107000000002 -0.029007109"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[85]" 
-		" -type \"float3\" 0.0083401809000000007 0.27045107000000002 -0.029007109"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[86]" 
-		" -type \"float3\" 0.0083401809000000007 0.68438065000000003 -0.44293669000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pnts[87]" 
-		" -type \"float3\" 0.0083401809000000007 0.68438065000000003 -0.44293669000000002"
-		
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083401809000000007 0.3391 0.069793433000000002 0.0083401809000000007 0.23428035 -0.035026222000000003 0.0083401809000000007 0.78318125000000005 -0.37428781 0.0083401809000000007 0.67836158999999996 -0.47910746999999998 0.0083401809000000007 0.78318125000000005 -0.37428781 0.0083401809000000007 0.67836158999999996 -0.47910746999999998 0.0083401809000000007 0.3391 0.069793433000000002 0.0083401809000000007 0.23428035 -0.035026222000000003 0.0083401809000000007 0.78318125000000005 -0.37428781 0.0083401809000000007 0.3391 0.069793433000000002 0.0083401809000000007 0.23428035 -0.035026222000000003 0.0083401809000000007 0.67836158999999996 -0.47910746999999998 0.0083401809000000007 0.24476244999999999 -0.024544181000000002 0.0083401809000000007 0.68884354999999997 -0.46862552000000002 0.0083401809000000007 0.68884354999999997 -0.46862552000000002 0.0083401809000000007 0.68884354999999997 -0.46862552000000002 0.0083401809000000007 0.24476242000000001 -0.024544151 0.0083401809000000007 0.2447"
+		+ "6242000000001 -0.024544151 0.0083401809000000007 0.32966616999999998 0.060359537999999997 0.0083401809000000007 0.77374750000000003 -0.38372156000000002 0.0083401809000000007 0.77374750000000003 -0.38372156000000002 0.0083401809000000007 0.77374750000000003 -0.38372156000000002 0.0083401809000000007 0.32966614 0.060359567000000003 0.0083401809000000007 0.32966614 0.060359567000000003 0.0083401809000000007 0.75867163999999998 -0.36864570000000002 0.0083401809000000007 0.75867163999999998 -0.36864570000000002 0.0083401809000000007 0.67376769000000003 -0.45354965000000003 0.0083401809000000007 0.67376769000000003 -0.45354965000000003 0.0083401809000000007 0.34474206000000002 0.045283884000000003 0.0083401809000000007 0.25983810000000002 -0.039620071999999999 0.0083401809000000007 0.34474206000000002 0.045283884000000003 0.0083401809000000007 0.25983810000000002 -0.039620071999999999 0.0083401809000000007 0.73129553000000003 -0.42617354000000002 0.0083401809000000007 0.73129553000000003 -0.42617354000000002 0.008"
+		+ "3401809000000007 0.28721427999999999 0.017907706999999998 0.0083401809000000007 0.28721427999999999 0.017907706999999998 0.0083401809000000007 0.30229020000000001 0.0028320238999999998 0.0083401809000000007 0.30229020000000001 0.0028320238999999998 0.0083401809000000007 0.71621966000000004 -0.41109768000000002 0.0083401809000000007 0.71621966000000004 -0.41109768000000002 0.0083401809000000007 0.71006959999999997 -0.44739947000000002 0.0083401809000000007 0.71006959999999997 -0.44739947000000002 0.0083401809000000007 0.26598834999999998 -0.0033182217999999999 0.0083401809000000007 0.26598834999999998 -0.0033182217999999999 0.0083401809000000007 0.28106403000000002 -0.018394144000000001 0.0083401809000000007 0.28106403000000002 -0.018394144000000001 0.0083401809000000007 0.69499372999999998 -0.43232359999999997 0.0083401809000000007 0.69499372999999998 -0.43232359999999997 0.0083401809000000007 0.30844020999999999 0.039133637999999998 0.0083401809000000007 0.75252156999999997 -0.40494749000000002 0.00834018090"
+		+ "00000007 0.75252156999999997 -0.40494749000000002 0.0083401809000000007 0.73744571000000003 -0.38987163000000002 0.0083401809000000007 0.73744571000000003 -0.38987163000000002 0.0083401809000000007 0.32351613000000001 0.024057953 0.0083401809000000007 0.32351613000000001 0.024057953 0.0083401809000000007 0.30844020999999999 0.039133637999999998 0.0083401809000000007 0.31905317 0.049746603 0.0083401809000000007 0.76313454000000003 -0.39433452000000002 0.0083401809000000007 0.76313454000000003 -0.39433452000000002 0.0083401809000000007 0.74805867999999998 -0.37925866000000003 0.0083401809000000007 0.74805867999999998 -0.37925866000000003 0.0083401809000000007 0.33412910000000001 0.034670919000000001 0.0083401809000000007 0.33412910000000001 0.034670919000000001 0.0083401809000000007 0.31905317 0.049746603 0.0083401809000000007 0.74190849000000003 -0.41556057000000002 0.0083401809000000007 0.74190849000000003 -0.41556057000000002 0.0083401809000000007 0.29782723999999999 0.028520673999999999 0.008340180900000000"
+		+ "7 0.29782723999999999 0.028520673999999999 0.0083401809000000007 0.31290317000000001 0.013444988 0.0083401809000000007 0.31290317000000001 0.013444988 0.0083401809000000007 0.72683262999999998 -0.40048471000000002 0.0083401809000000007 0.72683262999999998 -0.40048471000000002 0.0083401809000000007 0.72068255999999997 -0.43678650000000002 0.0083401809000000007 0.72068255999999997 -0.43678650000000002 0.0083401809000000007 0.70560670000000003 -0.42171064000000003 0.0083401809000000007 0.70560670000000003 -0.42171064000000003 0.0083401809000000007 0.291677 -0.0077811792000000001 0.0083401809000000007 0.291677 -0.0077811792000000001 0.0083401809000000007 0.27660130999999999 0.0072947415000000002 0.0083401809000000007 0.27660130999999999 0.0072947415000000002 0.0083401809000000007 0.69945650999999998 -0.45801255000000002 0.0083401809000000007 0.69945650999999998 -0.45801255000000002 0.0083401809000000007 0.25537538999999998 -0.013931186999999999 0.0083401809000000007 0.25537538999999998 -0.013931186999999999 0.008"
+		+ "3401809000000007 0.27045107000000002 -0.029007109 0.0083401809000000007 0.27045107000000002 -0.029007109 0.0083401809000000007 0.68438065000000003 -0.44293669000000002 0.0083401809000000007 0.68438065000000003 -0.44293669000000002"
+		)
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45" "rotatePivot" " -type \"double3\" -2.38376575617730913 2.05578979132575412 0.75003264687180904"
 		
 		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45" "scalePivot" " -type \"double3\" -2.38376575617730913 2.05578979132575412 0.75003264687180904"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts" 
-		" -s 88"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[0]" 
-		" -type \"float3\" 0.0083401809000000007 0.35211459000000001 0.46647896999999999"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "instObjGroups.objectGroups" 
+		" -s 2"
+		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pt[0:87]" 
+		(" -s 88 -type \"float3\" 0.0083401809000000007 0.35211459000000001 0.46647896999999999 0.0083401809000000007 0.22847909 0.36336192 0.0083401809000000007 0.78898250999999997 -0.057317912999999998 0.0083401809000000007 0.66534698000000003 -0.16043495999999999 0.0083401809000000007 0.78898250999999997 -0.057317912999999998 0.0083401809000000007 0.66534698000000003 -0.16043495999999999 0.0083401809000000007 0.35211459000000001 0.46647896999999999 0.0083401809000000007 0.22847909 0.36336192 0.0083401809000000007 0.78898250999999997 -0.057317912999999998 0.0083401809000000007 0.35211459000000001 0.46647896999999999 0.0083401809000000007 0.22847909 0.36336192 0.0083401809000000007 0.66534698000000003 -0.16043495999999999 0.0083401809000000007 0.24084279 0.37367370999999999 0.0083401809000000007 0.67771053000000003 -0.15012327 0.0083401809000000007 0.67771053000000003 -0.15012327 0.0083401809000000007 0.67771053000000003 -0.15012327 0.0083401809000000007 0.24084275999999999 0.37367373999999998 0.0083401809000000007 0.24"
+		+ "084275999999999 0.37367373999999998 0.0083401809000000007 0.34098729 0.45719829000000001 0.0083401809000000007 0.77785534000000001 -0.066598423000000004 0.0083401809000000007 0.77785534000000001 -0.066598423000000004 0.0083401809000000007 0.77785534000000001 -0.066598423000000004 0.0083401809000000007 0.34098727000000001 0.45719831999999999 0.0083401809000000007 0.34098727000000001 0.45719831999999999 0.0083401809000000007 0.76302433000000003 -0.048816341999999999 0.0083401809000000007 0.76302433000000003 -0.048816341999999999 0.0083401809000000007 0.66287952999999999 -0.13234118 0.0083401809000000007 0.66287952999999999 -0.13234118 0.0083401809000000007 0.35581833000000002 0.43941644000000002 0.0083401809000000007 0.25567356000000002 0.35589162000000002 0.0083401809000000007 0.35581833000000002 0.43941644000000002 0.0083401809000000007 0.25567356000000002 0.35589162000000002 0.0083401809000000007 0.72778290999999995 -0.10836084 0.0083401809000000007 0.72778290999999995 -0.10836084 0.0083401809000000007 0.290"
+		+ "91500999999997 0.41543603000000001 0.0083401809000000007 0.29091500999999997 0.41543603000000001 0.0083401809000000007 0.30574607999999998 0.39765414999999998 0.0083401809000000007 0.30574607999999998 0.39765414999999998 0.0083401809000000007 0.71295196000000005 -0.090578756999999996 0.0083401809000000007 0.71295196000000005 -0.090578756999999996 0.0083401809000000007 0.70274681000000006 -0.12924199 0.0083401809000000007 0.70274681000000006 -0.12924199 0.0083401809000000007 0.26587888999999998 0.39455488 0.0083401809000000007 0.26587888999999998 0.39455488 0.0083401809000000007 0.28070968000000002 0.37677275999999998 0.0083401809000000007 0.28070968000000002 0.37677275999999998 0.0083401809000000007 0.68791579999999997 -0.11145991 0.0083401809000000007 0.68791579999999997 -0.11145991 0.0083401809000000007 0.31595114000000002 0.43631718000000003 0.0083401809000000007 0.75281918000000003 -0.087479576000000003 0.0083401809000000007 0.75281918000000003 -0.087479576000000003 0.0083401809000000007 0.737988230000000"
+		+ "02 -0.069697492 0.0083401809000000007 0.73798823000000002 -0.069697492 0.0083401809000000007 0.33078220000000003 0.41853529 0.0083401809000000007 0.33078220000000003 0.41853529 0.0083401809000000007 0.31595114000000002 0.43631718000000003 0.0083401809000000007 0.32846922000000001 0.44675776 0.0083401809000000007 0.76533728999999995 -0.077039002999999995 0.0083401809000000007 0.76533728999999995 -0.077039002999999995 0.0083401809000000007 0.75050627999999997 -0.059256915 0.0083401809000000007 0.75050627999999997 -0.059256915 0.0083401809000000007 0.34330028000000001 0.42897584999999999 0.0083401809000000007 0.34330028000000001 0.42897584999999999 0.0083401809000000007 0.32846922000000001 0.44675776 0.0083401809000000007 0.74030101000000004 -0.097920269000000004 0.0083401809000000007 0.74030101000000004 -0.097920269000000004 0.0083401809000000007 0.30343309000000002 0.42587661999999998 0.0083401809000000007 0.30343309000000002 0.42587661999999998 0.0083401809000000007 0.31826416000000002 0.40809469999999998 0.0"
+		+ "083401809000000007 0.31826416000000002 0.40809469999999998 0.0083401809000000007 0.72547001 -0.080138184000000001 0.0083401809000000007 0.72547001 -0.080138184000000001 0.0083401809000000007 0.71526486 -0.11880141 0.0083401809000000007 0.71526486 -0.11880141 0.0083401809000000007 0.70043390999999999 -0.10101934 0.0083401809000000007 0.70043390999999999 -0.10101934 0.0083401809000000007 0.29322773000000002 0.38721332000000003 0.0083401809000000007 0.29322773000000002 0.38721332000000003 0.0083401809000000007 0.27839696000000003 0.40499547000000002 0.0083401809000000007 0.27839696000000003 0.40499547000000002 0.0083401809000000007 0.69022857999999998 -0.13968268 0.0083401809000000007 0.69022857999999998 -0.13968268 0.0083401809000000007 0.25336083999999998 0.38411430000000002 0.0083401809000000007 0.25336083999999998 0.38411430000000002 0.0083401809000000007 0.26819161000000002 0.36633217000000001 0.0083401809000000007 0.26819161000000002 0.36633217000000001 0.0083401809000000007 0.67539762999999997 -0.1219006 "
+		+ "0.0083401809000000007 0.67539762999999997 -0.1219006")
+		3 "Shelfs:groupId67.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert5SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId68.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId69.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25.compInstObjGroups.compObjectGroups[4].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId113.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert5SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId114.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId115.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42.compInstObjGroups.compObjectGroups[4].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId75.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert5SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId76.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId77.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28.compInstObjGroups.compObjectGroups[5].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId70.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId71.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId72.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26.compInstObjGroups.compObjectGroups[4].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId57.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "Shelfs:lambert3SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "Shelfs:groupId58.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21.instObjGroups.objectGroups[1].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21.instObjGroups.objectGroups[1].objectGrpColor" 
+		""
+		3 "Shelfs:groupId105.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "Shelfs:lambert3SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "Shelfs:groupId106.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39.instObjGroups.objectGroups[1].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39.instObjGroups.objectGroups[1].objectGrpColor" 
+		""
+		3 "Shelfs:groupId89.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert5SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId90.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId91.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33.compInstObjGroups.compObjectGroups[5].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId84.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert5SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId85.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId86.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31.compInstObjGroups.compObjectGroups[6].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId81.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId82.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId83.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30.compInstObjGroups.compObjectGroups[6].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId110.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert5SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId111.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId112.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41.compInstObjGroups.compObjectGroups[4].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId107.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId108.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId109.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40.compInstObjGroups.compObjectGroups[4].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId43.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId47.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId44.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2.compInstObjGroups.compObjectGroups[1].compObjectGroupId" 
+		""
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId89.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId45.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId75.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId59.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId113.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId51.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId84.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId97.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId110.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId67.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33.compInstObjGroups.compObjectGroups[5]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId91.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3.compInstObjGroups.compObjectGroups[1]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId46.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28.compInstObjGroups.compObjectGroups[5]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId77.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22.compInstObjGroups.compObjectGroups[3]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId61.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42.compInstObjGroups.compObjectGroups[4]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId115.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19.compInstObjGroups.compObjectGroups[2]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId53.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31.compInstObjGroups.compObjectGroups[6]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId86.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36.compInstObjGroups.compObjectGroups[3]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId99.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41.compInstObjGroups.compObjectGroups[4]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId112.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25.compInstObjGroups.compObjectGroups[4]" 
+		"Shelfs:lambert5SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId69.message" "Shelfs:lambert5SG.groupNodes" "-na"
+		3 "Shelfs:groupId51.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert5SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId52.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId53.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19.compInstObjGroups.compObjectGroups[2].compObjectGroupId" 
+		""
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39.instObjGroups.objectGroups[1]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId106.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[1]" 
-		" -type \"float3\" 0.0083401809000000007 0.22847909 0.36336192"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[2]" 
-		" -type \"float3\" 0.0083401809000000007 0.78898250999999997 -0.057317912999999998"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId71.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[3]" 
-		" -type \"float3\" 0.0083401809000000007 0.66534698000000003 -0.16043495999999999"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId47.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[4]" 
-		" -type \"float3\" 0.0083401809000000007 0.78898250999999997 -0.057317912999999998"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId90.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[5]" 
-		" -type \"float3\" 0.0083401809000000007 0.66534698000000003 -0.16043495999999999"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId117.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[6]" 
-		" -type \"float3\" 0.0083401809000000007 0.35211459000000001 0.46647896999999999"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId48.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[7]" 
-		" -type \"float3\" 0.0083401809000000007 0.22847909 0.36336192"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[8]" 
-		" -type \"float3\" 0.0083401809000000007 0.78898250999999997 -0.057317912999999998"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32.instObjGroups.objectGroups[1]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId88.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[9]" 
-		" -type \"float3\" 0.0083401809000000007 0.35211459000000001 0.46647896999999999"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId108.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[10]" 
-		" -type \"float3\" 0.0083401809000000007 0.22847909 0.36336192"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[11]" 
-		" -type \"float3\" 0.0083401809000000007 0.66534698000000003 -0.16043495999999999"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1.instObjGroups.objectGroups[1]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId124.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[12]" 
-		" -type \"float3\" 0.0083401809000000007 0.24084279 0.37367370999999999"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[13]" 
-		" -type \"float3\" 0.0083401809000000007 0.67771053000000003 -0.15012327"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[14]" 
-		" -type \"float3\" 0.0083401809000000007 0.67771053000000003 -0.15012327"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[15]" 
-		" -type \"float3\" 0.0083401809000000007 0.67771053000000003 -0.15012327"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[16]" 
-		" -type \"float3\" 0.0083401809000000007 0.24084275999999999 0.37367373999999998"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34.instObjGroups.objectGroups[1]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId93.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[17]" 
-		" -type \"float3\" 0.0083401809000000007 0.24084275999999999 0.37367373999999998"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId76.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[18]" 
-		" -type \"float3\" 0.0083401809000000007 0.34098729 0.45719829000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[19]" 
-		" -type \"float3\" 0.0083401809000000007 0.77785534000000001 -0.066598423000000004"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId60.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[20]" 
-		" -type \"float3\" 0.0083401809000000007 0.77785534000000001 -0.066598423000000004"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId79.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[21]" 
-		" -type \"float3\" 0.0083401809000000007 0.77785534000000001 -0.066598423000000004"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId95.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[22]" 
-		" -type \"float3\" 0.0083401809000000007 0.34098727000000001 0.45719831999999999"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24.instObjGroups.objectGroups[1]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId66.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[23]" 
-		" -type \"float3\" 0.0083401809000000007 0.34098727000000001 0.45719831999999999"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId114.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[24]" 
-		" -type \"float3\" 0.0083401809000000007 0.76302433000000003 -0.048816341999999999"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId52.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[25]" 
-		" -type \"float3\" 0.0083401809000000007 0.76302433000000003 -0.048816341999999999"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId85.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[26]" 
-		" -type \"float3\" 0.0083401809000000007 0.66287952999999999 -0.13234118"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[27]" 
-		" -type \"float3\" 0.0083401809000000007 0.66287952999999999 -0.13234118"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[28]" 
-		" -type \"float3\" 0.0083401809000000007 0.35581833000000002 0.43941644000000002"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38.instObjGroups.objectGroups[1]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId104.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[29]" 
-		" -type \"float3\" 0.0083401809000000007 0.25567356000000002 0.35589162000000002"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44.instObjGroups.objectGroups[1]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId120.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[30]" 
-		" -type \"float3\" 0.0083401809000000007 0.35581833000000002 0.43941644000000002"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45.instObjGroups.objectGroups[1]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId122.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[31]" 
-		" -type \"float3\" 0.0083401809000000007 0.25567356000000002 0.35589162000000002"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21.instObjGroups.objectGroups[1]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId58.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[32]" 
-		" -type \"float3\" 0.0083401809000000007 0.72778290999999995 -0.10836084"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[33]" 
-		" -type \"float3\" 0.0083401809000000007 0.72778290999999995 -0.10836084"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[34]" 
-		" -type \"float3\" 0.0083401809000000007 0.29091500999999997 0.41543603000000001"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18.instObjGroups.objectGroups[1]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId50.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[35]" 
-		" -type \"float3\" 0.0083401809000000007 0.29091500999999997 0.41543603000000001"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId98.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[36]" 
-		" -type \"float3\" 0.0083401809000000007 0.30574607999999998 0.39765414999999998"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId55.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[37]" 
-		" -type \"float3\" 0.0083401809000000007 0.30574607999999998 0.39765414999999998"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId82.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[38]" 
-		" -type \"float3\" 0.0083401809000000007 0.71295196000000005 -0.090578756999999996"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId101.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[39]" 
-		" -type \"float3\" 0.0083401809000000007 0.71295196000000005 -0.090578756999999996"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId111.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[40]" 
-		" -type \"float3\" 0.0083401809000000007 0.70274681000000006 -0.12924199"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[41]" 
-		" -type \"float3\" 0.0083401809000000007 0.70274681000000006 -0.12924199"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[42]" 
-		" -type \"float3\" 0.0083401809000000007 0.26587888999999998 0.39455488"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[43]" 
-		" -type \"float3\" 0.0083401809000000007 0.26587888999999998 0.39455488"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[44]" 
-		" -type \"float3\" 0.0083401809000000007 0.28070968000000002 0.37677275999999998"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId68.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[45]" 
-		" -type \"float3\" 0.0083401809000000007 0.28070968000000002 0.37677275999999998"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23.instObjGroups.objectGroups[4]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId63.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[46]" 
-		" -type \"float3\" 0.0083401809000000007 0.68791579999999997 -0.11145991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[47]" 
-		" -type \"float3\" 0.0083401809000000007 0.68791579999999997 -0.11145991"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[48]" 
-		" -type \"float3\" 0.0083401809000000007 0.31595114000000002 0.43631718000000003"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27.instObjGroups.objectGroups[1]" 
+		"Shelfs:standardSurface4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId74.message" "Shelfs:standardSurface4SG.groupNodes" "-na"
 		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[49]" 
-		" -type \"float3\" 0.0083401809000000007 0.75281918000000003 -0.087479576000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[50]" 
-		" -type \"float3\" 0.0083401809000000007 0.75281918000000003 -0.087479576000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[51]" 
-		" -type \"float3\" 0.0083401809000000007 0.73798823000000002 -0.069697492"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[52]" 
-		" -type \"float3\" 0.0083401809000000007 0.73798823000000002 -0.069697492"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[53]" 
-		" -type \"float3\" 0.0083401809000000007 0.33078220000000003 0.41853529"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[54]" 
-		" -type \"float3\" 0.0083401809000000007 0.33078220000000003 0.41853529"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[55]" 
-		" -type \"float3\" 0.0083401809000000007 0.31595114000000002 0.43631718000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[56]" 
-		" -type \"float3\" 0.0083401809000000007 0.32846922000000001 0.44675776"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[57]" 
-		" -type \"float3\" 0.0083401809000000007 0.76533728999999995 -0.077039002999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[58]" 
-		" -type \"float3\" 0.0083401809000000007 0.76533728999999995 -0.077039002999999995"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[59]" 
-		" -type \"float3\" 0.0083401809000000007 0.75050627999999997 -0.059256915"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[60]" 
-		" -type \"float3\" 0.0083401809000000007 0.75050627999999997 -0.059256915"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[61]" 
-		" -type \"float3\" 0.0083401809000000007 0.34330028000000001 0.42897584999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[62]" 
-		" -type \"float3\" 0.0083401809000000007 0.34330028000000001 0.42897584999999999"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[63]" 
-		" -type \"float3\" 0.0083401809000000007 0.32846922000000001 0.44675776"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[64]" 
-		" -type \"float3\" 0.0083401809000000007 0.74030101000000004 -0.097920269000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[65]" 
-		" -type \"float3\" 0.0083401809000000007 0.74030101000000004 -0.097920269000000004"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[66]" 
-		" -type \"float3\" 0.0083401809000000007 0.30343309000000002 0.42587661999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[67]" 
-		" -type \"float3\" 0.0083401809000000007 0.30343309000000002 0.42587661999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[68]" 
-		" -type \"float3\" 0.0083401809000000007 0.31826416000000002 0.40809469999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[69]" 
-		" -type \"float3\" 0.0083401809000000007 0.31826416000000002 0.40809469999999998"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[70]" 
-		" -type \"float3\" 0.0083401809000000007 0.72547001 -0.080138184000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[71]" 
-		" -type \"float3\" 0.0083401809000000007 0.72547001 -0.080138184000000001"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[72]" 
-		" -type \"float3\" 0.0083401809000000007 0.71526486 -0.11880141"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[73]" 
-		" -type \"float3\" 0.0083401809000000007 0.71526486 -0.11880141"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[74]" 
-		" -type \"float3\" 0.0083401809000000007 0.70043390999999999 -0.10101934"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[75]" 
-		" -type \"float3\" 0.0083401809000000007 0.70043390999999999 -0.10101934"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[76]" 
-		" -type \"float3\" 0.0083401809000000007 0.29322773000000002 0.38721332000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[77]" 
-		" -type \"float3\" 0.0083401809000000007 0.29322773000000002 0.38721332000000003"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[78]" 
-		" -type \"float3\" 0.0083401809000000007 0.27839696000000003 0.40499547000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[79]" 
-		" -type \"float3\" 0.0083401809000000007 0.27839696000000003 0.40499547000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[80]" 
-		" -type \"float3\" 0.0083401809000000007 0.69022857999999998 -0.13968268"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[81]" 
-		" -type \"float3\" 0.0083401809000000007 0.69022857999999998 -0.13968268"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[82]" 
-		" -type \"float3\" 0.0083401809000000007 0.25336083999999998 0.38411430000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[83]" 
-		" -type \"float3\" 0.0083401809000000007 0.25336083999999998 0.38411430000000002"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[84]" 
-		" -type \"float3\" 0.0083401809000000007 0.26819161000000002 0.36633217000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[85]" 
-		" -type \"float3\" 0.0083401809000000007 0.26819161000000002 0.36633217000000001"
-		
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[86]" 
-		" -type \"float3\" 0.0083401809000000007 0.67539762999999997 -0.1219006"
-		2 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45" "pnts[87]" 
-		" -type \"float3\" 0.0083401809000000007 0.67539762999999997 -0.1219006";
+		3 "Shelfs:groupId94.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId95.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId96.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35.compInstObjGroups.compObjectGroups[5].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId59.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert5SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId60.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId61.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22.compInstObjGroups.compObjectGroups[3].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId87.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "Shelfs:lambert3SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "Shelfs:groupId88.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32.instObjGroups.objectGroups[1].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32.instObjGroups.objectGroups[1].objectGrpColor" 
+		""
+		3 "Shelfs:groupId97.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert5SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId98.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId99.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36.compInstObjGroups.compObjectGroups[3].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId103.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "Shelfs:lambert3SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "Shelfs:groupId104.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38.instObjGroups.objectGroups[1].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38.instObjGroups.objectGroups[1].objectGrpColor" 
+		""
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39.instObjGroups.objectGroups[0]" 
+		"Shelfs:lambert3SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId105.message" "Shelfs:lambert3SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32.instObjGroups.objectGroups[0]" 
+		"Shelfs:lambert3SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId87.message" "Shelfs:lambert3SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1.instObjGroups.objectGroups[0]" 
+		"Shelfs:lambert3SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId123.message" "Shelfs:lambert3SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34.instObjGroups.objectGroups[0]" 
+		"Shelfs:lambert3SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId92.message" "Shelfs:lambert3SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24.instObjGroups.objectGroups[0]" 
+		"Shelfs:lambert3SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId65.message" "Shelfs:lambert3SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38.instObjGroups.objectGroups[0]" 
+		"Shelfs:lambert3SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId103.message" "Shelfs:lambert3SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44.instObjGroups.objectGroups[0]" 
+		"Shelfs:lambert3SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId119.message" "Shelfs:lambert3SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45.instObjGroups.objectGroups[0]" 
+		"Shelfs:lambert3SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId121.message" "Shelfs:lambert3SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21.instObjGroups.objectGroups[0]" 
+		"Shelfs:lambert3SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId57.message" "Shelfs:lambert3SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18.instObjGroups.objectGroups[0]" 
+		"Shelfs:lambert3SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId49.message" "Shelfs:lambert3SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27.instObjGroups.objectGroups[0]" 
+		"Shelfs:lambert3SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId73.message" "Shelfs:lambert3SG.groupNodes" "-na"
+		3 "Shelfs:groupId65.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "Shelfs:lambert3SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "Shelfs:groupId66.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24.instObjGroups.objectGroups[1].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24.instObjGroups.objectGroups[1].objectGrpColor" 
+		""
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId70.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId43.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId116.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId107.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId78.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId94.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId54.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId81.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId100.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23.instObjGroups.objectGroups[3]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId62.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26.compInstObjGroups.compObjectGroups[4]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId72.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2.compInstObjGroups.compObjectGroups[1]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId44.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43.compInstObjGroups.compObjectGroups[4]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId118.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40.compInstObjGroups.compObjectGroups[4]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId109.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29.compInstObjGroups.compObjectGroups[5]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId80.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35.compInstObjGroups.compObjectGroups[5]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId96.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20.compInstObjGroups.compObjectGroups[2]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId56.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30.compInstObjGroups.compObjectGroups[6]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId83.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37.compInstObjGroups.compObjectGroups[3]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId102.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23.compInstObjGroups.compObjectGroups[3]" 
+		"Shelfs:lambert4SG.dagSetMembers" "-na"
+		3 "Shelfs:groupId64.message" "Shelfs:lambert4SG.groupNodes" "-na"
+		3 "Shelfs:groupId45.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert5SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId48.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId46.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3.compInstObjGroups.compObjectGroups[1].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId116.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId117.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId118.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43.compInstObjGroups.compObjectGroups[4].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId119.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "Shelfs:lambert3SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "Shelfs:groupId120.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44.instObjGroups.objectGroups[1].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44.instObjGroups.objectGroups[1].objectGrpColor" 
+		""
+		3 "Shelfs:groupId49.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "Shelfs:lambert3SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "Shelfs:groupId50.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18.instObjGroups.objectGroups[1].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18.instObjGroups.objectGroups[1].objectGrpColor" 
+		""
+		3 "Shelfs:groupId92.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "Shelfs:lambert3SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "Shelfs:groupId93.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34.instObjGroups.objectGroups[1].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34.instObjGroups.objectGroups[1].objectGrpColor" 
+		""
+		3 "Shelfs:groupId54.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId55.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId56.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20.compInstObjGroups.compObjectGroups[2].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId100.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId101.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId102.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37.compInstObjGroups.compObjectGroups[3].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId78.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId79.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId80.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29.compInstObjGroups.compObjectGroups[5].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId121.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "Shelfs:lambert3SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "Shelfs:groupId122.groupId" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45.instObjGroups.objectGroups[1].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45.instObjGroups.objectGroups[1].objectGrpColor" 
+		""
+		3 "Shelfs:groupId62.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23.instObjGroups.objectGroups[3].objectGroupId" 
+		""
+		3 "Shelfs:lambert4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23.instObjGroups.objectGroups[3].objectGrpColor" 
+		""
+		3 "Shelfs:groupId63.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23.instObjGroups.objectGroups[4].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23.instObjGroups.objectGroups[4].objectGrpColor" 
+		""
+		3 "Shelfs:groupId64.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23.compInstObjGroups.compObjectGroups[3].compObjectGroupId" 
+		""
+		3 "Shelfs:groupId73.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "Shelfs:lambert3SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "Shelfs:groupId74.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27.instObjGroups.objectGroups[1].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27.instObjGroups.objectGroups[1].objectGrpColor" 
+		""
+		3 "Shelfs:groupId123.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "Shelfs:lambert3SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "Shelfs:groupId124.groupId" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1.instObjGroups.objectGroups[1].objectGroupId" 
+		""
+		3 "Shelfs:standardSurface4SG.memberWireframeColor" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1.instObjGroups.objectGroups[1].objectGrpColor" 
+		""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book1|Shelfs:BookShape1.instObjGroups" 
+		"ShelfsRN.placeHolderList[1]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book2|Shelfs:BookShape2.instObjGroups" 
+		"ShelfsRN.placeHolderList[2]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book3|Shelfs:BookShape3.instObjGroups" 
+		"ShelfsRN.placeHolderList[3]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book19|Shelfs:BookShape19.instObjGroups" 
+		"ShelfsRN.placeHolderList[4]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book20|Shelfs:BookShape20.instObjGroups" 
+		"ShelfsRN.placeHolderList[5]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book18|Shelfs:BookShape18.instObjGroups" 
+		"ShelfsRN.placeHolderList[6]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book21|Shelfs:BookShape21.instObjGroups" 
+		"ShelfsRN.placeHolderList[7]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book22|Shelfs:BookShape22.instObjGroups" 
+		"ShelfsRN.placeHolderList[8]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book23|Shelfs:BookShape23.instObjGroups" 
+		"ShelfsRN.placeHolderList[9]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book24|Shelfs:BookShape24.instObjGroups" 
+		"ShelfsRN.placeHolderList[10]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book25|Shelfs:BookShape25.instObjGroups" 
+		"ShelfsRN.placeHolderList[11]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book26|Shelfs:BookShape26.instObjGroups" 
+		"ShelfsRN.placeHolderList[12]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book27|Shelfs:BookShape27.instObjGroups" 
+		"ShelfsRN.placeHolderList[13]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book28|Shelfs:BookShape28.instObjGroups" 
+		"ShelfsRN.placeHolderList[14]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf2|Shelfs:Book29|Shelfs:BookShape29.instObjGroups" 
+		"ShelfsRN.placeHolderList[15]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book30|Shelfs:BookShape30.instObjGroups" 
+		"ShelfsRN.placeHolderList[16]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book31|Shelfs:BookShape31.instObjGroups" 
+		"ShelfsRN.placeHolderList[17]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book32|Shelfs:BookShape32.instObjGroups" 
+		"ShelfsRN.placeHolderList[18]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book33|Shelfs:BookShape33.instObjGroups" 
+		"ShelfsRN.placeHolderList[19]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book34|Shelfs:BookShape34.instObjGroups" 
+		"ShelfsRN.placeHolderList[20]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book35|Shelfs:BookShape35.instObjGroups" 
+		"ShelfsRN.placeHolderList[21]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book36|Shelfs:BookShape36.instObjGroups" 
+		"ShelfsRN.placeHolderList[22]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book37|Shelfs:BookShape37.instObjGroups" 
+		"ShelfsRN.placeHolderList[23]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book38|Shelfs:BookShape38.instObjGroups" 
+		"ShelfsRN.placeHolderList[24]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book39|Shelfs:BookShape39.instObjGroups" 
+		"ShelfsRN.placeHolderList[25]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book40|Shelfs:BookShape40.instObjGroups" 
+		"ShelfsRN.placeHolderList[26]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book41|Shelfs:BookShape41.instObjGroups" 
+		"ShelfsRN.placeHolderList[27]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book42|Shelfs:BookShape42.instObjGroups" 
+		"ShelfsRN.placeHolderList[28]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book43|Shelfs:BookShape43.instObjGroups" 
+		"ShelfsRN.placeHolderList[29]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book44|Shelfs:BookShape44.instObjGroups" 
+		"ShelfsRN.placeHolderList[30]" ""
+		5 3 "ShelfsRN" "|Shelfs:Shelfs|Shelfs:Shelf1|Shelfs:Book45|Shelfs:BookShape45.instObjGroups" 
+		"ShelfsRN.placeHolderList[31]" "";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "Rock_SculptureRN";
 	rename -uid "6C458B86-6949-EE26-3864-CD9B8FAA47A6";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Rock_SculptureRN"
 		"Rock_SculptureRN" 0
-		"Rock_SculptureRN" 3
+		"Rock_SculptureRN" 5
 		2 "|Rock_Sculpture:Rock_Sculpture" "translate" " -type \"double3\" -2.23836636423429791 0.25463705312204965 2.15128841013972671"
 		
 		2 "|Rock_Sculpture:Rock_Sculpture" "rotate" " -type \"double3\" 0 -22.70360423289629992 0"
 		
-		2 "|Rock_Sculpture:Rock_Sculpture" "scale" " -type \"double3\" 0.56466830825144254 0.56466830825144254 0.56466830825144254";
+		2 "|Rock_Sculpture:Rock_Sculpture" "scale" " -type \"double3\" 0.56466830825144254 0.56466830825144254 0.56466830825144254"
+		
+		3 "|Rock_Sculpture:Rock_Sculpture|Rock_Sculpture:Rock_SculptureShape.instObjGroups" 
+		"Rock_Sculpture:lambert2SG.dagSetMembers" "-na"
+		5 3 "Rock_SculptureRN" "|Rock_Sculpture:Rock_Sculpture|Rock_Sculpture:Rock_SculptureShape.instObjGroups" 
+		"Rock_SculptureRN.placeHolderList[1]" "Rock_Sculpture:lambert2SG.dsm";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
+createNode polyBevel3 -n "polyBevel1";
+	rename -uid "03A83315-49FD-ADDB-D435-07B763D31A02";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 1 "e[*]";
+	setAttr ".ix" -type "matrix" 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1;
+	setAttr ".ws" yes;
+	setAttr ".oaf" yes;
+	setAttr ".f" 1;
+	setAttr ".at" 180;
+	setAttr ".sn" yes;
+	setAttr ".mv" yes;
+	setAttr ".mvt" 0.0001;
+	setAttr ".sa" 30;
+createNode blinn -n "blinn1";
+	rename -uid "84CCC12F-4CF7-46D1-CCD0-C2AEAE72DFF1";
+createNode shadingEngine -n "blinn1SG";
+	rename -uid "3BC7AB11-43C1-D30E-40AD-A88D243AA6E6";
+	setAttr ".ihi" 0;
+	setAttr -s 48 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo11";
+	rename -uid "FB67818D-430F-D055-C7ED-50AF399843C4";
+createNode file -n "Colors_1";
+	rename -uid "ABB03418-4163-AA36-BFFA-8EA0E5EBBED5";
+	setAttr ".ftn" -type "string" "C:/Users/10931250/Documents/GitHub/Essentials/DAGV1100and1200/Maya/sourceimages/Colors.png";
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "place2dTexture1";
+	rename -uid "02C20A51-416B-DA62-8BBA-56B7F4B7BFC9";
+createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
+	rename -uid "3A7DDD3A-486F-C0D9-5C97-DB99DD968AC9";
+	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
+	setAttr ".tgi[0].vl" -type "double2" 96.74983338188737 -991.51081720673062 ;
+	setAttr ".tgi[0].vh" -type "double2" 1691.0632226571079 -245.93100944575522 ;
+	setAttr -s 4 ".tgi[0].ni";
+	setAttr ".tgi[0].ni[0].x" -62.550930023193359;
+	setAttr ".tgi[0].ni[0].y" -377.8111572265625;
+	setAttr ".tgi[0].ni[0].nvs" 1923;
+	setAttr ".tgi[0].ni[1].x" 419.047607421875;
+	setAttr ".tgi[0].ni[1].y" -363.09521484375;
+	setAttr ".tgi[0].ni[1].nvs" 1923;
+	setAttr ".tgi[0].ni[2].x" 640.4761962890625;
+	setAttr ".tgi[0].ni[2].y" -363.09521484375;
+	setAttr ".tgi[0].ni[2].nvs" 1923;
+	setAttr ".tgi[0].ni[3].x" 158.87763977050781;
+	setAttr ".tgi[0].ni[3].y" -377.8111572265625;
+	setAttr ".tgi[0].ni[3].nvs" 1923;
+createNode polyTweakUV -n "polyTweakUV1";
+	rename -uid "5891FFBE-4343-42C0-7E2D-8E9BFCA067D5";
+	setAttr ".uopa" yes;
+	setAttr -s 324 ".uvtk";
+	setAttr ".uvtk[0:249]" -type "float2" -0.2302807 0.49149799 -0.23240048 0.49149799
+		 -0.23240048 -0.13237968 -0.17192316 -0.15995026 -0.23240048 0.49797395 -0.23176712
+		 0.49797395 -0.23452026 0.49149799 -0.29287785 -0.15995026 -0.23303384 0.49797395
+		 0.088191912 -0.15995026 0.088191912 0.49149799 0.086072132 0.49149799 0.027714536
+		 -0.15995026 0.090311691 0.49149799 0.1486693 -0.15995026 0.088191912 0.49797395 0.087558523
+		 0.49797395 0.027714536 -0.16548407 0.088191912 -0.16548407 0.088825181 0.49797395
+		 0.1486693 -0.16548407 0.088191912 -0.17101789 0.027714536 -0.17101789 0.00024382863
+		 -0.15768838 -0.00020478573 -0.16320407 0.1486693 -0.17101789 0.17549601 -0.1635977
+		 0.1751098 -0.15807748 -0.00065340055 -0.16871965 -0.021072388 -0.1521244 -0.022454798
+		 -0.15748274 0.17588231 -0.16911805 0.19699675 -0.15934813 0.19591981 -0.15392005
+		 -0.023837298 -0.16284108 -0.032896694 -0.14340949 -0.036071628 -0.14794195 0.1980738
+		 -0.16477609 0.21029994 -0.15183556 0.2075792 -0.14701676 -0.039246589 -0.1524744
+		 -0.044086069 -0.13290146 -0.047860116 -0.13694862 0.21302065 -0.15665424 0.22102341
+		 -0.14245427 0.21737996 -0.13828921 -0.051634163 -0.14099574 -0.054488719 -0.12278047
+		 -0.058347285 -0.12674716 0.22466689 -0.14661944 0.23091796 -0.13302591 0.2271004
+		 -0.12901977 -0.062205851 -0.13071373 -0.061453521 -0.11215904 -0.06605199 -0.11523762
+		 0.2347354 -0.13703218 0.23953155 -0.12414554 0.2355594 -0.12029269 -0.070650369 -0.1183162
+		 -0.065805942 -0.10120824 -0.071022362 -0.10120836 0.24350381 -0.12799838 0.24569707
+		 -0.1135799 0.24091774 -0.11079052 -0.076238722 -0.10120836 0.25047648 -0.11636928
+		 0.24994719 -0.10120836 0.24471335 -0.10120824 0.25518113 -0.10120836 -0.66485304
+		 -0.11218275 -0.63890851 -0.058307156 -0.65824372 -0.058307156 -0.67051351 -0.11218275
+		 -0.63710427 -0.050322443 -0.65663904 -0.050322443 -0.67757905 -0.058307156 -0.67617381
+		 -0.11218275 -0.63883394 -0.043113798 -0.65816969 -0.043113798 -0.67617381 -0.050322443
+		 -0.67051351 0.011538878 -0.66485304 0.011538878 -0.67750531 -0.043113798 -0.67617381
+		 0.011538878 -0.71396434 -0.22404677 -0.70830399 -0.22404677 -0.70636988 -0.19647485
+		 -0.71201646 -0.1960797 -0.70218647 -0.17570531 -0.70773858 -0.17460364 -0.71962476
+		 -0.22404677 -0.71766305 -0.19568464 -0.6951195 -0.16376376 -0.70004845 -0.16098091
+		 -0.71329081 -0.17350203 -0.68618625 -0.15373036 -0.69044662 -0.15000342 -0.70497751
+		 -0.15819773 -0.67670316 -0.14378582 -0.68080109 -0.139881 -0.69470704 -0.14627655
+		 -0.66777492 -0.13513185 -0.67171603 -0.13106889 -0.68489897 -0.13597608 -0.65804559
+		 -0.12964337 -0.66089869 -0.12475477 -0.67565691 -0.12700573 -0.64821804 -0.12575674
+		 -0.6482181 -0.12040314 -0.66375196 -0.11986594 -0.6482181 -0.11504954 -0.63249063
+		 -0.31989297 -0.63815099 -0.31989297 -0.63580036 -0.34890342 -0.6301586 -0.34844449
+		 -0.6438114 -0.31989297 -0.64144224 -0.34936234 -0.63002205 -0.37122431 -0.6245411
+		 -0.36981025 -0.63550287 -0.37263852 -0.62025446 -0.38517123 -0.61561835 -0.38192374
+		 -0.62489051 -0.38841885 -0.60900462 -0.39723551 -0.60486495 -0.39337522 -0.61314428
+		 -0.40109593 -0.59856898 -0.40796357 -0.59451163 -0.40401661 -0.60262626 -0.41191047
+		 -0.58678687 -0.41585207 -0.58363795 -0.41114837 -0.58993584 -0.42055571 -0.5724048
+		 -0.42094254 -0.5724048 -0.41560698 -0.5724048 -0.42627841 -0.5702731 -0.08912386
+		 -0.59105849 -0.08912386 -0.59105849 -0.15098467 -0.5702731 -0.15098467 -0.56995761
+		 -0.060106955 -0.59074169 -0.059880756 -0.61184376 -0.08912386 -0.61184376 -0.15098467
+		 -0.59105849 -0.21284547 -0.5702731 -0.21284547 -0.56995112 -0.036392674 -0.59073645
+		 -0.036385588 -0.61152583 -0.059654608 -0.61305076 -0.08912386 -0.62679964 -0.14299934
+		 -0.62864995 -0.15098467 -0.61184376 -0.21284547 -0.5907042 -0.24094436 -0.56992048
+		 -0.24068111 -0.56995112 -0.020630963 -0.59073645 -0.020614456 -0.61152172 -0.036378399
+		 -0.63214946 -0.15098405 -0.62679964 -0.15819269 -0.61278659 -0.21284547 -0.61148787
+		 -0.24120757 -0.59069967 -0.26338515 -0.5699144 -0.26338014 -0.56995112 -0.0079599451
+		 -0.59073645 -0.007940419 -0.61152172 -0.020598073 -0.61148506 -0.26339018 -0.59069967
+		 -0.27868167 -0.5699144 -0.27866897 -0.56995112 0.0028535612 -0.59073645 0.0028735586
+		 -0.61152172 -0.0079208948 -0.61148506 -0.27869442 -0.59069967 -0.29059863 -0.5699144
+		 -0.2905817 -0.56995112 0.011491299 -0.59073645 0.011515092 -0.61152172 0.0028934944
+		 -0.61148506 -0.29061565 -0.59069967 -0.30089822 -0.5699144 -0.30088046 -0.61152172
+		 0.011538824 -0.61148506 -0.30091602 -0.59069967 -0.30986798 -0.5699144 -0.30984941
+		 -0.61148506 -0.30988654 -0.59069967 -0.31700385 -0.5699144 -0.3169817 -0.61148506
+		 -0.31702626 -0.084990099 -0.16338634 -0.085202947 -0.16338634 -0.085202947 -0.1640197
+		 -0.084990099 -0.1640197 -0.084990099 -0.16275299 -0.085202947 -0.16275299 -0.085415676
+		 -0.16338634 -0.085415676 -0.1640197 -0.085415676 -0.16275299 -0.68415928 -0.11218278
+		 -0.68329734 -0.050321989 -0.7009654 -0.050321989 -0.6991151 -0.058307208 -0.68536615
+		 -0.11218278 -0.68415928 0.011538878 -0.68510199 0.011538878 -0.6991151 -0.043113798
+		 -0.70445329 -0.050322525 -0.45490015 -0.70588028 -0.45487583 -0.68509495 -0.46022934
+		 -0.68508798 -0.46025378 -0.70587337 -0.44952214 -0.68510199 -0.44954658 -0.70588738
+		 -0.46020502 -0.66430271 -0.45485133 -0.6643098 -0.4494977 -0.66431671 -0.46466035
+		 -0.70587337 -0.46468729 -0.68508798 -0.47002298 -0.68509567 -0.46999609 -0.70588106
+		 -0.47004998 -0.6643104 -0.46471435 -0.66430271 -0.47535872 -0.68510348 -0.47533184
+		 -0.70588887 -0.47538567 -0.66431832 -0.50092512 -0.75321758 -0.48013985 -0.75321758
+		 -0.47979224 -0.72617209 -0.50057584 -0.72590882 -0.4797951 -0.70488602 -0.50058043
+		 -0.70488101 -0.52171046 -0.75321758 -0.52135956 -0.72564554 -0.4797951 -0.6929599
+		 -0.50058043 -0.69294727 -0.5213657 -0.70487601 -0.4797951 -0.68293494 -0.50058043
+		 -0.68291801 -0.5213657 -0.69293457 -0.4797951 -0.67299211 -0.50058043 -0.67297435
+		 -0.5213657 -0.68290102 -0.4797951 -0.66433966 -0.50058043 -0.66432124 -0.5213657
+		 -0.67295653 -0.5213657 -0.66430271 -0.52642757 -0.66430271 -0.5472129 -0.66430271
+		 -0.54690111 -0.69262791 -0.52611703 -0.69240171;
+	setAttr ".uvtk[250:323]" -0.56799823 -0.66430271 -0.56768519 -0.69285411 -0.54690635
+		 -0.71421278 -0.52612102 -0.71420556 -0.5676918 -0.71421987 -0.54690635 -0.72631681
+		 -0.52612102 -0.72630036 -0.5676918 -0.72633326 -0.54690635 -0.73776519 -0.52612102
+		 -0.73774582 -0.5676918 -0.73778468 -0.54690635 -0.74840635 -0.52612102 -0.74838638
+		 -0.5676918 -0.74842626 -0.54690635 -0.75553429 -0.52612102 -0.75551051 -0.5676918
+		 -0.75555819 -0.10121132 0.49149799 -0.1019236 0.49149799 -0.1019236 -0.15995026 -0.081603095
+		 -0.15995026 -0.1019236 0.49797395 -0.10171078 0.49797395 -0.1026358 0.49149799 -0.122244
+		 -0.15995026 -0.10213639 0.49797395 -0.12676318 0.49797389 -0.14708352 0.49797389
+		 -0.14708352 -0.15347445 -0.14637136 -0.15347445 -0.16740406 0.49797389 -0.14779586
+		 -0.15347445 -0.14708352 -0.15995038 -0.14687073 -0.15995038 -0.14729637 -0.15995038
+		 -0.096133366 -0.1682868 -0.094953343 -0.1682868 -0.094953343 -0.16275299 -0.096133366
+		 -0.16275299 -0.094953343 -0.1738205 -0.096133366 -0.1738205 -0.089723632 -0.1738205
+		 -0.089723632 -0.16828668 -0.090645388 -0.16828668 -0.090645388 -0.1738205 -0.089723632
+		 -0.16275299 -0.090645388 -0.16275299 -0.44507319 -0.6850881 -0.44505537 -0.70587349
+		 -0.43533581 -0.70587349 -0.43534881 -0.6850881 -0.42553437 -0.70587349 -0.42553437
+		 -0.6850881 -0.44509119 -0.66430271 -0.4353618 -0.66430271 -0.42553437 -0.66430271
+		 -0.40561986 -0.70587349 -0.40560693 -0.6850881 -0.4211278 -0.6850881 -0.4211278 -0.70587349
+		 -0.40559387 -0.66430283 -0.4211278 -0.66430283 -0.3899861 -0.70587349 -0.38997006
+		 -0.6850881 -0.40118736 -0.6850881 -0.40118736 -0.70587349 -0.38995421 -0.66430283
+		 -0.40118736 -0.66430283 -0.3855477 -0.66430271 -0.38553178 -0.68508798 -0.3680166
+		 -0.68508798 -0.3680166 -0.66430271 -0.38551587 -0.70587337 -0.3680166 -0.70587337;
+createNode polyMapCut -n "polyMapCut1";
+	rename -uid "68C2052C-4D68-AC4E-71B8-FBA95F0D97EB";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 2 "e[6]" "e[28]";
+createNode polyTweakUV -n "polyTweakUV2";
+	rename -uid "AB9F2FBC-4507-B5F7-E498-0993F1E3A9E8";
+	setAttr ".uopa" yes;
+	setAttr -s 55 ".uvtk";
+	setAttr ".uvtk[9]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[14]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[17]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[18]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[20]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[21]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[22]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[23]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[24]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[25]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[26]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[27]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[28]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[29]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[30]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[31]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[32]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[33]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[34]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[35]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[36]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[37]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[38]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[39]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[40]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[41]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[42]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[43]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[44]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[45]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[46]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[47]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[48]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[49]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[50]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[51]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[52]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[53]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[54]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[55]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[56]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[57]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[58]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[59]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[60]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[61]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[62]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[63]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[64]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[65]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[66]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[67]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[68]" -type "float2" -0.19865987 -0.53398645 ;
+	setAttr ".uvtk[326]" -type "float2" -0.19865987 -0.53398645 ;
+createNode polyTweakUV -n "polyTweakUV3";
+	rename -uid "D40DA597-48A3-BB94-EF1C-EFB7224AB25F";
+	setAttr ".uopa" yes;
+	setAttr -s 234 ".uvtk[0:233]" -type "float2" -0.49097595 -0.067256786
+		 -0.47364649 -0.033245847 -0.44665524 -0.0062545985 -0.41264424 0.011074871 -0.37494281
+		 0.017046198 -0.33724138 0.011074856 -0.3032304 -0.0062545687 -0.27623919 -0.033245817
+		 -0.25890973 -0.067256816 -0.25293845 -0.10495824 -0.25890973 -0.14265966 -0.27623919
+		 -0.17667061 -0.30323043 -0.20366186 -0.33724141 -0.22099131 -0.37494281 -0.2269626
+		 -0.41264424 -0.22099131 -0.44665518 -0.20366186 -0.47364643 -0.17667061 -0.49097589
+		 -0.14265966 -0.4969472 -0.10495824 -0.27733931 -0.2269626 -0.28709969 -0.2269626
+		 -0.29686001 -0.2269626 -0.30662033 -0.2269626 -0.31638071 -0.2269626 -0.32614103
+		 -0.2269626 -0.33590135 -0.2269626 -0.34566173 -0.2269626 -0.35542205 -0.2269626 -0.36518237
+		 -0.2269626 -0.37494275 -0.2269626 -0.38470307 -0.2269626 -0.39446339 -0.2269626 -0.40422377
+		 -0.2269626 -0.41398409 -0.2269626 -0.42374441 -0.2269626 -0.43350479 -0.2269626 -0.44326511
+		 -0.2269626 -0.45302543 -0.2269626 -0.46278575 -0.2269626 -0.47254613 -0.2269626 -0.27733931
+		 -0.51977313 -0.28709969 -0.51977313 -0.29686001 -0.51977313 -0.30662033 -0.51977313
+		 -0.31638071 -0.51977313 -0.32614103 -0.51977313 -0.33590135 -0.51977313 -0.34566173
+		 -0.51977313 -0.35542205 -0.51977313 -0.36518237 -0.51977313 -0.37494275 -0.51977313
+		 -0.38470307 -0.51977313 -0.39446339 -0.51977313 -0.40422377 -0.51977313 -0.41398409
+		 -0.51977313 -0.42374441 -0.51977313 -0.43350479 -0.51977313 -0.44326511 -0.51977313
+		 -0.45302543 -0.51977313 -0.46278575 -0.51977313 -0.47254613 -0.51977313 -0.49097595
+		 -0.60407603 -0.47364649 -0.57006502 -0.44665524 -0.54307377 -0.41264424 -0.52574432
+		 -0.37494281 -0.51977301 -0.33724138 -0.52574432 -0.3032304 -0.54307377 -0.27623919
+		 -0.57006502 -0.25890973 -0.60407603 -0.25293845 -0.6417774 -0.25890973 -0.67947888
+		 -0.27623919 -0.71348977 -0.30323043 -0.74048102 -0.33724141 -0.75781047 -0.37494281
+		 -0.76378179 -0.41264424 -0.75781047 -0.44665518 -0.74048102 -0.47364643 -0.71348977
+		 -0.49097589 -0.67947888 -0.4969472 -0.6417774 -0.37494281 -0.10495824 -0.37494281
+		 -0.6417774 -0.30323043 -0.74048102 -0.27623919 -0.71348977 -0.37494281 -0.6417774
+		 -0.47254613 -0.25624365 -0.27733928 -0.25624365 -0.46278575 -0.25624365 -0.45302543
+		 -0.25624365 -0.44326511 -0.25624365 -0.43350479 -0.25624365 -0.42374441 -0.25624365
+		 -0.41398409 -0.25624365 -0.40422377 -0.25624365 -0.39446339 -0.25624365 -0.38470307
+		 -0.25624365 -0.37494272 -0.25624365 -0.36518234 -0.25624365 -0.35542202 -0.25624365
+		 -0.3456617 -0.25624365 -0.33590132 -0.25624365 -0.326141 -0.25624365 -0.31638068
+		 -0.25624365 -0.3066203 -0.25624365 -0.29685998 -0.25624365 -0.28709966 -0.25624365
+		 -0.27733931 -0.2269626 -0.28709969 -0.2269626 -0.28709966 -0.25624365 -0.27733928
+		 -0.25624365 -0.29686001 -0.2269626 -0.29685998 -0.25624365 -0.30662033 -0.2269626
+		 -0.3066203 -0.25624365 -0.31638071 -0.2269626 -0.31638068 -0.25624365 -0.32614103
+		 -0.2269626 -0.326141 -0.25624365 -0.33590135 -0.2269626 -0.33590132 -0.25624365 -0.34566173
+		 -0.2269626 -0.3456617 -0.25624365 -0.35542205 -0.2269626 -0.35542202 -0.25624365
+		 -0.36518237 -0.2269626 -0.36518234 -0.25624365 -0.37494275 -0.2269626 -0.37494272
+		 -0.25624365 -0.38470307 -0.2269626 -0.38470307 -0.25624365 -0.39446339 -0.2269626
+		 -0.39446339 -0.25624365 -0.40422377 -0.2269626 -0.40422377 -0.25624365 -0.41398409
+		 -0.2269626 -0.41398409 -0.25624365 -0.42374441 -0.2269626 -0.42374441 -0.25624365
+		 -0.43350479 -0.2269626 -0.43350479 -0.25624365 -0.44326511 -0.2269626 -0.44326511
+		 -0.25624365 -0.45302543 -0.2269626 -0.45302543 -0.25624365 -0.46278575 -0.2269626
+		 -0.46278575 -0.25624365 -0.47254613 -0.2269626 -0.47254613 -0.25624365 -0.28709966
+		 -0.25624365 -0.27733928 -0.25624365 -0.27733928 -0.25624365 -0.28709966 -0.25624365
+		 -0.29685998 -0.25624365 -0.29685998 -0.25624365 -0.3066203 -0.25624365 -0.3066203
+		 -0.25624365 -0.31638068 -0.25624365 -0.31638068 -0.25624365 -0.326141 -0.25624365
+		 -0.326141 -0.25624365 -0.33590132 -0.25624365 -0.33590132 -0.25624365 -0.3456617
+		 -0.25624365 -0.3456617 -0.25624365 -0.35542202 -0.25624365 -0.35542202 -0.25624365
+		 -0.36518234 -0.25624365 -0.36518234 -0.25624365 -0.37494272 -0.25624365 -0.37494272
+		 -0.25624365 -0.38470307 -0.25624365 -0.38470307 -0.25624365 -0.39446339 -0.25624365
+		 -0.39446339 -0.25624365 -0.40422377 -0.25624365 -0.40422377 -0.25624365 -0.41398409
+		 -0.25624365 -0.41398409 -0.25624365 -0.42374441 -0.25624365 -0.42374441 -0.25624365
+		 -0.43350479 -0.25624365 -0.43350479 -0.25624365 -0.44326511 -0.25624365 -0.44326511
+		 -0.25624365 -0.45302543 -0.25624365 -0.45302543 -0.25624365 -0.46278575 -0.25624365
+		 -0.46278575 -0.25624365 -0.47254613 -0.25624365 -0.47254613 -0.25624365 -0.28709966
+		 -0.25624365 -0.27733928 -0.25624365 -0.27733928 -0.25624365 -0.28709966 -0.25624365
+		 -0.29685998 -0.25624365 -0.29685998 -0.25624365 -0.3066203 -0.25624365 -0.3066203
+		 -0.25624365 -0.31638068 -0.25624365 -0.31638068 -0.25624365 -0.326141 -0.25624365
+		 -0.326141 -0.25624365 -0.33590132 -0.25624365 -0.33590132 -0.25624365 -0.3456617
+		 -0.25624365 -0.3456617 -0.25624365 -0.35542202 -0.25624365 -0.35542202 -0.25624365
+		 -0.36518234 -0.25624365 -0.36518234 -0.25624365 -0.37494272 -0.25624365 -0.37494272
+		 -0.25624365 -0.38470307 -0.25624365 -0.38470307 -0.25624365 -0.39446339 -0.25624365
+		 -0.39446339 -0.25624365 -0.40422377 -0.25624365 -0.40422377 -0.25624365 -0.41398409
+		 -0.25624365 -0.41398409 -0.25624365 -0.42374441 -0.25624365 -0.42374441 -0.25624365
+		 -0.43350479 -0.25624365 -0.43350479 -0.25624365 -0.44326511 -0.25624365 -0.44326511
+		 -0.25624365 -0.45302543 -0.25624365 -0.45302543 -0.25624365 -0.46278575 -0.25624365
+		 -0.46278575 -0.25624365 -0.47254613 -0.25624365 -0.47254613 -0.25624365;
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
@@ -8206,14 +4455,16 @@ select -ne :hardwareRenderingGlobals;
 	setAttr ".fprt" yes;
 	setAttr ".rtfm" 3;
 select -ne :renderPartition;
-	setAttr -s 27 ".st";
+	setAttr -s 28 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 30 ".s";
+	setAttr -s 31 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
+select -ne :defaultRenderUtilityList1;
 select -ne :defaultRenderingList1;
 	setAttr -s 9 ".r";
+select -ne :defaultTextureList1;
 select -ne :standardSurface1;
 	setAttr ".bc" -type "float3" 0.40000001 0.40000001 0.40000001 ;
 	setAttr ".sr" 0.5;
@@ -8239,8 +4490,59 @@ select -ne :defaultColorMgtGlobals;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
-select -ne :ikSystem;
-	setAttr -s 4 ".sol";
+connectAttr "DM_ScreenRN.phl[1]" "blinn1SG.dsm" -na;
+connectAttr "ChairsRN.phl[1]" "blinn1SG.dsm" -na;
+connectAttr "ChairsRN.phl[2]" "blinn1SG.dsm" -na;
+connectAttr "ChairsRN.phl[3]" "blinn1SG.dsm" -na;
+connectAttr "ChairsRN.phl[4]" "blinn1SG.dsm" -na;
+connectAttr "ChairsRN.phl[5]" "blinn1SG.dsm" -na;
+connectAttr "ChairsRN.phl[6]" "blinn1SG.dsm" -na;
+connectAttr "TableRN.phl[1]" "blinn1SG.dsm" -na;
+connectAttr "Potion_BottleRN.phl[1]" "blinn1SG.dsm" -na;
+connectAttr "polyBevel1.out" "Potion_BottleRN.phl[2]";
+connectAttr "Potion_BottleRN.phl[3]" "polyBevel1.mp";
+connectAttr "BookshelfRN1.phl[1]" "blinn1SG.dsm" -na;
+connectAttr "polyTweakUV2.out" "Mounted_SwordRN.phl[1]";
+connectAttr "Mounted_SwordRN.phl[2]" "blinn1SG.dsm" -na;
+connectAttr "polyTweakUV2.uvtk[0]" "Mounted_SwordRN.phl[3]";
+connectAttr "polyTweakUV3.out" "Mounted_SwordRN.phl[4]";
+connectAttr "Mounted_SwordRN.phl[5]" "blinn1SG.dsm" -na;
+connectAttr "polyTweakUV3.uvtk[0]" "Mounted_SwordRN.phl[6]";
+connectAttr "Mounted_SwordRN.phl[7]" "blinn1SG.dsm" -na;
+connectAttr "Mounted_SwordRN.phl[8]" "polyTweakUV1.ip";
+connectAttr "Mounted_SwordRN.phl[9]" "polyTweakUV3.ip";
+connectAttr "ShelfsRN.phl[1]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[2]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[3]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[4]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[5]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[6]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[7]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[8]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[9]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[10]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[11]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[12]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[13]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[14]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[15]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[16]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[17]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[18]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[19]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[20]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[21]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[22]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[23]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[24]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[25]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[26]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[27]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[28]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[29]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[30]" "blinn1SG.dsm" -na;
+connectAttr "ShelfsRN.phl[31]" "blinn1SG.dsm" -na;
+connectAttr "Rock_SculptureRN.phl[1]" "blinn1SG.dsm" -na;
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "standardSurface2SG.message" ":defaultLightSet.message";
@@ -8253,6 +4555,7 @@ relationship "link" ":lightLinker1" "lambert5SG.message" ":defaultLightSet.messa
 relationship "link" ":lightLinker1" "lambert6SG.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "lambert7SG.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "lambert8SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "blinn1SG.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "standardSurface2SG.message" ":defaultLightSet.message";
@@ -8265,6 +4568,7 @@ relationship "shadowLink" ":lightLinker1" "lambert5SG.message" ":defaultLightSet
 relationship "shadowLink" ":lightLinker1" "lambert6SG.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "lambert7SG.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "lambert8SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "blinn1SG.message" ":defaultLightSet.message";
 connectAttr "layerManager.dli[0]" "defaultLayer.id";
 connectAttr "renderLayerManager.rlmi[0]" "defaultRenderLayer.rlid";
 connectAttr ":defaultArnoldDenoiser.msg" ":defaultArnoldRenderOptions.imagers" -na
@@ -8274,7 +4578,6 @@ connectAttr ":defaultArnoldDisplayDriver.msg" ":defaultArnoldRenderOptions.drive
 connectAttr ":defaultArnoldFilter.msg" ":defaultArnoldRenderOptions.filt";
 connectAttr ":defaultArnoldDriver.msg" ":defaultArnoldRenderOptions.drvr";
 connectAttr "Flooring.oc" "standardSurface2SG.ss";
-connectAttr "FloorShape.iog" "standardSurface2SG.dsm" -na;
 connectAttr "standardSurface2SG.msg" "materialInfo1.sg";
 connectAttr "Flooring.msg" "materialInfo1.m";
 connectAttr "TableWood.oc" "standardSurface3SG.ss";
@@ -8284,8 +4587,6 @@ connectAttr "Cushion.oc" "standardSurface4SG.ss";
 connectAttr "standardSurface4SG.msg" "materialInfo3.sg";
 connectAttr "Cushion.msg" "materialInfo3.m";
 connectAttr "WallWood.oc" "lambert2SG.ss";
-connectAttr "WallShape.iog" "lambert2SG.dsm" -na;
-connectAttr "Wall1Shape.iog" "lambert2SG.dsm" -na;
 connectAttr "lambert2SG.msg" "materialInfo4.sg";
 connectAttr "WallWood.msg" "materialInfo4.m";
 connectAttr "Book_Red.oc" "lambert3SG.ss";
@@ -8306,6 +4607,48 @@ connectAttr "Bookshelf1.msg" "materialInfo9.m";
 connectAttr "Glass.oc" "lambert8SG.ss";
 connectAttr "lambert8SG.msg" "materialInfo10.sg";
 connectAttr "Glass.msg" "materialInfo10.m";
+connectAttr "Potion_BottleRNfosterParent1.msg" "Potion_BottleRN.fp";
+connectAttr "Potion_Bottle1:polySurfaceShape1.o" "polyBevel1.ip";
+connectAttr "Colors_1.oc" "blinn1.c";
+connectAttr "blinn1.oc" "blinn1SG.ss";
+connectAttr "FloorShape.iog" "blinn1SG.dsm" -na;
+connectAttr "WallShape.iog" "blinn1SG.dsm" -na;
+connectAttr "Wall1Shape.iog" "blinn1SG.dsm" -na;
+connectAttr "blinn1SG.msg" "materialInfo11.sg";
+connectAttr "blinn1.msg" "materialInfo11.m";
+connectAttr "Colors_1.msg" "materialInfo11.t" -na;
+connectAttr ":defaultColorMgtGlobals.cme" "Colors_1.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "Colors_1.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "Colors_1.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "Colors_1.ws";
+connectAttr "place2dTexture1.c" "Colors_1.c";
+connectAttr "place2dTexture1.tf" "Colors_1.tf";
+connectAttr "place2dTexture1.rf" "Colors_1.rf";
+connectAttr "place2dTexture1.mu" "Colors_1.mu";
+connectAttr "place2dTexture1.mv" "Colors_1.mv";
+connectAttr "place2dTexture1.s" "Colors_1.s";
+connectAttr "place2dTexture1.wu" "Colors_1.wu";
+connectAttr "place2dTexture1.wv" "Colors_1.wv";
+connectAttr "place2dTexture1.re" "Colors_1.re";
+connectAttr "place2dTexture1.of" "Colors_1.of";
+connectAttr "place2dTexture1.r" "Colors_1.ro";
+connectAttr "place2dTexture1.n" "Colors_1.n";
+connectAttr "place2dTexture1.vt1" "Colors_1.vt1";
+connectAttr "place2dTexture1.vt2" "Colors_1.vt2";
+connectAttr "place2dTexture1.vt3" "Colors_1.vt3";
+connectAttr "place2dTexture1.vc1" "Colors_1.vc1";
+connectAttr "place2dTexture1.o" "Colors_1.uv";
+connectAttr "place2dTexture1.ofs" "Colors_1.fs";
+connectAttr "place2dTexture1.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[0].dn"
+		;
+connectAttr "blinn1.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[1].dn"
+		;
+connectAttr "blinn1SG.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[2].dn"
+		;
+connectAttr "Colors_1.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[3].dn"
+		;
+connectAttr "polyTweakUV1.out" "polyMapCut1.ip";
+connectAttr "polyMapCut1.out" "polyTweakUV2.ip";
 connectAttr "standardSurface2SG.pa" ":renderPartition.st" -na;
 connectAttr "standardSurface3SG.pa" ":renderPartition.st" -na;
 connectAttr "standardSurface4SG.pa" ":renderPartition.st" -na;
@@ -8316,6 +4659,7 @@ connectAttr "lambert5SG.pa" ":renderPartition.st" -na;
 connectAttr "lambert6SG.pa" ":renderPartition.st" -na;
 connectAttr "lambert7SG.pa" ":renderPartition.st" -na;
 connectAttr "lambert8SG.pa" ":renderPartition.st" -na;
+connectAttr "blinn1SG.pa" ":renderPartition.st" -na;
 connectAttr "Flooring.msg" ":defaultShaderList1.s" -na;
 connectAttr "TableWood.msg" ":defaultShaderList1.s" -na;
 connectAttr "Cushion.msg" ":defaultShaderList1.s" -na;
@@ -8326,5 +4670,8 @@ connectAttr "Book_Blue.msg" ":defaultShaderList1.s" -na;
 connectAttr "DM_Screen1.msg" ":defaultShaderList1.s" -na;
 connectAttr "Bookshelf1.msg" ":defaultShaderList1.s" -na;
 connectAttr "Glass.msg" ":defaultShaderList1.s" -na;
+connectAttr "blinn1.msg" ":defaultShaderList1.s" -na;
+connectAttr "place2dTexture1.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
+connectAttr "Colors_1.msg" ":defaultTextureList1.tx" -na;
 // End of Game_Room.ma
