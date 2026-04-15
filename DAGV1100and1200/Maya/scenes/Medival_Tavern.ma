@@ -1,12 +1,16 @@
 //Maya ASCII 2025ff03 scene
 //Name: Medival_Tavern.ma
-//Last modified: Tue, Apr 14, 2026 12:23:57 PM
+//Last modified: Wed, Apr 15, 2026 12:46:14 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "Stool" -rfn "StoolRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Stool.ma";
 file -rdi 1 -ns "Tall_Table2" -rfn "Tall_TableRN" -op "v=0;" -typ "mayaAscii"
 		 "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Tall_Table.ma";
+file -rdi 1 -ns "Tavern_Big_Table" -rfn "Tavern_Big_TableRN" -op "v=0;" -typ
+		 "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Tavern_Big_Table.ma";
 file -r -ns "Stool" -dr 1 -rfn "StoolRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Stool.ma";
 file -r -ns "Tall_Table2" -dr 1 -rfn "Tall_TableRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Tall_Table.ma";
+file -r -ns "Tavern_Big_Table" -dr 1 -rfn "Tavern_Big_TableRN" -op "v=0;" -typ "mayaAscii"
+		 "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Tavern_Big_Table.ma";
 requires maya "2025ff03";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
 		 "mtoa" "5.4.8.2";
@@ -16,23 +20,23 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202512041342-b90de33065";
 fileInfo "osv" "Mac OS X 12.7.6";
-fileInfo "UUID" "9EDD6F83-984C-FA42-FB35-B38BAF2C7A1B";
+fileInfo "UUID" "0B028A27-904C-EF2B-221D-C0B0F9E12666";
 createNode transform -s -n "persp";
 	rename -uid "7053EF37-F34D-8D1C-2304-329524DE0204";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 11.61214875908459 6.7338524013171668 14.13673102797368 ;
-	setAttr ".r" -type "double3" -22.800000000004687 -336.80000000011466 0 ;
+	setAttr ".t" -type "double3" 15.061599442063523 4.5172048796648481 -2.7279627387678627 ;
+	setAttr ".r" -type "double3" -20.400000000000563 -253.6000000000806 0 ;
 	setAttr ".rp" -type "double3" 0 0 -8.8817841970012523e-16 ;
 	setAttr ".rpt" -type "double3" 3.8614725259536803e-19 -9.0333396049546194e-16 7.7433363322303484e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7D50B174-4C4E-81BB-5373-459279840FB8";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 16.168285479896269;
+	setAttr ".coi" 10.271582092374771;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 8.3239537355176907 1.111144483089447 6.5820468664169312 ;
+	setAttr ".tp" -type "double3" 5.8259299194170353 0.93681848049163818 -0.0097573783388149593 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "2C091B83-5F43-78F7-8155-DFA5DD79EC65";
@@ -126,110 +130,6 @@ createNode mesh -n "FloorShape" -p "Floor";
 	setAttr -s 8 ".vt[0:7]"  -9.66569138 -7.4505806e-09 9.66569138 9.66569138 -7.4505806e-09 9.66569138
 		 -9.66569138 0.17187726 9.66569138 9.66569138 0.17187726 9.66569138 -9.66569138 0.17187726 -9.66569138
 		 9.66569138 0.17187726 -9.66569138 -9.66569138 -7.4505806e-09 -9.66569138 9.66569138 -7.4505806e-09 -9.66569138;
-	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
-		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
-	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
-		f 4 0 5 -2 -5
-		mu 0 4 0 1 3 2
-		f 4 1 7 -3 -7
-		mu 0 4 2 3 5 4
-		f 4 2 9 -4 -9
-		mu 0 4 4 5 7 6
-		f 4 3 11 -1 -11
-		mu 0 4 6 7 9 8
-		f 4 -12 -10 -8 -6
-		mu 0 4 1 10 11 3
-		f 4 10 4 6 8
-		mu 0 4 12 0 2 13;
-	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
-	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
-	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
-	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "Table";
-	rename -uid "148B2C06-F249-A2A3-00D4-DB9FE733FF8D";
-	setAttr ".rp" -type "double3" 5.8488783757407639 0.17187726497650324 0.17817274564570695 ;
-	setAttr ".sp" -type "double3" 5.8488783757407639 0.17187726497650324 0.17817274564570695 ;
-createNode mesh -n "TableShape" -p "Table";
-	rename -uid "66A5C2AE-8842-973B-FE07-1AAA03B06F7C";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 6 ".gtag";
-	setAttr ".gtag[0].gtagnm" -type "string" "back";
-	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
-	setAttr ".gtag[1].gtagnm" -type "string" "bottom";
-	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "f[3]";
-	setAttr ".gtag[2].gtagnm" -type "string" "front";
-	setAttr ".gtag[2].gtagcmp" -type "componentList" 1 "f[0]";
-	setAttr ".gtag[3].gtagnm" -type "string" "left";
-	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "f[5]";
-	setAttr ".gtag[4].gtagnm" -type "string" "right";
-	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
-	setAttr ".gtag[5].gtagnm" -type "string" "top";
-	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
-		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
-		 0.875 0.25 0.125 0 0.125 0.25;
-	setAttr ".cuvs" -type "string" "map1";
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".vt[0:7]"  4.25896358 0.17187744 1.76808739 7.43879318 0.17187744 1.76808739
-		 4.25896358 1.80673075 1.76808739 7.43879318 1.80673075 1.76808739 4.25896358 1.80673075 -1.41174197
-		 7.43879318 1.80673075 -1.41174197 4.25896358 0.17187744 -1.41174197 7.43879318 0.17187744 -1.41174197;
-	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
-		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
-	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
-		f 4 0 5 -2 -5
-		mu 0 4 0 1 3 2
-		f 4 1 7 -3 -7
-		mu 0 4 2 3 5 4
-		f 4 2 9 -4 -9
-		mu 0 4 4 5 7 6
-		f 4 3 11 -1 -11
-		mu 0 4 6 7 9 8
-		f 4 -12 -10 -8 -6
-		mu 0 4 1 10 11 3
-		f 4 10 4 6 8
-		mu 0 4 12 0 2 13;
-	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
-	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
-	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
-	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "Chair1";
-	rename -uid "40C1D4F7-EC4C-5324-26A1-39920AECA18D";
-	setAttr ".rp" -type "double3" 3.6050156282074535 0.17187726497650146 0.18746881096421442 ;
-	setAttr ".sp" -type "double3" 3.6050156282074535 0.17187726497650146 0.18746881096421442 ;
-createNode mesh -n "ChairShape1" -p "Chair1";
-	rename -uid "59D0AFD8-C047-42C6-9C1B-1F92FE632829";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 6 ".gtag";
-	setAttr ".gtag[0].gtagnm" -type "string" "back";
-	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
-	setAttr ".gtag[1].gtagnm" -type "string" "bottom";
-	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "f[3]";
-	setAttr ".gtag[2].gtagnm" -type "string" "front";
-	setAttr ".gtag[2].gtagcmp" -type "componentList" 1 "f[0]";
-	setAttr ".gtag[3].gtagnm" -type "string" "left";
-	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "f[5]";
-	setAttr ".gtag[4].gtagnm" -type "string" "right";
-	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
-	setAttr ".gtag[5].gtagnm" -type "string" "top";
-	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
-		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
-		 0.875 0.25 0.125 0 0.125 0.25;
-	setAttr ".cuvs" -type "string" "map1";
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".vt[0:7]"  3.061981201 0.17187726 0.7305032 4.14804983 0.17187726 0.7305032
-		 3.061981201 1.34904826 0.7305032 4.14804983 1.34904826 0.7305032 3.061981201 1.34904826 -0.35556555
-		 4.14804983 1.34904826 -0.35556555 3.061981201 0.17187726 -0.35556555 4.14804983 0.17187726 -0.35556555;
 	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
 		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
 	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
@@ -450,171 +350,6 @@ createNode mesh -n "Liquor_ShelfShape" -p "Liquor_Shelf";
 	setAttr -s 8 ".vt[0:7]"  -9.46438599 0.17187738 7.16742229 -8.46438599 0.17187738 7.16742229
 		 -9.46438599 6.90337372 7.16742229 -8.46438599 6.90337372 7.16742229 -9.46438599 6.90337372 -7.42945766
 		 -8.46438599 6.90337372 -7.42945766 -9.46438599 0.17187738 -7.42945766 -8.46438599 0.17187738 -7.42945766;
-	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
-		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
-	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
-		f 4 0 5 -2 -5
-		mu 0 4 0 1 3 2
-		f 4 1 7 -3 -7
-		mu 0 4 2 3 5 4
-		f 4 2 9 -4 -9
-		mu 0 4 4 5 7 6
-		f 4 3 11 -1 -11
-		mu 0 4 6 7 9 8
-		f 4 -12 -10 -8 -6
-		mu 0 4 1 10 11 3
-		f 4 10 4 6 8
-		mu 0 4 12 0 2 13;
-	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
-	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
-	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
-	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "Chair2" -p "Blockout";
-	rename -uid "78D7FD67-C949-18FC-414A-D1AF3F7D7987";
-	setAttr ".rp" -type "double3" 5.9004163326731751 0.17187726497650146 2.4556326256773362 ;
-	setAttr ".sp" -type "double3" 5.9004163326731751 0.17187726497650146 2.4556326256773362 ;
-createNode mesh -n "ChairShape2" -p "Chair2";
-	rename -uid "A14E6BB5-334B-5D2C-2899-9BB23705FF67";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 6 ".gtag";
-	setAttr ".gtag[0].gtagnm" -type "string" "back";
-	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
-	setAttr ".gtag[1].gtagnm" -type "string" "bottom";
-	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "f[3]";
-	setAttr ".gtag[2].gtagnm" -type "string" "front";
-	setAttr ".gtag[2].gtagcmp" -type "componentList" 1 "f[0]";
-	setAttr ".gtag[3].gtagnm" -type "string" "left";
-	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "f[5]";
-	setAttr ".gtag[4].gtagnm" -type "string" "right";
-	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
-	setAttr ".gtag[5].gtagnm" -type "string" "top";
-	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
-		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
-		 0.875 0.25 0.125 0 0.125 0.25;
-	setAttr ".cuvs" -type "string" "map1";
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  5.8573818 0.67187726 2.498667 
-		5.9434509 0.67187726 2.498667 5.8573818 0.84904832 2.498667 5.9434509 0.84904832 
-		2.498667 5.8573818 0.84904832 2.4125984 5.9434509 0.84904832 2.4125984 5.8573818 
-		0.67187726 2.4125984 5.9434509 0.67187726 2.4125984;
-	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
-		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
-	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
-		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
-	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
-		f 4 0 5 -2 -5
-		mu 0 4 0 1 3 2
-		f 4 1 7 -3 -7
-		mu 0 4 2 3 5 4
-		f 4 2 9 -4 -9
-		mu 0 4 4 5 7 6
-		f 4 3 11 -1 -11
-		mu 0 4 6 7 9 8
-		f 4 -12 -10 -8 -6
-		mu 0 4 1 10 11 3
-		f 4 10 4 6 8
-		mu 0 4 12 0 2 13;
-	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
-	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
-	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
-	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "Chair3" -p "Blockout";
-	rename -uid "D4FC08FE-F84C-6CDA-56AE-44A02E64FDF5";
-	setAttr ".rp" -type "double3" 8.0483809757392955 0.17187726497650146 0.16777349180944778 ;
-	setAttr ".sp" -type "double3" 8.0483809757392955 0.17187726497650146 0.16777349180944778 ;
-createNode mesh -n "ChairShape3" -p "Chair3";
-	rename -uid "5F1B2515-5E40-CA9E-578E-00A071A701A8";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 6 ".gtag";
-	setAttr ".gtag[0].gtagnm" -type "string" "back";
-	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
-	setAttr ".gtag[1].gtagnm" -type "string" "bottom";
-	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "f[3]";
-	setAttr ".gtag[2].gtagnm" -type "string" "front";
-	setAttr ".gtag[2].gtagcmp" -type "componentList" 1 "f[0]";
-	setAttr ".gtag[3].gtagnm" -type "string" "left";
-	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "f[5]";
-	setAttr ".gtag[4].gtagnm" -type "string" "right";
-	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
-	setAttr ".gtag[5].gtagnm" -type "string" "top";
-	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
-		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
-		 0.875 0.25 0.125 0 0.125 0.25;
-	setAttr ".cuvs" -type "string" "map1";
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  8.0053463 0.67187726 0.21080784 
-		8.0914154 0.67187726 0.21080784 8.0053463 0.84904832 0.21080784 8.0914154 0.84904832 
-		0.21080784 8.0053463 0.84904832 0.12473913 8.0914154 0.84904832 0.12473913 8.0053463 
-		0.67187726 0.12473913 8.0914154 0.67187726 0.12473913;
-	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
-		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
-	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
-		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
-	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
-		f 4 0 5 -2 -5
-		mu 0 4 0 1 3 2
-		f 4 1 7 -3 -7
-		mu 0 4 2 3 5 4
-		f 4 2 9 -4 -9
-		mu 0 4 4 5 7 6
-		f 4 3 11 -1 -11
-		mu 0 4 6 7 9 8
-		f 4 -12 -10 -8 -6
-		mu 0 4 1 10 11 3
-		f 4 10 4 6 8
-		mu 0 4 12 0 2 13;
-	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
-	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
-	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
-	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "Chair4" -p "Blockout";
-	rename -uid "3BBE0A4B-5D43-5F53-FE50-438B06197D62";
-	setAttr ".rp" -type "double3" 6.2772354920704689 0.17187726497650146 -2.0586954944461633 ;
-	setAttr ".sp" -type "double3" 6.2772354920704689 0.17187726497650146 -2.0586954944461633 ;
-createNode mesh -n "ChairShape4" -p "Chair4";
-	rename -uid "FD8108EB-0047-0334-B617-4BB63E38C16D";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 6 ".gtag";
-	setAttr ".gtag[0].gtagnm" -type "string" "back";
-	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
-	setAttr ".gtag[1].gtagnm" -type "string" "bottom";
-	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "f[3]";
-	setAttr ".gtag[2].gtagnm" -type "string" "front";
-	setAttr ".gtag[2].gtagcmp" -type "componentList" 1 "f[0]";
-	setAttr ".gtag[3].gtagnm" -type "string" "left";
-	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "f[5]";
-	setAttr ".gtag[4].gtagnm" -type "string" "right";
-	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
-	setAttr ".gtag[5].gtagnm" -type "string" "top";
-	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
-		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
-		 0.875 0.25 0.125 0 0.125 0.25;
-	setAttr ".cuvs" -type "string" "map1";
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  6.234201 0.67187726 -2.0156612 
-		6.3202701 0.67187726 -2.0156612 6.234201 0.84904832 -2.0156612 6.3202701 0.84904832 
-		-2.0156612 6.234201 0.84904832 -2.1017299 6.3202701 0.84904832 -2.1017299 6.234201 
-		0.67187726 -2.1017299 6.3202701 0.67187726 -2.1017299;
-	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
-		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
 	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
 		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
 	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
@@ -11785,7 +11520,7 @@ createNode mesh -n "Tall_TableShape" -p "Tall_Table";
 		445 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode fosterParent -n "StoolRNfosterParent1";
-	rename -uid "C47A00DD-C14C-17B3-629C-E1BAC164B28B";
+	rename -uid "0642F177-7245-8878-CEBA-0D902F51A2A6";
 createNode mesh -n "Stool:polySurfaceShape1" -p "StoolRNfosterParent1";
 	rename -uid "3E4427FE-FD49-379C-8A4D-E9949B17390C";
 	setAttr -k off ".v";
@@ -12627,20 +12362,20 @@ createNode mesh -n "Stool:polySurfaceShape1" -p "StoolRNfosterParent1";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "898B3044-A04A-59C1-7297-888DEB897E5E";
-	setAttr -s 6 ".lnk";
-	setAttr -s 6 ".slnk";
+	rename -uid "147E7BC0-8E4A-5478-3A7B-18A55B81E1D5";
+	setAttr -s 7 ".lnk";
+	setAttr -s 7 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "0163086A-DD4F-7ECC-F5D1-B6B757C456D2";
+	rename -uid "2FFD6F03-5C4B-53F0-20DC-EB8A95758683";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "1202E5AB-9443-D9BB-CC82-C6899565F21D";
+	rename -uid "9043FC23-2848-26FA-F5BA-39B755F1A9CD";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "A8EBDDE1-3044-747F-C8CF-E4B5248C2477";
+	rename -uid "9B79ECD6-EF4D-9094-B29C-10A9A5755DDE";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "EC0043DF-0D48-8B60-D786-20B1F20C8E32";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "7AE1872B-1942-C733-F99E-BDACBE94CF06";
+	rename -uid "E98184B4-0C44-5A0C-E66F-8FB1C6F530D9";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "3AFD4831-6641-42FA-5E67-7FB7735B494E";
 	setAttr ".g" yes;
@@ -12675,7 +12410,7 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n"
 		+ "            -camera \"|persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n"
 		+ "            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n"
-		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 2104\n            -height 1330\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n"
+		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 2154\n            -height 1330\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n"
 		+ "\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n"
 		+ "            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -showUfeItems 1\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n"
 		+ "            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n"
@@ -12698,8 +12433,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"dynRelEdPanel\" (localizedPanelLabel(\"Dynamic Relationships\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Dynamic Relationships\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"relationshipPanel\" (localizedPanelLabel(\"Relationship Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Relationship Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"referenceEditorPanel\" (localizedPanelLabel(\"Reference Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Reference Editor\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"dynPaintScriptedPanelType\" (localizedPanelLabel(\"Paint Effects\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Paint Effects\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"scriptEditorPanel\" (localizedPanelLabel(\"Script Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Script Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"profilerPanel\" (localizedPanelLabel(\"Profiler Tool\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Profiler Tool\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"contentBrowserPanel\" (localizedPanelLabel(\"Content Browser\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Content Browser\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 2104\\n    -height 1330\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 2104\\n    -height 1330\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 2154\\n    -height 1330\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 2154\\n    -height 1330\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -12711,7 +12446,7 @@ createNode blinn -n "blinn1";
 createNode shadingEngine -n "blinn1SG";
 	rename -uid "9BD1B440-9943-793D-B2EF-288556B64084";
 	setAttr ".ihi" 0;
-	setAttr -s 12 ".dsm";
+	setAttr -s 17 ".dsm";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo1";
 	rename -uid "E3091056-954B-CF49-A357-EA87E1BE6C16";
@@ -12753,7 +12488,7 @@ createNode place2dTexture -n "place2dTexture1";
 createNode shadingEngine -n "lambert1SG";
 	rename -uid "214C05F0-7D46-05E6-3C84-C0B86295B932";
 	setAttr ".ihi" 0;
-	setAttr -s 18 ".dsm";
+	setAttr -s 13 ".dsm";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo2";
 	rename -uid "2B28CE6E-234D-4B8A-5CD9-9F998FCA2B58";
@@ -12871,6 +12606,2690 @@ createNode reference -n "Tall_TableRN";
 		"Tall_TableRN.placeHolderList[1]" "Tall_Table2:lambert1SG.dsm";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
+createNode reference -n "Tavern_Big_TableRN";
+	rename -uid "AA1FC9FA-514B-2017-EDBC-778773826E33";
+	setAttr -s 5 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".phl[3]" 0;
+	setAttr ".phl[4]" 0;
+	setAttr ".phl[5]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Tavern_Big_TableRN"
+		"Tavern_Big_TableRN" 0
+		"Tavern_Big_TableRN" 1016
+		2 "|Tavern_Big_Table:Big_Table" "translate" " -type \"double3\" 5.80575219743980142 0 0.076996943713186994"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvPivot" " -type \"double2\" 0.31380823254585266 0.34418895840644836"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints" " -s 214"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[0]" " -type \"float2\" 0.38352927999999997 0.42443222000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[1]" " -type \"float2\" 0.38352927999999997 0.39641869000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[2]" " -type \"float2\" 0.39245873999999997 0.39641869000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[3]" " -type \"float2\" 0.39245873999999997 0.42443222000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[4]" " -type \"float2\" 0.37459977999999999 0.39641869000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[5]" " -type \"float2\" 0.37459977999999999 0.42443222000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[6]" " -type \"float2\" 0.47702687999999999 0.32907593000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[7]" " -type \"float2\" 0.47702562999999998 0.36546498999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[8]" " -type \"float2\" 0.47495242999999998 0.36554974000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[9]" " -type \"float2\" 0.47500750000000003 0.32907593000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[10]" " -type \"float2\" 0.4779717 0.32907593000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[11]" " -type \"float2\" 0.4779717 0.36470114999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[12]" " -type \"float2\" 0.47399762000000001 0.32907593000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[13]" " -type \"float2\" 0.47394471999999999 0.36483412999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[14]" " -type \"float2\" 0.47702562999999998 0.29268694000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[15]" " -type \"float2\" 0.47495242999999998 0.29260212000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[16]" " -type \"float2\" 0.4779717 0.29345077000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[17]" " -type \"float2\" 0.47394471999999999 0.29331784999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[18]" " -type \"float2\" 0.47139046000000001 0.29268694000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[19]" " -type \"float2\" 0.47139171000000002 0.32907593000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[20]" " -type \"float2\" 0.46937233 0.32907593000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[21]" " -type \"float2\" 0.46931731999999998 0.29260212000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[22]" " -type \"float2\" 0.47233652999999998 0.29345077000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[23]" " -type \"float2\" 0.47233652999999998 0.32907593000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[24]" " -type \"float2\" 0.47139046000000001 0.36546498999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[25]" " -type \"float2\" 0.46931731999999998 0.36554974000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[26]" " -type \"float2\" 0.46830951999999998 0.29331784999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[27]" " -type \"float2\" 0.46836244999999999 0.32907593000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[28]" " -type \"float2\" 0.47233652999999998 0.36470114999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[29]" " -type \"float2\" 0.46830951999999998 0.36483412999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[30]" " -type \"float2\" 0.34230422999999999 0.42556483000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[31]" " -type \"float2\" 0.34230422999999999 0.42998034000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[32]" " -type \"float2\" 0.33870043999999999 0.42998034000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[33]" " -type \"float2\" 0.33870043999999999 0.42556483000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[34]" " -type \"float2\" 0.33870046999999998 0.43439579"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[35]" " -type \"float2\" 0.34230422999999999 0.43439579"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[36]" " -type \"float2\" 0.34508219000000001 0.42467701000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[37]" " -type \"float2\" 0.34508219000000001 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[38]" " -type \"float2\" 0.35401165000000001 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[39]" " -type \"float2\" 0.35401165000000001 0.42467701000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[40]" " -type \"float2\" 0.33615270000000003 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[41]" " -type \"float2\" 0.33615270000000003 0.42467701000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[42]" " -type \"float2\" 0.31556456999999999 0.42326038999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[43]" " -type \"float2\" 0.30856120999999997 0.42326038999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[44]" " -type \"float2\" 0.30865872 0.39666349000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[45]" " -type \"float2\" 0.31280488000000001 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[46]" " -type \"float2\" 0.30019325000000002 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[47]" " -type \"float2\" 0.30719661999999998 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[48]" " -type \"float2\" 0.30443692 0.42326045000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[49]" " -type \"float2\" 0.30029075999999999 0.42326045000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[50]" " -type \"float2\" 0.27260171999999999 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[51]" " -type \"float2\" 0.27960509 0.39666349000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[52]" " -type \"float2\" 0.27684543 0.42326045000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[53]" " -type \"float2\" 0.27269926999999999 0.42326045000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[54]" " -type \"float2\" 0.34390214000000002 0.43439579"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[55]" " -type \"float2\" 0.34390214000000002 0.42998034000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[56]" " -type \"float2\" 0.34750593000000002 0.42998034000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[57]" " -type \"float2\" 0.34750593000000002 0.43439579"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[58]" " -type \"float2\" 0.34750593000000002 0.42556483000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[59]" " -type \"float2\" 0.34390214000000002 0.42556483000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[60]" " -type \"float2\" 0.27123715999999998 0.42326045000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[61]" " -type \"float2\" 0.26423380000000002 0.42326045000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[62]" " -type \"float2\" 0.26433134000000003 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[63]" " -type \"float2\" 0.26847744000000001 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[64]" " -type \"float2\" 0.40160149000000001 0.32927579000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[65]" " -type \"float2\" 0.41639229999999999 0.33036596000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[66]" " -type \"float2\" 0.41639229999999999 0.34406656000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[67]" " -type \"float2\" 0.40269166000000001 0.34406656000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[68]" " -type \"float2\" 0.38076707999999998 0.30844134000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[69]" " -type \"float2\" 0.41639229999999999 0.29368365000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[70]" " -type \"float2\" 0.43118304000000002 0.32927579000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[71]" " -type \"float2\" 0.43009287000000002 0.34406656000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[72]" " -type \"float2\" 0.41639229999999999 0.35776715999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[73]" " -type \"float2\" 0.40160149000000001 0.35885732999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[74]" " -type \"float2\" 0.36600938 0.34406656000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[75]" " -type \"float2\" 0.38000324000000002 0.30767757000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[76]" " -type \"float2\" 0.41639229999999999 0.29260212000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[77]" " -type \"float2\" 0.45201749000000002 0.30844134000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[78]" " -type \"float2\" 0.46677511999999999 0.34406656000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[79]" " -type \"float2\" 0.43118304000000002 0.35885732999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[80]" " -type \"float2\" 0.41639229999999999 0.39444941"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[81]" " -type \"float2\" 0.38076707999999998 0.37969177999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[82]" " -type \"float2\" 0.45278129 0.30767757000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[83]" " -type \"float2\" 0.45201749000000002 0.37969177999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[84]" " -type \"float2\" 0.38000324000000002 0.38045561"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[85]" " -type \"float2\" 0.41639229999999999 0.395531"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[86]" " -type \"float2\" 0.45278129 0.38045561"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[87]" " -type \"float2\" 0.43825482999999998 0.43194508999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[88]" " -type \"float2\" 0.44718428999999998 0.43194508999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[89]" " -type \"float2\" 0.44718428999999998 0.44087458000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[90]" " -type \"float2\" 0.43825482999999998 0.44087458000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[91]" " -type \"float2\" 0.43825482999999998 0.42301559"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[92]" " -type \"float2\" 0.44718428999999998 0.42301559"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[93]" " -type \"float2\" 0.45611382 0.43194508999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[94]" " -type \"float2\" 0.45611382 0.44087458000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[95]" " -type \"float2\" 0.44718428999999998 0.46747142000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[96]" " -type \"float2\" 0.44345396999999998 0.46747142000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[97]" " -type \"float2\" 0.41304689999999999 0.43636059999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[98]" " -type \"float2\" 0.41304689999999999 0.43194508999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[99]" " -type \"float2\" 0.44345396999999998 0.39641869000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[100]" " -type \"float2\" 0.44718428999999998 0.39641869000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[101]" " -type \"float2\" 0.45611382 0.42301559"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[102]" " -type \"float2\" 0.41304689999999999 0.42752957000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[103]" " -type \"float2\" 0.48132177999999998 0.43194508999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[104]" " -type \"float2\" 0.48132177999999998 0.43636059999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[105]" " -type \"float2\" 0.45091468000000001 0.46747142000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[106]" " -type \"float2\" 0.45091468000000001 0.39641869000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[107]" " -type \"float2\" 0.48132177999999998 0.42752957000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[108]" " -type \"float2\" 0.31380823000000002 0.35336441000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[109]" " -type \"float2\" 0.31380823000000002 0.39476477999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[110]" " -type \"float2\" 0.27805009000000003 0.37994713000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[111]" " -type \"float2\" 0.30471914999999999 0.35327804000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[112]" " -type \"float2\" 0.3495664 0.37994713000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[113]" " -type \"float2\" 0.32289731999999999 0.35327804000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[114]" " -type \"float2\" 0.31380823000000002 0.39577579000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[115]" " -type \"float2\" 0.27733442000000003 0.38066274"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[116]" " -type \"float2\" 0.26323240999999997 0.34418893"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[117]" " -type \"float2\" 0.30463287 0.34418898999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[118]" " -type \"float2\" 0.30487877000000002 0.35311841999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[119]" " -type \"float2\" 0.31380823000000002 0.35311841999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[120]" " -type \"float2\" 0.35028204000000002 0.38066274"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[121]" " -type \"float2\" 0.32273772000000001 0.35311841999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[122]" " -type \"float2\" 0.32298362000000003 0.34418898999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[123]" " -type \"float2\" 0.36438406000000001 0.34418898999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[124]" " -type \"float2\" 0.27805009000000003 0.30843084999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[125]" " -type \"float2\" 0.30471914999999999 0.33509988000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[126]" " -type \"float2\" 0.30487877000000002 0.34418898999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[127]" " -type \"float2\" 0.32273772000000001 0.34418898999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[128]" " -type \"float2\" 0.3495664 0.30843084999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[129]" " -type \"float2\" 0.32289731999999999 0.33509988000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[130]" " -type \"float2\" 0.31380823000000002 0.29361313999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[131]" " -type \"float2\" 0.31380823000000002 0.33501356999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[132]" " -type \"float2\" 0.30487877000000002 0.33525949999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[133]" " -type \"float2\" 0.32273772000000001 0.33525949999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[134]" " -type \"float2\" 0.27733442000000003 0.30771517999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[135]" " -type \"float2\" 0.31380823000000002 0.29260212000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[136]" " -type \"float2\" 0.31380823000000002 0.33525949999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[137]" " -type \"float2\" 0.35028204000000002 0.30771517999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[138]" " -type \"float2\" 0.32585861999999999 0.42326045000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[139]" " -type \"float2\" 0.31692915999999999 0.42326045000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[140]" " -type \"float2\" 0.32212829999999998 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[141]" " -type \"float2\" 0.32585861999999999 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[142]" " -type \"float2\" 0.33478811000000003 0.42326045000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[143]" " -type \"float2\" 0.32958897999999998 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[144]" " -type \"float2\" 0.28096968 0.39666349000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[145]" " -type \"float2\" 0.28989916999999998 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[146]" " -type \"float2\" 0.28989916999999998 0.42326045000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[147]" " -type \"float2\" 0.28616883999999998 0.42326045000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[148]" " -type \"float2\" 0.29882866000000002 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[149]" " -type \"float2\" 0.29362949999999999 0.42326045000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[150]" " -type \"float2\" 0.26323240999999997 0.42414814000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[151]" " -type \"float2\" 0.27216190000000001 0.42414814000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[152]" " -type \"float2\" 0.27216190000000001 0.44935614000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[153]" " -type \"float2\" 0.26774639 0.44935614000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[154]" " -type \"float2\" 0.28109136000000001 0.42414814000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[155]" " -type \"float2\" 0.27657741000000002 0.44935614000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[156]" " -type \"float2\" 0.30991760000000002 0.44935614000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[157]" " -type \"float2\" 0.30098810999999998 0.44935614000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[158]" " -type \"float2\" 0.30550206000000002 0.42414814000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[159]" " -type \"float2\" 0.30991760000000002 0.42414814000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[160]" " -type \"float2\" 0.31884706000000002 0.44935614000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[161]" " -type \"float2\" 0.31433307999999999 0.42414814000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[162]" " -type \"float2\" 0.39382333000000003 0.39641869000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[163]" " -type \"float2\" 0.40275285 0.39641869000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[164]" " -type \"float2\" 0.40275285 0.42443222000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[165]" " -type \"float2\" 0.39382333000000003 0.42443222000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[166]" " -type \"float2\" 0.41168231 0.39641869000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[167]" " -type \"float2\" 0.41168231 0.42443222000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[168]" " -type \"float2\" 0.35537624000000001 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[169]" " -type \"float2\" 0.36430572999999999 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[170]" " -type \"float2\" 0.36430572999999999 0.42467701000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[171]" " -type \"float2\" 0.35537624000000001 0.42467701000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[172]" " -type \"float2\" 0.37323522999999997 0.42467701000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[173]" " -type \"float2\" 0.37323522999999997 0.39666349000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[174]" " -type \"float2\" 0.48165432000000002 0.32907593000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[175]" " -type \"float2\" 0.48165306000000002 0.36546498999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[176]" " -type \"float2\" 0.47957992999999999 0.36554974000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[177]" " -type \"float2\" 0.47963494000000001 0.32907593000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[178]" " -type \"float2\" 0.48165306000000002 0.29268694000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[179]" " -type \"float2\" 0.47957992999999999 0.29260212000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[180]" " -type \"float2\" 0.48268759 0.36546498999999999"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[181]" " -type \"float2\" 0.48268636999999998 0.32907593000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[182]" " -type \"float2\" 0.48470574999999999 0.32907593000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[183]" " -type \"float2\" 0.48476076000000001 0.36554974000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[184]" " -type \"float2\" 0.48268759 0.29268694000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[185]" " -type \"float2\" 0.48476076000000001 0.29260212000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[186]" " -type \"float2\" 0.34910386999999998 0.43302553999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[187]" " -type \"float2\" 0.34910386999999998 0.42929511999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[188]" " -type \"float2\" 0.35325 0.42929511999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[189]" " -type \"float2\" 0.35325 0.43302553999999999"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[190]" " -type \"float2\" 0.35325 0.42556483000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[191]" " -type \"float2\" 0.34910386999999998 0.42556483000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[192]" " -type \"float2\" 0.35473901000000002 0.43302553999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[193]" " -type \"float2\" 0.35473901000000002 0.42929511999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[194]" " -type \"float2\" 0.35888513999999999 0.42929511999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[195]" " -type \"float2\" 0.35888513999999999 0.43302553999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[196]" " -type \"float2\" 0.35473901000000002 0.42556483000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[197]" " -type \"float2\" 0.35888513999999999 0.42556483000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[198]" " -type \"float2\" 0.28325948000000001 0.42414814000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[199]" " -type \"float2\" 0.29026285000000002 0.42414814000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[200]" " -type \"float2\" 0.28638592000000002 0.44935614000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[201]" " -type \"float2\" 0.28278214000000002 0.44935614000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[202]" " -type \"float2\" 0.29188513999999999 0.42414814000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[203]" " -type \"float2\" 0.2988885 0.42414814000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[204]" " -type \"float2\" 0.29936582 0.44935614000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[205]" " -type \"float2\" 0.29576203000000001 0.44935614000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[206]" " -type \"float2\" 0.32797517999999998 0.44935614000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[207]" " -type \"float2\" 0.32097182000000002 0.44935614000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[208]" " -type \"float2\" 0.32049446999999998 0.42414814000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[209]" " -type \"float2\" 0.32409826000000003 0.42414814000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[210]" " -type \"float2\" 0.33707818000000001 0.42556483000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[211]" " -type \"float2\" 0.33660084000000001 0.45077275999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[212]" " -type \"float2\" 0.32959747 0.45077275999999999"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape" 
+		"uvSet[0].uvSetPoints[213]" " -type \"float2\" 0.3334744 0.42556483000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvPivot" " -type \"double2\" 0.12596580386161804 0.61621725559234619"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints" " -s 196"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[0]" " -type \"float2\" 0.16254362 0.64969158000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[1]" " -type \"float2\" 0.17261180000000001 0.64975643000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[2]" " -type \"float2\" 0.17250857 0.66578948000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[3]" " -type \"float2\" 0.16244032999999999 0.66572463999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[4]" " -type \"float2\" 0.16278662999999999 0.61195767000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[5]" " -type \"float2\" 0.17285481 0.61202252000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[6]" " -type \"float2\" 0.22084513 0.65006708999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[7]" " -type \"float2\" 0.22074183999999999 0.66610013999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[8]" " -type \"float2\" 0.23224595000000001 0.65014052"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[9]" " -type \"float2\" 0.23214272 0.66617346"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[10]" " -type \"float2\" 0.22108820000000001 0.61233311999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[11]" " -type \"float2\" 0.23248901999999999 0.61240654999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[12]" " -type \"float2\" 0.088846206999999996 0.66669822000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[13]" " -type \"float2\" 0.078778117999999994 0.66661155000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[14]" " -type \"float2\" 0.078916132 0.65057885999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[15]" " -type \"float2\" 0.088984191000000004 0.65066552"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[16]" " -type \"float2\" 0.030545622000000001 0.66619647000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[17]" " -type \"float2\" 0.030683577 0.65016377000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[18]" " -type \"float2\" 0.079240858999999997 0.61284541999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[19]" " -type \"float2\" 0.089308947 0.61293209000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[20]" " -type \"float2\" 0.019144922000000002 0.66609836"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[21]" " -type \"float2\" 0.019282906999999998 0.65006565999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[22]" " -type \"float2\" 0.019607692999999999 0.61233221999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[23]" " -type \"float2\" 0.031008332999999999 0.61243033000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[24]" " -type \"float2\" 0.19148751999999999 0.60657006999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[25]" " -type \"float2\" 0.1814191 0.60657006999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[26]" " -type \"float2\" 0.1814191 0.56883525999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[27]" " -type \"float2\" 0.19148751999999999 0.56883525999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[28]" " -type \"float2\" 0.20727775000000001 0.64688944999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[29]" " -type \"float2\" 0.19587663 0.64688944999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[30]" " -type \"float2\" 0.19587663 0.60915470000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[31]" " -type \"float2\" 0.20727775000000001 0.60915470000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[32]" " -type \"float2\" 0.063165693999999994 0.60088587000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[33]" " -type \"float2\" 0.053097248 0.60088587000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[34]" " -type \"float2\" 0.053097248 0.56315112000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[35]" " -type \"float2\" 0.063165693999999994 0.56315112000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[36]" " -type \"float2\" 0.063937932000000003 0.64220714999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[37]" " -type \"float2\" 0.052536935 0.64220714999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[38]" " -type \"float2\" 0.052536935 0.60447240000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[39]" " -type \"float2\" 0.063937932000000003 0.60447240000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[40]" " -type \"float2\" 0.23186245999999999 0.70988309000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[41]" " -type \"float2\" 0.23184242999999999 0.71301568000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[42]" " -type \"float2\" 0.22044161000000001 0.71294248000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[43]" " -type \"float2\" 0.22046170000000001 0.70980989999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[44]" " -type \"float2\" 0.22482385999999999 0.72050857999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[45]" " -type \"float2\" 0.22039327 0.72048020000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[46]" " -type \"float2\" 0.23179409000000001 0.72055327999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[47]" " -type \"float2\" 0.22517243000000001 0.66612864000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[48]" " -type \"float2\" 0.23214272 0.66617333999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[49]" " -type \"float2\" 0.22482213000000001 0.72272371999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[50]" " -type \"float2\" 0.22260663 0.72270953999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[51]" " -type \"float2\" 0.22957733 0.72275423999999999"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[52]" " -type \"float2\" 0.018741458999999999 0.71293985999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[53]" " -type \"float2\" 0.018768460000000001 0.70980728000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[54]" " -type \"float2\" 0.030169100000000001 0.70990551000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[55]" " -type \"float2\" 0.030142098999999999 0.71303808999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[56]" " -type \"float2\" 0.019144922000000002 0.66609823999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[57]" " -type \"float2\" 0.026115118999999999 0.66615831999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[58]" " -type \"float2\" 0.025646687000000001 0.72053741999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[59]" " -type \"float2\" 0.018676549000000001 0.72047733999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[60]" " -type \"float2\" 0.030077189000000001 0.72057557000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[61]" " -type \"float2\" 0.027855544999999999 0.72277164000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[62]" " -type \"float2\" 0.025640099999999999 0.72275257000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[63]" " -type \"float2\" 0.020884961 0.72271156000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[64]" " -type \"float2\" 0.16105410000000001 0.61344451"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[65]" " -type \"float2\" 0.16099504000000001 0.62351297999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[66]" " -type \"float2\" 0.1480805 0.62343716999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[67]" " -type \"float2\" 0.14813957 0.61336875000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[68]" " -type \"float2\" 0.1477975 0.67167138999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[69]" " -type \"float2\" 0.16071203000000001 0.67174721000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[70]" " -type \"float2\" 0.10064753999999999 0.62315880999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[71]" " -type \"float2\" 0.10070667 0.61309040000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[72]" " -type \"float2\" 0.10036451 0.67139304"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[73]" " -type \"float2\" 0.091291279000000003 0.62310398"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[74]" " -type \"float2\" 0.091350376999999996 0.61303549999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[75]" " -type \"float2\" 0.091008246000000001 0.6713382"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[76]" " -type \"float2\" 0.21853426000000001 0.57932543999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[77]" " -type \"float2\" 0.20846577999999999 0.57926869000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[78]" " -type \"float2\" 0.20853862000000001 0.56635416000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[79]" " -type \"float2\" 0.2186071 0.56641090000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[80]" " -type \"float2\" 0.23143432 0.56614637000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[81]" " -type \"float2\" 0.23136148000000001 0.57906091000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[82]" " -type \"float2\" 0.21996048000000001 0.57899659999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[83]" " -type \"float2\" 0.22003326000000001 0.56608212000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[84]" " -type \"float2\" 0.15006003000000001 0.54245423999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[85]" " -type \"float2\" 0.14998724999999999 0.55536878000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[86]" " -type \"float2\" 0.10175291 0.55509675000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[87]" " -type \"float2\" 0.10182571 0.54218221"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[88]" " -type \"float2\" 0.14971973999999999 0.60280180000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[89]" " -type \"float2\" 0.1014854 0.60252981999999999"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[90]" " -type \"float2\" 0.15978816000000001 0.60285860000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[91]" " -type \"float2\" 0.16005567000000001 0.55542552000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[92]" " -type \"float2\" 0.14966699 0.61215805999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[93]" " -type \"float2\" 0.10143265 0.61188608"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[94]" " -type \"float2\" 0.090351849999999997 0.55503248999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[95]" " -type \"float2\" 0.090084404000000007 0.60246551000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[96]" " -type \"float2\" 0.065157174999999998 0.57413541999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[97]" " -type \"float2\" 0.065213947999999994 0.56406694999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[98]" " -type \"float2\" 0.074570208999999998 0.5641197"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[99]" " -type \"float2\" 0.074513435000000003 0.57418811000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[100]" " -type \"float2\" 0.088179468999999996 0.5641197"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[101]" " -type \"float2\" 0.088115156 0.57552075000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[102]" " -type \"float2\" 0.078758924999999994 0.57546794000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[103]" " -type \"float2\" 0.078823209000000005 0.56406701000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[104]" " -type \"float2\" 0.062654375999999998 0.67803835999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[105]" " -type \"float2\" 0.061354487999999999 0.67804575"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[106]" " -type \"float2\" 0.061319083000000003 0.67176818999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[107]" " -type \"float2\" 0.062618970999999995 0.67176080000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[108]" " -type \"float2\" 0.065409005000000006 0.67174506"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[109]" " -type \"float2\" 0.065444379999999996 0.67802262000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[110]" " -type \"float2\" 0.062811315000000006 0.70586800999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[111]" " -type \"float2\" 0.061511427 0.70587540000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[112]" " -type \"float2\" 0.065601319000000005 0.70585239"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[113]" " -type \"float2\" 0.060054838999999999 0.67805302000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[114]" " -type \"float2\" 0.060012132000000003 0.67047584000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[115]" " -type \"float2\" 0.066701292999999995 0.67043817000000006"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[116]" " -type \"float2\" 0.066744029999999996 0.67801535000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[117]" " -type \"float2\" 0.062834948000000002 0.71005784999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[118]" " -type \"float2\" 0.061535060000000003 0.71006524999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[119]" " -type \"float2\" 0.065624952 0.71004224000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[120]" " -type \"float2\" 0.060211778000000001 0.70588267000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[121]" " -type \"float2\" 0.066900969000000005 0.705845"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[122]" " -type \"float2\" 0.060242742000000002 0.71137225999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[123]" " -type \"float2\" 0.066931903000000001 0.71133447000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[124]" " -type \"float2\" 0.16351709 0.54605895000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[125]" " -type \"float2\" 0.17643163000000001 0.54603135999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[126]" " -type \"float2\" 0.17646590000000001 0.56206465000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[127]" " -type \"float2\" 0.16355136000000001 0.56209229999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[128]" " -type \"float2\" 0.16343637999999999 0.50832432999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[129]" " -type \"float2\" 0.17635091999999999 0.50829672999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[130]" " -type \"float2\" 0.22386453000000001 0.54592991000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[131]" " -type \"float2\" 0.22389880000000001 0.5619632"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[132]" " -type \"float2\" 0.23322072999999999 0.54590987999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[133]" " -type \"float2\" 0.23325505999999999 0.56194323000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[134]" " -type \"float2\" 0.22378387999999999 0.50819528000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[135]" " -type \"float2\" 0.23314008 0.50817524999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[136]" " -type \"float2\" 0.078869074999999997 0.56003428"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[137]" " -type \"float2\" 0.079088509000000001 0.54400241000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[138]" " -type \"float2\" 0.092001825999999995 0.54417919999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[139]" " -type \"float2\" 0.091782391000000005 0.560211"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[140]" " -type \"float2\" 0.031440495999999998 0.55938505999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[141]" " -type \"float2\" 0.031659931000000002 0.54335332000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[142]" " -type \"float2\" 0.079604893999999995 0.50627118000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[143]" " -type \"float2\" 0.092518210000000004 0.50644791"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[144]" " -type \"float2\" 0.022304535 0.54322528999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[145]" " -type \"float2\" 0.0220851 0.55925703000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[146]" " -type \"float2\" 0.02282095 0.505494"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[147]" " -type \"float2\" 0.032176346000000002 0.50562202999999994"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[148]" " -type \"float2\" 0.19302680999999999 0.56883532000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[149]" " -type \"float2\" 0.20594135 0.56883532000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[150]" " -type \"float2\" 0.20594135 0.60657011999999999"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[151]" " -type \"float2\" 0.19302680999999999 0.60657011999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[152]" " -type \"float2\" 0.19417408 0.64716147999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[153]" " -type \"float2\" 0.18125954 0.64716147999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[154]" " -type \"float2\" 0.18125954 0.60942673999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[155]" " -type \"float2\" 0.19417408 0.60942673999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[156]" " -type \"float2\" 0.043025881000000002 0.56315112000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[157]" " -type \"float2\" 0.052382141 0.56315112000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[158]" " -type \"float2\" 0.052382141 0.60088587000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[159]" " -type \"float2\" 0.043025881000000002 0.60088587000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[160]" " -type \"float2\" 0.051183552 0.64220714999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[161]" " -type \"float2\" 0.041827260999999998 0.64220714999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[162]" " -type \"float2\" 0.041827260999999998 0.60447240000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[163]" " -type \"float2\" 0.051183552 0.60447240000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[164]" " -type \"float2\" 0.17538430999999999 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[165]" " -type \"float2\" 0.17749967999999999 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[166]" " -type \"float2\" 0.17749967999999999 0.68070852999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[167]" " -type \"float2\" 0.17538430999999999 0.68070852999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[168]" " -type \"float2\" 0.20701644 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[169]" " -type \"float2\" 0.20701644 0.68070852999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[170]" " -type \"float2\" 0.17749967999999999 0.71273887000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[171]" " -type \"float2\" 0.17538430999999999 0.71273887000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[172]" " -type \"float2\" 0.17029420000000001 0.68070852999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[173]" " -type \"float2\" 0.17029420000000001 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[174]" " -type \"float2\" 0.20701644 0.71273887000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[175]" " -type \"float2\" 0.17749967999999999 0.71905695999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[176]" " -type \"float2\" 0.17538430999999999 0.71905695999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[177]" " -type \"float2\" 0.17029420000000001 0.71273887000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[178]" " -type \"float2\" 0.20701644 0.71905695999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[179]" " -type \"float2\" 0.17029420000000001 0.71905695999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[180]" " -type \"float2\" 0.16053602 0.71627008999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[181]" " -type \"float2\" 0.16052535000000001 0.71940278999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[182]" " -type \"float2\" 0.14761087000000001 0.71935868000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[183]" " -type \"float2\" 0.14762159999999999 0.71622598000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[184]" " -type \"float2\" 0.16049959999999999 0.72694051000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[185]" " -type \"float2\" 0.14758511999999999 0.72689641000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[186]" " -type \"float2\" 0.10017809 0.71919655999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[187]" " -type \"float2\" 0.10018882 0.71606398000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[188]" " -type \"float2\" 0.14777091000000001 0.67251574999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[189]" " -type \"float2\" 0.16068545000000001 0.67255986000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[190]" " -type \"float2\" 0.10015237 0.72673427999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[191]" " -type \"float2\" 0.090821951999999997 0.71916460999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[192]" " -type \"float2\" 0.090832621000000002 0.71603203000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[193]" " -type \"float2\" 0.10033816 0.67235363000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[194]" " -type \"float2\" 0.090796172999999994 0.72670232999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1" 
+		"uvSet[0].uvSetPoints[195]" " -type \"float2\" 0.090981989999999999 0.67232168000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints" " -s 196"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[0]" " -type \"float2\" 0.16254362 0.64969158000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[1]" " -type \"float2\" 0.17261180000000001 0.64975643000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[2]" " -type \"float2\" 0.17250857 0.66578948000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[3]" " -type \"float2\" 0.16244032999999999 0.66572463999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[4]" " -type \"float2\" 0.16278662999999999 0.61195767000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[5]" " -type \"float2\" 0.17285481 0.61202252000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[6]" " -type \"float2\" 0.22084513 0.65006708999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[7]" " -type \"float2\" 0.22074183999999999 0.66610013999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[8]" " -type \"float2\" 0.23224595000000001 0.65014052"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[9]" " -type \"float2\" 0.23214272 0.66617346"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[10]" " -type \"float2\" 0.22108820000000001 0.61233311999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[11]" " -type \"float2\" 0.23248901999999999 0.61240654999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[12]" " -type \"float2\" 0.088846206999999996 0.66669822000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[13]" " -type \"float2\" 0.078778117999999994 0.66661155000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[14]" " -type \"float2\" 0.078916132 0.65057885999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[15]" " -type \"float2\" 0.088984191000000004 0.65066552"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[16]" " -type \"float2\" 0.030545622000000001 0.66619647000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[17]" " -type \"float2\" 0.030683577 0.65016377000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[18]" " -type \"float2\" 0.079240858999999997 0.61284541999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[19]" " -type \"float2\" 0.089308947 0.61293209000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[20]" " -type \"float2\" 0.019144922000000002 0.66609836"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[21]" " -type \"float2\" 0.019282906999999998 0.65006565999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[22]" " -type \"float2\" 0.019607692999999999 0.61233221999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[23]" " -type \"float2\" 0.031008332999999999 0.61243033000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[24]" " -type \"float2\" 0.19148751999999999 0.60657006999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[25]" " -type \"float2\" 0.1814191 0.60657006999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[26]" " -type \"float2\" 0.1814191 0.56883525999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[27]" " -type \"float2\" 0.19148751999999999 0.56883525999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[28]" " -type \"float2\" 0.20727775000000001 0.64688944999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[29]" " -type \"float2\" 0.19587663 0.64688944999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[30]" " -type \"float2\" 0.19587663 0.60915470000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[31]" " -type \"float2\" 0.20727775000000001 0.60915470000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[32]" " -type \"float2\" 0.063165693999999994 0.60088587000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[33]" " -type \"float2\" 0.053097248 0.60088587000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[34]" " -type \"float2\" 0.053097248 0.56315112000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[35]" " -type \"float2\" 0.063165693999999994 0.56315112000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[36]" " -type \"float2\" 0.063937932000000003 0.64220714999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[37]" " -type \"float2\" 0.052536935 0.64220714999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[38]" " -type \"float2\" 0.052536935 0.60447240000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[39]" " -type \"float2\" 0.063937932000000003 0.60447240000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[40]" " -type \"float2\" 0.23186245999999999 0.70988309000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[41]" " -type \"float2\" 0.23184242999999999 0.71301568000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[42]" " -type \"float2\" 0.22044161000000001 0.71294248000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[43]" " -type \"float2\" 0.22046170000000001 0.70980989999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[44]" " -type \"float2\" 0.22482385999999999 0.72050857999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[45]" " -type \"float2\" 0.22039327 0.72048020000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[46]" " -type \"float2\" 0.23179409000000001 0.72055327999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[47]" " -type \"float2\" 0.22517243000000001 0.66612864000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[48]" " -type \"float2\" 0.23214272 0.66617333999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[49]" " -type \"float2\" 0.22482213000000001 0.72272371999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[50]" " -type \"float2\" 0.22260663 0.72270953999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[51]" " -type \"float2\" 0.22957733 0.72275423999999999"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[52]" " -type \"float2\" 0.018741458999999999 0.71293985999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[53]" " -type \"float2\" 0.018768460000000001 0.70980728000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[54]" " -type \"float2\" 0.030169100000000001 0.70990551000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[55]" " -type \"float2\" 0.030142098999999999 0.71303808999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[56]" " -type \"float2\" 0.019144922000000002 0.66609823999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[57]" " -type \"float2\" 0.026115118999999999 0.66615831999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[58]" " -type \"float2\" 0.025646687000000001 0.72053741999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[59]" " -type \"float2\" 0.018676549000000001 0.72047733999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[60]" " -type \"float2\" 0.030077189000000001 0.72057557000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[61]" " -type \"float2\" 0.027855544999999999 0.72277164000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[62]" " -type \"float2\" 0.025640099999999999 0.72275257000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[63]" " -type \"float2\" 0.020884961 0.72271156000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[64]" " -type \"float2\" 0.16105410000000001 0.61344451"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[65]" " -type \"float2\" 0.16099504000000001 0.62351297999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[66]" " -type \"float2\" 0.1480805 0.62343716999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[67]" " -type \"float2\" 0.14813957 0.61336875000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[68]" " -type \"float2\" 0.1477975 0.67167138999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[69]" " -type \"float2\" 0.16071203000000001 0.67174721000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[70]" " -type \"float2\" 0.10064753999999999 0.62315880999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[71]" " -type \"float2\" 0.10070667 0.61309040000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[72]" " -type \"float2\" 0.10036451 0.67139304"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[73]" " -type \"float2\" 0.091291279000000003 0.62310398"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[74]" " -type \"float2\" 0.091350376999999996 0.61303549999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[75]" " -type \"float2\" 0.091008246000000001 0.6713382"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[76]" " -type \"float2\" 0.21853426000000001 0.57932543999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[77]" " -type \"float2\" 0.20846577999999999 0.57926869000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[78]" " -type \"float2\" 0.20853862000000001 0.56635416000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[79]" " -type \"float2\" 0.2186071 0.56641090000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[80]" " -type \"float2\" 0.23143432 0.56614637000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[81]" " -type \"float2\" 0.23136148000000001 0.57906091000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[82]" " -type \"float2\" 0.21996048000000001 0.57899659999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[83]" " -type \"float2\" 0.22003326000000001 0.56608212000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[84]" " -type \"float2\" 0.15006003000000001 0.54245423999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[85]" " -type \"float2\" 0.14998724999999999 0.55536878000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[86]" " -type \"float2\" 0.10175291 0.55509675000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[87]" " -type \"float2\" 0.10182571 0.54218221"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[88]" " -type \"float2\" 0.14971973999999999 0.60280180000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[89]" " -type \"float2\" 0.1014854 0.60252981999999999"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[90]" " -type \"float2\" 0.15978816000000001 0.60285860000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[91]" " -type \"float2\" 0.16005567000000001 0.55542552000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[92]" " -type \"float2\" 0.14966699 0.61215805999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[93]" " -type \"float2\" 0.10143265 0.61188608"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[94]" " -type \"float2\" 0.090351849999999997 0.55503248999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[95]" " -type \"float2\" 0.090084404000000007 0.60246551000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[96]" " -type \"float2\" 0.065157174999999998 0.57413541999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[97]" " -type \"float2\" 0.065213947999999994 0.56406694999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[98]" " -type \"float2\" 0.074570208999999998 0.5641197"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[99]" " -type \"float2\" 0.074513435000000003 0.57418811000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[100]" " -type \"float2\" 0.088179468999999996 0.5641197"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[101]" " -type \"float2\" 0.088115156 0.57552075000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[102]" " -type \"float2\" 0.078758924999999994 0.57546794000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[103]" " -type \"float2\" 0.078823209000000005 0.56406701000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[104]" " -type \"float2\" 0.062654375999999998 0.67803835999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[105]" " -type \"float2\" 0.061354487999999999 0.67804575"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[106]" " -type \"float2\" 0.061319083000000003 0.67176818999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[107]" " -type \"float2\" 0.062618970999999995 0.67176080000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[108]" " -type \"float2\" 0.065409005000000006 0.67174506"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[109]" " -type \"float2\" 0.065444379999999996 0.67802262000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[110]" " -type \"float2\" 0.062811315000000006 0.70586800999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[111]" " -type \"float2\" 0.061511427 0.70587540000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[112]" " -type \"float2\" 0.065601319000000005 0.70585239"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[113]" " -type \"float2\" 0.060054838999999999 0.67805302000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[114]" " -type \"float2\" 0.060012132000000003 0.67047584000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[115]" " -type \"float2\" 0.066701292999999995 0.67043817000000006"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[116]" " -type \"float2\" 0.066744029999999996 0.67801535000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[117]" " -type \"float2\" 0.062834948000000002 0.71005784999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[118]" " -type \"float2\" 0.061535060000000003 0.71006524999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[119]" " -type \"float2\" 0.065624952 0.71004224000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[120]" " -type \"float2\" 0.060211778000000001 0.70588267000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[121]" " -type \"float2\" 0.066900969000000005 0.705845"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[122]" " -type \"float2\" 0.060242742000000002 0.71137225999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[123]" " -type \"float2\" 0.066931903000000001 0.71133447000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[124]" " -type \"float2\" 0.16351709 0.54605895000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[125]" " -type \"float2\" 0.17643163000000001 0.54603135999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[126]" " -type \"float2\" 0.17646590000000001 0.56206465000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[127]" " -type \"float2\" 0.16355136000000001 0.56209229999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[128]" " -type \"float2\" 0.16343637999999999 0.50832432999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[129]" " -type \"float2\" 0.17635091999999999 0.50829672999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[130]" " -type \"float2\" 0.22386453000000001 0.54592991000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[131]" " -type \"float2\" 0.22389880000000001 0.5619632"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[132]" " -type \"float2\" 0.23322072999999999 0.54590987999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[133]" " -type \"float2\" 0.23325505999999999 0.56194323000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[134]" " -type \"float2\" 0.22378387999999999 0.50819528000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[135]" " -type \"float2\" 0.23314008 0.50817524999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[136]" " -type \"float2\" 0.078869074999999997 0.56003428"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[137]" " -type \"float2\" 0.079088509000000001 0.54400241000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[138]" " -type \"float2\" 0.092001825999999995 0.54417919999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[139]" " -type \"float2\" 0.091782391000000005 0.560211"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[140]" " -type \"float2\" 0.031440495999999998 0.55938505999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[141]" " -type \"float2\" 0.031659931000000002 0.54335332000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[142]" " -type \"float2\" 0.079604893999999995 0.50627118000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[143]" " -type \"float2\" 0.092518210000000004 0.50644791"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[144]" " -type \"float2\" 0.022304535 0.54322528999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[145]" " -type \"float2\" 0.0220851 0.55925703000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[146]" " -type \"float2\" 0.02282095 0.505494"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[147]" " -type \"float2\" 0.032176346000000002 0.50562202999999994"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[148]" " -type \"float2\" 0.19302680999999999 0.56883532000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[149]" " -type \"float2\" 0.20594135 0.56883532000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[150]" " -type \"float2\" 0.20594135 0.60657011999999999"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[151]" " -type \"float2\" 0.19302680999999999 0.60657011999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[152]" " -type \"float2\" 0.19417408 0.64716147999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[153]" " -type \"float2\" 0.18125954 0.64716147999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[154]" " -type \"float2\" 0.18125954 0.60942673999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[155]" " -type \"float2\" 0.19417408 0.60942673999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[156]" " -type \"float2\" 0.043025881000000002 0.56315112000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[157]" " -type \"float2\" 0.052382141 0.56315112000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[158]" " -type \"float2\" 0.052382141 0.60088587000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[159]" " -type \"float2\" 0.043025881000000002 0.60088587000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[160]" " -type \"float2\" 0.051183552 0.64220714999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[161]" " -type \"float2\" 0.041827260999999998 0.64220714999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[162]" " -type \"float2\" 0.041827260999999998 0.60447240000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[163]" " -type \"float2\" 0.051183552 0.60447240000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[164]" " -type \"float2\" 0.17538430999999999 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[165]" " -type \"float2\" 0.17749967999999999 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[166]" " -type \"float2\" 0.17749967999999999 0.68070852999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[167]" " -type \"float2\" 0.17538430999999999 0.68070852999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[168]" " -type \"float2\" 0.20701644 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[169]" " -type \"float2\" 0.20701644 0.68070852999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[170]" " -type \"float2\" 0.17749967999999999 0.71273887000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[171]" " -type \"float2\" 0.17538430999999999 0.71273887000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[172]" " -type \"float2\" 0.17029420000000001 0.68070852999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[173]" " -type \"float2\" 0.17029420000000001 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[174]" " -type \"float2\" 0.20701644 0.71273887000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[175]" " -type \"float2\" 0.17749967999999999 0.71905695999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[176]" " -type \"float2\" 0.17538430999999999 0.71905695999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[177]" " -type \"float2\" 0.17029420000000001 0.71273887000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[178]" " -type \"float2\" 0.20701644 0.71905695999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[179]" " -type \"float2\" 0.17029420000000001 0.71905695999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[180]" " -type \"float2\" 0.16053602 0.71627008999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[181]" " -type \"float2\" 0.16052535000000001 0.71940278999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[182]" " -type \"float2\" 0.14761087000000001 0.71935868000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[183]" " -type \"float2\" 0.14762159999999999 0.71622598000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[184]" " -type \"float2\" 0.16049959999999999 0.72694051000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[185]" " -type \"float2\" 0.14758511999999999 0.72689641000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[186]" " -type \"float2\" 0.10017809 0.71919655999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[187]" " -type \"float2\" 0.10018882 0.71606398000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[188]" " -type \"float2\" 0.14777091000000001 0.67251574999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[189]" " -type \"float2\" 0.16068545000000001 0.67255986000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[190]" " -type \"float2\" 0.10015237 0.72673427999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[191]" " -type \"float2\" 0.090821951999999997 0.71916460999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[192]" " -type \"float2\" 0.090832621000000002 0.71603203000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[193]" " -type \"float2\" 0.10033816 0.67235363000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[194]" " -type \"float2\" 0.090796172999999994 0.72670232999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2" 
+		"uvSet[0].uvSetPoints[195]" " -type \"float2\" 0.090981989999999999 0.67232168000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints" " -s 196"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[0]" " -type \"float2\" 0.16254362 0.64969158000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[1]" " -type \"float2\" 0.17261180000000001 0.64975643000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[2]" " -type \"float2\" 0.17250857 0.66578948000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[3]" " -type \"float2\" 0.16244032999999999 0.66572463999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[4]" " -type \"float2\" 0.16278662999999999 0.61195767000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[5]" " -type \"float2\" 0.17285481 0.61202252000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[6]" " -type \"float2\" 0.22084513 0.65006708999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[7]" " -type \"float2\" 0.22074183999999999 0.66610013999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[8]" " -type \"float2\" 0.23224595000000001 0.65014052"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[9]" " -type \"float2\" 0.23214272 0.66617346"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[10]" " -type \"float2\" 0.22108820000000001 0.61233311999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[11]" " -type \"float2\" 0.23248901999999999 0.61240654999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[12]" " -type \"float2\" 0.088846206999999996 0.66669822000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[13]" " -type \"float2\" 0.078778117999999994 0.66661155000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[14]" " -type \"float2\" 0.078916132 0.65057885999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[15]" " -type \"float2\" 0.088984191000000004 0.65066552"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[16]" " -type \"float2\" 0.030545622000000001 0.66619647000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[17]" " -type \"float2\" 0.030683577 0.65016377000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[18]" " -type \"float2\" 0.079240858999999997 0.61284541999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[19]" " -type \"float2\" 0.089308947 0.61293209000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[20]" " -type \"float2\" 0.019144922000000002 0.66609836"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[21]" " -type \"float2\" 0.019282906999999998 0.65006565999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[22]" " -type \"float2\" 0.019607692999999999 0.61233221999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[23]" " -type \"float2\" 0.031008332999999999 0.61243033000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[24]" " -type \"float2\" 0.19148751999999999 0.60657006999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[25]" " -type \"float2\" 0.1814191 0.60657006999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[26]" " -type \"float2\" 0.1814191 0.56883525999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[27]" " -type \"float2\" 0.19148751999999999 0.56883525999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[28]" " -type \"float2\" 0.20727775000000001 0.64688944999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[29]" " -type \"float2\" 0.19587663 0.64688944999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[30]" " -type \"float2\" 0.19587663 0.60915470000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[31]" " -type \"float2\" 0.20727775000000001 0.60915470000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[32]" " -type \"float2\" 0.063165693999999994 0.60088587000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[33]" " -type \"float2\" 0.053097248 0.60088587000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[34]" " -type \"float2\" 0.053097248 0.56315112000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[35]" " -type \"float2\" 0.063165693999999994 0.56315112000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[36]" " -type \"float2\" 0.063937932000000003 0.64220714999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[37]" " -type \"float2\" 0.052536935 0.64220714999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[38]" " -type \"float2\" 0.052536935 0.60447240000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[39]" " -type \"float2\" 0.063937932000000003 0.60447240000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[40]" " -type \"float2\" 0.23186245999999999 0.70988309000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[41]" " -type \"float2\" 0.23184242999999999 0.71301568000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[42]" " -type \"float2\" 0.22044161000000001 0.71294248000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[43]" " -type \"float2\" 0.22046170000000001 0.70980989999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[44]" " -type \"float2\" 0.22482385999999999 0.72050857999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[45]" " -type \"float2\" 0.22039327 0.72048020000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[46]" " -type \"float2\" 0.23179409000000001 0.72055327999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[47]" " -type \"float2\" 0.22517243000000001 0.66612864000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[48]" " -type \"float2\" 0.23214272 0.66617333999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[49]" " -type \"float2\" 0.22482213000000001 0.72272371999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[50]" " -type \"float2\" 0.22260663 0.72270953999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[51]" " -type \"float2\" 0.22957733 0.72275423999999999"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[52]" " -type \"float2\" 0.018741458999999999 0.71293985999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[53]" " -type \"float2\" 0.018768460000000001 0.70980728000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[54]" " -type \"float2\" 0.030169100000000001 0.70990551000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[55]" " -type \"float2\" 0.030142098999999999 0.71303808999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[56]" " -type \"float2\" 0.019144922000000002 0.66609823999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[57]" " -type \"float2\" 0.026115118999999999 0.66615831999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[58]" " -type \"float2\" 0.025646687000000001 0.72053741999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[59]" " -type \"float2\" 0.018676549000000001 0.72047733999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[60]" " -type \"float2\" 0.030077189000000001 0.72057557000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[61]" " -type \"float2\" 0.027855544999999999 0.72277164000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[62]" " -type \"float2\" 0.025640099999999999 0.72275257000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[63]" " -type \"float2\" 0.020884961 0.72271156000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[64]" " -type \"float2\" 0.16105410000000001 0.61344451"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[65]" " -type \"float2\" 0.16099504000000001 0.62351297999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[66]" " -type \"float2\" 0.1480805 0.62343716999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[67]" " -type \"float2\" 0.14813957 0.61336875000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[68]" " -type \"float2\" 0.1477975 0.67167138999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[69]" " -type \"float2\" 0.16071203000000001 0.67174721000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[70]" " -type \"float2\" 0.10064753999999999 0.62315880999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[71]" " -type \"float2\" 0.10070667 0.61309040000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[72]" " -type \"float2\" 0.10036451 0.67139304"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[73]" " -type \"float2\" 0.091291279000000003 0.62310398"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[74]" " -type \"float2\" 0.091350376999999996 0.61303549999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[75]" " -type \"float2\" 0.091008246000000001 0.6713382"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[76]" " -type \"float2\" 0.21853426000000001 0.57932543999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[77]" " -type \"float2\" 0.20846577999999999 0.57926869000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[78]" " -type \"float2\" 0.20853862000000001 0.56635416000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[79]" " -type \"float2\" 0.2186071 0.56641090000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[80]" " -type \"float2\" 0.23143432 0.56614637000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[81]" " -type \"float2\" 0.23136148000000001 0.57906091000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[82]" " -type \"float2\" 0.21996048000000001 0.57899659999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[83]" " -type \"float2\" 0.22003326000000001 0.56608212000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[84]" " -type \"float2\" 0.15006003000000001 0.54245423999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[85]" " -type \"float2\" 0.14998724999999999 0.55536878000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[86]" " -type \"float2\" 0.10175291 0.55509675000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[87]" " -type \"float2\" 0.10182571 0.54218221"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[88]" " -type \"float2\" 0.14971973999999999 0.60280180000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[89]" " -type \"float2\" 0.1014854 0.60252981999999999"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[90]" " -type \"float2\" 0.15978816000000001 0.60285860000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[91]" " -type \"float2\" 0.16005567000000001 0.55542552000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[92]" " -type \"float2\" 0.14966699 0.61215805999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[93]" " -type \"float2\" 0.10143265 0.61188608"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[94]" " -type \"float2\" 0.090351849999999997 0.55503248999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[95]" " -type \"float2\" 0.090084404000000007 0.60246551000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[96]" " -type \"float2\" 0.065157174999999998 0.57413541999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[97]" " -type \"float2\" 0.065213947999999994 0.56406694999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[98]" " -type \"float2\" 0.074570208999999998 0.5641197"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[99]" " -type \"float2\" 0.074513435000000003 0.57418811000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[100]" " -type \"float2\" 0.088179468999999996 0.5641197"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[101]" " -type \"float2\" 0.088115156 0.57552075000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[102]" " -type \"float2\" 0.078758924999999994 0.57546794000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[103]" " -type \"float2\" 0.078823209000000005 0.56406701000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[104]" " -type \"float2\" 0.062654375999999998 0.67803835999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[105]" " -type \"float2\" 0.061354487999999999 0.67804575"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[106]" " -type \"float2\" 0.061319083000000003 0.67176818999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[107]" " -type \"float2\" 0.062618970999999995 0.67176080000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[108]" " -type \"float2\" 0.065409005000000006 0.67174506"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[109]" " -type \"float2\" 0.065444379999999996 0.67802262000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[110]" " -type \"float2\" 0.062811315000000006 0.70586800999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[111]" " -type \"float2\" 0.061511427 0.70587540000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[112]" " -type \"float2\" 0.065601319000000005 0.70585239"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[113]" " -type \"float2\" 0.060054838999999999 0.67805302000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[114]" " -type \"float2\" 0.060012132000000003 0.67047584000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[115]" " -type \"float2\" 0.066701292999999995 0.67043817000000006"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[116]" " -type \"float2\" 0.066744029999999996 0.67801535000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[117]" " -type \"float2\" 0.062834948000000002 0.71005784999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[118]" " -type \"float2\" 0.061535060000000003 0.71006524999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[119]" " -type \"float2\" 0.065624952 0.71004224000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[120]" " -type \"float2\" 0.060211778000000001 0.70588267000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[121]" " -type \"float2\" 0.066900969000000005 0.705845"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[122]" " -type \"float2\" 0.060242742000000002 0.71137225999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[123]" " -type \"float2\" 0.066931903000000001 0.71133447000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[124]" " -type \"float2\" 0.16351709 0.54605895000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[125]" " -type \"float2\" 0.17643163000000001 0.54603135999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[126]" " -type \"float2\" 0.17646590000000001 0.56206465000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[127]" " -type \"float2\" 0.16355136000000001 0.56209229999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[128]" " -type \"float2\" 0.16343637999999999 0.50832432999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[129]" " -type \"float2\" 0.17635091999999999 0.50829672999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[130]" " -type \"float2\" 0.22386453000000001 0.54592991000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[131]" " -type \"float2\" 0.22389880000000001 0.5619632"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[132]" " -type \"float2\" 0.23322072999999999 0.54590987999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[133]" " -type \"float2\" 0.23325505999999999 0.56194323000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[134]" " -type \"float2\" 0.22378387999999999 0.50819528000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[135]" " -type \"float2\" 0.23314008 0.50817524999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[136]" " -type \"float2\" 0.078869074999999997 0.56003428"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[137]" " -type \"float2\" 0.079088509000000001 0.54400241000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[138]" " -type \"float2\" 0.092001825999999995 0.54417919999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[139]" " -type \"float2\" 0.091782391000000005 0.560211"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[140]" " -type \"float2\" 0.031440495999999998 0.55938505999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[141]" " -type \"float2\" 0.031659931000000002 0.54335332000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[142]" " -type \"float2\" 0.079604893999999995 0.50627118000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[143]" " -type \"float2\" 0.092518210000000004 0.50644791"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[144]" " -type \"float2\" 0.022304535 0.54322528999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[145]" " -type \"float2\" 0.0220851 0.55925703000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[146]" " -type \"float2\" 0.02282095 0.505494"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[147]" " -type \"float2\" 0.032176346000000002 0.50562202999999994"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[148]" " -type \"float2\" 0.19302680999999999 0.56883532000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[149]" " -type \"float2\" 0.20594135 0.56883532000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[150]" " -type \"float2\" 0.20594135 0.60657011999999999"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[151]" " -type \"float2\" 0.19302680999999999 0.60657011999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[152]" " -type \"float2\" 0.19417408 0.64716147999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[153]" " -type \"float2\" 0.18125954 0.64716147999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[154]" " -type \"float2\" 0.18125954 0.60942673999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[155]" " -type \"float2\" 0.19417408 0.60942673999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[156]" " -type \"float2\" 0.043025881000000002 0.56315112000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[157]" " -type \"float2\" 0.052382141 0.56315112000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[158]" " -type \"float2\" 0.052382141 0.60088587000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[159]" " -type \"float2\" 0.043025881000000002 0.60088587000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[160]" " -type \"float2\" 0.051183552 0.64220714999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[161]" " -type \"float2\" 0.041827260999999998 0.64220714999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[162]" " -type \"float2\" 0.041827260999999998 0.60447240000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[163]" " -type \"float2\" 0.051183552 0.60447240000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[164]" " -type \"float2\" 0.17538430999999999 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[165]" " -type \"float2\" 0.17749967999999999 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[166]" " -type \"float2\" 0.17749967999999999 0.68070852999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[167]" " -type \"float2\" 0.17538430999999999 0.68070852999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[168]" " -type \"float2\" 0.20701644 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[169]" " -type \"float2\" 0.20701644 0.68070852999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[170]" " -type \"float2\" 0.17749967999999999 0.71273887000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[171]" " -type \"float2\" 0.17538430999999999 0.71273887000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[172]" " -type \"float2\" 0.17029420000000001 0.68070852999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[173]" " -type \"float2\" 0.17029420000000001 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[174]" " -type \"float2\" 0.20701644 0.71273887000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[175]" " -type \"float2\" 0.17749967999999999 0.71905695999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[176]" " -type \"float2\" 0.17538430999999999 0.71905695999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[177]" " -type \"float2\" 0.17029420000000001 0.71273887000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[178]" " -type \"float2\" 0.20701644 0.71905695999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[179]" " -type \"float2\" 0.17029420000000001 0.71905695999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[180]" " -type \"float2\" 0.16053602 0.71627008999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[181]" " -type \"float2\" 0.16052535000000001 0.71940278999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[182]" " -type \"float2\" 0.14761087000000001 0.71935868000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[183]" " -type \"float2\" 0.14762159999999999 0.71622598000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[184]" " -type \"float2\" 0.16049959999999999 0.72694051000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[185]" " -type \"float2\" 0.14758511999999999 0.72689641000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[186]" " -type \"float2\" 0.10017809 0.71919655999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[187]" " -type \"float2\" 0.10018882 0.71606398000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[188]" " -type \"float2\" 0.14777091000000001 0.67251574999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[189]" " -type \"float2\" 0.16068545000000001 0.67255986000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[190]" " -type \"float2\" 0.10015237 0.72673427999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[191]" " -type \"float2\" 0.090821951999999997 0.71916460999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[192]" " -type \"float2\" 0.090832621000000002 0.71603203000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[193]" " -type \"float2\" 0.10033816 0.67235363000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[194]" " -type \"float2\" 0.090796172999999994 0.72670232999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3" 
+		"uvSet[0].uvSetPoints[195]" " -type \"float2\" 0.090981989999999999 0.67232168000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints" " -s 196"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[0]" " -type \"float2\" 0.16254362 0.64969158000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[1]" " -type \"float2\" 0.17261180000000001 0.64975643000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[2]" " -type \"float2\" 0.17250857 0.66578948000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[3]" " -type \"float2\" 0.16244032999999999 0.66572463999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[4]" " -type \"float2\" 0.16278662999999999 0.61195767000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[5]" " -type \"float2\" 0.17285481 0.61202252000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[6]" " -type \"float2\" 0.22084513 0.65006708999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[7]" " -type \"float2\" 0.22074183999999999 0.66610013999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[8]" " -type \"float2\" 0.23224595000000001 0.65014052"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[9]" " -type \"float2\" 0.23214272 0.66617346"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[10]" " -type \"float2\" 0.22108820000000001 0.61233311999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[11]" " -type \"float2\" 0.23248901999999999 0.61240654999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[12]" " -type \"float2\" 0.088846206999999996 0.66669822000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[13]" " -type \"float2\" 0.078778117999999994 0.66661155000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[14]" " -type \"float2\" 0.078916132 0.65057885999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[15]" " -type \"float2\" 0.088984191000000004 0.65066552"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[16]" " -type \"float2\" 0.030545622000000001 0.66619647000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[17]" " -type \"float2\" 0.030683577 0.65016377000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[18]" " -type \"float2\" 0.079240858999999997 0.61284541999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[19]" " -type \"float2\" 0.089308947 0.61293209000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[20]" " -type \"float2\" 0.019144922000000002 0.66609836"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[21]" " -type \"float2\" 0.019282906999999998 0.65006565999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[22]" " -type \"float2\" 0.019607692999999999 0.61233221999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[23]" " -type \"float2\" 0.031008332999999999 0.61243033000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[24]" " -type \"float2\" 0.19148751999999999 0.60657006999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[25]" " -type \"float2\" 0.1814191 0.60657006999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[26]" " -type \"float2\" 0.1814191 0.56883525999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[27]" " -type \"float2\" 0.19148751999999999 0.56883525999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[28]" " -type \"float2\" 0.20727775000000001 0.64688944999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[29]" " -type \"float2\" 0.19587663 0.64688944999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[30]" " -type \"float2\" 0.19587663 0.60915470000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[31]" " -type \"float2\" 0.20727775000000001 0.60915470000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[32]" " -type \"float2\" 0.063165693999999994 0.60088587000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[33]" " -type \"float2\" 0.053097248 0.60088587000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[34]" " -type \"float2\" 0.053097248 0.56315112000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[35]" " -type \"float2\" 0.063165693999999994 0.56315112000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[36]" " -type \"float2\" 0.063937932000000003 0.64220714999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[37]" " -type \"float2\" 0.052536935 0.64220714999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[38]" " -type \"float2\" 0.052536935 0.60447240000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[39]" " -type \"float2\" 0.063937932000000003 0.60447240000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[40]" " -type \"float2\" 0.23186245999999999 0.70988309000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[41]" " -type \"float2\" 0.23184242999999999 0.71301568000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[42]" " -type \"float2\" 0.22044161000000001 0.71294248000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[43]" " -type \"float2\" 0.22046170000000001 0.70980989999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[44]" " -type \"float2\" 0.22482385999999999 0.72050857999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[45]" " -type \"float2\" 0.22039327 0.72048020000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[46]" " -type \"float2\" 0.23179409000000001 0.72055327999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[47]" " -type \"float2\" 0.22517243000000001 0.66612864000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[48]" " -type \"float2\" 0.23214272 0.66617333999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[49]" " -type \"float2\" 0.22482213000000001 0.72272371999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[50]" " -type \"float2\" 0.22260663 0.72270953999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[51]" " -type \"float2\" 0.22957733 0.72275423999999999"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[52]" " -type \"float2\" 0.018741458999999999 0.71293985999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[53]" " -type \"float2\" 0.018768460000000001 0.70980728000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[54]" " -type \"float2\" 0.030169100000000001 0.70990551000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[55]" " -type \"float2\" 0.030142098999999999 0.71303808999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[56]" " -type \"float2\" 0.019144922000000002 0.66609823999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[57]" " -type \"float2\" 0.026115118999999999 0.66615831999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[58]" " -type \"float2\" 0.025646687000000001 0.72053741999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[59]" " -type \"float2\" 0.018676549000000001 0.72047733999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[60]" " -type \"float2\" 0.030077189000000001 0.72057557000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[61]" " -type \"float2\" 0.027855544999999999 0.72277164000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[62]" " -type \"float2\" 0.025640099999999999 0.72275257000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[63]" " -type \"float2\" 0.020884961 0.72271156000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[64]" " -type \"float2\" 0.16105410000000001 0.61344451"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[65]" " -type \"float2\" 0.16099504000000001 0.62351297999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[66]" " -type \"float2\" 0.1480805 0.62343716999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[67]" " -type \"float2\" 0.14813957 0.61336875000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[68]" " -type \"float2\" 0.1477975 0.67167138999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[69]" " -type \"float2\" 0.16071203000000001 0.67174721000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[70]" " -type \"float2\" 0.10064753999999999 0.62315880999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[71]" " -type \"float2\" 0.10070667 0.61309040000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[72]" " -type \"float2\" 0.10036451 0.67139304"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[73]" " -type \"float2\" 0.091291279000000003 0.62310398"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[74]" " -type \"float2\" 0.091350376999999996 0.61303549999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[75]" " -type \"float2\" 0.091008246000000001 0.6713382"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[76]" " -type \"float2\" 0.21853426000000001 0.57932543999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[77]" " -type \"float2\" 0.20846577999999999 0.57926869000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[78]" " -type \"float2\" 0.20853862000000001 0.56635416000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[79]" " -type \"float2\" 0.2186071 0.56641090000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[80]" " -type \"float2\" 0.23143432 0.56614637000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[81]" " -type \"float2\" 0.23136148000000001 0.57906091000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[82]" " -type \"float2\" 0.21996048000000001 0.57899659999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[83]" " -type \"float2\" 0.22003326000000001 0.56608212000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[84]" " -type \"float2\" 0.15006003000000001 0.54245423999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[85]" " -type \"float2\" 0.14998724999999999 0.55536878000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[86]" " -type \"float2\" 0.10175291 0.55509675000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[87]" " -type \"float2\" 0.10182571 0.54218221"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[88]" " -type \"float2\" 0.14971973999999999 0.60280180000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[89]" " -type \"float2\" 0.1014854 0.60252981999999999"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[90]" " -type \"float2\" 0.15978816000000001 0.60285860000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[91]" " -type \"float2\" 0.16005567000000001 0.55542552000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[92]" " -type \"float2\" 0.14966699 0.61215805999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[93]" " -type \"float2\" 0.10143265 0.61188608"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[94]" " -type \"float2\" 0.090351849999999997 0.55503248999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[95]" " -type \"float2\" 0.090084404000000007 0.60246551000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[96]" " -type \"float2\" 0.065157174999999998 0.57413541999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[97]" " -type \"float2\" 0.065213947999999994 0.56406694999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[98]" " -type \"float2\" 0.074570208999999998 0.5641197"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[99]" " -type \"float2\" 0.074513435000000003 0.57418811000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[100]" " -type \"float2\" 0.088179468999999996 0.5641197"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[101]" " -type \"float2\" 0.088115156 0.57552075000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[102]" " -type \"float2\" 0.078758924999999994 0.57546794000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[103]" " -type \"float2\" 0.078823209000000005 0.56406701000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[104]" " -type \"float2\" 0.062654375999999998 0.67803835999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[105]" " -type \"float2\" 0.061354487999999999 0.67804575"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[106]" " -type \"float2\" 0.061319083000000003 0.67176818999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[107]" " -type \"float2\" 0.062618970999999995 0.67176080000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[108]" " -type \"float2\" 0.065409005000000006 0.67174506"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[109]" " -type \"float2\" 0.065444379999999996 0.67802262000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[110]" " -type \"float2\" 0.062811315000000006 0.70586800999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[111]" " -type \"float2\" 0.061511427 0.70587540000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[112]" " -type \"float2\" 0.065601319000000005 0.70585239"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[113]" " -type \"float2\" 0.060054838999999999 0.67805302000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[114]" " -type \"float2\" 0.060012132000000003 0.67047584000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[115]" " -type \"float2\" 0.066701292999999995 0.67043817000000006"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[116]" " -type \"float2\" 0.066744029999999996 0.67801535000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[117]" " -type \"float2\" 0.062834948000000002 0.71005784999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[118]" " -type \"float2\" 0.061535060000000003 0.71006524999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[119]" " -type \"float2\" 0.065624952 0.71004224000000005"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[120]" " -type \"float2\" 0.060211778000000001 0.70588267000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[121]" " -type \"float2\" 0.066900969000000005 0.705845"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[122]" " -type \"float2\" 0.060242742000000002 0.71137225999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[123]" " -type \"float2\" 0.066931903000000001 0.71133447000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[124]" " -type \"float2\" 0.16351709 0.54605895000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[125]" " -type \"float2\" 0.17643163000000001 0.54603135999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[126]" " -type \"float2\" 0.17646590000000001 0.56206465000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[127]" " -type \"float2\" 0.16355136000000001 0.56209229999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[128]" " -type \"float2\" 0.16343637999999999 0.50832432999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[129]" " -type \"float2\" 0.17635091999999999 0.50829672999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[130]" " -type \"float2\" 0.22386453000000001 0.54592991000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[131]" " -type \"float2\" 0.22389880000000001 0.5619632"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[132]" " -type \"float2\" 0.23322072999999999 0.54590987999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[133]" " -type \"float2\" 0.23325505999999999 0.56194323000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[134]" " -type \"float2\" 0.22378387999999999 0.50819528000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[135]" " -type \"float2\" 0.23314008 0.50817524999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[136]" " -type \"float2\" 0.078869074999999997 0.56003428"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[137]" " -type \"float2\" 0.079088509000000001 0.54400241000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[138]" " -type \"float2\" 0.092001825999999995 0.54417919999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[139]" " -type \"float2\" 0.091782391000000005 0.560211"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[140]" " -type \"float2\" 0.031440495999999998 0.55938505999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[141]" " -type \"float2\" 0.031659931000000002 0.54335332000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[142]" " -type \"float2\" 0.079604893999999995 0.50627118000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[143]" " -type \"float2\" 0.092518210000000004 0.50644791"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[144]" " -type \"float2\" 0.022304535 0.54322528999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[145]" " -type \"float2\" 0.0220851 0.55925703000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[146]" " -type \"float2\" 0.02282095 0.505494"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[147]" " -type \"float2\" 0.032176346000000002 0.50562202999999994"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[148]" " -type \"float2\" 0.19302680999999999 0.56883532000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[149]" " -type \"float2\" 0.20594135 0.56883532000000003"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[150]" " -type \"float2\" 0.20594135 0.60657011999999999"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[151]" " -type \"float2\" 0.19302680999999999 0.60657011999999999"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[152]" " -type \"float2\" 0.19417408 0.64716147999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[153]" " -type \"float2\" 0.18125954 0.64716147999999996"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[154]" " -type \"float2\" 0.18125954 0.60942673999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[155]" " -type \"float2\" 0.19417408 0.60942673999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[156]" " -type \"float2\" 0.043025881000000002 0.56315112000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[157]" " -type \"float2\" 0.052382141 0.56315112000000001"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[158]" " -type \"float2\" 0.052382141 0.60088587000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[159]" " -type \"float2\" 0.043025881000000002 0.60088587000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[160]" " -type \"float2\" 0.051183552 0.64220714999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[161]" " -type \"float2\" 0.041827260999999998 0.64220714999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[162]" " -type \"float2\" 0.041827260999999998 0.60447240000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[163]" " -type \"float2\" 0.051183552 0.60447240000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[164]" " -type \"float2\" 0.17538430999999999 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[165]" " -type \"float2\" 0.17749967999999999 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[166]" " -type \"float2\" 0.17749967999999999 0.68070852999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[167]" " -type \"float2\" 0.17538430999999999 0.68070852999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[168]" " -type \"float2\" 0.20701644 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[169]" " -type \"float2\" 0.20701644 0.68070852999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[170]" " -type \"float2\" 0.17749967999999999 0.71273887000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[171]" " -type \"float2\" 0.17538430999999999 0.71273887000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[172]" " -type \"float2\" 0.17029420000000001 0.68070852999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[173]" " -type \"float2\" 0.17029420000000001 0.67198753"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[174]" " -type \"float2\" 0.20701644 0.71273887000000002"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[175]" " -type \"float2\" 0.17749967999999999 0.71905695999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[176]" " -type \"float2\" 0.17538430999999999 0.71905695999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[177]" " -type \"float2\" 0.17029420000000001 0.71273887000000002"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[178]" " -type \"float2\" 0.20701644 0.71905695999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[179]" " -type \"float2\" 0.17029420000000001 0.71905695999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[180]" " -type \"float2\" 0.16053602 0.71627008999999997"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[181]" " -type \"float2\" 0.16052535000000001 0.71940278999999996"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[182]" " -type \"float2\" 0.14761087000000001 0.71935868000000003"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[183]" " -type \"float2\" 0.14762159999999999 0.71622598000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[184]" " -type \"float2\" 0.16049959999999999 0.72694051000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[185]" " -type \"float2\" 0.14758511999999999 0.72689641000000005"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[186]" " -type \"float2\" 0.10017809 0.71919655999999998"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[187]" " -type \"float2\" 0.10018882 0.71606398000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[188]" " -type \"float2\" 0.14777091000000001 0.67251574999999997"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[189]" " -type \"float2\" 0.16068545000000001 0.67255986000000001"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[190]" " -type \"float2\" 0.10015237 0.72673427999999995"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[191]" " -type \"float2\" 0.090821951999999997 0.71916460999999998"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[192]" " -type \"float2\" 0.090832621000000002 0.71603203000000004"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[193]" " -type \"float2\" 0.10033816 0.67235363000000004"
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[194]" " -type \"float2\" 0.090796172999999994 0.72670232999999995"
+		
+		2 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4" 
+		"uvSet[0].uvSetPoints[195]" " -type \"float2\" 0.090981989999999999 0.67232168000000003"
+		
+		3 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4.instObjGroups" 
+		"Tavern_Big_Table:lambert1SG.dagSetMembers" "-na"
+		3 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3.instObjGroups" 
+		"Tavern_Big_Table:lambert1SG.dagSetMembers" "-na"
+		3 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2.instObjGroups" 
+		"Tavern_Big_Table:lambert1SG.dagSetMembers" "-na"
+		3 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1.instObjGroups" 
+		"Tavern_Big_Table:lambert1SG.dagSetMembers" "-na"
+		3 "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape.instObjGroups" 
+		"Tavern_Big_Table:lambert1SG.dagSetMembers" "-na"
+		5 3 "Tavern_Big_TableRN" "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Table|Tavern_Big_Table:TableShape.instObjGroups" 
+		"Tavern_Big_TableRN.placeHolderList[1]" "Tavern_Big_Table:lambert1SG.dsm"
+		5 3 "Tavern_Big_TableRN" "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair1|Tavern_Big_Table:ChairShape1.instObjGroups" 
+		"Tavern_Big_TableRN.placeHolderList[2]" "Tavern_Big_Table:lambert1SG.dsm"
+		5 3 "Tavern_Big_TableRN" "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair2|Tavern_Big_Table:ChairShape2.instObjGroups" 
+		"Tavern_Big_TableRN.placeHolderList[3]" "Tavern_Big_Table:lambert1SG.dsm"
+		5 3 "Tavern_Big_TableRN" "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair3|Tavern_Big_Table:ChairShape3.instObjGroups" 
+		"Tavern_Big_TableRN.placeHolderList[4]" "Tavern_Big_Table:lambert1SG.dsm"
+		5 3 "Tavern_Big_TableRN" "|Tavern_Big_Table:Big_Table|Tavern_Big_Table:Chair4|Tavern_Big_Table:ChairShape4.instObjGroups" 
+		"Tavern_Big_TableRN.placeHolderList[5]" "Tavern_Big_Table:lambert1SG.dsm";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
@@ -12882,7 +15301,7 @@ select -ne :hardwareRenderingGlobals;
 	setAttr ".fprt" yes;
 	setAttr ".rtfm" 3;
 select -ne :renderPartition;
-	setAttr -s 6 ".st";
+	setAttr -s 7 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
 	setAttr -s 7 ".s";
@@ -12890,7 +15309,7 @@ select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderUtilityList1;
 select -ne :defaultRenderingList1;
-	setAttr -s 3 ".r";
+	setAttr -s 4 ".r";
 select -ne :defaultTextureList1;
 select -ne :standardSurface1;
 	setAttr ".bc" -type "float3" 0.40000001 0.40000001 0.40000001 ;
@@ -12921,6 +15340,11 @@ connectAttr "StoolRN.phl[1]" "blinn1SG.dsm" -na;
 connectAttr "polyExtrudeFace1.out" "StoolRN.phl[2]";
 connectAttr "StoolRN.phl[3]" "polyExtrudeFace1.mp";
 connectAttr "Tall_TableRN.phl[1]" "blinn1SG.dsm" -na;
+connectAttr "Tavern_Big_TableRN.phl[1]" "blinn1SG.dsm" -na;
+connectAttr "Tavern_Big_TableRN.phl[2]" "blinn1SG.dsm" -na;
+connectAttr "Tavern_Big_TableRN.phl[3]" "blinn1SG.dsm" -na;
+connectAttr "Tavern_Big_TableRN.phl[4]" "blinn1SG.dsm" -na;
+connectAttr "Tavern_Big_TableRN.phl[5]" "blinn1SG.dsm" -na;
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "blinn1SG.message" ":defaultLightSet.message";
@@ -12987,11 +15411,6 @@ connectAttr "LanternShape2.iog" "lambert1SG.dsm" -na;
 connectAttr "LanternShape1.iog" "lambert1SG.dsm" -na;
 connectAttr "PillarShape2.iog" "lambert1SG.dsm" -na;
 connectAttr "PillarShape1.iog" "lambert1SG.dsm" -na;
-connectAttr "ChairShape4.iog" "lambert1SG.dsm" -na;
-connectAttr "ChairShape3.iog" "lambert1SG.dsm" -na;
-connectAttr "ChairShape2.iog" "lambert1SG.dsm" -na;
-connectAttr "ChairShape1.iog" "lambert1SG.dsm" -na;
-connectAttr "TableShape.iog" "lambert1SG.dsm" -na;
 connectAttr "Liquor_ShelfShape.iog" "lambert1SG.dsm" -na;
 connectAttr "Bar_CounterShape.iog" "lambert1SG.dsm" -na;
 connectAttr "lambert1SG.msg" "materialInfo2.sg";
