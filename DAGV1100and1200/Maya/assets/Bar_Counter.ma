@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: Bar_Counter.ma
-//Last modified: Mon, Apr 20, 2026 03:22:31 PM
+//Last modified: Mon, Apr 20, 2026 03:30:45 PM
 //Codeset: 1252
 requires maya "2025ff03";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202409190603-cbdc5a7e54";
 fileInfo "osv" "Windows 11 Enterprise v2009 (Build: 26200)";
-fileInfo "UUID" "22667055-4C5D-7B12-5D40-AB9B91933020";
+fileInfo "UUID" "942B1DB4-4471-8618-9FF5-928E952DB96B";
 fileInfo "license" "education";
 createNode transform -n "Bar_Counter";
 	rename -uid "CC845AEE-F047-4AAE-7DB2-FEA377B1087A";
@@ -80,7 +80,7 @@ createNode mesh -n "polySurfaceShape1" -p "Bar_Counter";
 createNode transform -s -n "persp";
 	rename -uid "16FEE081-47CC-2423-C83C-7582C49BAC2F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 13.479793818767835 0.34172535208722993 1.2967156040760333 ;
+	setAttr ".t" -type "double3" 18.801761993692669 0.37344740164684276 0.56769664704588729 ;
 	setAttr ".r" -type "double3" -0.33835272960344481 -622.19999999996492 0 ;
 	setAttr ".rp" -type "double3" -1.7763568394002505e-15 0 3.5527136788005009e-15 ;
 	setAttr ".rpt" -type "double3" 5.8179685985708708e-16 9.755855821690799e-16 1.0767937817546986e-16 ;
@@ -88,7 +88,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "B5C59143-40BB-3E11-478C-F6B9592AAEF5";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 12.21568094945672;
+	setAttr ".coi" 17.587442316368918;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -150,20 +150,20 @@ createNode shadingEngine -n "lambert1SG";
 	setAttr ".ihi" 0;
 	setAttr ".ro" yes;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "FB8315BE-4649-AEA5-7B9E-DAA52625A583";
+	rename -uid "88B0CA5B-4375-F959-0BC1-E6A394D2C44A";
 	setAttr -s 3 ".lnk";
 	setAttr -s 3 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "88F218AB-4E6D-10AF-1FC2-3ABE3B1AA257";
+	rename -uid "04520B92-4022-1B68-69EB-4B82E1177DDA";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "527B7862-4029-C696-ED0E-6CB2055CF20F";
+	rename -uid "F9C0B003-4D87-9D12-45C6-54A0AB546DE4";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "966E97F0-40F5-18DB-1441-1F89B13D93C4";
+	rename -uid "E09F8119-4DF9-7732-27AF-D3AE5E5674ED";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "B95051E3-4EBC-51DD-8F3C-4D925D5B2DFB";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "A6DE6DD5-4526-285B-34B8-43980B7C9581";
+	rename -uid "8483796A-4A17-D816-BC5A-9583902F1172";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "23D67EF5-426E-6904-8B31-AE928E4DEA6A";
 	setAttr ".g" yes;
@@ -278,7 +278,7 @@ createNode script -n "sceneConfigurationScriptNode";
 	setAttr ".b" -type "string" "playbackOptions -min 1 -max 120 -ast 1 -aet 200 ";
 	setAttr ".st" 6;
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "10F64C9C-46DE-CF86-7FB7-3AB568F86CB1";
+	rename -uid "497254D8-4B22-44FA-5CC0-43B8413B9B0E";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -726.19044733426051 -340.47617694688279 ;
 	setAttr ".tgi[0].vh" -type "double2" 727.38092347743145 339.2857008037119 ;
