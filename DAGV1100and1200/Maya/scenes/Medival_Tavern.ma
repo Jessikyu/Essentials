@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: Medival_Tavern.ma
-//Last modified: Thu, Apr 23, 2026 01:02:05 PM
+//Last modified: Thu, Apr 23, 2026 03:07:19 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "Stool" -rfn "StoolRN" -op "v=0;" -typ "mayaAscii" "/Users/jessiegrulich/Desktop/School/DIGITAL MEDIA/Essentials/DAGV1100and1200/Maya/assets/Stool.ma";
 file -rdi 1 -ns "Tall_Table2" -rfn "Tall_TableRN" -op "v=0;" -typ "mayaAscii"
@@ -32,20 +32,20 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202512041342-b90de33065";
 fileInfo "osv" "Mac OS X 12.7.6";
-fileInfo "UUID" "8FC2962E-514A-44C3-8087-A1B656A0372B";
+fileInfo "UUID" "7F7C9FC7-1742-A3F5-69F0-96A221F7DB59";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "7053EF37-F34D-8D1C-2304-329524DE0204";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 8.4638929448045115 8.4556680465413141 20.117648833910323 ;
-	setAttr ".r" -type "double3" -13.20000000000219 -686.79999999984068 0 ;
+	setAttr ".t" -type "double3" 43.240774629720768 25.630839128023357 32.288990226475825 ;
+	setAttr ".r" -type "double3" -22.800000000004083 -668.39999999982297 -2.5602238166663343e-15 ;
 	setAttr ".rp" -type "double3" 1.7763568394002505e-15 0 -3.5527136788005009e-15 ;
 	setAttr ".rpt" -type "double3" -2.3303509620720823e-15 -1.4573219914585618e-15 3.3388072072898368e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7D50B174-4C4E-81BB-5373-459279840FB8";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 25.746668656511375;
+	setAttr ".coi" 58.312116483677954;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -24872,7 +24872,7 @@ createNode nurbsCurve -n "curveShape1" -p "|Lantern6|curve1";
 		0.45629613258150326 1.4165368884371994 0
 		;
 createNode fosterParent -n "StoolRNfosterParent1";
-	rename -uid "6261F9F9-E646-D8F6-D1B4-80A9BDDE8BEF";
+	rename -uid "8801AB4F-384F-3139-A83F-FFBB0F4D35CB";
 createNode mesh -n "Stool:polySurfaceShape1" -p "StoolRNfosterParent1";
 	rename -uid "3E4427FE-FD49-379C-8A4D-E9949B17390C";
 	setAttr -k off ".v";
